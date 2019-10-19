@@ -9,7 +9,6 @@ module.exports = {
   "usage": {
     "Basic": [
       "basic/getting_started",
-      "basic/navigation",
       "basic/updates",
       "basic/existing_elements",
       "basic/startup",
@@ -17,6 +16,13 @@ module.exports = {
       "basic/events",
       "basic/theming",
       "basic/logs"
+    ],
+    "Navigation": [
+      "navigation/overview",
+      "navigation/installed",
+      "navigation/stores",
+      "navigation/settings",
+      "navigation/repository"
     ],
     "Categories": [
       "categories/integrations",

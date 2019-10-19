@@ -1,0 +1,8 @@
+FROM ludeeus/devcontainer:base
+
+## Additional things for HACS
+RUN apk add \
+        nodejs \
+        npm \
+        autoconf \
+        automake

@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 {
 	"name": "HACS Documentation",
-	"image": "node:lts",
+	"dockerFile": "DockerFile",
 	"context": "..",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
