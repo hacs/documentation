@@ -3,7 +3,8 @@ id: frontend
 title: Frontend
 ---
 
-_All changes to the documentation should go against the `master` branch._
+_All changes to the documentation should go against the `master` branch._  
+The repository for the frontent is hosted @ https://github.com/hacs/frontend
 
 <pre class="prism-code language-bash codeBlock_19pQ">
     <h4>Note!</h4>
@@ -20,19 +21,20 @@ First spin up the [devcontainer](/docs/developer/devcontainer)
 When you have that running issue the following comands:
 
 ```bash
-cd frontend
-npm install
 npm start
 ```
 
-Now start up Home Assistant, you can run `dc start` or select the Task _"Run Home Assistant on port 9123"_.
+When this is running it spins up a dev server, which you can attach to from a Home Assistant instance that is running HACS.
 
-After some time Home Assistant will be running on http://localhost:9123
+To attach the development frontend add this to your Home Assistant installation that is running HACS:
 
-Complete the onboarding, [add HACS as an integration in the UI.](/docs/configuration/basic)
-
-All the frontend files are located under:
-
+```yaml
+panel_custom:
+  - name: hacs-dev-frontend
+    sidebar_title: HACS (Dev frontend server)
+    sidebar_icon: mdi:alert-circle
+    url_path: hacs_dev
+    js_url: http://localhost:5000/main.js
 ```
-frontend/src/
-```
+
+Change `localhost` for the IP of your devserver if not the same.

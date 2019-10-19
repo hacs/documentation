@@ -10,5 +10,3 @@ title: Devcontainer
 - Docker
 - VS Code
 - Remote - Containers (VS Code extention)
-
-Make your changes, then run the task "Start Home Assistant" to test them, HA will run on port 8124.

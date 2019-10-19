@@ -6,6 +6,10 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
+	"runArgs": [
+		"-v",
+		"${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh" // This is added so you can push from inside the container
+	],
 	"appPort": ["3000:3000"],
 	"postCreateCommand": "npm install",
 	"extensions": [
