@@ -9,7 +9,7 @@ Before you try to add your repository to the default store first make sure that 
 
 Only the owner of the repository or a major contributor to it can submit a PR to have it included as a default.
 
-When all of this is covered, you can add it to repository type files in the [`data` branch](https://github.com/custom-components/hacs/blob/data/repositories)
+When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
 _NB!: The list is case sensitive._
 
