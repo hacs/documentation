@@ -23,7 +23,7 @@ When you see something that needs changing when you browse the documentation, sc
 
 ![edit](/img/edit_this.png)
 
-This will take you to the GitHub page for it so you can cahnge the content.
+This will take you to the GitHub page for it so you can change the content.
 
 ### Locally changing (devcontainer)
 
