@@ -36,7 +36,7 @@ const blocks = [
     ),
   },
   {
-    title: <>Need to submitt a bug?</>,
+    title: <>Want to submit a Bug or a Feature request?</>,
     description: (
       <>
         <a href="/docs/issues">Before you do make sure you first have a look here.</a>
@@ -44,10 +44,10 @@ const blocks = [
     ),
   },
   {
-    title: <>Want to submit a Feature request?</>,
+    title: <>Discord</>,
     description: (
       <>
-        <a href="/docs/issues">Before you do make sure you first have a look here.</a>
+        For questions, you can join the <a href="https://discord.gg/apgchf8" target="_blank">discord server</a>, issues do still belong on GitHub.
       </>
     ),
   },
