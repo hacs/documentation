@@ -3,7 +3,11 @@ id: issues
 title: Issues
 ---
 
-[First lets start out by stating that **ALL** issues should be reported here.](https://github.com/custom-components/hacs/issues)
+**First lets start out by stating that _ALL_ issues should be reported here:**
+
+- [Backend/Integration](https://github.com/custom-components/hacs/issues)
+- [Frontend/UI](https://github.com/hacs/frontend/issues)
+- [Org/Other](https://github.com/hacs/org/issues)
 
 # What should be in the issue?
 
@@ -161,4 +165,8 @@ _Good issues have to much text to extract it (some also have screenshots) but he
 
 The more time/words/examples you put in your issue, the faster someone can see/understand what you mean.
 
-[**ALL** issues with HACS should be reported here.](https://github.com/custom-components/hacs/issues)
+ **_ALL_ issues should be reported here:**
+
+- [Backend/Integration](https://github.com/custom-components/hacs/issues)
+- [Frontend/UI](https://github.com/hacs/frontend/issues)
+- [Org/Other](https://github.com/hacs/org/issues)
