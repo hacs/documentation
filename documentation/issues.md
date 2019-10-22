@@ -39,7 +39,7 @@ _If you are flagging it because you don't like it, have issues with it, or it's 
 
 You use this when you have issues with HACS.
 
-[To enable debug logs for HACS (required when adding an issue) have a look here](https://hacs.netlify.com/#logs).
+[To enable debug logs for HACS (required when adding an issue) have a look here](https://hacs.xyz/docs/basic/logs).
 
 Logs are **more** then _just_ errors, with debug logging it gives the person investigating the issue a full picture of what happened.
 
