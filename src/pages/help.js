@@ -20,14 +20,6 @@ const blocks = [
     ),
   },
   {
-    title: <>Join the community</>,
-    description: (
-      <>
-        <a href="https://community.home-assistant.io/t/custom-component-hacs/121727" target="_blank">Ask questions about the documentation and project.</a>
-      </>
-    ),
-  },
-  {
     title: <>Stay up to date</>,
     description: (
       <>
