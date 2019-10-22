@@ -31,3 +31,6 @@
   color: var(--ifm-font-base-color) !important;
 }
 
+.container {
+  margin-top: 24px;
+}
