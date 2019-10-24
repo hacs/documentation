@@ -11,13 +11,15 @@ module.exports = {
   url: 'https://hacs.xyz',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'custom-components',
+  organizationName: 'HACS',
   projectName: 'hacs',
   themeConfig: {
     algolia: {
       apiKey: 'ae98e104dc1572a7e897b97951c756a5',
       indexName: 'hacs',
     },
+    image: "img/hacs-logo.svg",
+    description: "HACS gives you a powerful UI to handle downloads of custom needs.",
     navbar: {
       title: 'HACS',
       links: [
