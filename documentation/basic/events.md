@@ -28,5 +28,14 @@ automation:
     service: persistent_notification.create
     data_template:
       title: New repository in HACS
-      message: "{{ trigger.event.data.repository }} was just added to HACS."
+      message: >-
+        {% set repo = trigger.event.data.repository %}
+        [{{ repo }}](https://github.com/{{ repo }})
+        was just added to HACS.
 ```
+
+This example will give you this notification when something is added to HACS.
+
+![notification](/img/notification.png)
+
+Clicking the link will take you to the GitHub page for that repository.
