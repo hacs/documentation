@@ -9,6 +9,10 @@ _This page assume that you have allready finished the [installation](/docs/insta
 
 ![image](/img/conf1.png)
 
+## Clear your browser cache
+
+Before HACS can show up in the list you need to clear your browser cache.
+
 ## Click the "+" button in the bottom right corner
 
 ![image](/img/conf2.png)
