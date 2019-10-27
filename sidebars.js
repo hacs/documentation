@@ -14,6 +14,7 @@ module.exports = {
       "basic/startup",
       "basic/sensor",
       "basic/events",
+      "basic/automation",
       "basic/theming",
       "basic/logs"
     ],
