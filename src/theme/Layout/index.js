@@ -43,7 +43,7 @@ function Layout(props) {
         <meta name="description" content={description} />
         <link rel="shortcut icon" href={withBaseUrl(favicon)} />
 
-        <title>HACS: {metaTitle}</title>
+        <title>{metaTitle}</title>
 
         <meta property="keywords" content={keywords} />
         <meta property="og:description" content={description} />
