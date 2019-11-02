@@ -18,7 +18,7 @@ module.exports = {
       apiKey: 'ae98e104dc1572a7e897b97951c756a5',
       indexName: 'hacs',
     },
-    image: "img/hacs-logo.svg",
+    image: "img/hacs-logo.png",
     description: "HACS gives you a powerful UI to handle downloads of custom needs.",
     navbar: {
       title: 'HACS',
