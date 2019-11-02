@@ -37,3 +37,7 @@ Before HACS can show up in the list you need to clear your browser cache.
 ![image](/img/conf5.png)
 
 _If something failed, you will be taken back to the [Add your configuration step](#add-your-configuration)_
+
+## Changing the configuration
+
+If you need to change the configuration, you first need to delete the integration from the integrations list, then you need to add it back again.
