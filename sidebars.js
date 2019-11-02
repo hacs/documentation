@@ -71,5 +71,15 @@ module.exports = {
       "publish/include",
       "publish/blacklist"
     ]
+  },
+  "FAQ": {
+    "FAQ": [
+      "faq/what",
+      "faq/highlights",
+      "faq/hassio_only",
+      "faq/installation",
+      "faq/upgrade",
+      "faq/limitations"
+    ]
   }
 };

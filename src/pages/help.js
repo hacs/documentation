@@ -47,7 +47,7 @@ const blocks = [
     title: <>FAQ</>,
     description: (
       <>
-        <a href="/docs/faq">Frequently asked questions</a>
+        <a href="/docs/faq/what">Frequently asked questions</a>
       </>
     ),
   },

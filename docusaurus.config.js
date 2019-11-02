@@ -27,12 +27,8 @@ module.exports = {
         { to: 'docs/configuration/start', label: 'Configuration', position: 'left' },
         { to: 'docs/basic/getting_started', label: 'Usage', position: 'left' },
         { to: 'docs/developer/start', label: 'Developer docs', position: 'right' },
+        { to: 'docs/faq/what', label: 'FAQ', position: 'right' },
         { to: 'help', label: 'Help', position: 'right' },
-        {
-          href: 'https://github.com/custom-components/hacs',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
   },
