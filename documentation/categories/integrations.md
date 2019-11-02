@@ -15,7 +15,7 @@ You can go straight to the "Configuration" section of the UI, then to "Integrati
 
 You _may_ need to clear your browser cache before you see it in the "+" list.
 
-_Note that this **only** applies for the installation and initial configuration of that Integration, if you update it, you still need to restart Home Asstant before it loads the new files.
+_Note that this **only** applies for the installation and initial configuration of that Integration, if you update it, you still need to restart Home Asstant before it loads the new files._
 
 ## Integrations download location
 
