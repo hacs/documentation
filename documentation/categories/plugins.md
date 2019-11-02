@@ -16,9 +16,19 @@ When a `.js` file is downloaded, a compressed `.gz` version of if will be create
 
 If you make local changes to a plugin in the `.js` file, delete the `.gz` variant to have HACS serve up that one.
 
+At the bottom of every page for plugins it will state how you should add it to your Lovelace configuration.
+
+
+### Custom view
+
+HACS have a custom view/path/endpoint for serving up Lovelace elements (plugins) `/community_plug/`, this works mostly the same way as `/local` but have some extra features.
+
+- The `/community_plug` endpoint does not have cache issues, it will instruct your browser to fetch a new version on each load.
+- The `/community_plug` endpoint will try to serve a .gz variant of the element, this will make the element smaller and the transfer will be faster.
+
 ### Open plugin button
 
 Every plugin you have installed with HACS will have a "Open pluign" button.
-This is usefull to use while troubleshooting, if you can see a code wall everything is OK.
+This is useful to use while troubleshooting, if you can see a code wall everything is OK.
 
 if you get a 404 try reinstalling it.
