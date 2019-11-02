@@ -48,6 +48,7 @@ function DocItem(props) {
     <div>
       <Head>
         {title && <title>HACS: {title}</title>}
+        <meta property="og:title" content={`HACS: ${title}`} />
         {description && <meta name="description" content={description} />}
         {description && (
           <meta property="og:description" content={description} />
