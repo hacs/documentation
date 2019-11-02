@@ -33,7 +33,7 @@ When you have done that you need to restart Home Assistant.
 
 [For more about configure HACS with YAML have a look here](configuration/legacy.md)
 
-## Python Scripts themes in Home Assistant
+## Python Scripts in Home Assistant
 
 Add this to your `configuration.yaml`
 

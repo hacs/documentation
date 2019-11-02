@@ -36,50 +36,6 @@ When you install an element this is what's happening:
 1. All expected files are downloaded to that directory.
 1. The files it downloads depends on the type.
 
-### Files downloaded for `appdaemon`
-
-_Everything under the first directory in `apps`_
-
-The files are downloaded to `<config_dir>/appdaemon/apps/*`
-
-### Files downloaded for `integrations`
-
-_Everything under the first directory in `custom_components`_
-
-
-The files are downloaded to `<config_dir>/custom_components/*`
-
-### Files downloaded for `plugins`
-
-_Every `.js` file in the source directory, this can be on the release page, the `dist` directory, or the root of the repository._
-
-_If it's the `dist` directory, it will download **any** file in that directory (and sub directories)._
-
-When a `.js` file is downloaded, a compressed `.gz` version of if will be created, this file (if it exist) will be served to the requester to save transfer size/time.
-If you make local changes to a plugin in the `.js` file, delete the `.gz` variant to have HACS serve up that one.
-
-
-The files are downloaded to `<config_dir>/www/community/*`
-
-### Files downloaded for `python_script`
-
-The first file under the `python_scripts` directory._
-
-The files are downloaded to `<config_dir>/python_scripts/*`
-
-### Files downloaded for `theme`
-
-The first file under the `themes` directory._
-
-The files are downloaded to `<config_dir>/themes/*`
-
-For this to work you need to include the themes directory like this:
-
-```yaml
-frontend:
-  themes: !include_dir_merge_named themes
-```
-
 ***
 
 ## How does it work: Upgrade
