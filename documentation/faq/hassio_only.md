@@ -3,7 +3,9 @@ id: hassio_only
 title: Is this for hass.io only?
 ---
 
-No, it's not.
+# No
+
+It's not.
 
 You can use this on _any_ Home Assistant installation.
 
