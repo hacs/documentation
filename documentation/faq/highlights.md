@@ -1,7 +1,9 @@
 ---
 id: highlights
-title: Highlights of what HACS can do
+title: What HACS can do
 ---
+
+In short: 
 
 - Help you discover new custom elements.
 - Help you install (download) new custom elements.

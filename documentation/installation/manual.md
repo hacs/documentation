@@ -44,7 +44,7 @@ If this is not your first, you should know where to place the `hacs` folder, and
 
 Anyway the `hacs` folder needs to be placed under `<config_dir>/custom_components/`
 
-On Hassio the final location will be `/config/custom_components/hacs`
+On Hassio/Docker the final location will be `/config/custom_components/hacs`
 
 On Hassbian(venv) the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`
 
