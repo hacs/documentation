@@ -39,7 +39,7 @@ Add this to your `configuration.yaml`
 
 ```yaml
 frontend:
-  theme: !include_dir_merge_named themes
+  themes: !include_dir_merge_named themes
 ```
 
 ## Themes download location
