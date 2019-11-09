@@ -12,7 +12,7 @@ If you do not have or know **all** of the following, don't try to install/use HA
 - Home Assistant version `0.98.0` or newer
 - A GitHub account
 - Access to the filesystem where Home Assistant is located
-- **How to access the Home Assistant log file**
+- **You known how to access the Home Assistant log file**
 - **A stable internet connection with a sufficient bandwidth**
 
 
