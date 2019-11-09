@@ -27,7 +27,7 @@ The folder named `hacs` needs to be copied to your Home Assistant installation.
 
 Use your favorite tool to move files to Home Assistant.
 
-If this is your first custom_component you would need to create a new folder (see [step 4](#step-4--)).
+If this is your first custom_component you would need to create a new folder (see [step 4](#step-4---create-custom_components-folder)).
 
 The `hacs` folder needs to be placed under `<config_dir>/custom_components/`
 
