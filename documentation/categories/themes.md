@@ -26,7 +26,7 @@ If you used YAML to configure HACS, add this under your HACS connfiguration to e
 ```yaml
 hacs:
   ...
-  themes: true
+  theme: true
 ```
 
 When you have done that you need to restart Home Assistant.
