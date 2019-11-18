@@ -7,11 +7,11 @@ HACS will try to match your Home Assistant theme as much as possible. There are 
 
 | Variable  | Usage |
 | ------------- | ------------- |
-| `hacs-badge-color`  | Controls the background color on the "NEW" badges in the store, and the custom repository type badges in settings  |
-| `hacs-badge-text-color`  | Controls the text color on the "NEW" badges in the store, and the custom repository type badges in settings  |
-| `hacs-status-installed`  | Controls the icon color for installed, up-to-date components  |
-| `hacs-status-pending-restart`  | Controls the icon color for installed components that are awaiting a Home Assistant restart  |
-| `hacs-status-pending-update`  | Controls the icon color for installed components that have an update available  |
+| `hacs-badge-color`  | Controls the background color on the "NEW" badges in the store.  |
+| `hacs-status-installed`  | Controls the icon color for installed, up-to-date repositories  |
+| `hacs-status-pending-restart`  | Controls the icon color for installed repositories that are awaiting a Home Assistant restart  |
+| `hacs-status-pending-update`  | Controls the icon color for installed repositories that have an update available  |
+| `hacs-status-not-loaded`  | Controls the icon color for not loaded repositories that have an update available  |
 
 Here's a basic example of customizing one of these variables in `themes.yaml`:
 
