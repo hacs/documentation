@@ -9,11 +9,9 @@ title: Getting started
 
 ## What can HACS do?
 
-This is a manager for your custom Home Assistant needs.
+HACS is a manager for installing and maintaining customization for Home Assistant.
 
-It can help you download and update elements.
-
-It can also help you discover new awesome stuff.
+It can help you download and update elements, and can also help you discover new and awesome stuff!
 
 ### What can it track/discover?
 
