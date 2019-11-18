@@ -19,4 +19,4 @@ At the top of the page you have a searchbar, here you can search for repositorie
 ![new](/img/nav_store_new.png)
 
 When new repositories are added to HACS, you will see them at the top of the store tabs, right below the searchbar.
-If you open the [repository](/docs/navigation/repository) it will be removes as new, or you can click the "CLEAR ALL NEW REPOSITORIES" button to unmark all repositories in that category as new.
+If you open the [repository](/docs/navigation/repository) it will no longer be considered new. Alternatively, you can click the "CLEAR ALL NEW REPOSITORIES" button to clear the "new" flag from all repositories in that category.
