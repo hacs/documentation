@@ -5,14 +5,14 @@ title: Repository
 
 ![nav_repository](/img/nav_repository.png)
 
-This section has two parts Core and Additional
+This section has two parts: Core and Additional
 
 ## Core
 
 This part give you core information about the repository:
 
 - Title
-- Desctiption
+- Description
 - Installed version
 - Available version(s)
 - Author(s)
@@ -28,13 +28,13 @@ Update information | This will reload the information about the repository.
 Show beta | This will enable beta versions for the repository. (Only if the repository uses releases.)
 Hide | This will hide the repository from the store views. (Only if the repository is not custom.)
 Open issue | This will take you to where you can report issues about that repository.
-Flag this | This will take you to a issue template to remove the repository from HACS.
+Flag this | This will take you to an issue template to remove the repository from HACS.
 
 ### Repository buttons
 
 button | description
 -- | --
-main action | This button will have a different function depending on the version you have installed if any, but the main part is that it will install the selected version if clicked.
+main action | This button will have a different function depending on the version you have installed, if any, but the main part is that it will install the selected version if clicked.
 Change log | This will show you the change log for the repository. (This will only show if there is an update pending)
 Repository | This will take you to the github repository
 Open plugin | This will show you the plugin file that hacs will serve to Lovelace. (This will only show for installed plugins)
