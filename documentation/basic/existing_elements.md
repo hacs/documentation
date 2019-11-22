@@ -3,7 +3,7 @@ id: existing_elements
 title: Existing elements
 ---
 
-HACS will **not** scan the local file system for existing elements.
+HACS will not scan the local file system for existing elements.
 
 Why not?
 
