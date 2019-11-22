@@ -3,7 +3,7 @@ id: automation
 title: Automation
 ---
 
-Here is a few simple automation examples of what you can do with the data that HACS gives you.
+Here are two simple automation examples of what you can do with the data that HACS provides:
 
 ## New repositories added
 

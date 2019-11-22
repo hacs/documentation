@@ -3,7 +3,7 @@ id: events
 title: Events
 ---
 
-When HACS operate it will fire some events that the frontend listens to.
+When HACS operates it fires events for the frontend to listen to.
 
 These events can also be used in automations.
 

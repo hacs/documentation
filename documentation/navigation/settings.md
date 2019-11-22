@@ -5,41 +5,39 @@ title: Settings
 
 ![nav_settings](/img/nav_settings.png)
 
-The settings tab have 3 sections.
+The settings tab has 3 sections.
 
 ## HACS Information
 
-Here you will see the version of HACS you are running, and how many repositories that HACS have.
+Here you will see the version of HACS you are running, and how many repositories that HACS has.
 
-You can also change how the layout of the repositories are shown.
+You can also change the visual layout of the repositories.
 You can choose between "Grid" (default) or "Table".
 
-There are also some buttons here
+There are also some buttons here:
 
-button | desription
+button | description
 -- | --
-Reload data | This forces HACS to reload the data of every repository it konws about.
-Upgrade all | This **WILL** upgrade **ALL** your installed repositories, be carefull if you use this.
+Reload data | This forces HACS to reload all data from all installed repositories.
+Upgrade all | This **WILL** upgrade **ALL** installed repositories that are upgradeable - be careful if you use this.
 HACS Repo | This opens a new tab and takes you to the repository for HACS.
 Open Issue | This takes you to where you can submit issues for HACS.
 
 ## Custom repositories
 
-HACS have a lot of repositories in the store by default, but not all are there, if the repository is compliant with the rules that HACS needs for the reposiotry you can add it to HACS as a custom repository.
+HACS comes with a large number of default repositories. A "custom" repository can be added if it is HACS-compliant.
 
-The first part of this section is a list of all the custom repositories you have added.
-
-The second part is where you can add new repositories.
+The top of this section contains a list of installed custom repositories. New repositories can be added using the entry form at the bottom.
 
 ![new_custom](/img/new_custom.png)
 
-In the left add the repository you wand to add, this can be `https://github.com/developer/repository` or `developer/repository`, then you select the correct category, and click the save icon.
+In the left field add the URL of the repository you want to add - this can either be the full URL: `https://github.com/developer/repository` or the short version: `developer/repository`. Select the pertinent category in the drop-down, then click the save icon.
 
-If the repository can be added it will now show in the list, and in the store for you to install it.
+If the repository can be added it will now show in the list above, and can be installed from the appropriate tab.
 
 
 ## Hidden repositories
 
-_If you have not any hidden repositories you will not see this section._
+_If you have not hidden any repositories you will not see this section._
 
-Repositories in this list are hidden from the store tabs, if you have hidden a repository by mistake you can click the reload (unhide) icon and it will once again show up in the store tabs.
+Repositories in this list are hidden from the store tabs. A hidden repository can be restored by clicking the unhide/reload icon to the left of the repository name.

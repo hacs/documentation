@@ -3,10 +3,10 @@ id: sensor
 title: Sensor
 ---
 
-During the setup HACS will add a new sensor to your installation (`sensor.hacs`).
-This will have the number of pending updates as the state.
+During setup HACS will add a new sensor to your installation (`sensor.hacs`).
+The state of `sensor.hacs` is the number of pending updates.
 
-As attributes ther is a list of objects that you can use for display and/or automations.
+The HACS sensor also has several attributes that can be used for display and/or automation.
 
 [Have a look here for automation examples](basic/automation.md)
 

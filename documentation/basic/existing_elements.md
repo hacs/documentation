@@ -3,8 +3,8 @@ id: existing_elements
 title: Existing elements
 ---
 
-This will not scan you local file system for existing elements.
+HACS will not scan the local file system for existing elements.
 
-Why?
+Why not?
 
-Trust. If this did not download it, there'd be no way to know which version you have, so for elements you already have you will still need to click the "INSTALL" button for that element.
+Trust. If HACS did not initially download the element, there's no way to know which version you have. As a result, existing elements will need to be "INSTALLED" via HACS.

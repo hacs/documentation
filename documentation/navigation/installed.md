@@ -16,4 +16,4 @@ Green | All good
 Orange | Update pending
 Red | Restart pending, or not loaded.
 
-If you hoover over the icon you will also see a short description.
+If you hover over the icon you will also see a short description.
