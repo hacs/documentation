@@ -4,7 +4,7 @@ title: Sensor
 ---
 
 During setup HACS will add a new sensor to your installation (`sensor.hacs`).
-The state of `sensor.hacs` is the number of pending updates (for HACS).
+The state of `sensor.hacs` is the number of pending updates.
 
 The HACS sensor also has several attributes that can be used for display and/or automation.
 
