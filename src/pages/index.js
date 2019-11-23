@@ -13,7 +13,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import withBaseUrl from '@docusaurus/withBaseUrl';
 import styles from './styles.module.css';
 
-const features = [
+const features1 = [
   {
     title: <>Integrations</>,
     Url: "/docs/categories/integrations",
@@ -28,7 +28,10 @@ const features = [
     title: <>AppDaemon Apps</>,
     Url: "/docs/categories/appdaemon_apps",
     description: (<></>),
-  },
+  }
+];
+
+const features2 = [
   {
     title: <>Python Scripts</>,
     Url: "/docs/categories/python_scripts",
@@ -38,8 +41,8 @@ const features = [
     title: <>Themes</>,
     Url: "/docs/categories/themes",
     description: (<></>),
-  },
-];
+  }
+]
 
 function Home() {
   const context = useDocusaurusContext();
@@ -80,24 +83,30 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({ Url, title, description }, idx) => (
-
+                {features1.map(({ Url, title, description }, idx) => (
                   <div
                     key={idx}
                     className={classnames('col col--4', styles.feature)}>
                     <a href={Url}><h3>{title}</h3></a>
                     <p>{description}</p>
                   </div>
-
+                ))}
+              </div>
+              <div className="row">
+                {features2.map(({ Url, title, description }, idx) => (
+                  <div
+                    key={idx}
+                    className={classnames('col col--6', styles.feature)}>
+                    <a href={Url}><h3>{title}</h3></a>
+                    <p>{description}</p>
+                  </div>
                 ))}
               </div>
             </div>
           </section>
-        )}
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
             <img src="img/demo.gif"></img>
