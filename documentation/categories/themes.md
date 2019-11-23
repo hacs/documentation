@@ -5,7 +5,7 @@ title: Themes
 
 Themes is a part of the Home Assistant [`frontend` integration.](https://www.home-assistant.io/integrations/frontend/)
 
-Themes is **not** enabled by default in HACS, the reason for that is that it is not enabled by default in Home Assistant.
+Themes is **not** enabled by default in HACS (this follows default Home Assistant behavior)..
 
 ## Enable themes in HACS
 
@@ -17,11 +17,11 @@ Add a checkmark to the left of themes in the UI configuration for HACS.
 
 ![configuration](/img/conf4.png)
 
-[For more about configure HACS with the UI have a look here](configuration/basic.md)
+[For more about configuring HACS with the UI have a look here](configuration/basic.md)
 
-### Enable if you used the YAML to configure HACS
+### Enable if you used YAML to configure HACS
 
-If you used YAML to configure HACS, add this under your HACS connfiguration to enable themes.
+If you used YAML to configure HACS, add this under your HACS configuration to enable themes:
 
 ```yaml
 hacs:
@@ -29,9 +29,9 @@ hacs:
   theme: true
 ```
 
-When you have done that you need to restart Home Assistant.
+After adding that you need to restart Home Assistant.
 
-[For more about configure HACS with YAML have a look here](configuration/legacy.md)
+[For more about configuring HACS with YAML have a look here](configuration/legacy.md)
 
 ## Enable themes in Home Assistant
 
@@ -44,4 +44,4 @@ frontend:
 
 ## Themes download location
 
-All the themes you download with HACS is stored in `themes/` in your Home Assistant configuration directory.
+Any theme downloaded with HACS is stored in `themes/` in your Home Assistant configuration directory.
