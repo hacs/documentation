@@ -100,7 +100,7 @@ function Home() {
         )}
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-            <img src="img/hacsdemo.gif"></img>
+            <img src="img/demo.gif"></img>
           </div>
         </section>
       </main>
