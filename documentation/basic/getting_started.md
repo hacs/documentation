@@ -3,7 +3,7 @@ id: getting_started
 title: Getting started
 ---
 
-![hacsdemo](/img/hacsdemo.gif)
+![hacsdemo](/img/demo.gif)
 
 ***
 

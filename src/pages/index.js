@@ -84,7 +84,7 @@ function Home() {
       </header>
       <main>
           <section className={styles.features}>
-            <div className="container">
+            <div className="index container">
               <div className="row">
                 {features1.map(({ Url, title, description }, idx) => (
                   <div
