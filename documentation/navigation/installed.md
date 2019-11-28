@@ -8,7 +8,7 @@ title: Installed
 This is where you get an overview of your installed repositories.
 
 You will see a status icon that indicates the status of the repository.
-The color of that icon is [cuztomizable with themes](/docs/basic/theming), but the default is:
+The color of that icon is [customizable with themes](/docs/basic/theming), but the default is:
 
 color | description
 -- | --
