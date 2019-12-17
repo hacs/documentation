@@ -12,7 +12,7 @@ HACS will try to match your Home Assistant theme as much as possible. There are 
 | `hacs-status-pending-restart`  | Controls the icon color for installed repositories that are awaiting a Home Assistant restart  |
 | `hacs-status-pending-update`  | Controls the icon color for installed repositories that have an update available  |
 | `hacs-status-not-loaded`  | Controls the icon color for repositories that is not loaded  |
-| `link-color`  | Controls the color of hyperlinks  |
+| `link-text-color`  | Controls the color of hyperlinks  |
 
 Here's a basic example of customizing one of these variables in `themes.yaml`:
 
