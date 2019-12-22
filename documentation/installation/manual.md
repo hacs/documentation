@@ -15,7 +15,7 @@ Initialize the download by clicking on the "hacs.zip" link at the bottom of the 
 
 ### Step 2 - Extract the content
 
-Unzip the `hacs.zip` file you dowwloaded.
+Unzip the `hacs.zip` file you downloaded.
 
 After unzipping it looks like:
 
