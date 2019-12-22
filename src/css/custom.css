@@ -35,3 +35,22 @@
   text-align: center;
   margin-top: 24px;
 }
+
+.left {
+  float: left;
+  margin-left: 10px;
+}
+
+.right {
+
+  float: right;
+  margin-right: 10px;
+}
+
+.foot {
+  height: 70px;
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
+  display: flow-root;
+  padding: 10px;
+}

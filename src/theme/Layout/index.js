@@ -57,7 +57,17 @@ function Layout(props) {
       </Head>
       <Navbar />
       {children}
-      {!noFooter && <Footer />}
+      <div className='foot'>
+      <div className='left'>
+        <a href="mailto:hi@hacs.xyz" target="_blank">hi@hacs.xyz</a>
+        <a href="https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</a>
+      </div>
+      <div className='right'>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+        </a>
+      </div>
+    </div>
     </React.Fragment>
   );
 }
