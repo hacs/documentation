@@ -37,12 +37,13 @@
 }
 
 .left {
+  display: grid;
   float: left;
   margin-left: 10px;
 }
 
 .right {
-
+  display: grid;
   float: right;
   margin-right: 10px;
 }
