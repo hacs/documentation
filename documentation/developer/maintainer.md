@@ -1,13 +1,13 @@
 ---
-id: maintaner
-title: Maintaner
+id: maintainer
+title: Maintainer
 ---
 
 This page should contain:
 
-- information about CI/bots.
+- information about CI/bots/services.
 - How releases are handled.
-- How versioning is handled.
+- How versions is handled.
 
 
 
@@ -50,4 +50,4 @@ If you click the "Acknowledge" button, you will not see that message anymore.
 
 1. The repository is removed from HACS.
 
-_That's it, since it was not installed, no further action from HACS is nessesary_
+_That's it, since it was not installed, no further action from HACS is necessary_
