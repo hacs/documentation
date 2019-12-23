@@ -52,7 +52,7 @@ module.exports = {
       "developer/documentation",
       "developer/backend",
       "developer/frontend",
-      "developer/maintaner"
+      "developer/maintainer"
     ],
     "Publish to HACS": [
       "publish/start",
