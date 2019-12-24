@@ -1,6 +1,7 @@
 ---
 id: getting_started
 title: Getting started
+description: "Getting started"
 ---
 
 ![hacsdemo](/img/demo.gif)

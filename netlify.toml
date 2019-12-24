@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://hacs.netlify.com"
-  to = "https://hacs.xyz"
-  status = 301
-  force = true

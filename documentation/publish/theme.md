@@ -1,6 +1,7 @@
 ---
 id: theme
 title: Themes
+description: "Themes"
 ---
 
 A template to use as a reference is [home-assistant-community-themes/template](https://github.com/home-assistant-community-themes/template)

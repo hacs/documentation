@@ -1,6 +1,7 @@
 ---
 id: integration
 title: Integrations
+description: "Integrations"
 ---
 
 A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint).

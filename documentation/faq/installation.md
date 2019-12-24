@@ -1,6 +1,7 @@
 ---
 id: installation
 title: "How does it work: Installation"
+description: "How does it work: Installation"
 ---
 When you install an element this is what's happening:
 

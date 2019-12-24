@@ -1,6 +1,7 @@
 ---
 id: startup
 title: Startup
+description: "HACS Startup"
 ---
 
 During startup HACS will scan for known repositories, with a progress bar indicating that it's working.

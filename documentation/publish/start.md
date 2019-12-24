@@ -1,6 +1,7 @@
 ---
 id: start
 title: General
+description: "General"
 ---
 
 For your repository to be added there are a few criteria that need to be met.

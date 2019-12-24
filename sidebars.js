@@ -13,6 +13,7 @@ module.exports = {
     ],
     "Navigation": [
       "navigation/overview",
+      "navigation/layout",
       "navigation/installed",
       "navigation/stores",
       "navigation/settings",

@@ -9,7 +9,7 @@ import React from 'react';
 
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import withBaseUrl from '@docusaurus/withBaseUrl';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import DocPaginator from '@theme/DocPaginator';
 
 import styles from './styles.module.css';
@@ -33,7 +33,8 @@ function Headings({headings, isChild}) {
 function DocItem(props) {
   const {siteConfig = {}} = useDocusaurusContext();
   const {url: siteUrl} = siteConfig;
-  const {metadata, content: DocContent} = props;
+  const metadata = props.content.metadata;
+  const DocContent = props.content;
   const {
     description,
     title,
@@ -56,13 +57,13 @@ function DocItem(props) {
         {metaImage && (
           <meta
             property="og:image"
-            content={siteUrl + withBaseUrl(metaImage)}
+            content={siteUrl + useBaseUrl(metaImage)}
           />
         )}
         {metaImage && (
           <meta
             property="twitter:image"
-            content={siteUrl + withBaseUrl(metaImage)}
+            content={siteUrl + useBaseUrl(metaImage)}
           />
         )}
         {metaImage && (

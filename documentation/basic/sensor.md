@@ -1,6 +1,7 @@
 ---
 id: sensor
 title: Sensor
+description: "HACS Sensor"
 ---
 
 During setup HACS will add a new sensor to your installation (`sensor.hacs`).

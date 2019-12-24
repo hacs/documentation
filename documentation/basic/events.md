@@ -1,6 +1,7 @@
 ---
 id: events
 title: Events
+description: "Events"
 ---
 
 When HACS operates it fires events for the frontend to listen to.

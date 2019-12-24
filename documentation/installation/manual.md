@@ -1,6 +1,7 @@
 ---
 id: manual
 title: Installation
+description: "Manual installation steps"
 ---
 
 This guide will take you though all the steps you need to install HACS.
@@ -20,6 +21,12 @@ Unzip the `hacs.zip` file you downloaded.
 After unzipping it looks like:
 
 ![install3](/img/install3.png)
+
+With this content (**NB!: This was the content for 0.20.0, it may be different on other releases.**)
+
+![install4](/img/install4.png)
+
+**Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
 
 ### Step 3 - Move along the hacs folder to HA
 

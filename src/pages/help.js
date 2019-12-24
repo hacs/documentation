@@ -23,7 +23,7 @@ const blocks = [
     title: <>Stay up to date</>,
     description: (
       <>
-        Find out what's new with this project over at <a href="https://github.com/custom-components/hacs" target="_blank">GitHub.</a>
+        Find out what's new with this project over at <a href="https://github.com/hacs" target="_blank">GitHub.</a>
       </>
     ),
   },

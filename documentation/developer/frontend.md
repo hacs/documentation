@@ -1,20 +1,11 @@
 ---
 id: frontend
 title: Frontend
+description: "Frontend development"
 ---
 
 _All changes to the documentation should go against the `master` branch._  
 The repository for the frontent is hosted @ https://github.com/hacs/frontend
-
-<pre class="prism-code language-bash codeBlock_19pQ">
-    <h4>Note!</h4>
-    Untill the new eperimental UI are default in HACS, you need to enable that to test your changes.
-</pre>
-
-<pre class="prism-code language-bash codeBlock_19pQ">
-    <h4>Note!</h4>
-    Contributions to the "old" UI will not be accepted.
-</pre>
 
 First spin up the [devcontainer](/docs/developer/devcontainer)
 

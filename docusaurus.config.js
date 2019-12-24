@@ -19,7 +19,7 @@ module.exports = {
       indexName: 'hacs',
     },
     image: "img/hacs-logo.png",
-    description: "HACS gives you a powerful UI to handle downloads of custom needs.",
+    description: "HACS gives you a powerful UI to handle downloads of all your custom needs.",
     navbar: {
       title: 'HACS',
       links: [
@@ -31,13 +31,38 @@ module.exports = {
         { to: 'help', label: 'Help', position: 'right' },
       ],
     },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/hacs',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/apgchf8',
+            },
+            {
+              label: 'Code of Conduct',
+              href: 'https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md',
+            },
+            {
+              label: 'hi(at)hacs.xyz',
+              href: 'mailto:hi@hacs.xyz',
+            },
+          ],
+        },
+      ],
+    }
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          editUrl: 'https://github.com/hacs/documentation/edit/master/documentation/',
+          editUrl: 'https://github.com/hacs/documentation/edit/master/',
           path: './documentation',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,

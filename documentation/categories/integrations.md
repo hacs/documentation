@@ -1,6 +1,7 @@
 ---
 id: integrations
 title: Integrations
+description: "Category: Integrations"
 ---
 
 Integrations in HACS (or custom_components as they are often referred to) are community-built integrations.
