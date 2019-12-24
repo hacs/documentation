@@ -10,7 +10,7 @@ import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import withBaseUrl from '@docusaurus/withBaseUrl';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features1 = [
@@ -60,7 +60,7 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={withBaseUrl('docs/installation/prerequisites')}>
+              to={useBaseUrl('docs/installation/prerequisites')}>
               Installation
             </Link>
             <Link
@@ -68,7 +68,7 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={withBaseUrl('docs/configuration/start')}>
+              to={useBaseUrl('docs/configuration/start')}>
               Configuration
             </Link>
             <Link
@@ -76,7 +76,7 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={withBaseUrl('docs/basic/getting_started')}>
+              to={useBaseUrl('docs/basic/getting_started')}>
               Usage
             </Link>
           </div>
