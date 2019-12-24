@@ -25,6 +25,8 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 
 ![install4](/img/install4.png)
 
+**Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
+
 ### Step 3 - Move along the hacs folder to HA
 
 The folder named `hacs` needs to be copied to your Home Assistant installation.
