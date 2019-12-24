@@ -109,7 +109,7 @@ function Home() {
           </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-            <img src="img/demo.gif"></img>
+            <img className="demo" src="img/demo.gif"></img>
           </div>
         </section>
       </main>

@@ -26,7 +26,11 @@ html {
   height: 100%;
   background-color: var(--ifm-navbar-background-color) !important;
 }
-
+.demo {
+  box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
+  -webkit-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
+  -moz-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
+}
 body {
   min-height: 100%;
   display: grid;
