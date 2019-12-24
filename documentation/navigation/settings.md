@@ -5,23 +5,7 @@ title: Settings
 
 ![nav_settings](/img/nav_settings.png)
 
-The settings tab has 3 sections.
-
-## HACS Information
-
-Here you will see the version of HACS you are running, and how many repositories that HACS has.
-
-You can also change the visual layout of the repositories.
-You can choose between "Grid" (default) or "Table".
-
-There are also some buttons here:
-
-button | description
--- | --
-Reload data | This forces HACS to reload all data from all installed repositories.
-Upgrade all | This **WILL** upgrade **ALL** installed repositories that are upgradeable - be careful if you use this.
-HACS Repo | This opens a new tab and takes you to the repository for HACS.
-Open Issue | This takes you to where you can submit issues for HACS.
+The settings tab has 2 sections.
 
 ## Custom repositories
 

@@ -29,8 +29,8 @@ Before HACS can show up in the list you need to clear your browser cache.
 - `Side panel title`: The name/title you want to display for HACS in the sidebar.
 - `Side panel icon`: The icon you want to display for HACS in the sidebar.
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps)
-- `Enable python_scripts discovery & tracking`: Enables [Python Scripts](/docs/categories/python_scripts)
-- `Enable Themes discovery & tracking`: Enables [Themes](/docs/categories/themes)
+- `Enable python_scripts discovery & tracking`: [DEPRECATED!] Enables [Python Scripts](/docs/categories/python_scripts)
+- `Enable Themes discovery & tracking`: [DEPRECATED!] Enables [Themes](/docs/categories/themes)
 
 ## Click submit and wait for confirmation.
 

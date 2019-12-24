@@ -6,7 +6,7 @@ title: Stores
 ![nav_stores](/img/nav_stores.png)
 
 This is where you can browse and install repositories.
-For the "INTEGRATIONS", "PLUGINS", "APPDAEMON APPS", "PYTHON SCRIPTS" and "THEMES" tabs, the look and features are the same.
+For the ["INTEGRATIONS"](/docs/categories/integrations), ["PLUGINS"](/docs/categories/plugins), ["APPDAEMON APPS"](/docs/categories/appdaemon_apps), ["PYTHON SCRIPTS"](/docs/categories/python_scripts) and ["THEMES"](/docs/categories/themes) tabs, the look and features are the same.
 
 ## Search
 

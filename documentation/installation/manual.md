@@ -21,6 +21,10 @@ After unzipping it looks like:
 
 ![install3](/img/install3.png)
 
+With this content (**NB!: This was the content for 0.20.0, it may be different on other releases.**)
+
+![install4](/img/install4.png)
+
 ### Step 3 - Move along the hacs folder to HA
 
 The folder named `hacs` needs to be copied to your Home Assistant installation.

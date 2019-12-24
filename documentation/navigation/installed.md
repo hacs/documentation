@@ -7,10 +7,12 @@ title: Installed
 
 This is where you get an overview of your installed repositories.
 
+This view is split into sections, one for each category you have installed a repository for, and at the top you will quickly see repositories that have a pending update (if any)
+
 You will see a status icon that indicates the status of the repository.
 The color of that icon is [customizable with themes](/docs/basic/theming), but the default is:
 
-color | description
+Color | Description
 -- | --
 Green | All good
 Orange | Update pending
