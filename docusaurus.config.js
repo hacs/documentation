@@ -31,6 +31,31 @@ module.exports = {
         { to: 'help', label: 'Help', position: 'right' },
       ],
     },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/hacs',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/apgchf8',
+            },
+            {
+              label: 'Code of Conduct',
+              href: 'https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md',
+            },
+            {
+              label: 'hi(at)hacs.xyz',
+              href: 'mailto:hi@hacs.xyz',
+            },
+          ],
+        },
+      ],
+    }
   },
   presets: [
     [

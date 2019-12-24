@@ -33,7 +33,8 @@ function Headings({headings, isChild}) {
 function DocItem(props) {
   const {siteConfig = {}} = useDocusaurusContext();
   const {url: siteUrl} = siteConfig;
-  const {metadata, content: DocContent} = props;
+  const metadata = props.content.metadata;
+  const DocContent = props.content;
   const {
     description,
     title,
