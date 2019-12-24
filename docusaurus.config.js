@@ -19,7 +19,7 @@ module.exports = {
       indexName: 'hacs',
     },
     image: "img/hacs-logo.png",
-    description: "HACS gives you a powerful UI to handle downloads of custom needs.",
+    description: "HACS gives you a powerful UI to handle downloads of all your custom needs.",
     navbar: {
       title: 'HACS',
       links: [
