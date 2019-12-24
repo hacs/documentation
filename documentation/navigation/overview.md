@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-description: ""
+description: "Overview of the HACS UI"
 ---
 
 This is the overview of HACS.

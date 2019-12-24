@@ -1,7 +1,7 @@
 ---
 id: documentation
 title: Documentation
-description: ""
+description: "Documentation development"
 ---
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec224ba7-b3fb-4fc6-929e-991ba9801b53/deploy-status)](https://app.netlify.com/sites/hacs/deploys)
@@ -97,6 +97,6 @@ At the top of all pages you should have this:
 ---
 id: A ID for that file, ie. 'feature' (lowercase)
 title: A Title for the page, this will also be used in the sidebar, ie. Feature
-description: ""
+description: "A nice description here"
 ---
 ```

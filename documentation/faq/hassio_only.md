@@ -1,7 +1,7 @@
 ---
 id: hassio_only
 title: Is this for hass.io only?
-description: ""
+description: "NO, no, nope, this is for all Home Assistant installations (windows may have issues)"
 ---
 
 # No

@@ -1,7 +1,7 @@
 ---
 id: settings
 title: Settings
-description: ""
+description: "Settings tab"
 ---
 
 ![nav_settings](/img/nav_settings.png)

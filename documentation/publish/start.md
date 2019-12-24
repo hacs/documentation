@@ -1,7 +1,7 @@
 ---
 id: start
 title: General
-description: ""
+description: "General"
 ---
 
 For your repository to be added there are a few criteria that need to be met.
@@ -154,7 +154,6 @@ version_installed | The installed version
 {% if version_installed.replace("v", "").replace(".","") | int < 143  %}
 - Fix for `mode: publicTransportTimeTable` returning `No timetable route found`
 {% endif %}
-description: ""
 ---
 {% endif %}
 ```

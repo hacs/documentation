@@ -1,7 +1,7 @@
 ---
 id: plugin
 title: Plugins
-description: ""
+description: "Plugins"
 ---
 
 A good template to use as a reference is [boilerplate-card](https://github.com/custom-cards/boilerplate-card)

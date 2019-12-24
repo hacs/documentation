@@ -1,7 +1,7 @@
 ---
 id: start
 title: Configuration
-description: ""
+description: "Configuration"
 ---
 
 _This page assumes you have already completed the [installation](/docs/installation/prerequisites)_

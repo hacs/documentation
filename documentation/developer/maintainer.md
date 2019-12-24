@@ -1,7 +1,7 @@
 ---
 id: maintainer
 title: Maintainer
-description: ""
+description: "Maintainer tasks"
 ---
 
 This page should contain:

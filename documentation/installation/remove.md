@@ -1,7 +1,7 @@
 ---
 id: remove
 title: Remove
-description: ""
+description: "Remove HACS"
 ---
 
 If you want to remove HACS you need to do that using the folowing steps.

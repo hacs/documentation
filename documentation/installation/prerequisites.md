@@ -1,7 +1,7 @@
 ---
 id: prerequisites
 title: Prerequisites
-description: ""
+description: "Prerequisites"
 ---
 
 ## Requirements

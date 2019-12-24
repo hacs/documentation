@@ -1,7 +1,7 @@
 ---
 id: highlights
 title: What HACS can do
-description: ""
+description: "TLDR;"
 ---
 
 In short: 

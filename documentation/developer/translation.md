@@ -1,7 +1,7 @@
 ---
 id: translation
 title: Translation
-description: ""
+description: "HACS Translations"
 ---
 
 To handle submissions of translated strings we are using [Lokalise](https://lokalise.com) they provide us with an amazing platform that is easy to use and maintain.

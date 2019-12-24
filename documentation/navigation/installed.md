@@ -1,7 +1,7 @@
 ---
 id: installed
 title: Installed
-description: ""
+description: "Installed tab"
 ---
 
 ![nav_installed](/img/nav_installed.png)
