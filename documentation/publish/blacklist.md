@@ -1,6 +1,7 @@
 ---
 id: blacklist
 title: Blacklist
+description: ""
 ---
 
 As a developer you can blacklist your repositories.

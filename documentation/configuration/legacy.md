@@ -2,6 +2,7 @@
 id: legacy
 title: Configure HACS with YAML
 sidebar_label: YAML (legacy)
+description: "Configure HACS with YAML (legacy)"
 ---
 
 _This page assume that you have already finished the [installation](/docs/installation/prerequisites)_

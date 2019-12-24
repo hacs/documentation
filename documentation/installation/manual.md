@@ -1,6 +1,7 @@
 ---
 id: manual
 title: Installation
+description: ""
 ---
 
 This guide will take you though all the steps you need to install HACS.

@@ -1,6 +1,7 @@
 ---
 id: pat
 title: Github Personal Access Token
+description: "Create Github Personal Access Token"
 ---
 
 In order to work, HACS needs to retrieve information about repositories using Github's API.

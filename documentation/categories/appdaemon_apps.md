@@ -1,6 +1,7 @@
 ---
 id: appdaemon_apps
 title: AppDaemon Apps
+description: "Category: AppDaemon Apps"
 ---
 
 AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/)

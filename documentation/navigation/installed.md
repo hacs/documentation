@@ -1,6 +1,7 @@
 ---
 id: installed
 title: Installed
+description: ""
 ---
 
 ![nav_installed](/img/nav_installed.png)

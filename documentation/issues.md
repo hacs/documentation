@@ -1,6 +1,7 @@
 ---
 id: issues
 title: Issues
+description: ""
 ---
 
 **First lets start out by stating that _ALL_ issues should be reported here:**

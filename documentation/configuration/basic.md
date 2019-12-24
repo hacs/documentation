@@ -1,6 +1,7 @@
 ---
 id: basic
 title: Initial Configuration
+description: "Basic configuration"
 ---
 
 _This page assume that you have already finished the [installation](/docs/installation/prerequisites)_

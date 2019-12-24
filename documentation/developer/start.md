@@ -1,6 +1,7 @@
 ---
 id: start
 title: Getting started
+description: ""
 ---
 
 This integration is **massive** and there are a lot of areas to contribute to.

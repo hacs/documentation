@@ -1,6 +1,7 @@
 ---
 id: options
 title: Configuration options
+description: "Configuration options"
 ---
 
 _This page assumes that you have already finished the [initial configuration](/docs/configuration/basic)_

@@ -1,6 +1,7 @@
 ---
 id: frontend
 title: Frontend
+description: ""
 ---
 
 _All changes to the documentation should go against the `master` branch._  

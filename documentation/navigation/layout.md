@@ -1,6 +1,7 @@
 ---
 id: layout
 title: Layout
+description: ""
 ---
 
 HACS has 2 layouts [Grid](#grid) and [Table](#table)

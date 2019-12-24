@@ -1,6 +1,7 @@
 ---
 id: stores
 title: Stores
+description: ""
 ---
 
 ![nav_stores](/img/nav_stores.png)

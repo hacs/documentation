@@ -1,6 +1,7 @@
 ---
 id: updates
 title: Updates
+description: "Data updates"
 ---
 
 ## Installed elements

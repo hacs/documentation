@@ -1,6 +1,7 @@
 ---
 id: highlights
 title: What HACS can do
+description: ""
 ---
 
 In short: 

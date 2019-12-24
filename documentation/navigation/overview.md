@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+description: ""
 ---
 
 This is the overview of HACS.

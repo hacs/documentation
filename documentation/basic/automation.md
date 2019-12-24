@@ -1,6 +1,7 @@
 ---
 id: automation
 title: Automation
+description: "Automations with HACS"
 ---
 
 Here are two simple automation examples of what you can do with the data that HACS provides:

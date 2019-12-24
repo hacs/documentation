@@ -1,6 +1,7 @@
 ---
 id: python_scripts
 title: Python Scripts
+description: "Category: Python Scripts"
 ---
 
 Python Scripts is a part of the Home Assistant [`python_script` integration.](https://www.home-assistant.io/integrations/python_script/)
