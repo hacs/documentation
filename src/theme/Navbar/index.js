@@ -16,7 +16,6 @@ import Toggle from '@theme/Toggle';
 
 import classnames from 'classnames';
 
-import useTheme from '@theme/hooks/useTheme';
 
 import styles from './styles.module.css';
 
@@ -45,7 +44,6 @@ function Navbar() {
   const context = useDocusaurusContext();
   const [sidebarShown, setSidebarShown] = useState(false);
   const [isSearchBarExpanded, setIsSearchBarExpanded] = useState(false);
-  const [theme, setTheme] = useTheme();
   const {siteConfig = {}} = context;
   const {baseUrl, themeConfig = {}} = siteConfig;
   const {navbar = {}, disableDarkMode = false} = themeConfig;
@@ -57,14 +55,12 @@ function Navbar() {
   const hideSidebar = useCallback(() => {
     setSidebarShown(false);
   }, [setSidebarShown]);
-
-  setTheme('dark')
   const logoUrl = useBaseUrl(logo.src);
   return (
     <>
       <Head>
         {/* TODO: Do not assume that it is in english language */}
-        <html lang="en" data-theme={theme} />
+        <html lang="en" data-theme='dark' />
       </Head>
       <nav
         className={classnames('navbar', 'navbar--light', 'navbar--fixed-top', {

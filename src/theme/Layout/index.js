@@ -35,9 +35,9 @@ function Layout(props) {
   const metaTitle = title || `${defaultTitle} · ${tagline}`;
   const metaImage = image || defaultImage;
   return (
-    <React.Fragment>
+    <>
       <Head>
-        <meta charSet="utf-8" />
+      <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width" />
         <meta name="description" content={description} />
@@ -57,8 +57,8 @@ function Layout(props) {
       </Head>
       <Navbar />
       <div className="main-wrapper">{children}</div>
-      <Footer />
-    </React.Fragment>
+      {!noFooter && <Footer />}
+    </>
   );
 }
 

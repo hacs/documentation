@@ -24,6 +24,7 @@
 
 html {
   height: 100%;
+  background-color: var(--ifm-navbar-background-color) !important;
 }
 
 body {
@@ -31,6 +32,10 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   background-color: var(--ifm-navbar-background-color) !important;
+}
+
+.logo {
+  height: 25em;
 }
 
 .hero__title, .hero__subtitle,.btt {
@@ -55,10 +60,10 @@ body {
 }
 
 .footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
+  border-top-color: var(--ifm-contents-border-color);
+  border-top-style: solid;
+  border-top-width: 1px;
   background-color: var(--ifm-navbar-background-color) !important;
-  box-shadow: var(--ifm-navbar-shadow) !important;
   display: flow-root;
   padding: 10px;
 }
