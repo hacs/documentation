@@ -21,7 +21,7 @@ function Repositories() {
       <main>
         <section className="repositories">
           <div className="container">
-          <div className="category">
+          <div className="category docItemContainer_">
             <p>In addition to this list, the repositories from these GitHub organisations are also dafault in HACS:</p>
             <li><a href="https://github.com/custom-components" target="_blank">Integrations</a></li>
             <li><a href="https://github.com/custom-cards" target="_blank">Plugins</a></li>

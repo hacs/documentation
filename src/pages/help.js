@@ -58,7 +58,7 @@ function Help() {
     <Layout title={`HACS: Help`}>
       <main>
         <section className="help">
-          <div className="container">
+          <div className="container docItemContainer_">
             <div className="row">
               {blocks.map(({ title, description }, idx) => (
                 <div
