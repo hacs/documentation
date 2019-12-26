@@ -115,14 +115,6 @@ function Navbar() {
               .map((linkItem, i) => (
                 <NavLink {...linkItem} key={i} />
               ))}
-            {disableDarkMode && (
-              <Toggle
-                className={styles.displayOnlyInLargeViewport}
-                aria-label="Dark mode toggle"
-                checked={theme === 'dark'}
-                onChange={onToggleChange}
-              />
-            )}
             <SearchBar
               handleSearchBarToggle={setIsSearchBarExpanded}
               isSearchBarExpanded={isSearchBarExpanded}
@@ -144,13 +136,6 @@ function Navbar() {
               )}
               {title != null && <strong>{title}</strong>}
             </Link>
-            {!disableDarkMode && sidebarShown && (
-              <Toggle
-                aria-label="Dark mode toggle in sidebar"
-                checked={theme === 'dark'}
-                onChange={onToggleChange}
-              />
-            )}
           </div>
           <div className="navbar-sidebar__items">
             <div className="menu">
