@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+wget -O src/pages/defaults/integration.json https://raw.githubusercontent.com/hacs/default/master/integration
+wget -O src/pages/defaults/plugin.json https://raw.githubusercontent.com/hacs/default/master/plugin
+wget -O src/pages/defaults/appdaemon.json https://raw.githubusercontent.com/hacs/default/master/appdaemon
+wget -O src/pages/defaults/python_script.json https://raw.githubusercontent.com/hacs/default/master/python_script
+wget -O src/pages/defaults/theme.json https://raw.githubusercontent.com/hacs/default/master/theme
+
+npm run build

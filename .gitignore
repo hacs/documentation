@@ -1,4 +1,4 @@
 node_modules
 .docusaurus
-build
+build/
 package-lock.json
