@@ -30,6 +30,10 @@ html {
   margin-top: 36px;
   height: calc(100vh - var(--ifm-navbar-height) - 270px) !important;
 }
+.category {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 .demo {
   box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
   -webkit-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
