@@ -26,6 +26,10 @@ html {
   height: 100%;
   background-color: var(--ifm-navbar-background-color) !important;
 }
+.help {
+  margin-top: 36px;
+  height: calc(100vh - var(--ifm-navbar-height) - 270px) !important;
+}
 .demo {
   box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
   -webkit-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
@@ -64,10 +68,12 @@ body {
 }
 
 .footer {
+  
   border-top-color: var(--ifm-contents-border-color);
   border-top-style: solid;
   border-top-width: 1px;
   background-color: var(--ifm-navbar-background-color) !important;
   display: flow-root;
   padding: 10px;
+
 }
