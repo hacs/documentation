@@ -1,5 +1,7 @@
 import requests
 import json
+import os
+print(os.environ['TOKEN'])
 
 BASE = """---
 id: default_repositories
