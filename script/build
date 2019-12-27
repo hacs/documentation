@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+apt install python3-pip
 python3.7 -m pip install pip
 python3.7 -m pip install requests
 python3.7 script/generate_default_repositories.py
