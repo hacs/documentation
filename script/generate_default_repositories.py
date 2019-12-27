@@ -12,6 +12,7 @@ description: "Default repositories in HACS"
 """
 
 github = Github(os.environ['TOKEN'])
+
 integration_org = github.get_organization("custom-components")
 plugin_org = github.get_organization("custom-cards")
 theme_org = github.get_organization("home-assistant-community-themes")
@@ -36,9 +37,10 @@ for category in ["integration", "plugin", "appdaemon", "python_script", "theme"]
             repos.remove(repo)
 
     title = category.replace("_", " ").title() + 's' if category != 'appdaemon' else 'AppDaemon Apps'
-    BASE += f"\n## {title} ({len(repos)})\n"
+    BASE += f"\n## {title}\n\n"
+    BASE += f"_{len(repos)} Repositories in total._\n\n"
     for repo in sorted(repos):
-        BASE += f"- <a href='https://github.com/{repo}' target='_blank'>{repo}</a>\n"
+        BASE += f"<p className='defaultrepo'><a href='https://github.com/{repo}' target='_blank'>{repo}</a></p>\n"
 
 with open("documentation/default_repositories.md", "w") as mdfile:
     mdfile.write(BASE)
