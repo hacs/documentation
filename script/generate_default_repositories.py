@@ -38,7 +38,7 @@ for category in ["integration", "plugin", "appdaemon", "python_script", "theme"]
     title = category.replace("_", " ").title() + 's' if category != 'appdaemon' else 'AppDaemon Apps'
     BASE += f"\n## {title} ({len(repos)})\n"
     for repo in sorted(repos):
-        BASE += f"- [{repo}]({repo})\n"
+        BASE += f"- <a href='https://github.com/{repo}' target='_blank'>{repo}</a>\n"
 
 with open("documentation/default_repositories.md", "w") as mdfile:
     mdfile.write(BASE)
