@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-sudo apt install python3-pip
-python3.7 -m pip install pip
-python3.7 -m pip install requests
-python3.7 script/generate_default_repositories.py
+source /opt/buildhome/python3.7/bin/activate
+python -m pip install pip
+python -m pip install requests
+python script/generate_default_repositories.py
+deactivate
 npm run build
