@@ -13,7 +13,7 @@ description: "Default repositories in HACS"
 
 github = Github(os.environ['TOKEN'])
 integration_org = github.get_organization("custom-components")
-plugin_org = github.get_organization("custom-card")
+plugin_org = github.get_organization("custom-cards")
 theme_org = github.get_organization("home-assistant-community-themes")
 
 blacklist = requests.get('https://raw.githubusercontent.com/hacs/default/master/blacklist')
