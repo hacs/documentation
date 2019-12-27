@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-python3 -m pip install requests
-python3 script/generate_default_repositories.py
+python3.7 -m pip install pip
+python3.7 -m pip install requests
+python3.7 script/generate_default_repositories.py
 npm run build
