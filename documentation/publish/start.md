@@ -162,7 +162,7 @@ version_installed | The installed version
 
 ## Some examples of `info.md` files
 
-### [Compact Custom Header](https://github.com/maykar/compact-custom-header/blob/1.0.4b9/info.md)
+### [Custom Header](https://github.com/maykar/custom-header/blob/1.1.7/info.md)
 
   ![cch](/img/info_cch.PNG)
 
