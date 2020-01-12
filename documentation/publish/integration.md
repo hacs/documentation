@@ -60,7 +60,7 @@ The choices will be the last 5 releases and the default branch.
 
 If you are using releases you can also set a minimum Home Assistant version in the `manifest.json` file, example:
 
-https://github.com/ludeeus/integration-hacs/blob/0.2.0/custom_components/integration-hacs/manifest.json
+https://github.com/ludeeus/integration-hacs/blob/master/custom_components/integration-hacs/manifest.json
 
 ```json
 {
