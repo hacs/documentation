@@ -105,8 +105,8 @@ If the repository does not use those, the 7 first characters of the last commit 
 
 ## Templates
 
-You can use Jijna2 templates to control what and how the info is displayed.
-In addition to the default templates of Jijna these are added:
+You can use Jinja2 templates to control what and how the info is displayed.
+In addition to the default templates of Jinja these are added:
 
 Template value | Description
 -- | --
