@@ -16,6 +16,15 @@ Initialize the download by clicking on the "hacs.zip" link at the bottom of the 
 
 ### Step 2 - Extract the content
 
+Note: If you're doing this via the Linux command line, create a subdirectory to unzip the files into:
+```
+user@host:~$ mkdir hacs
+```
+Then change to that directory
+```
+user@host:~$ cd hacs
+user@host:~/hacs$ 
+```
 Unzip the `hacs.zip` file you downloaded.
 
 After unzipping it looks like:
