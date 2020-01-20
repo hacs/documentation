@@ -47,7 +47,7 @@ Key | Required | Description.
 -- | -- | --
 name | True| The display name that will be used in the HACS UI
 content_in_root | False | Boolean to indicate that the content is in the root of the repository.
-zip_release | False | Boolean to indicate that the content is in a zipped archive on the release, if you use this you also need to add `filename`
+zip_release | False | Boolean to indicate that the content is in a zipped archive on the release, if you use this you also need to add `filename`. This enables `Downloads` statistics.
 filename | False | Name of the file HACS should look for, only applies to single item categories (plugin, theme, python_scripts, zip_release)
 render_readme | False | Tells HACS to render the README.md file instead of info.md
 domains | False | A list of domains, `["sensor", "switch"]`
@@ -99,7 +99,7 @@ This is only for integrations.
 
 ### Versions
 
-If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. (**NB: just publishing tags is not enough, you need to publish releases)
+If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. (**NB: just publishing tags is not enough, you need to publish releases**)
 
 If the repository does not use those, the 7 first characters of the last commit will be used.
 
