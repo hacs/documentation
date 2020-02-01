@@ -34,11 +34,6 @@ module.exports = {
       "installation/remove"
     ]
   },
-  "guides": {
-    "Guides": [
-      "guides/guides"
-    ]
-  },
   "configuration": {
     "Configuration": [
       "configuration/start",
