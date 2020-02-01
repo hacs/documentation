@@ -1,6 +1,6 @@
 ---
 id: guides
-title: Guides
+title: Community guides
 description: "Guides, Tutorials &  Videos about HACS"
 ---
 
