@@ -13,4 +13,3 @@ _Here you can find community made guides, tutorials & videos about how  to insta
 ### Home Assistant Themes and Plugins with HACS! (by [KPeyanski](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg))
 
 [![yt](https://img.youtube.com/vi/4cOdgW23KCA/0.jpg)](https://www.youtube.com/watch?v=4cOdgW23KCA"Home Assistant Themes and Plugins with HACS!")
-https://youtu.be/4cOdgW23KCA
