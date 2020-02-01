@@ -24,7 +24,7 @@ module.exports = {
       title: 'HACS',
       links: [
         { to: 'docs/installation/prerequisites', label: 'Installation', position: 'left' },
-	{ to: 'docs/configuration/start', label: 'Configuration', position: 'left' },
+	  { to: 'docs/configuration/start', label: 'Configuration', position: 'left' },
         { to: 'docs/basic/getting_started', label: 'Usage', position: 'left' },
         { to: 'docs/guides/guides', label: 'Community guides', position: 'left' },
         { to: 'docs/default_repositories', label: 'Default repositories', position: 'right' },
