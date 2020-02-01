@@ -12,7 +12,7 @@ _Here you can find community made guides, tutorials & videos about how  to insta
 
 ### HACS Promo
 
-_by [Ludeeus](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg)_
+_by [Ludeeus](https://github.com/ludeeus)_
 
 <a href="https://www.youtube.com/watch?v=vq0qQtDAOW0 " target="_blank" title="HACS Promo">
     <img src="https://img.youtube.com/vi/vq0qQtDAOW0/0.jpg" />
