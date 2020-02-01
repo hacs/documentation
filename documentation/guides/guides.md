@@ -6,7 +6,9 @@ description: "Guides, Tutorials &  Videos about HACS"
 
 ## Videos
 
-**Here you can find Guides, Tutorials & Videos about how  to install/use HACS.**
+_Here you can find community made guides, tutorials & videos about how  to install/use HACS._
+
+**NB!: Most of what you find here is static, and may not be up to date.**
 
 - Home Assistant Themes and Plugins with HACS ![image](/img/hacs-video1.png)   
 https://youtu.be/4cOdgW23KCA
