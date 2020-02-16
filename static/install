@@ -15,10 +15,6 @@ echo "Trying to find the correct directory"
 if [ -f "$PWD/home-assistant.log" ]; then
     echo "Current directory is correct"
 
-elif [ -f "/test/home-assistant.log" ]; then
-    echo "Changing directory to /test"
-    cd /test || exit
-
 elif [ -f "/config/home-assistant.log" ]; then
     echo "Changing directory to /config"
     cd /config || exit
