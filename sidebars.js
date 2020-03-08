@@ -23,6 +23,7 @@ module.exports = {
       "categories/integrations",
       "categories/plugins",
       "categories/appdaemon_apps",
+      "categories/netdaemon_apps",
       "categories/python_scripts",
       "categories/themes"
     ]
@@ -59,6 +60,7 @@ module.exports = {
       "publish/start",
       "publish/appdaemon",
       "publish/integration",
+      "publish/netdaemon",
       "publish/plugin",
       "publish/python_script",
       "publish/theme",
