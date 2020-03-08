@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl -sfSL https://hacs.xyz/install | bash -
 
 if [ -z "$(command -v wget)" ]; then
     echo "wget is not installed"
@@ -19,9 +20,9 @@ elif [ -f "/config/home-assistant.log" ]; then
     echo "Changing directory to /config"
     cd /config || exit
 
-elif [ -f "~/.homeassistant/home-assistant.log" ]; then
-    echo "Changing directory to ~/.homeassistant"
-    cd ~/.homeassistant || exit
+elif [ -f "$HOME/.homeassistant/home-assistant.log" ]; then
+    echo "Changing directory to $HOME/.homeassistant"
+    cd "$HOME"/.homeassistant || exit
 
 elif [ -f "/usr/share/hassio/homeassistant/home-assistant.log" ]; then
     echo "Changing directory to /usr/share/hassio/homeassistant"

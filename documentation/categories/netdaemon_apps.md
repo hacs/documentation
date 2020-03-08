@@ -38,3 +38,6 @@ After adding that you need to restart Home Assistant.
 ## NetDaemon apps download location
 
 Any NetDaemon app downloaded with HACS is stored in `netdaemon/apps/` in your Home Assistant configuration directory.
+
+***
+_NetDaemon app support was added in HACS version 0.24.0_
