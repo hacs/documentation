@@ -41,6 +41,11 @@ const features2 = [
     title: <>Themes</>,
     Url: "/docs/categories/themes",
     description: (<></>),
+  },
+  {
+    title: <>NetDaemon Apps</>,
+    Url: "/docs/categories/netdaemon_apps",
+    description: (<></>),
   }
 ]
 

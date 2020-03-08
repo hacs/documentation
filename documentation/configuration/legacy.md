@@ -20,6 +20,7 @@ key | optional | default | description
 `sidepanel_title` | True | Community | The name used for the sidepanel link.
 `sidepanel_icon` | True | "mdi:alpha-c-box" | The icon used for the sidepanel link.
 `appdaemon` | True | `False` | Enable tracking of AppDaemon apps.
+`netdaemon` | True | `False` | Enable tracking of NetDaemon apps.
 `python_script` | True | `False` | [DEPRECATED!] Enable tracking of python scripts.
 `theme` | True | `False` | [DEPRECATED!] Enable tracking of themes.
 `options` | True |  | A map of options.
@@ -28,6 +29,7 @@ key | optional | default | description
 
 ```yaml
 hacs:
+  token: xxxxxxxxxxxxxxxxxxxxxxxxx
   ...
   options:
     ...
