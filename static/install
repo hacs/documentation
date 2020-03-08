@@ -30,7 +30,9 @@ elif [ -f "/usr/share/hassio/homeassistant/home-assistant.log" ]; then
 
 else
     echo "Could not find the directory for Home Assistant."
-    echo "Manually change the directory to the root of your Home Assistant configuration and run the script again"
+    echo "Manually change the directory to the root of your Home Assistant configuration"
+    echo "With the user that is running Home Assistant"
+    echo "and run the script again"
     exit
 fi
 
