@@ -22,7 +22,11 @@ elif [ -f "/config/home-assistant.log" ]; then
 
 elif [ -f "$HOME/.homeassistant/home-assistant.log" ]; then
     echo "Changing directory to $HOME/.homeassistant"
-    cd "$HOME"/.homeassistant || exit
+    cd "$HOME/.homeassistant" || exit
+
+elif [ -f "$HOME/homeassistant/home-assistant.log" ]; then
+    echo "Changing directory to $HOME/homeassistant"
+    cd "$HOME/homeassistant" || exit
 
 elif [ -f "/usr/share/hassio/homeassistant/home-assistant.log" ]; then
     echo "Changing directory to /usr/share/hassio/homeassistant"
