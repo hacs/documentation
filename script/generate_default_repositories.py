@@ -20,7 +20,7 @@ theme_org = github.get_organization("home-assistant-community-themes")
 blacklist = requests.get('https://raw.githubusercontent.com/hacs/default/master/blacklist')
 blacklist = json.loads(blacklist.text.lower())
 
-for category in ["integration", "plugin", "appdaemon", "python_script", "theme"]:
+for category in ["integration", "plugin", "appdaemon", "netdaemon", "python_script", "theme"]:
     response = requests.get(f'https://raw.githubusercontent.com/hacs/default/master/{category}')
     repos = json.loads(response.text.lower())
     if category == "integration":
@@ -36,7 +36,12 @@ for category in ["integration", "plugin", "appdaemon", "python_script", "theme"]
         if repo in blacklist:
             repos.remove(repo)
 
-    title = category.replace("_", " ").title() + 's' if category != 'appdaemon' else 'AppDaemon Apps'
+    title = category.replace("_", " ").title() + 's' 
+    if category == 'appdaemon':
+        title = 'AppDaemon Apps'
+    elif category == 'netdaemon':
+        title = 'NetDaemon Apps'
+
     BASE += f"\n## {title}\n\n"
     BASE += f"_{len(repos)} Repositories in total._\n\n"
     for repo in sorted(repos):
