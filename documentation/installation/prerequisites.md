@@ -12,4 +12,4 @@ If you do not have or know **all** of the following, don't try to install/use HA
 - A GitHub account
 - Access to the filesystem where Home Assistant is located
 - **You known how to access the Home Assistant log file**
-- **A stable internet connection with a sufficient bandwidth**
+- **A stable internet connection with sufficient bandwidth**
