@@ -4,7 +4,7 @@ title: NetDaemon Apps
 description: "Category: NetDaemon Apps"
 ---
 
-NetDaemon apps are apps for [NetDaemon](https://helto4real.github.io/netdaemon/)
+NetDaemon apps are apps for [NetDaemon](https://netdaemon.xyz/)
 
 Since not all users are running NetDaemon, NetDaemon is **not** enabled by default in HACS.
 
