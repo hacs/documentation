@@ -9,11 +9,13 @@
   display: flex;
 }
 
-.docSidebarContainer {
-  border-right: 1px solid var(--ifm-contents-border-color);
-  height: calc(100vh - var(--ifm-navbar-height) - 240px);
-  box-sizing: border-box;
-  width: 300px;
+@media (min-width: 997px) {
+  .docSidebarContainer {
+    border-right: 1px solid var(--ifm-contents-border-color);
+    height: calc(100vh - var(--ifm-navbar-height) - 240px);
+    box-sizing: border-box;
+    width: 300px;
+  }
 }
 
 .docMainContainer {
