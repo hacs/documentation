@@ -13,4 +13,6 @@ logger:
   default: info
   logs:
     hacs: debug
+    queueman: debug
+    AioGitHub: debug
 ```
