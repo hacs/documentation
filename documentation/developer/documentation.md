@@ -33,8 +33,7 @@ First spin up the [devcontainer](/docs/developer/devcontainer)
 When you have that running issue the following comands:
 
 ```bash
-npm install
-npm start
+yarn start
 ```
 
 You have now started a local webserver that hosts the documentation on http://localhost:3000

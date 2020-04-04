@@ -1,17 +1,16 @@
-// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 {
 	"name": "HACS Documentation",
-	"dockerFile": "DockerFile",
+	"image": "ludeeus/container:frontend",
 	"context": "..",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 	"runArgs": [
 		"-v",
-		"${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh" // This is added so you can push from inside the container
+		"${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh"
 	],
 	"appPort": ["3000:3000"],
-	"postCreateCommand": "npm install",
+	"postCreateCommand": "yarn",
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	]

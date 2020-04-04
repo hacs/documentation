@@ -4,4 +4,4 @@ python -m pip install pip
 python -m pip install requests pygithub
 python script/generate_default_repositories.py
 deactivate
-npm run build
+yarn build
