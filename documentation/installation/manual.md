@@ -38,11 +38,11 @@ If this is your first custom_component you would need to create a new folder (se
 
 The `hacs` folder needs to be placed under `<config_dir>/custom_components/`
 
-On Hassio/Docker the final location will be `/config/custom_components/hacs`
+On Home Assistant (supervised/docker) the final location will be `/config/custom_components/hacs`
 
-On Hassbian(venv) the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`
+With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`
 
-### Step 4 - Create `custom_components` folder
+### Step 4 - Create custom_components folder
 
 Open the folder where you have your `configuration.yaml` file.
 

@@ -6,7 +6,9 @@ description: "Create Github Personal Access Token"
 
 In order to work, HACS needs to retrieve information about repositories using Github's API.
 
+:::info
 Because of the [rate limits set by Github](https://developer.github.com/v3/#rate-limiting), HACS needs to be authenticated by a Personal Access Token, that you can generate using the following steps.
+:::
 
 This token will have read-only access to public information, and will only be used by HACS to call Github's API.
 

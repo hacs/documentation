@@ -6,7 +6,9 @@ description: "Category: NetDaemon Apps"
 
 NetDaemon apps are apps for [NetDaemon](https://netdaemon.xyz/)
 
+:::caution
 Since not all users are running NetDaemon, NetDaemon is **not** enabled by default in HACS.
+:::
 
 ## Enable NetDaemon apps in HACS
 
@@ -37,7 +39,11 @@ After adding that you need to restart Home Assistant.
 
 ## NetDaemon apps download location
 
+:::info
 Any NetDaemon app downloaded with HACS is stored in `netdaemon/apps/` in your Home Assistant configuration directory.
+:::
 
 ***
+:::caution
 _NetDaemon app support was added in HACS version 0.23.0_
+:::

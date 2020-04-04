@@ -58,9 +58,13 @@ Logs are **more** then _just_ errors, with debug logging it gives the person inv
 
 You can see examples of good/bad issues further down on this page.
 
+:::warning
 _Issues that are missing required information can (will) be closed._
+:::
 
+:::tip
 oh... and almost forgot... `latest` is **NOT** a version.
+:::
 
 # Examples
 

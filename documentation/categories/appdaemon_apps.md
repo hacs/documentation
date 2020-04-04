@@ -6,7 +6,9 @@ description: "Category: AppDaemon Apps"
 
 AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/)
 
+:::caution
 Since not all users are running AppDaemon, AppDaemon is **not** enabled by default in HACS.
+:::
 
 ## Enable AppDaemon apps in HACS
 
@@ -37,4 +39,6 @@ After adding that you need to restart Home Assistant.
 
 ## AppDaemon apps download location
 
+:::info
 Any AppDaemon app downloaded with HACS is stored in `appdaemon/apps/` in your Home Assistant configuration directory.
+:::

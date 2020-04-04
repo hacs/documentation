@@ -12,7 +12,7 @@ First spin up the [devcontainer](/docs/developer/devcontainer)
 When you have that running issue the following comands:
 
 ```bash
-npm start
+yarn start
 ```
 
 When this is running it spins up a dev server, which you can attach to from a Home Assistant instance that is running HACS.

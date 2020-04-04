@@ -12,6 +12,8 @@ Only the owner of the repository or a major contributor to it can submit a PR to
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
+:::caution
 _NB!: The list is case sensitive._
+:::
 
 When a PR for this is merged, it will show up in HACS after the first scheduled scan (every 800min).

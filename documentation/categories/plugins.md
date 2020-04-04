@@ -8,8 +8,9 @@ The [Lovelace UI](https://www.home-assistant.io/lovelace/) is a customizable int
 
 ## Lovelace Plugin download location
 
+:::info
 Any Lovelace Plugin you download with HACS is stored in `www/community/` in your Home Assistant configuration directory.
-
+:::
 
 ## Special notes about downloaded Lovelace Plugins
 
@@ -35,5 +36,7 @@ Your plugin exists in `www/community/plugin/plugin.js` you can use both `/local/
 
 ### Open plugin button
 
+:::tip
 Every plugin you have installed with HACS will have a "Open plugin" button.
 This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404 try reinstalling it.
+:::

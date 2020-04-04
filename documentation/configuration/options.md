@@ -4,9 +4,13 @@ title: Configuration options
 description: "Configuration options"
 ---
 
+:::info
 _This page assumes that you have already finished the [initial configuration](/docs/configuration/basic)_
+:::
 
+:::warning
 **This does _not_ apply if you configured HACS with YAML(legacy)**
+:::
 
 ## In your Home Assistant UI go to "Configuration", then click "Integrations".
 
