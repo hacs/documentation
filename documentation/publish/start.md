@@ -58,7 +58,7 @@ iot_class | For integrations | The type of communication with the service/device
 
 **examples:**
 
-```json
+```json title="hacs.json"
 {
   "name": "My awesome thing",
   "content_in_root": true,
@@ -67,7 +67,7 @@ iot_class | For integrations | The type of communication with the service/device
 }
 ```
 
-```json
+```json title="hacs.json"
 {
   "name": "My awesome thing",
   "country": "NO",
@@ -121,7 +121,7 @@ version_installed | The installed version
 
 ### Prerelease
 
-```yaml
+```yaml title="info.md"
 {% if prerelease %}
 ### NB!: This is a Beta version!
 {% endif %}
@@ -131,7 +131,7 @@ version_installed | The installed version
 
 ### [Here Travel Time](https://github.com/eifinger/here_travel_time/blob/master/info.md)
 
-```yaml
+```yaml title="info.md"
 {% if installed %}
 ## Changes as compared to your installed version:
 
