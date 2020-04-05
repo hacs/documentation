@@ -27,6 +27,8 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 ![install4](/img/install4.png)
 
 **Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
+If you are using a Mac, by default you will not see the `.translations` folder as this is treated as a hidden folder.
+In Fidner, you can make hidden folders visible by clicking **Command+Shift+Dot**.
 
 ### Step 3 - Move along the hacs folder to HA
 
