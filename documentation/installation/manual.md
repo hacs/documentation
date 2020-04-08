@@ -6,6 +6,8 @@ description: "Manual installation steps"
 
 This guide will take you though all the steps you need to install HACS.
 
+(Alternately, you can install HACS using these [Linux command-line instructions](installation/manual_cli.md).)
+
 ### Step 1 - Download HACS latest release
 
 Download the [latest release from the release page](https://github.com/custom-components/hacs/releases/latest).
