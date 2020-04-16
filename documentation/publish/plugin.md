@@ -31,7 +31,7 @@ When searching for accepted files HACS will look in this order:
 
 All `.js` files it finds in the first location it finds one that matches the name will be downloaded.
 
-If your plugin require files that are not `js` files, use place all files (including the card file) in the `dist` directory.
+If your plugin require files that are not `js` files, place all files (including the card file) in the `dist` directory.
 
 ### Import type
 
