@@ -58,20 +58,6 @@ When installing/upgrading it will scan the content in the latest release.
 If there are multiple releases in the repository the user have some options to install a specific version.
 The choices will be the last 5 releases and the default branch.
 
-If you are using releases you can also set a minimum Home Assistant version in the `manifest.json` file, example:
-
-https://github.com/ludeeus/integration-hacs/blob/master/custom_components/integration-hacs/manifest.json
-
-```json
-{
-  "homeassistant": "0.96.0"
-}
-```
-
-If the user try to install this and the minimum Home Assistant requirement is not met, the user will receive a warning and it will block install/upgrade until Home Assistant is upgraded.
-
-![min_version](/img/min_version_warning.png)
-
 #### If there are no releases
 
 It will scan files in the branch marked as default.
