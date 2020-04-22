@@ -73,6 +73,7 @@ module.exports = {
       "faq/what",
       "faq/highlights",
       "faq/hassio_only",
+      "faq/addons",
       "faq/installation",
       "faq/upgrade",
       "faq/limitations"
