@@ -65,6 +65,7 @@ module.exports = {
       "publish/python_script",
       "publish/theme",
       "publish/include",
+      "publish/action",
       "publish/blacklist"
     ]
   },
