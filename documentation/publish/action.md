@@ -16,7 +16,7 @@ The action have 3 run types:
 
 The action itself lives [here](https://github.com/hacs/integration/tree/master/action) and you are free to inspect the code and/or make a PR to add changes.
 
-To intall it, follow these steps:
+To install it, follow these steps:
 
 1. Go to your repository on GitHub
 1. Click on "Create new file"
@@ -44,6 +44,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CATEGORY: "CHANGE_ME!"
 ```
+
 This will run on every PR and push, and at midnight every day.
 
 :::tip
