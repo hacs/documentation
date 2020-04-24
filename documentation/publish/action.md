@@ -7,6 +7,8 @@ description: "Use GitHub Actions to validate your repository with HACS"
 You can use GitHub actions to validate your repository with HACS.
 This will make sure that your repository can be validated in HACS after changes to your repository or HACS itself.
 
+This action uses the exact same code as HACS to validate a repository.
+
 
 The action have 3 run types:
 
