@@ -24,7 +24,7 @@ To install it, follow these steps:
 1. Paste the following contents:
 1. Change the value of "CATEGORY" key, this needs to be one of: "appdaemon", "integration", "netdaemon", "plugin", "python_script", "theme"
 
-```yaml .github/workflows/validate.yml
+```yaml title=".github/workflows/validate.yml"
 name: Validate
 
 on:
