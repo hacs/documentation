@@ -13,3 +13,6 @@ If you want to remove HACS you need to do that using the folowing steps.
 1. Delete the `hacs` directory under `custom_components`.
 1. Delete all files containing `hacs` under the `.storage` directory.
 1. Restart Home Assistant.
+
+When removed the wrong way. An option is to install it again. 
+Just move hacs back to custom components and reboot. And start the remove procedure again.
