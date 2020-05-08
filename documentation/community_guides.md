@@ -20,6 +20,20 @@ _by [Ludeeus](https://github.com/ludeeus)_
     <img src="https://img.youtube.com/vi/vq0qQtDAOW0/0.jpg" />
 </a>
 
+### 🇩🇰 Danish HACS Installation Guide
+
+_by [Daniel Bahl](https://danielbahl.com)_
+
+You can find the complete danish walkthrough guide at <a href="https://robotnet.dk/2020/hacs-home-assistant-community-store.html" target="_blank" title="HACS: Home Assistant Community Store in Danish">Robotnet.dk</a>
+
+<a href="https://www.youtube.com/watch?v=1KQH7n7Stss" target="_blank" title="Install HACS via Terminal - in Danish">
+    <img src="https://img.youtube.com/vi/1KQH7n7Stss/0.jpg" />
+</a>
+
+<a href="https://www.youtube.com/watch?v=v_S4MgJVqLE" target="_blank" title="Add HACS to Home Assistant - in Danish">
+    <img src="https://img.youtube.com/vi/v_S4MgJVqLE/0.jpg" />
+</a>
+
 ### Install and Setup Walkthrough
 
 _by [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng)_
