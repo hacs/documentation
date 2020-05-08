@@ -49,6 +49,14 @@ README.md
 
 In the integration directory, there is a [`manifest.json`](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) file.
 
+As a minimum that file contains:
+
+- `domain`
+- `documentation`
+- `issue_tracker`
+- `codeowners`
+- `name`
+
 ### GitHub releases (optional)
 
 #### If there are releases
@@ -61,3 +69,8 @@ The choices will be the last 5 releases and the default branch.
 #### If there are no releases
 
 It will scan files in the branch marked as default.
+
+### Additional requirements for integrations
+
+- If you have python requirements, you have added your integration to [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations), this will make installation faster for your users.
+- You have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands), this will make your integration look good in the UI.
