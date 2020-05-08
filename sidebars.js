@@ -78,6 +78,7 @@ module.exports = {
       "faq/installation",
       "faq/upgrade",
       "faq/limitations"
+      "faq/otherlangs"
     ]
   }
 };
