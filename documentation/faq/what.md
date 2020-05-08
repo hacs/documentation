@@ -4,4 +4,10 @@ title: What is HACS?
 description: "What is HACS?"
 ---
 
-_Currently I have no idea what to write her..._
+# FAQ
+
+## Can I find help in other languages?
+
+ - Danish HACS Installation-guide: https://robotnet.dk/2020/hacs-home-assistant-community-store.html
+
+
