@@ -49,6 +49,15 @@ jobs:
 
 This will run on every PR and push, and at midnight every day.
 
+**Integrations:**
+
+If you for some reason needs to disable the brands check, you can add this:
+
+```yaml
+evn:
+  SKIP_BRANDS_CHECK: "True"
+```
+
 :::tip
 If you maintain an integration, you can also validate your integration with [hassfest](https://developers.home-assistant.io/blog/2020/04/16/hassfest).
 :::
