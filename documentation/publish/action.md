@@ -54,7 +54,7 @@ This will run on every PR and push, and at midnight every day.
 If you for some reason needs to disable the brands check, you can add this:
 
 ```yaml
-evn:
+env:
   SKIP_BRANDS_CHECK: "True"
 ```
 
