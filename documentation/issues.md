@@ -4,11 +4,7 @@ title: Issues
 description: "Got issues?"
 ---
 
-**First lets start out by stating that _ALL_ issues should be reported here:**
-
-- [Backend/Integration](https://github.com/custom-components/hacs/issues)
-- [Frontend/UI](https://github.com/hacs/frontend/issues)
-- [Org/Other](https://github.com/hacs/org/issues)
+**[First lets start out by stating that _ALL_ issues should be reported here](https://github.com/hacs/integration/issues)**
 
 # What should be in the issue?
 
@@ -48,9 +44,9 @@ You use this when you have issues with HACS.
 
 Logs are **more** then _just_ errors, with debug logging it gives the person investigating the issue a full picture of what happened.
 
-**A issue should contain at least:**
 
-- The version of HACS you are using.
+**What a issue should contain depends on the type, but atleast:**
+
 - A GOOD description of the issue.
 - Debug logs.
 - Steps to reproduce the issue.
@@ -169,9 +165,3 @@ _Good issues have to much text to extract it (some also have screenshots) but he
 # Last words
 
 The more time/words/examples you put in your issue, the faster someone can see/understand what you mean.
-
- **_ALL_ issues should be reported here:**
-
-- [Backend/Integration](https://github.com/custom-components/hacs/issues)
-- [Frontend/UI](https://github.com/hacs/frontend/issues)
-- [Org/Other](https://github.com/hacs/org/issues)
