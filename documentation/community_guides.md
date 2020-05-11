@@ -20,7 +20,7 @@ _by [Ludeeus](https://github.com/ludeeus)_
     <img src="https://img.youtube.com/vi/vq0qQtDAOW0/0.jpg" />
 </a>
 
-### 🇩🇰 Danish HACS Installation Guide
+### Danish HACS Installation Guide
 
 _by [Daniel Bahl](https://danielbahl.com)_
 
