@@ -10,7 +10,7 @@ description: "Got issues?"
 
 When you create an issue in the repository for HACS, you start by selecting a template.
 
-All templates have a defined structure and it is **expected** that you folow it.
+All templates have a defined structure and it is **expected** that you follow it.
 
 _Issues that are missing required information can (will) be closed._
 
@@ -156,7 +156,7 @@ even replaced the whole hacs folder with a fresh download
 
 ## Examples of good issues
 
-_Good issues have to much text to extract it (some also have screenshots) but here is a few links:_
+_Good issues have too much text to extract it (some also have screenshots) but here is a few links:_
 
 - [https://github.com/custom-components/hacs/issues/452](https://github.com/custom-components/hacs/issues/452)
 - [https://github.com/custom-components/hacs/issues/470](https://github.com/custom-components/hacs/issues/470)
