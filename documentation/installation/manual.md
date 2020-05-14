@@ -30,30 +30,24 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 
 **Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
 
-### Step 3 - Move along the hacs folder to HA
+### Step 3 - Move the hacs folder to HA
 
 The folder named `hacs` needs to be copied to your Home Assistant installation.
 
-Use your favorite tool to move files to Home Assistant.
+Specifically, the `hacs` folder needs to be placed under `<config_dir>/custom_components/`.
 
-If this is your first custom_component you would need to create a new folder (see [step 4](#step-4---create-custom_components-folder)).
+If this is your first custom_component, that folder may not exist already. Go ahead and create it. The `custom_components` folder should exist in the same place as your `configuration.yaml` file.
 
-The `hacs` folder needs to be placed under `<config_dir>/custom_components/`
+Use your favorite tool to move the `hacs` folder to Home Assistant.
 
-On Home Assistant (supervised/docker) the final location will be `/config/custom_components/hacs`
+On Home Assistant (supervised/docker) the final location will be `/config/custom_components/hacs`.
 
-With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`
+With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`.
 
-### Step 4 - Create custom_components folder
-
-Open the folder where you have your `configuration.yaml` file.
-
-If you **do not** see a `custom_components` folder in **the same** folder as `configuration.yaml`, you need to create it.
-
-### Step 5 - Restart Home Assistant
+### Step 4 - Restart Home Assistant
 
 Restart Home Assistant once before moving to the next step.
 
-### Step 6 - ✏️
+### Step 5 - ✏️
 
 You should now be done, next part will be to add it to your [configuration](configuration/start.md).
