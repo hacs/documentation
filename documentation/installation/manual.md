@@ -54,8 +54,4 @@ sudo chown -R homeassistant:homeassistant custom_components/
 
 ### Step 5 - Restart Home Assistant
 
-Restart Home Assistant once before moving to the next step.
-
-### Step 6 - ✏️
-
-You should now be done, next part will be to add it to your [configuration](configuration/start.md).
+Restart Home Assistant once before moving on. After restarting, you will need to [add HACS to your configuration](configuration/start.md).
