@@ -44,15 +44,14 @@ On Home Assistant (supervised/docker) the final location will be `/config/custom
 
 With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`.
 
-### Step 4 - Verify Permissions (venv only)
+:::note
+If you are running Home Assistant in a python venv, the user running Home Assistant needs to have full control over these directories and files.
 
-
-The user account running Home Assistant needs full control to the `custom_components` folder. Easiest way to do this is to have the user account that runs Home Assistant to own the `custom_components` folder.
-
+```bash
+sudo chown -R <name-of-user>:<name-of-group> <config_dir>/custom_components
 ```
-sudo chown -R homeassistant:homeassistant custom_components/
-````
+:::
 
-### Step 5 - Restart Home Assistant
+### Step 4 - Restart Home Assistant
 
 Restart Home Assistant once before moving on. After restarting, you will need to [add HACS to your configuration](configuration/start.md).
