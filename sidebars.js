@@ -1,50 +1,40 @@
 module.exports = {
-  "usage": {
-    "Basic": [
+  usage: {
+    Basic: [
       "basic/getting_started",
       "basic/updates",
       "basic/existing_elements",
-      "basic/startup",
       "basic/sensor",
       "basic/events",
       "basic/automation",
       "basic/theming",
-      "basic/logs"
+      "basic/logs",
     ],
-    "Navigation": [
-      "navigation/overview",
-      "navigation/layout",
-      "navigation/installed",
-      "navigation/stores",
-      "navigation/settings",
-      "navigation/repository"
-    ],
-    "Categories": [
+    Navigation: ["navigation/overview", "navigation/stores"],
+    Categories: [
       "categories/integrations",
       "categories/plugins",
       "categories/appdaemon_apps",
       "categories/netdaemon_apps",
       "categories/python_scripts",
-      "categories/themes"
-    ]
+      "categories/themes",
+    ],
   },
-  "installation": {
-    "Installation": [
+  installation: {
+    Installation: [
       "installation/prerequisites",
       "installation/manual",
-      "installation/remove"
-    ]
+      "installation/remove",
+    ],
   },
-  "configuration": {
-    "Configuration": [
+  configuration: {
+    Configuration: [
       "configuration/start",
       "configuration/pat",
       "configuration/basic",
       "configuration/options",
     ],
-    "Legacy Configuration (YAML)": [
-      "configuration/legacy"
-    ]
+    "Legacy Configuration (YAML)": ["configuration/legacy"],
   },
   "developer documentation": {
     "HACS Development": [
@@ -54,7 +44,7 @@ module.exports = {
       "developer/documentation",
       "developer/backend",
       "developer/frontend",
-      "developer/maintainer"
+      "developer/maintainer",
     ],
     "Publish to HACS": [
       "publish/start",
@@ -66,18 +56,18 @@ module.exports = {
       "publish/theme",
       "publish/include",
       "publish/action",
-      "publish/blacklist"
-    ]
+      "publish/blacklist",
+    ],
   },
-  "FAQ": {
-    "FAQ": [
+  FAQ: {
+    FAQ: [
       "faq/what",
       "faq/highlights",
       "faq/hassio_only",
       "faq/addons",
       "faq/installation",
       "faq/upgrade",
-      "faq/limitations"
-    ]
-  }
+      "faq/limitations",
+    ],
+  },
 };
