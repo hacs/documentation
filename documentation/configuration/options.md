@@ -16,23 +16,23 @@ _This page assumes that you have already finished the [initial configuration](/d
 
 ![image](/img/conf1.png)
 
-## Select "HACS (Home Assistant Community Store)"
+## Select "Options" on the card for "HACS"
 
 ![image](/img/option1.png)
-
-## Click the cogwheel icon in the top right corner
-
-![image](/img/option2.png)
 
 ## Options
 
 ![image](/img/option3.png)
 
-- `Filter with country code`: Only show repositories for your country (if the repository has information about that)
+- `Side panel title`: The name/title you want to display for HACS in the sidebar.
+- `Side panel icon`: The icon you want to display for HACS in the sidebar.
 - `Number of releases to show`: Number of releases to show in the dropdown.
+- `Filter with country code`: Only show repositories for your country (if the repository has information about that)
+- `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps)
+- `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/categories/netdaemon_apps)
 - `Enable experimental features`: This enables experimental features in HACS.
 
-## Click submit and wait for confirmation.
+## Click submit and wait for confirmation
 
 _This will reload HACS and your changes will be reflected when you see the confirmation._
 
