@@ -28,7 +28,7 @@ Before HACS can show up in the list you need to clear your browser cache.
 You see this when Home Assistant is installing the requirements needed for the integration.
 ![image](/img/conf_note.png)
 
-If this takes longer than 10 minutes, you may have and issue with your Home Assistant installation.
+If this takes longer than 10 minutes, you may have an issue with your Home Assistant installation.
 :::
 
 ## Add your configuration
