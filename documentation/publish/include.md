@@ -73,6 +73,10 @@ _This check can fail._
 
 This checks if the repository is a fork when there are good reasons for the fork.
 
+### Check Archived
+
+This checks if the repository is archived.
+
 ### Check Owner
 
 _This check can fail._
