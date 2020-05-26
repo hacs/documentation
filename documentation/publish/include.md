@@ -71,7 +71,7 @@ This checks that there are images in the defined information file that HACS rend
 
 ### Check Repository
 
-This checks genreal things about the repository like:
+This checks general things about the repository like:
 
 - It has a description
 - Issues are enabled
