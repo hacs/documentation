@@ -63,6 +63,12 @@ https://hacs.xyz/docs/publish/start#hacsjson
 
 This checks that there is a info.md (or readme.md if configured) file with content in the repository.
 
+### Check Images
+
+_Only applies to plugins and themes._
+
+This checks that there are images in the defined information file that HACS render.
+
 ### Check Repository
 
 This checks genreal things about the repository like:
@@ -81,6 +87,6 @@ This checks that the repository are added to https://github.com/home-assistant/w
 
 This make sure that the files still are valid JSON.
 
-## Lint[sorted]
+### Lint [sorted]
 
 This make sure that the files still are sorted correctly.
