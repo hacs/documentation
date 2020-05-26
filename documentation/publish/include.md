@@ -63,6 +63,18 @@ https://hacs.xyz/docs/publish/start#hacsjson
 
 This checks that there is a info.md (or readme.md if configured) file with content in the repository.
 
+### Check Fork
+
+_This check can fail._
+
+This checks if the repository is a fork when there are good reasons for the fork.
+
+### Check Owner
+
+_This check can fail._
+
+This checks if the submitter is the owner of repository, this can fail if the repository belong to an org. or that the submitter is a major contributor to the repository.
+
 ### Check Images
 
 _Only applies to plugins and themes._
