@@ -23,7 +23,13 @@ All checks needs to pass for the repository to be included (unless something els
 
 Most of the checks will not run until you have completed all the tasks in the PR template.
 
-_If you need to rerun the checks close and reopen does not work, you need to remove one of the checkmarks and add it back again._
+### Re run checks
+
+If you need to rerun the checks add a comment with this as the content:
+
+```txt
+/recheck
+```
 
 ### Check Brands
 
