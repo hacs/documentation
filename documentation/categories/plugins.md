@@ -34,9 +34,9 @@ Your plugin exists in `www/community/plugin/plugin.js` you can use both `/local/
 
 `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. When you use `/local` you will transfer the `.js` file which is 101kB, but if you use HACS and reference the plugin with `/hacsfiles`, it will serve the 20kB `.gz` version automagically (sizes accurate for version 1.4.7 of CCH).
 
-### Open plugin button
+### Open source
 
 :::tip
-Every plugin you have installed with HACS will have a "Open plugin" button.
+Every plugin you have installed with HACS will have a "Open source" option on the hamburger menu.
 This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404 try reinstalling it.
 :::
