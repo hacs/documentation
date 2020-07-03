@@ -42,7 +42,9 @@ README.md
 ```
 
 ### manifest.json
+
 In your integration directory you must have a `manifest.json` file, which must at least define these keys:
+
 - `domain`
 - `documentation`
 - `issue_tracker`
@@ -53,14 +55,17 @@ Check the official Home Assistant [documentation](https://developers.home-assist
 
 
 ### Python prerequisites
+
 If your integration requires other python libraries, your integration must be added to [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations).
 
 
 ### Home Assistant Brands
+
 You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) conform to the UI standards in Home Assistant.
 
 
 ### GitHub releases (optional)
+
 It is preferred but not required to publish releases in your repository.
 
 *If you publish releases in your repository, HACS will present the user with a nice selection view of the 5 latest releases together with the default branch when they are installing or upgrading your integration.*
