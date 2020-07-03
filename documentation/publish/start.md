@@ -4,7 +4,7 @@ title: General
 description: "General"
 ---
 
-For your repository to be added there are a few criteria that need to be met.
+For your repository to be added there are several criterias that need to be met.
 
 - [General requirements](#general-requirements)
 - [Integration requirements](integration) for integrations.
@@ -43,14 +43,14 @@ The following keys are supported:
 Key | Type | Required | Description
 -- | :-: | :-: | --
 `name` | string | Yes| The display name that will be used in the HACS UI.
-`content_in_root` | bool | No | Indicates whether the content is in the root of the repository as opposed to in a sub folder.
+`content_in_root` | bool | No | Indicates whether the content is in the root of the repository as opposed to in a subdirectory.
 `zip_release` | bool | No | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`.
 `filename` | string | No | Name of the file HACS should look for, only applies to single item categories (plugin, theme, python_scripts, zip_release).
 `render_readme` | bool | No | Tells HACS to render the README.md file instead of info.md.
 `domains` | string | No | A list of domains.
 `country` | string | No | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 `homeassistant` | string | No | The minimum required Home Assistant version.
-`persistent_directory` | string | No | A relative path (within the integration folder) that will be kept safe during upgrades. *Can only be used with integrations.*
+`persistent_directory` | string | No | A relative path (within the integration directory) that will be kept safe during upgrades. *Can only be used with integrations.*
 `iot_class` | string | Only for<br>integrations | The type of communication with the service/device. [Types used in Home Assistant](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things)
 
 **examples:**
@@ -138,7 +138,7 @@ version_installed | The installed version
 
 ![here](/img/info_jinja_here.png)
 
-## Some examples of `info.md` files
+## Some examples of info.md files
 
 ### [Custom Header](https://github.com/maykar/custom-header/blob/1.1.7/info.md)
 
