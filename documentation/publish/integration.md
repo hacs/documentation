@@ -15,6 +15,7 @@ For an integration repository to be valid it must meet the requirements below.
 
 
 #### OK example:
+
 ```
 custom_components/awesome/__init_.py
 custom_components/awesome/sensor.py
@@ -24,6 +25,7 @@ README.md
 ```
 
 #### Not OK example (1):
+
 ```
 awesome/__init_.py
 awesome/sensor.py
@@ -33,6 +35,7 @@ README.md
 ```
 
 #### Not OK example (2):
+
 ```
 __init_.py
 sensor.py
