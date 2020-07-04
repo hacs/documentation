@@ -51,7 +51,7 @@ Key | Type | Required | Description
 `country` | string | No | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 `homeassistant` | string | No | The minimum required Home Assistant version.
 `persistent_directory` | string | No | A relative path (within the integration directory) that will be kept safe during upgrades. *Can only be used with integrations.*
-`iot_class` | string | Only for<br>integrations | The type of communication with the service/device. [Types used in Home Assistant](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things)
+`iot_class` | string | Only for integrations | The type of communication with the service/device. [Types used in Home Assistant](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things)
 
 **examples:**
 
