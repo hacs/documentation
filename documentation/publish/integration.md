@@ -4,20 +4,19 @@ title: Integrations
 description: "Integrations"
 ---
 
-A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint).
-
 ## Requirements
 
-For a integration repository to be valid these are the requirements:
+For an integration repository to be valid it must meet the requirements below.
 
 ### Repository structure
 
-- There is only one integration (one directory under `ROOT_OF_THE_REPO/custom_components/`) per repository (if you have more, only the first one will be managed).
-- The integration (all the Python files for it) are located under `ROOT_OF_THE_REPO/custom_components/INTEGRATION_NAME/`.
+- There must only be one integration per repository, i.e. there can only be one subdirectory to `ROOT_OF_THE_REPO/custom_components/`. *If there are more than one, only the first one will be managed.*
+- All files required for the integration to run must be located inside the directory `ROOT_OF_THE_REPO/custom_components/INTEGRATION_NAME/`.
+
 
 #### OK example:
 
-```text
+```
 custom_components/awesome/__init_.py
 custom_components/awesome/sensor.py
 custom_components/awesome/manifest.json
@@ -27,7 +26,7 @@ README.md
 
 #### Not OK example (1):
 
-```text
+```
 awesome/__init_.py
 awesome/sensor.py
 awesome/manifest.json
@@ -37,7 +36,7 @@ README.md
 
 #### Not OK example (2):
 
-```text
+```
 __init_.py
 sensor.py
 manifest.json
@@ -45,11 +44,9 @@ info.md
 README.md
 ```
 
-### `manifest.json`
+### manifest.json
 
-In the integration directory, there is a [`manifest.json`](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) file.
-
-As a minimum that file contains:
+In your integration directory you must have a `manifest.json` file, which must at least define these keys:
 
 - `domain`
 - `documentation`
@@ -57,20 +54,27 @@ As a minimum that file contains:
 - `codeowners`
 - `name`
 
+Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) for the values of those keys.
+
+
+### Python prerequisites
+
+If your integration requires other python libraries, your integration must be added to [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations).
+
+
+### Home Assistant Brands
+
+You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) conform to the UI standards in Home Assistant.
+
+
 ### GitHub releases (optional)
 
-#### If there are releases
+It is preferred but not required to publish releases in your repository.
 
-When installing/upgrading it will scan the content in the latest release.
+*If you publish releases in your repository, HACS will present the user with a nice selection view of the 5 latest releases together with the default branch when they are installing or upgrading your integration.*
 
-If there are multiple releases in the repository the user have some options to install a specific version.
-The choices will be the last 5 releases and the default branch.
+*If you don't publish releases in your repository, HACS will use the files in the branch marked as default.*
 
-#### If there are no releases
 
-It will scan files in the branch marked as default.
-
-### Additional requirements for integrations
-
-- If you have python requirements, you have added your integration to [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations), this will make installation faster for your users.
-- You have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands), this will make your integration look good in the UI.
+### References and examples
+A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint).
