@@ -28,8 +28,6 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 
 ![install4](/img/install4.png)
 
-**Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
-
 ### Step 3 - Create custom_components folder
 
 Open the folder where you have your `configuration.yaml` file.
