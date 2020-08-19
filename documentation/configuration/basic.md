@@ -46,3 +46,5 @@ _If something failed, you will be taken back to the [Add your configuration step
 ## Changing the configuration
 
 If you need to change the configuration, you first need to delete the integration from the integrations list, then you need to add it back again.
+
+It can take up to one hour for HACS to finish starting up.
