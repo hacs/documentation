@@ -43,6 +43,8 @@ If this takes longer than 10 minutes, you may have an issue with your Home Assis
 
 _If something failed, you will be taken back to the [Add your configuration step](#add-your-configuration)_
 
+Please note that the initial HACS startup may take up to 1h+ due to Github API rate-limits.
+
 ## Changing the configuration
 
 If you need to change the configuration, you first need to delete the integration from the integrations list, then you need to add it back again.
