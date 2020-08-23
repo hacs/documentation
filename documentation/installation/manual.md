@@ -8,9 +8,9 @@ This guide will take you though all the steps you need to install HACS.
 
 (Alternately, you can install HACS using these [Linux command-line instructions](installation/manual_cli.md).)
 
-### Step 1 - Download HACS latest release
+### Step 1 - Download HACS newest release
 
-Download the [latest release from the release page](https://github.com/custom-components/hacs/releases/latest).
+Download the [newest release from the release page](https://github.com/custom-components/hacs/releases/latest).
 
 Initialize the download by clicking on the "hacs.zip" link at the bottom of the [page](https://github.com/custom-components/hacs/releases/latest).
 
@@ -34,23 +34,28 @@ Open the folder where you have your `configuration.yaml` file.
 
 If you **do not** see a `custom_components` folder in **the same** folder as `configuration.yaml`, you need to create it.
 
-### Step 4 - Move along the hacs folder to HA
+If this is your first custom_component, that folder may not exist already. Go ahead and create it. The `custom_components` folder should exist in the same place as your `configuration.yaml` file.
 
 The folder named `hacs` needs to be copied to your Home Assistant installation.
 
+Specifically, the `hacs` folder needs to be placed under `<config_dir>/custom_components/`.
+
 Use your favorite tool to move files to Home Assistant.
+
 The `hacs` folder needs to be placed under `<config_dir>/custom_components/`
 
-If this is your first custom_component you would need to create a new folder (see [step 3](#step-3---create-custom_components-folder)).
+On Home Assistant (OS/supervised/docker) the final location will be `/config/custom_components/hacs`.
 
-On Home Assistant (supervised/docker) the final location will be `/config/custom_components/hacs`
+On a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`.
 
-With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`
+:::warning
+If you are running Home Assistant in a python venv, the user running Home Assistant needs to have full control over these directories and files.
+:::
 
-### Step 5 - Restart Home Assistant
+### Step 4 - Restart Home Assistant
 
 Restart Home Assistant once before moving to the next step.
 
-### Step 6 - ✏️
+### Step 5 - ✏️
 
 You should now be done, next part will be to add it to your [configuration](configuration/start.md).
