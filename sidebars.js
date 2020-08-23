@@ -67,6 +67,7 @@ module.exports = {
       "faq/addons",
       "faq/installation",
       "faq/upgrade",
+      "faq/initial_startup",
       "faq/status_not_loaded",
       "faq/custom_repositories",
       "faq/limitations",
