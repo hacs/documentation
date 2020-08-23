@@ -2,6 +2,7 @@
 	"name": "HACS Documentation",
 	"image": "ludeeus/container:frontend",
 	"context": "..",
+	"postStartCommand": "apk add make && make init",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},

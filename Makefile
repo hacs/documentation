@@ -8,13 +8,13 @@ help: ## Shows help message.
 init: bootstrap
 
 start: ## Start the documentation server
-	@ yarn start;
+	yarn start;
 
 bootstrap: ## Run yarn
-	@ yarn;
+	yarn;
 
 build: ## Build the documentation
-	@ yarn build;
+	yarn build;
 
 update: ## Pull master from hacs/documentation
-	@ git pull upstream master;
+	git pull upstream master;
