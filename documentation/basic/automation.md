@@ -55,6 +55,6 @@ automation hacs_updates:
         title: Updates pending in HACS
         message: >-
           {% for repo in state_attr(trigger.entity_id, 'repositories') %}
-            **{{ repo.display_name }}** _{{ repo["installed version"] }}_ -> _{{ repo["available version"] }}_
+            **{{ repo.display_name }}** _{{ repo["installed_version"] }}_ -> _{{ repo["available_version"] }}_
           {% endfor %}
 ```

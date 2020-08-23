@@ -28,30 +28,34 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 
 ![install4](/img/install4.png)
 
-**Do you see the `.translations` directory in the screenshot above? you _really really_ need that one.**
+### Step 3 - Create custom_components folder
 
-### Step 3 - Move the hacs folder to HA
+Open the folder where you have your `configuration.yaml` file.
 
-The folder named `hacs` needs to be copied to your Home Assistant installation.
+If you **do not** see a `custom_components` folder in **the same** folder as `configuration.yaml`, you need to create it.
 
 Specifically, the `hacs` folder needs to be placed under `<config_dir>/custom_components/`.
 
 If this is your first custom_component, that folder may not exist already. Go ahead and create it. The `custom_components` folder should exist in the same place as your `configuration.yaml` file.
 
-Use your favorite tool to move the `hacs` folder to Home Assistant.
+The folder named `hacs` needs to be copied to your Home Assistant installation.
 
-On Home Assistant (supervised/docker) the final location will be `/config/custom_components/hacs`.
+Use your favorite tool to move files to Home Assistant.
 
-With a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`.
+The `hacs` folder needs to be placed under `<config_dir>/custom_components/`
 
-:::note
+On Home Assistant (OS/supervised/docker) the final location will be `/config/custom_components/hacs`.
+
+On a venv installation the final location will be `/home/homeassistant/.homeassistant/custom_components/hacs`.
+
+:::warning
 If you are running Home Assistant in a python venv, the user running Home Assistant needs to have full control over these directories and files.
-
-```bash
-sudo chown -R <name-of-user>:<name-of-group> <config_dir>/custom_components
-```
 :::
 
 ### Step 4 - Restart Home Assistant
 
-Restart Home Assistant once before moving on. After restarting, you will need to [add HACS to your configuration](configuration/start.md).
+Restart Home Assistant once before moving to the next step.
+
+### Step 5 - ✏️
+
+You should now be done, next part will be to add it to your [configuration](configuration/start.md).

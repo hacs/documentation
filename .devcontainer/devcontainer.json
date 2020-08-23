@@ -2,6 +2,7 @@
 	"name": "HACS Documentation",
 	"image": "ludeeus/container:frontend",
 	"context": "..",
+	"postStartCommand": "apk add make && make init",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
@@ -10,7 +11,7 @@
 		"${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh"
 	],
 	"appPort": ["3000:3000"],
-	"postCreateCommand": "yarn",
+	"postCreateCommand": "make init",
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	]

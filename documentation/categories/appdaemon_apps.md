@@ -18,7 +18,7 @@ _There are 2 ways of doing this._
 
 Add a checkmark to the left of AppDaemon apps in the UI configuration for HACS.
 
-![configuration](/img/conf4.png)
+![configuration](/img/option3.png)
 
 [For more about configuring HACS with the UI have a look here](configuration/basic.md)
 
@@ -35,7 +35,6 @@ hacs:
 After adding that you need to restart Home Assistant.
 
 [For more about configuring HACS with YAML have a look here](configuration/legacy.md)
-
 
 ## AppDaemon apps download location
 
