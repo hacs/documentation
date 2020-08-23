@@ -10,8 +10,6 @@ In order to work, HACS needs to retrieve information about repositories using Gi
 Because of the [rate limits set by Github](https://developer.github.com/v3/#rate-limiting), HACS needs to be authenticated by a Personal Access Token, that you can generate using the following steps.
 :::
 
-This token will have read-only access to public information, and will only be used by HACS to call Github's API.
-
 ## Step 1 - Open browser
 
 _You are probably looking at this in a browser, so we can probably check this off._
