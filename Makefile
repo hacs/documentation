@@ -16,5 +16,5 @@ bootstrap: ## Run yarn
 build: ## Build the documentation
 	yarn build;
 
-update: ## Pull master from hacs/documentation
-	git pull upstream master;
+update: ## Pull main from hacs/documentation
+	git pull upstream main;
