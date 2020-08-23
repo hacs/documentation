@@ -20,10 +20,10 @@ Don't blindly curl to bash! Take a look at [what the script does](https://hacs.x
 curl -sfSL https://hacs.xyz/install | bash -
 ```
 
-### Step 3 - Restart Home Assistant
+## Step 3 - Restart Home Assistant
 
 Restart Home Assistant once before moving to the next step.
 
-### Step 4 - Configure HACS
+## Step 4 - Configure HACS
 
 You should now be done. The next step is to add it to your [configuration](configuration/start.md).
