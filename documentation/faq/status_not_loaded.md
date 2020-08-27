@@ -24,5 +24,5 @@ Add the correct URL to the `resource` key under your `lovelace` configuration en
 To find the URL click the 3 dots in the card for the repository and select "Reinstall".
 
 :::tip
-[For infrmation about the base of URL have a look here.](/docs/categories/plugins#special-notes-about-downloaded-lovelace-plugins)
+[For information about the base of URL have a look here.](/docs/categories/plugins#special-notes-about-downloaded-lovelace-plugins)
 :::

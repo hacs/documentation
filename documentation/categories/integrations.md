@@ -14,7 +14,7 @@ When you install, update or uninstall an integration in HACS, you need to restar
 
 :::info
 There is 1 exception to this:
-If the integration supports configuration with `config_flow`, you do not have to restart Home Assistant after the intallation.
+If the integration supports configuration with `config_flow`, you do not have to restart Home Assistant after the installation.
 You can go straight to the "Configuration" section of the UI, then to "Integrations".
 :::
 

@@ -5,11 +5,11 @@ description: "Frontend development"
 ---
 
 _All changes to the documentation should go against the `master` branch._  
-The repository for the frontent is hosted @ https://github.com/hacs/frontend
+The repository for the frontend is hosted @ https://github.com/hacs/frontend
 
 First spin up the [devcontainer](/docs/developer/devcontainer)
 
-When you have that running issue the following comands:
+When you have that running issue the following commands:
 
 ```bash
 yarn start

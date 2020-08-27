@@ -45,7 +45,7 @@ You use this when you have issues with HACS.
 Logs are **more** then _just_ errors, with debug logging it gives the person investigating the issue a full picture of what happened.
 
 
-**What a issue should contain depends on the type, but atleast:**
+**What a issue should contain depends on the type, but at least:**
 
 - A GOOD description of the issue.
 - Debug logs.
