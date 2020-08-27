@@ -4,8 +4,8 @@ title: Data
 description: "HACS Data stores"
 ---
 
-All data it handles are saved to files that is located under `.storage`
+All data it handles is saved to files that are located under `.storage`
 
 :::caution
-Remeber to backup these files.
+Remember to backup these files.
 :::

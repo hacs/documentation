@@ -30,7 +30,7 @@ This will take you to the GitHub page for it so you can change the content.
 
 First spin up the [devcontainer](/docs/developer/devcontainer)
 
-When you have that running issue the following comands:
+When you have that running issue the following commands:
 
 ```bash
 yarn start
@@ -59,7 +59,7 @@ documentation/static/img/
 
 ## Contents linking
 
-### Referense another page
+### Reference another page
 
 Lets say you need to reference another page that is located under:
 
@@ -72,7 +72,7 @@ Then you need to use:
 [Features](/docs/developer/features)
 ```
 
-### Referense images
+### Reference images
 
 Lets say you need to reference a image that is located under:
 

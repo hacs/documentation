@@ -63,7 +63,7 @@ This runs the same validation that HACS itself uses.
 
 ### Check HACS Manifest
 
-This checks that the hacs.jsont file at least contains the following:
+This checks that the hacs.json file at least contains the following:
 
 - `name`
 
