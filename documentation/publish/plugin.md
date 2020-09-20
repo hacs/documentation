@@ -33,18 +33,6 @@ All `.js` files it finds in the first location it finds one that matches the nam
 
 If your plugin require files that are not `js` files, place all files (including the card file) in the `dist` directory.
 
-### Import type
-
-The readme in your repository should state if the plugin should be loaded as `js` or `module`.
-
-example:
-
-```yaml
-resources:
-    url: ....
-    type: js
-```
-
 ### GitHub releases (optional)
 
 #### If there are releases
