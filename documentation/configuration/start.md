@@ -12,5 +12,5 @@ Before you start with the configuration, you will need to go to GitHub to get a 
 
 
 :::tip
-Read [this FAQ](/docs/faq/initial_startup) about the first startup of HACS.
+Read [this FAQ](/docs/faq/initial_startup) about the first startup of HACS. It may take over an hour to load all of the repositories on first startup.
 :::
