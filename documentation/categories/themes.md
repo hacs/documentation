@@ -7,7 +7,7 @@ description: "Category: Themes"
 Themes is a part of the Home Assistant [`frontend` integration.](https://www.home-assistant.io/integrations/frontend/)
 
 :::info
-Themes in HACS will automagically be enabled if you have it enabled in Home Assistant
+Themes in HACS will automatically be enabled if you have it enabled in Home Assistant
 :::
 
 ## Enable themes in Home Assistant
