@@ -13,7 +13,7 @@ _This page assume that you have already finished the [installation](/docs/instal
 
 ```yaml
 hacs:
-  token: d73jds8f73jkr9d8sufv2br8sd9fy92nr9f80u23r97fhse (Don't copy+paste this token, create your own)
+  token: dd6592a5acde4849eaa19b4a28a2944f0d2f9bac
 ```
 
 | key               | optional | default           | description                                                                                        |
