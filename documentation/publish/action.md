@@ -60,4 +60,5 @@ env:
 
 :::tip
 If you maintain an integration, you can also validate your integration with [hassfest](https://developers.home-assistant.io/blog/2020/04/16/hassfest).
+For both plugins and cards, an easy way to automatically validate and format it would be with [ha-blueprint](https://github.com/KTibow/ha-blueprint).
 :::
