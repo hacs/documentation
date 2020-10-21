@@ -1383,10 +1383,22 @@
     "@hapi/joi" "17.1.1"
     chalk "^3.0.0"
 
-"@docusaurus/utils@2.0.0-alpha.65", "@docusaurus/utils@^2.0.0-alpha.65":
+"@docusaurus/utils@2.0.0-alpha.65":
   version "2.0.0-alpha.65"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.65.tgz#2dfc82da1be31d9632cca85d3b70628ef17dc149"
   integrity sha512-Fz0rF/eMuzgMOJITF3R62H7fC2fDfTNtJ9wq5DBR050647OMEJnimKSilS1Rsckd7c72mfBdhg3Hdb9rrSrk8Q==
+  dependencies:
+    escape-string-regexp "^2.0.0"
+    fs-extra "^8.1.0"
+    gray-matter "^4.0.2"
+    lodash.camelcase "^4.3.0"
+    lodash.kebabcase "^4.1.1"
+    resolve-pathname "^3.0.0"
+
+"@docusaurus/utils@^2.0.0-alpha.66":
+  version "2.0.0-alpha.66"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.66.tgz#ef679896e7d7e536cc8196cc303f5f2ced1f5ebb"
+  integrity sha512-47jGB+Z3YVM6Xf1hxyNbJLMmc1qoTLmfwSf7NseKSkpjucbc5Ueivr+oVYp5yWoZw5sT5bObmdJYfJoD/RrbOg==
   dependencies:
     escape-string-regexp "^2.0.0"
     fs-extra "^8.1.0"
