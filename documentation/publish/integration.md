@@ -77,4 +77,4 @@ It is preferred but not required to publish releases in your repository.
 
 
 ### References and examples
-A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint).
+A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint). You can generate a template similar to blueprint and customized to your context by using [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).
