@@ -20,7 +20,7 @@ Before HACS can show up in the list you need to clear your browser cache.
 
 ![image](/img/conf2.png)
 
-## Search for or scroll down to find "HACS (Home Assistant Community Store)" and select it
+## Search for or scroll down to find "HACS" and select it
 
 ![image](/img/conf3.png)
 
@@ -31,13 +31,56 @@ You see this when Home Assistant is installing the requirements needed for the i
 If this takes longer than 10 minutes, you may have an issue with your Home Assistant installation.
 :::
 
-## Add your configuration
+## Accept usage
 
-![image](/img/conf4.png)
+![image](/img/part1.png)
 
-- `GitHub Personal Access Token`: The token you got when you finished [_this guide_](/docs/configuration/pat)
+None of the items are optional, you need to accept everythin before you can setup HACS.
 
-## Click submit and wait for confirmation.
+## Device registration
+
+HACS uses a device OAuth flow for authentication agains the GitHub API.
+
+_If you do not want that, you can use a Personal Access Token if you [configure HACS with YAML](/docs/configuration/legacy)._
+
+***
+
+![image](/img/part2.png)
+
+On the first screen you are presented with a device code, copy that to your clipboard and click on the [https://github.com/login/device](https://github.com/login/device) link to continue the setup.
+**Do not click on submit yet!**
+
+***
+
+![image](/img/no_account.png)
+
+If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are allready signedin, you will skip this part.
+
+***
+
+![image](/img/part3.png)
+
+When that page is loaded up, paste or type in your device code that was presented to you in the previous step.
+
+***
+
+![image](/img/part4.png)
+
+Here you click on "Authorize hacs".
+
+***
+
+![image](/img/part5.png)
+
+Once you see the confirmation screen, you can close the tab and go back to Home Assistant.
+
+***
+
+![image](/img/part2.png)
+
+Now you can click "Submit" to complete the configuration of HACS.
+
+***
 
 ![image](/img/conf5.png)
 
