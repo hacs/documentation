@@ -48,6 +48,7 @@ _If you do not want that, you can use a Personal Access Token if you [configure 
 ![image](/img/part2.png)
 
 On the first screen you are presented with a device code, copy that to your clipboard and click on the [https://github.com/login/device](https://github.com/login/device) link to continue the setup.
+
 **Do not click on submit yet!**
 
 ***
