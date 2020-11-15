@@ -21,6 +21,6 @@ Just move hacs back to custom components and reboot. And start the remove proced
 
 If you are using HACS with OAuth, you also need to revoke the access to complete the removal.
 
-1) Navigate to https://github.com/settings/applications
-2) Find HACS in the list of apps, click on the 3 dots to the right of HACS
-3) Select "Revoke"
+1. Navigate to https://github.com/settings/applications
+1. Find HACS in the list of apps, click on the 3 dots to the right of HACS
+1. Select "Revoke"
