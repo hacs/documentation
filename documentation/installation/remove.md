@@ -15,3 +15,12 @@ If you want to remove HACS you need to do that using the following steps.
 
 When removed the wrong way. An option is to install it again.
 Just move hacs back to custom components and reboot. And start the remove procedure again.
+
+
+# Revoke OAuth access
+
+If you are using HACS with OAuth, you also need to revoke the access to complete the removal.
+
+1) Navigate to https://github.com/settings/applications
+2) Find HACS in the list of apps, click on the 3 dots to the right of HACS
+3) Select "Revoke"
