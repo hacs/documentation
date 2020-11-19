@@ -1463,6 +1463,16 @@
     querystring "0.2.0"
     webpack-merge "^4.2.2"
 
+"@docusaurus/types@2.0.0-alpha.68":
+  version "2.0.0-alpha.68"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.68.tgz#8709de8b7e6a535f3e835ef20b04b6f12bf328af"
+  integrity sha512-UcUuwJx2cjwbWBeXi2vNgpNn8XK1UheQ9v+DPWkHwcYHK4fgNuihf2BoA/PYmd8faclZTYuYV14waje31zmxbA==
+  dependencies:
+    "@types/webpack" "^4.41.0"
+    commander "^4.0.1"
+    querystring "0.2.0"
+    webpack-merge "^4.2.2"
+
 "@docusaurus/utils-validation@2.0.0-alpha.65":
   version "2.0.0-alpha.65"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.0.0-alpha.65.tgz#3d2b5b365938cacd35c224f4a661802978b5d6ff"
@@ -1493,11 +1503,25 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@docusaurus/utils@2.0.0-alpha.66", "@docusaurus/utils@^2.0.0-alpha.66":
+"@docusaurus/utils@2.0.0-alpha.66":
   version "2.0.0-alpha.66"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.66.tgz#ef679896e7d7e536cc8196cc303f5f2ced1f5ebb"
   integrity sha512-47jGB+Z3YVM6Xf1hxyNbJLMmc1qoTLmfwSf7NseKSkpjucbc5Ueivr+oVYp5yWoZw5sT5bObmdJYfJoD/RrbOg==
   dependencies:
+    escape-string-regexp "^2.0.0"
+    fs-extra "^8.1.0"
+    gray-matter "^4.0.2"
+    lodash.camelcase "^4.3.0"
+    lodash.kebabcase "^4.1.1"
+    resolve-pathname "^3.0.0"
+
+"@docusaurus/utils@^2.0.0-alpha.68":
+  version "2.0.0-alpha.68"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.68.tgz#2c806521edb0ef27c612c0d6380319cb9d8ded4a"
+  integrity sha512-Lp4LV2j4wkZtG2GofL3fnLF+Fmj+NAZjt3i0EyPE0dAyW6SW0oyoZQFtoZoEcxFGVViEM3VhXtsHdJxA6TDlFw==
+  dependencies:
+    "@docusaurus/types" "2.0.0-alpha.68"
+    chalk "^3.0.0"
     escape-string-regexp "^2.0.0"
     fs-extra "^8.1.0"
     gray-matter "^4.0.2"
