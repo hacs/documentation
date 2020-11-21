@@ -16,7 +16,7 @@ The action have 3 run types:
 - If you have it set up for PR's in your repository, it will run against the fork/branch that made the PR.
 - If you have it set up for pushes, if will run against the branch you push to.
 
-The action itself lives [here](https://github.com/hacs/integration/tree/master/action) and you are free to inspect the code and/or make a PR to add changes.
+The action itself lives [here](https://github.com/hacs/action) and you are free to inspect the code and/or make a PR to add changes.
 
 To install it, follow these steps:
 
@@ -41,22 +41,12 @@ jobs:
     steps:
       - uses: "actions/checkout@v2"
       - name: HACS validation
-        uses: "hacs/integration/action@main"
+        uses: "hacs/action@main"
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CATEGORY: "CHANGE_ME!"
+          category: "CHANGE_ME!"
 ```
 
 This will run on every PR and push, and at midnight every day.
-
-**Integrations:**
-
-If you for some reason needs to disable the brands check, you can add this:
-
-```yaml
-env:
-  SKIP_BRANDS_CHECK: "True"
-```
 
 :::tip
 If you maintain an integration, you can also validate your integration with [hassfest](https://developers.home-assistant.io/blog/2020/04/16/hassfest).
