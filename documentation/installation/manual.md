@@ -38,7 +38,7 @@ You can use the Terminal & SSH Add-on to create this file on the Home Assitant f
 You can also use File Editor Add-on which you can install via Supervisor > Add-on Store > Search for File Editor. But later on you also need to copy folders, which is not possible in the File Editor Add-on.
 :::
 
-If this is your first `custom_component`, that folder may not exist already. Go ahead and create it. The `custom_components` folder should exist in the same place as your `configuration.yaml` file.
+The `custom_components` folder should exist in the same place as your `configuration.yaml` file. If this is your first `custom_component`, that folder may not exist already. Go ahead and create it.
 
 ### Step 4 - Copy unpacked folder to Home Assistant
 
