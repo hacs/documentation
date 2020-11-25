@@ -33,7 +33,7 @@ With this content (**NB!: This was the content for 0.20.0, it may be different o
 Open the folder on Home Assistant where you have your `configuration.yaml` file.
 
 :::tip
-You can use the Terminal & SSH Add-on to create this file on the Home Assitant file system. Install it via Supervisor > Add-on Store > Search for Terminal & SSH. Add your public SSH key to the configuration and enter a port (for example `8181`) in the Network input field. After restarting the Add-on you should be able to connect with SSH by typing `ssh root@x.x.x.x -p 8181` where `x.x.x.x` is the port of your Home Assitant.
+You can use the Terminal & SSH Add-on to create this file on the Home Assitant file system. Install it via Supervisor > Add-on Store > Search for Terminal & SSH. Add your public SSH key to the configuration and enter a port (for example `8181`) in the Network input field. After restarting the Add-on you should be able to connect with SSH by typing `ssh root@x.x.x.x -p 8181` where `x.x.x.x` is the port of your Home Assistant.
 
 You can also use File Editor Add-on which you can install via Supervisor > Add-on Store > Search for File Editor. But later on you also need to copy folders, which is not possible in the File Editor Add-on.
 :::
