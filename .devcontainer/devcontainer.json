@@ -6,10 +6,6 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
-	"runArgs": [
-		"-v",
-		"${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh"
-	],
 	"appPort": ["3000:3000"],
 	"postCreateCommand": "make init",
 	"extensions": [

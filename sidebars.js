@@ -56,7 +56,7 @@ module.exports = {
       "publish/theme",
       "publish/include",
       "publish/action",
-      "publish/blacklist",
+      "publish/remove",
     ],
   },
   FAQ: {
