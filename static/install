@@ -32,6 +32,10 @@ elif [ -f "/usr/share/hassio/homeassistant/home-assistant.log" ]; then
     echo "Changing directory to /usr/share/hassio/homeassistant"
     cd /usr/share/hassio/homeassistant || exit
 
+elif [ -n "${HA_DIR}" ]; then
+    echo "Changiing direcotry to ${HA_DIR}"
+    cd "${HA_DIR}" || exit
+
 else
     echo "Could not find the directory for Home Assistant."
     echo "Manually change the directory to the root of your Home Assistant configuration"
@@ -48,22 +52,17 @@ fi
 echo "Changing to the custom_components directory"
 cd custom_components || exit
 
-echo "Downloading HACS"
-wget "https://github.com/hacs/integration/releases/latest/download/hacs.zip"
-
 if [ -d "$PWD/hacs" ]; then
-    echo "HACS directory already exists, cleaning up"
-    rm -R hacs
+    echo "HACS directory already exists, exiting"
+    rm -rf ./hacs/*
+else
+    echo "Creating HACS directory"
+    mkdir ./hacs
 fi
 
-echo "Creating HACS directory"
-mkdir hacs
+echo "Downloading and installing HACS"
+wget -qO- "https://github.com/hacs/integration/releases/latest/download/hacs.zip" | unzip -d /config/custom_components/hacs -
 
-echo "Unpacking HACS"
-unzip hacs.zip -d hacs
-
-echo "Removing HACS zip file"
-rm hacs.zip
 echo "Installation completed"
 echo
 echo "Remember to restart Home Assistant before you configure it"
