@@ -2220,6 +2220,16 @@
     querystring "0.2.0"
     webpack-merge "^4.2.2"
 
+"@docusaurus/types@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.70.tgz#44b98290919cca2505aea334daecf762c7537d10"
+  integrity sha512-QoHmMiJhRDq5P/4o3eUIiJebdwRjShFlal01DST5B8MZo4k0ogl57FNHqJvIHc93NgonZzFlvC/auLlBnc/d4Q==
+  dependencies:
+    "@types/webpack" "^4.41.0"
+    commander "^4.0.1"
+    querystring "0.2.0"
+    webpack-merge "^4.2.2"
+
 "@docusaurus/utils-validation@2.0.0-alpha.69":
   version "2.0.0-alpha.69"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.0.0-alpha.69.tgz#35adab0f2b787dfdcf508ea0aa3552578be583a5"
@@ -2229,7 +2239,7 @@
     chalk "^3.0.0"
     joi "^17.2.1"
 
-"@docusaurus/utils@2.0.0-alpha.69", "@docusaurus/utils@^2.0.0-alpha.69":
+"@docusaurus/utils@2.0.0-alpha.69":
   version "2.0.0-alpha.69"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.69.tgz#9532cd489742beede570575ab70265dacecb3f24"
   integrity sha512-RpxqcjPT0L+MxLyS/4QOHp/2hlKPcPoDyvfqtTJiS9DPtUzkH573a5/yMbfzz8IbPeYWRCPL2qxWtmN7XCZ/sQ==
@@ -2239,6 +2249,21 @@
     escape-string-regexp "^2.0.0"
     fs-extra "^9.0.1"
     gray-matter "^4.0.2"
+    lodash.camelcase "^4.3.0"
+    lodash.kebabcase "^4.1.1"
+    resolve-pathname "^3.0.0"
+
+"@docusaurus/utils@^2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.70.tgz#01779efcb4ff3bf39f9e74b3ef06fc2c8a43633a"
+  integrity sha512-xNSUcE7fGcneH00CPCEY0SP5V7H6pLEcu620UiU/m1367tCMsmv+MZcnII2ACcjAtvhjS22v/KLippM3VeTXqQ==
+  dependencies:
+    "@docusaurus/types" "2.0.0-alpha.70"
+    chalk "^3.0.0"
+    escape-string-regexp "^2.0.0"
+    fs-extra "^9.0.1"
+    gray-matter "^4.0.2"
+    lodash "^4.17.20"
     lodash.camelcase "^4.3.0"
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
@@ -7125,12 +7150,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.5:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
