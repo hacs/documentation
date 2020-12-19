@@ -12,7 +12,7 @@ Repositories can be removed from the default pool of repositories for any number
 - It's deleted/removed
 
 :::warning
-If you as a maintainer delete/remove a repository that is added to HACS as a default repository, all your default repositories will be removed from HACS and you will not be able to add any more in the future.
+If you as a maintainer delete/remove the GitHub repository that is added to HACS as a default repository, all your default repositories will be removed from HACS and you will not be able to add any more in the future.
 
 So if you plan to do that, first create a PR to have it removed from HACS.
 :::
