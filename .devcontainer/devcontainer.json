@@ -1,8 +1,8 @@
 {
 	"name": "HACS Documentation",
-	"image": "ludeeus/container:frontend",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
 	"context": "..",
-	"postStartCommand": "apk add make && make init",
+	"postStartCommand": "make init",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
