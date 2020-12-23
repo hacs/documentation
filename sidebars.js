@@ -23,18 +23,20 @@ module.exports = {
   installation: {
     Installation: [
       "installation/prerequisites",
-      "installation/manual",
-      "installation/remove",
+      "installation/installation",
     ],
-  },
-  configuration: {
     Configuration: [
       "configuration/start",
-      "configuration/pat",
       "configuration/basic",
       "configuration/options",
     ],
-    "Legacy Configuration (YAML)": ["configuration/legacy"],
+    "Legacy Configuration (YAML)": [
+      "configuration/legacy", 
+      "configuration/pat"
+    ],
+    Remove: [
+      "installation/remove",
+    ],
   },
   "developer documentation": {
     "HACS Development": [
