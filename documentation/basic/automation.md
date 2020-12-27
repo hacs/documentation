@@ -27,6 +27,7 @@ automation hacs_new_repo:
       service: persistent_notification.create
       data_template:
         title: New repository in HACS
+        notification_id: hacs-new-repo
         message: >-
           {% set repo = trigger.event.data.repository %}
           {% set id = trigger.event.data.repository_id %}
@@ -53,6 +54,7 @@ automation hacs_updates:
       service: persistent_notification.create
       data_template:
         title: Updates pending in HACS
+        notification_id: hacs-update
         message: >-
           {% for repo in state_attr(trigger.entity_id, 'repositories') %}
             **{{ repo.display_name }}** _{{ repo["installed_version"] }}_ -> _{{ repo["available_version"] }}_
