@@ -8,6 +8,8 @@ AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stab
 
 :::caution
 Since not all users are running AppDaemon, AppDaemon is **not** enabled by default in HACS.
+
+AppDaemon Has to be installed **before** doing the configuration with HACS.
 :::
 
 ## Enable AppDaemon apps in HACS
