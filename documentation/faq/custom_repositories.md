@@ -4,7 +4,7 @@ title: Custom Repositories
 description: "Custom repositories in HACS"
 ---
 
-[HACS allready have a lot of repositories by default](https://hacs.xyz/docs/default_repositories)
+[HACS already has a lot of repositories by default](https://hacs.xyz/docs/default_repositories)
 
 But there are a number of different reasons why a developer might not want to publish their repository to HACS, for these situations you can in many cases add it to HACS as a custom repository.
 

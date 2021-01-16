@@ -17,7 +17,7 @@ _This page assume that you have already completed the [installation](/docs/insta
 Before HACS can show up in the list you need to clear your browser cache.
 
 :::warning
-You actuallt need to do this, don't skip it.
+You actually need to do this, don't skip it.
 :::
 
 ## Click the "+" button in the bottom right corner
@@ -39,11 +39,11 @@ If this takes longer than 10 minutes, you may have an issue with your Home Assis
 
 ![image](/img/part1.png)
 
-None of the items are optional, you need to accept everythin before you can setup HACS.
+None of the items are optional, you need to accept everything before you can setup HACS.
 
 ## Device registration
 
-HACS uses a device OAuth flow for authentication agains the GitHub API.
+HACS uses a device OAuth flow for authentication against the GitHub API.
 
 _If you do not want that, you can use a Personal Access Token if you [configure HACS with YAML](/docs/configuration/legacy)._
 
@@ -59,7 +59,7 @@ On the first screen you are presented with a device code, copy that to your clip
 
 ![image](/img/no_account.png)
 
-If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are allready signedin, you will skip this part.
+If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are already signed in, you can skip this part.
 
 ***
 

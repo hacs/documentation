@@ -74,7 +74,7 @@ Then you need to use:
 
 ### Reference images
 
-Lets say you need to reference a image that is located under:
+Lets say you need to reference an image that is located under:
 
 ```text
 documentation/static/img/features.png
@@ -94,7 +94,7 @@ At the top of all pages you should have this:
 
 ```text
 ---
-id: A ID for that file, ie. 'feature' (lowercase)
+id: An ID for that file, ie. 'feature' (lowercase)
 title: A Title for the page, this will also be used in the sidebar, ie. Feature
 description: "A nice description here"
 ---

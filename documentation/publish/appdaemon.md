@@ -8,7 +8,7 @@ A template to use as a reference is [ad-hacs](https://github.com/ludeeus/ad-hacs
 
 ## Requirements
 
-For a AppDaemon app repository to be valid these are the requirements:
+For an AppDaemon app repository to be valid these are the requirements:
 
 ### Repository structure
 
