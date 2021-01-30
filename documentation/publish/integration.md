@@ -53,6 +53,7 @@ In your integration directory you must have a `manifest.json` file, which must a
 - `issue_tracker`
 - `codeowners`
 - `name`
+- `version`
 
 Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) for the values of those keys.
 
