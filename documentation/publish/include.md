@@ -43,9 +43,10 @@ _Only applies to integrations._
 
 This checks that the manifest.json file at least contains the following:
 
-- `issue_tracker`
 - `domain`
+- `version`
 - `documentation`
+- `issue_tracker`
 - `codeowners`
 
 For more information about the integration manifest see here https://developers.home-assistant.io/docs/creating_integration_manifest
