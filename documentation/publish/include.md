@@ -41,13 +41,7 @@ This checks that the repository are added to https://github.com/home-assistant/b
 
 _Only applies to integrations._
 
-This checks that the manifest.json file at least contains the following:
-
-- `domain`
-- `version`
-- `documentation`
-- `issue_tracker`
-- `codeowners`
+[See Integration](integration.md#manifestjson)
 
 For more information about the integration manifest see here https://developers.home-assistant.io/docs/creating_integration_manifest
 
