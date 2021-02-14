@@ -66,7 +66,7 @@ https://hacs.xyz/docs/publish/start#hacsjson
 
 ### Check Info
 
-This checks that there is a info.md (or readme.md if configured) file with content in the repository.
+This checks that there is an info.md (or readme.md if configured) file with content in the repository.
 
 ### Check Fork
 

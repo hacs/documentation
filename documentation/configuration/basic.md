@@ -59,7 +59,7 @@ On the first screen you are presented with a device code, copy that to your clip
 
 ![image](/img/no_account.png)
 
-If you are not signed in to GitHub in your browser you need to sign up or sign in now to continue the setup, if you are already signed in, you will skip this part.
+If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are already signed in, you can skip this part.
 
 ***
 

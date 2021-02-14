@@ -18,7 +18,7 @@ If you are not sure what type of Home Assistant you are using, then you should p
 
 1. Go to the Supervisor panel
 1. Install one of the SSH add-ons (you need to enable advanced mode in your user profile to see them)
-1. Configure the SSH add-on you chose by folowing the documentation for it
+1. Configure the SSH add-on you chose by following the documentation for it
 1. Start the SSH add-on
 1. Connect to the SSH add-on
 1. Run the HACS install script

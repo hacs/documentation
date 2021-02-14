@@ -89,7 +89,7 @@ In addition to the default templates of Jinja these are added:
 Template value | Description
 -- | --
 installed | True / False if it is installed.
-pending_update | True / False if a update is pending.
+pending_update | True / False if an update is pending.
 prerelease | True / False if it's a pre release.
 selected_tag | The selected version.
 version_available | The latest available version.
