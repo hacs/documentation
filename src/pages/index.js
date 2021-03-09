@@ -5,50 +5,50 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
-import classnames from 'classnames';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from 'react'
+import classnames from 'classnames'
+import Layout from '@theme/Layout'
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import useBaseUrl from '@docusaurus/useBaseUrl'
+import styles from './styles.module.css'
 
 const features = [
   {
     title: <>Integrations</>,
-    Url: "/docs/categories/integrations",
-    description: (<></>),
+    Url: '/docs/categories/integrations',
+    description: <></>,
   },
   {
     title: <>Plugins</>,
-    Url: "/docs/categories/plugins",
-    description: (<></>),
+    Url: '/docs/categories/plugins',
+    description: <></>,
   },
   {
     title: <>AppDaemon Apps</>,
-    Url: "/docs/categories/appdaemon_apps",
-    description: (<></>),
+    Url: '/docs/categories/appdaemon_apps',
+    description: <></>,
   },
   {
     title: <>Python Scripts</>,
-    Url: "/docs/categories/python_scripts",
-    description: (<></>),
+    Url: '/docs/categories/python_scripts',
+    description: <></>,
   },
   {
     title: <>Themes</>,
-    Url: "/docs/categories/themes",
-    description: (<></>),
+    Url: '/docs/categories/themes',
+    description: <></>,
   },
   {
     title: <>NetDaemon Apps</>,
-    Url: "/docs/categories/netdaemon_apps",
-    description: (<></>),
-  }
+    Url: '/docs/categories/netdaemon_apps',
+    description: <></>,
+  },
 ]
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const context = useDocusaurusContext()
+  const { siteConfig = {} } = context
   return (
     <Layout title={siteConfig.tagline} description={siteConfig.themeConfig.description}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
@@ -62,7 +62,8 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/installation/prerequisites')}>
+              to={useBaseUrl('docs/installation/prerequisites')}
+            >
               Installation
             </Link>
             <Link
@@ -70,7 +71,8 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/configuration/start')}>
+              to={useBaseUrl('docs/configuration/start')}
+            >
               Configuration
             </Link>
             <Link
@@ -78,27 +80,28 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/basic/getting_started')}>
+              to={useBaseUrl('docs/basic/getting_started')}
+            >
               Usage
             </Link>
           </div>
         </div>
       </header>
       <main>
-          <section className={styles.features}>
-            <div className="index container">
-              <div className="row">
-                {features.map(({ Url, title, description }, idx) => (
-                  <div
-                    key={idx}
-                    className={classnames('col col--4', styles.feature)}>
-                    <a href={Url}><h3>{title}</h3></a>
-                    <p>{description}</p>
-                  </div>
-                ))}
-              </div>
+        <section className={styles.features}>
+          <div className="index container">
+            <div className="row">
+              {features.map(({ Url, title, description }, idx) => (
+                <div key={idx} className={classnames('col col--4', styles.feature)}>
+                  <a href={Url}>
+                    <h3>{title}</h3>
+                  </a>
+                  <p>{description}</p>
+                </div>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
             <img className="demo" src="img/demo.gif"></img>
@@ -106,7 +109,7 @@ function Home() {
         </section>
       </main>
     </Layout>
-  );
+  )
 }
 
-export default Home;
+export default Home

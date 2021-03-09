@@ -11,6 +11,7 @@ start: ## Start the documentation server
 	yarn start;
 
 bootstrap: ## Run yarn
+	yarn global add prettier;
 	yarn;
 
 build: ## Build the documentation

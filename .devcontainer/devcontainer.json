@@ -4,11 +4,19 @@
 	"context": "..",
 	"postStartCommand": "make init",
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false,
+		"[javascript]": {
+		  "editor.defaultFormatter": "esbenp.prettier-vscode",
+		  "editor.formatOnSave": false,
+		  
+	}
 	},
 	"appPort": ["3000:3000"],
 	"postCreateCommand": "make init",
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	]
+	}
 }
