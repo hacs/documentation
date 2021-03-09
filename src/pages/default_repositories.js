@@ -11,7 +11,7 @@ import { useAsync } from 'react-async';
 
 
 const loadData = async () =>
-  await fetch("https://hacs-documentation.ludeeus.workers.dev/")
+  await fetch("https://api.hacs.xyz/repositories")
     .then(res => (res.ok ? res : Promise.reject(res)))
     .then(res => res.json())
 

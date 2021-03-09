@@ -11,7 +11,6 @@ start: ## Start the documentation server
 	yarn start;
 
 bootstrap: ## Run yarn
-	yarn global add @cloudflare/wrangler
 	yarn;
 
 build: ## Build the documentation
