@@ -26,8 +26,8 @@ module.exports = {
       apiKey: 'ae98e104dc1572a7e897b97951c756a5',
       indexName: 'hacs',
     },
-    image: "img/hacs-logo.png",
-    description: "HACS gives you a powerful UI to handle downloads of all your custom needs.",
+    image: 'img/hacs-logo.png',
+    description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
     navbar: {
       title: 'HACS',
       items: [
@@ -35,7 +35,7 @@ module.exports = {
         { to: 'docs/configuration/start', label: 'Configuration', position: 'left' },
         { to: 'docs/basic/getting_started', label: 'Usage', position: 'left' },
         { to: 'docs/community_guides', label: 'Guides', position: 'left' },
-        { to: 'docs/default_repositories', label: 'Repositories', position: 'left' },
+        { to: 'default_repositories', label: 'Repositories', position: 'left' },
         { to: 'docs/developer/start', label: 'Developer docs', position: 'right' },
         { to: 'docs/faq/what', label: 'FAQ', position: 'right' },
         { to: 'help', label: 'Help', position: 'right' },
@@ -44,7 +44,7 @@ module.exports = {
     footer: {
       links: [
         {
-          title: "Resources",
+          title: 'Resources',
           items: [
             {
               label: 'GitHub',
@@ -65,7 +65,7 @@ module.exports = {
           ],
         },
         {
-          title: "Deploys by Netlify!",
+          title: 'Deploys by Netlify!',
           items: [
             {
               html: `
@@ -98,4 +98,4 @@ module.exports = {
       },
     ],
   ],
-};
+}

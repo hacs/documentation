@@ -2,6 +2,7 @@
   "name": "hacs",
   "version": "0.0.0",
   "private": true,
+  "main": "worker.js",
   "scripts": {
     "start": "docusaurus start --host 0.0.0.0",
     "build": "docusaurus build",
@@ -12,10 +13,11 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.70",
     "@docusaurus/utils": "^2.0.0-alpha.70",
     "classnames": "^2.2.6",
-    "selfsigned": "^1.10.8",
+    "node-forge": "^0.10.0",
     "react": "^17.0.1",
+    "react-async": "^10.0.1",
     "react-dom": "^17.0.1",
-    "node-forge": "^0.10.0"
+    "selfsigned": "^1.10.8"
   },
   "browserslist": {
     "production": [
