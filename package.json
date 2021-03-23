@@ -14,9 +14,9 @@
     "@docusaurus/utils": "^2.0.0-alpha.70",
     "classnames": "^2.2.6",
     "node-forge": "^0.10.0",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-async": "^10.0.1",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "selfsigned": "^1.10.8"
   },
   "browserslist": {
