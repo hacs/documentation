@@ -4,8 +4,15 @@
 # Stop on errors
 set -e
 
-echo $TEST_VAR
-echo $INCOMING_HOOK_BODY
-echo $INCOMING_HOOK_URL
+if [ -n "$TEST_VAR" ]; then
+  if [ -n "$INCOMING_HOOK_URL" ]; then
+    sleep 61 # Wait for KV writes to reach all nodes
+    echo $INCOMING_HOOK_BODY
+    echo $INCOMING_HOOK_URL
+  else 
+    echo "no sleep"
+  fi
+
+fi
 
 yarn run build
