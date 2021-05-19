@@ -15,17 +15,14 @@ When you have that running issue the following commands:
 yarn start
 ```
 
-When this is running it spins up a dev server, which you can attach to from a Home Assistant instance that is running HACS.
+You have now started a local webserver that hosts the frontend on `http://localhost:5000` which you can attach to a Home Assistant instance that is running HACS.
 
-To attach the development frontend add this to your Home Assistant installation that is running HACS:
+To attach the development frontend you need to perform [YAML Configuration](/docs/configuration/legacy) with special `frontend_repo_url` paremeter. Add this to your `configuration.yaml`
 
 ```yaml
-panel_custom:
-  - name: hacs-dev-frontend
-    sidebar_title: HACS (Dev frontend server)
-    sidebar_icon: mdi:alert-circle
-    url_path: hacs_dev
-    js_url: http://localhost:5000/main.js
+hacs:
+  token: d73jds8f73jkr9d8sufv2br8sd9fy92nr9f80u23r97fhse (Don't copy+paste this token, create your own)
+  frontend_repo_url: http://localhost:5000
 ```
 
-Change `localhost` for the IP of your devserver if not the same.
+Replace `token` with [A Github Personal Access Token](/docs/configuration/pat) and, change `localhost:5000` for the IP of your devserver if not the same. Make sure that your Home Assistant instance can access provided URL. If development frontend isn't hosted on the same device as HA it can't be accessed with `localhost`.
