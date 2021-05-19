@@ -4,7 +4,6 @@ title: Frontend
 description: "Frontend development"
 ---
 
-_All changes to the documentation should go against the `master` branch._  
 The repository for the frontend is hosted @ https://github.com/hacs/frontend
 
 First spin up the [devcontainer](/docs/developer/devcontainer)
@@ -17,7 +16,7 @@ yarn start
 
 You have now started a local webserver that hosts the frontend on `http://localhost:5000` which you can attach to a Home Assistant instance that is running HACS.
 
-To attach the development frontend you need to perform [YAML Configuration](/docs/configuration/legacy) with special `frontend_repo_url` paremeter. Add this to your `configuration.yaml`
+To attach the development frontend you need to perform [YAML Configuration](/docs/configuration/legacy) with special `frontend_repo_url` parameter. Add this entry to your `configuration.yaml`:
 
 ```yaml
 hacs:
@@ -25,4 +24,4 @@ hacs:
   frontend_repo_url: http://localhost:5000
 ```
 
-Replace `token` with [A Github Personal Access Token](/docs/configuration/pat) and, change `localhost:5000` for the IP of your devserver if not the same. Make sure that your Home Assistant instance can access provided URL. If development frontend isn't hosted on the same device as HA it can't be accessed with `localhost`.
+Replace `token` with [A Github Personal Access Token](/docs/configuration/pat) and change `localhost:5000` for the IP of your devserver if not the same. Make sure that your Home Assistant instance can access provided URL. If development frontend isn't hosted on the same device as HA it can't be accessed with `localhost`.
