@@ -48,9 +48,4 @@ Now you see the generated token, this will be the **only** time you see it, make
 
 ## Step 6 - Edit configuration.yml
 
-Edit /config/configuration.yml and add the following section:
-
-```
-hacs:
-  token: the_token_you_just_copied
-```
+Follow the instructions [here](legacy.md) to add the token to the Hassio configuration.yml
