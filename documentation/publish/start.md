@@ -15,6 +15,8 @@ For your repository to be added there are several criteria that need to be met.
 
 ## General requirements
 
+Only public repositories on GitHub will work with HACS.
+
 ### Description
 
 Your repository on GitHub needs to have a description that in a few words describes the purpose of the repository. *This description is used in HACS.*

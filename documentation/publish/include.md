@@ -8,9 +8,16 @@ As a developer you can now add your repository to be included in as a default re
 
 Only the owner of the repository or a major contributor to it can submit a PR to have it included as a default.
 
-When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
-
 Custom integrations that exist to alpha/beta test core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories)
+
+## Before submitting
+
+Add both these actions to your own repository and make sure they pass:
+
+- https://github.com/home-assistant/actions#hassfest
+- https://github.com/hacs/action
+
+When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
 :::caution
 _NB!: The list is case sensitive._
