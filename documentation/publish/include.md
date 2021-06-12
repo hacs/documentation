@@ -23,7 +23,7 @@ When all of this is covered, you can add it to repository category files in http
 _NB!: The list is case sensitive._
 :::
 
-When a PR for this is merged, it will show up in HACS after the first scheduled sca.
+When a PR for this is merged, it will show up in HACS after the first scheduled scan.
 
 ## CI Checks
 
