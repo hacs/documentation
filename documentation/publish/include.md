@@ -10,11 +10,13 @@ Only the owner of the repository or a major contributor to it can submit a PR to
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
+Custom integrations that exist to alpha/beta test core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories)
+
 :::caution
 _NB!: The list is case sensitive._
 :::
 
-When a PR for this is merged, it will show up in HACS after the first scheduled scan (every 800min).
+When a PR for this is merged, it will show up in HACS after the first scheduled sca.
 
 ## CI Checks
 
@@ -100,7 +102,7 @@ This checks general things about the repository like:
 
 ### Check Wheels
 
-_Only applies to integrations._
+_Only applies to integrations, and only if they have requirements defined in the manifest.json file._
 
 This checks that the repository are added to https://github.com/home-assistant/wheels-custom-integrations if it has python requirements defined in the manifest.json file.
 
