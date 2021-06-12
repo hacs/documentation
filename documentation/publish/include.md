@@ -30,7 +30,6 @@ When a PR for this is merged, it will show up in HACS after the first scheduled 
 When submitting a repository for the default repository a suite of CI checks will be run to ensure that the repository follows the requirements.
 All checks needs to pass for the repository to be included (unless something else are agreed on).
 
-Most of the checks will not run until you have completed all the tasks in the PR template.
 
 ### Re run checks
 
