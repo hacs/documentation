@@ -5,19 +5,3 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: "@docusaurus/utils"
-    versions:
-    - 2.0.0-alpha.71
-    - 2.0.0-alpha.72
-    - 2.0.0-alpha.73
-  - dependency-name: "@docusaurus/preset-classic"
-    versions:
-    - 2.0.0-alpha.71
-    - 2.0.0-alpha.72
-    - 2.0.0-alpha.73
-  - dependency-name: "@docusaurus/core"
-    versions:
-    - 2.0.0-alpha.71
-    - 2.0.0-alpha.72
-    - 2.0.0-alpha.73
