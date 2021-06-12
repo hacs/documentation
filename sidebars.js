@@ -23,7 +23,7 @@ module.exports = {
   installation: {
     Installation: ['installation/prerequisites', 'installation/installation'],
     Configuration: ['configuration/start', 'configuration/basic', 'configuration/options'],
-    'Legacy Configuration (YAML)': ['configuration/legacy', 'configuration/pat'],
+    'Legacy Configuration (YAML)': ['configuration/legacy'],
     Remove: ['installation/remove'],
   },
   'developer documentation': {

@@ -18,7 +18,7 @@ hacs:
 
 | key               | optional | default           | description                                                                                        |
 | ----------------- | -------- | ----------------- | -------------------------------------------------------------------------------------------------- |
-| `token`           | False    |                   | [A Github Personal Access Token](/docs/configuration/pat)                                          |
+| `token`           | False    |                   | [A Github Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)                                          |
 | `sidepanel_title` | True     | Community         | The name used for the sidepanel link.                                                              |
 | `sidepanel_icon`  | True     | "mdi:alpha-c-box" | The icon used for the sidepanel link.                                                              |
 | `appdaemon`       | True     | `False`           | Enable tracking of AppDaemon apps.                                                                 |

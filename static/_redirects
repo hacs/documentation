@@ -4,3 +4,4 @@ https://hacs.netlify.com/* https://hacs.xyz/:splat 301!
 /docs/installation/manual_cli /docs/installation/prerequisites
 /docs/installation/manual /docs/installation/prerequisites
 /docs/default_repositories /default_repositories
+/docs/configuration/pat /docs/configuration/legacy

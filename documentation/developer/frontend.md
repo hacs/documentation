@@ -24,4 +24,4 @@ hacs:
   frontend_repo_url: http://localhost:5000
 ```
 
-Replace `token` with [A Github Personal Access Token](/docs/configuration/pat) and change `localhost:5000` for the IP of your devserver if not the same. Make sure that your Home Assistant instance can access provided URL. If development frontend isn't hosted on the same device as HA it can't be accessed with `localhost`.
+Replace `token` with [A Github Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) and change `localhost:5000` for the IP of your devserver if not the same. Make sure that your Home Assistant instance can access provided URL. If development frontend isn't hosted on the same device as HA it can't be accessed with `localhost`.
