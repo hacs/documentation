@@ -45,3 +45,7 @@ You **do not** need to check _any_ of the boxes.
 Now you see the generated token, this will be the **only** time you see it, make sure that you copy it manually or by clicking the clipboard icon.
 
 ![token4](/img/token4.png)
+
+## Step 6 - Edit configuration.yml
+
+Follow the [instructions here](legacy.md) to add the token to the Home Assistant configuration
