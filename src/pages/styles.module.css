@@ -29,6 +29,10 @@
   justify-content: center;
 }
 
+.indexButton {
+  margin: 0 5px;
+}
+
 .features {
   display: flex;
   align-items: center;

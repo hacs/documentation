@@ -60,7 +60,7 @@ function Home() {
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg btt',
-                styles.getStarted,
+                styles.indexButton,
               )}
               to={useBaseUrl('docs/installation/prerequisites')}
             >
@@ -69,7 +69,7 @@ function Home() {
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg btt',
-                styles.getStarted,
+                styles.indexButton,
               )}
               to={useBaseUrl('docs/configuration/start')}
             >
@@ -78,7 +78,7 @@ function Home() {
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg btt',
-                styles.getStarted,
+                styles.indexButton,
               )}
               to={useBaseUrl('docs/basic/getting_started')}
             >
