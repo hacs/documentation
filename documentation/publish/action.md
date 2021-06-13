@@ -13,6 +13,7 @@ This action uses the exact same code as HACS to validate a repository.
 The action have 3 run types:
 
 - For the [hacs/default repo](https://github.com/hacs/default) it is used to validate new default repositories.
+  - If you use releases the latest release will be checked, if not the default branch will be checked.
 - If you have it set up for PR's in your repository, it will run against the fork/branch that made the PR.
 - If you have it set up for pushes, if will run against the branch you push to.
 
