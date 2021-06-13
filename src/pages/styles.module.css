@@ -15,11 +15,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: calc(100vh - 238px)
 }
 
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
+    height: auto;
   }
 }
 
@@ -27,6 +29,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.indexButton {
+  margin: 0 5px;
 }
 
 .features {
