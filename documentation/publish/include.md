@@ -10,6 +10,8 @@ Only the owner of the repository or a major contributor to it can submit a PR to
 
 Custom integrations that exist to alpha/beta test core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories)
 
+Custom integrations that override core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories)
+
 ## Before submitting
 
 Add both these actions to your own repository and make sure they pass:
