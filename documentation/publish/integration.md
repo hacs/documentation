@@ -44,6 +44,8 @@ info.md
 README.md
 ```
 
+_if you have `content_in_root` set to `true` in [`hacs.json`](/docs/publish/start#hacsjson) this is valid._
+
 ### manifest.json
 
 In your integration directory you must have a `manifest.json` file, which must at least define these keys:
