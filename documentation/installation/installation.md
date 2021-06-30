@@ -75,7 +75,7 @@ The same as [Home Assistant OS](#home-assistant-os), but you can also run the sc
 wget -q -O - https://install.hacs.xyz | bash -
 ```
 
-::tip
+:::tip
 
 Having issues accessing `https://install.hacs.xyz`? try with `https://raw.githubusercontent.com/hacs/install/main/install` instead
 
