@@ -14,7 +14,7 @@ _This page assume that you have already completed the [installation](/docs/insta
 
 ## Clear your browser cache
 
-Before HACS can show up in the list you need to clear your browser cache.
+Before HACS can show up in the list you need to clear your browser cache or perform hard-refresh.
 
 :::warning
 You actually need to do this, don't skip it.
