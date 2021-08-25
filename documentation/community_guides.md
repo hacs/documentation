@@ -20,14 +20,6 @@ _by [Ludeeus](https://github.com/ludeeus)_
     <img src="https://img.youtube.com/vi/vq0qQtDAOW0/0.jpg" />
 </a>
 
-### How to install & use Home Assistant Community Store (HACS) | TUTORIAL
-
-_by [KPeyanski](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg)_
-
-<a href="https://youtu.be/QPXxMSV3BUY" target="_blank" title="How to install & use Home Assistant Community Store (HACS) | TUTORIAL">
-    <img src="https://img.youtube.com/vi/QPXxMSV3BUY/0.jpg" />
-</a>
-
 ### Danish HACS Installation Guide
 
 _by [Daniel Bahl](https://danielbahl.com)_
@@ -65,3 +57,11 @@ _by [Tristan](https://www.youtube.com/channel/UCe06G4hqXjUlYhB-rDmns4g)_
 <a href="https://youtu.be/-wWi6m7g0m0 " target="_blank" title="Installation von Auto_Backup inkl. HACS">
     <img src="https://img.youtube.com/vi/-wWi6m7g0m0/0.jpg" />
 </a>
+
+### How to install & use Home Assistant Community Store (HACS) | TUTORIAL
+
+ _by [KPeyanski](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg)_
+
+ <a href="https://youtu.be/QPXxMSV3BUY" target="_blank" title="How to install & use Home Assistant Community Store (HACS) | TUTORIAL">
+     <img src="https://img.youtube.com/vi/QPXxMSV3BUY/0.jpg" />
+ </a>
