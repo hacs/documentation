@@ -156,7 +156,7 @@ version_installed | The installed version
 
 ## Want to add your repository to the store as a default?
 
-[See here for how to add a custom repository.](include)
+[See here for how to add a custom repository.](../include)
 
 ## Badges
 
