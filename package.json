@@ -11,7 +11,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.0",
     "@docusaurus/preset-classic": "^2.0.0-beta.3",
-    "@docusaurus/utils": "^2.0.0-beta.3",
+    "@docusaurus/utils": "^2.0.0-beta.6",
     "classnames": "^2.3.1",
     "node-forge": "^0.10.0",
     "react": "^17.0.2",
