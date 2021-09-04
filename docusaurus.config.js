@@ -64,6 +64,7 @@ module.exports = {
             },
           ],
         },
+        {},{},{},{},{},
         {
           title: 'Deploys by Netlify!',
           items: [
