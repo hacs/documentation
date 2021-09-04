@@ -53,7 +53,7 @@ function Home() {
     <Layout title={siteConfig.tagline} description={siteConfig.themeConfig.description}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <img className="logo" src="/img/hacs-logo.svg"></img>
+          <img className="logo" src="https://assets.hacs.xyz/logo.svg"></img>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <p className="hero__subtitle">{siteConfig.themeConfig.description}</p>
           <div className={styles.buttons}>

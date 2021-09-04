@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Home Assistant Community Store',
   url: 'https://hacs.xyz',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: '/favicon.ico',
   organizationName: 'HACS',
   projectName: 'hacs',
   themeConfig: {
@@ -26,7 +26,7 @@ module.exports = {
       apiKey: 'ae98e104dc1572a7e897b97951c756a5',
       indexName: 'hacs',
     },
-    image: 'img/hacs-logo.png',
+    image: 'https://assets.hacs.xyz/logo.svg',
     description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
     navbar: {
       title: 'HACS',
