@@ -33,9 +33,9 @@ HACS is prepared to handle those, and this is the flow of it:
     3. When it's merged, HACS will know about it during the next scan (30min or Home Assistant restart.)
 3. HACS receives an updated [critical file](https://github.com/hacs/default/blob/master/critical).
 
-### If the repository is installed with HACS
+### If the repository is download with HACS
 
-1. The repository is uninstalled.
+1. The repository files is removed.
 2. The repository is removed from HACS.
 3. Home Assistant is restarted to make sure it's not loaded anymore.
 4. When Home Assistant starts up, you will have a `critical` log entry, and a persistent notification telling you to open the HACS panel.
@@ -47,8 +47,8 @@ If you click the "More info about this incident" button you will be taken to the
 
 If you click the "Acknowledge" button, you will not see that message anymore.
 
-### If the repository is not installed with HACS
+### If the repository is not download with HACS
 
 1. The repository is removed from HACS.
 
-_That's it, since it was not installed, no further action from HACS is necessary_
+_That's it, since it was not download, no further action from HACS is necessary_
