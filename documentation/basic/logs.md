@@ -12,8 +12,8 @@ To enable `debug` logging, add this to your `configuration.yaml`:
 logger:
   default: info
   logs:
-    custom_components.hacs: debug
     hacs: debug
+    custom_components.hacs: debug
     queueman: debug
-    AIOGitHubAPI: debug
+    aiogithubapi: debug
 ```
