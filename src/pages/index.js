@@ -73,7 +73,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/configuration/start')}
             >
-              Configuration
+              Configure
             </Link>
             <Link
               className={classnames(
@@ -82,7 +82,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/basic/getting_started')}
             >
-              Usage
+              Use
             </Link>
           </div>
         </div>
