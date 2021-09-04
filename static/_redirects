@@ -1,8 +1,8 @@
 https://hacs.netlify.com/* https://www.hacs.xyz/:splat 301!
-https://hacs.xyz https://www.hacs.xyz
+https://hacs.xyz https://www.hacs.xyz 301!
 https://hacs.xyz/* https://www.hacs.xyz/:splat 301!
 
-/favicon.ico https://assets.hacs.xyz/logo.svg
+/favicon.ico https://assets.hacs.xyz/logo.svg 301!
 
 /install https://raw.githubusercontent.com/hacs/install/main/install
 /get https://raw.githubusercontent.com/hacs/install/main/install
