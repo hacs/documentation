@@ -5,7 +5,6 @@ module.exports = {
       'basic/updates',
       'basic/existing_elements',
       'basic/sensor',
-      'basic/events',
       'basic/theming',
       'basic/logs',
     ],
