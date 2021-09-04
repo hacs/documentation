@@ -1,6 +1,10 @@
-https://hacs.netlify.com/* https://hacs.xyz/:splat 301!
+https://hacs.netlify.com/* https://www.hacs.xyz/:splat 301!
+https://hacs.xyz https://www.hacs.xyz
+
 /install https://raw.githubusercontent.com/hacs/install/main/install
 /get https://raw.githubusercontent.com/hacs/install/main/install
+https://get.hacs.xyz https://raw.githubusercontent.com/hacs/install/main/install
+https://install.hacs.xyz https://raw.githubusercontent.com/hacs/install/main/install
 
 /docs/installation/manual_cli /docs/setup/prerequisites
 /docs/installation/manual /docs/setup/prerequisites
