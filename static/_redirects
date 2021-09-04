@@ -1,6 +1,4 @@
-https://hacs.netlify.com/* https://www.hacs.xyz/:splat 301!
-https://hacs.xyz https://www.hacs.xyz 301!
-https://hacs.xyz/* https://www.hacs.xyz/:splat 301!
+https://hacs.netlify.com/* https://hacs.xyz/:splat 301!
 
 /favicon.ico https://assets.hacs.xyz/logo.svg 301!
 
