@@ -24,7 +24,7 @@ If you are not sure what type of Home Assistant you are using, then you should p
 1. Run the HACS install script
 
 ```bash
-wget -q -O - https://install.hacs.xyz | bash -
+wget -O - https://install.hacs.xyz | bash -
 ```
 
 ## Home Assistant Container
@@ -38,7 +38,7 @@ For Home Assistant Container you have 2 options.
 1. Run the HACS install script
 
 ```bash
-wget -q -O - https://install.hacs.xyz | bash -
+wget -O - https://install.hacs.xyz | bash -
 ```
 
 ### Option 2: Run the installer inside the container
@@ -48,7 +48,7 @@ wget -q -O - https://install.hacs.xyz | bash -
 1. Run the HACS install script
 
 ```bash
-wget -q -O - https://install.hacs.xyz | bash -
+wget -O - https://install.hacs.xyz | bash -
 ```
 
 4. Exit the container with `exit`
@@ -61,7 +61,7 @@ wget -q -O - https://install.hacs.xyz | bash -
 1. Run the HACS install script
 
 ```bash
-wget -q -O - https://install.hacs.xyz | bash -
+wget -O - https://install.hacs.xyz | bash -
 ```
 
 ## Home Assistant Supervised
@@ -72,7 +72,7 @@ The same as [Home Assistant OS](#home-assistant-os), but you can also run the sc
 1. Run the HACS install script
 
 ```bash
-wget -q -O - https://install.hacs.xyz | bash -
+wget -O - https://install.hacs.xyz | bash -
 ```
 
 :::tip
