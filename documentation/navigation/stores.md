@@ -6,7 +6,7 @@ description: "Store tabs"
 
 ![nav_stores](/img/stores.png)
 
-This is where you can browse your installed repositories.
+This is where you can browse your downloaded repositories.
 
 ## Add new repositories
 

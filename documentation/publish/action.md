@@ -19,7 +19,7 @@ The action have 3 run types:
 
 The action itself lives [here](https://github.com/hacs/action) and you are free to inspect the code and/or make a PR to add changes.
 
-To install it, follow these steps:
+To use it, follow these steps:
 
 1. Go to your repository on GitHub
 1. Click on "Create new file"

@@ -9,14 +9,14 @@ description: "Data updates"
 HACS will check for updates to installed elements:
 
 - At startup.
-- Every 30 minutes after HA startup.
+- Every 2 hours after HA startup.
 
 ## Everything else
 
 HACS will check for updates to every element:
 
 - At startup
-- Every 800 minutes after HA startup.
+- Every 25 hours after HA startup.
 
 ## Manually trigger updates
 

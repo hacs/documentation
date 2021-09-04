@@ -1,9 +1,9 @@
 ---
-id: installation
-title: "How does it work: Installation"
-description: "How does it work: Installation"
+id: download
+title: "How does it work: Download"
+description: "How does it work: Download"
 ---
-When you install an element this is what's happening:
+When you download an element this is what's happening:
 
 1. The local target directory(folder) is deleted.
 1. A new local target directory is created.

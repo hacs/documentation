@@ -5,7 +5,7 @@ description: "Configuration"
 ---
 
 :::info
-_This page assumes you have already completed the [installation](/docs/installation/prerequisites)_
+_This page assumes you have already completed the [download](/docs/download/prerequisites)_
 :::
 
 

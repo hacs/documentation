@@ -4,7 +4,7 @@ title: Community guides
 description: "Guides, Tutorials &  Videos about HACS"
 ---
 
-_Here you can find community made guides, tutorials & videos about how  to install/use HACS._
+_Here you can find community made guides, tutorials & videos about how  to setup/use HACS._
 
 :::warning
 **NB!: Most of what you find here is static, and may not be up to date.**

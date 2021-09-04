@@ -6,7 +6,6 @@ module.exports = {
       'basic/existing_elements',
       'basic/sensor',
       'basic/events',
-      'basic/automation',
       'basic/theming',
       'basic/logs',
     ],
@@ -20,11 +19,11 @@ module.exports = {
       'categories/themes',
     ],
   },
-  installation: {
-    Installation: ['installation/prerequisites', 'installation/installation'],
+  setup: {
+    Setup: ['setup/prerequisites', 'setup/download'],
     Configuration: ['configuration/start', 'configuration/basic', 'configuration/options'],
     'Legacy Configuration (YAML)': ['configuration/legacy'],
-    Remove: ['installation/remove'],
+    Remove: ['setup/remove'],
   },
   'developer documentation': {
     'HACS Development': [
@@ -55,7 +54,7 @@ module.exports = {
       'faq/highlights',
       'faq/hassio_only',
       'faq/addons',
-      'faq/installation',
+      'faq/download',
       'faq/upgrade',
       'faq/initial_startup',
       'faq/status_not_loaded',

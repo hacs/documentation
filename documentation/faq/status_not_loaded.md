@@ -6,7 +6,7 @@ description: "What to do if the status of a Lovelace element is not loaded"
 
 ![not_loaded](/img/not_loaded_entry.png)
 
-When you see this message you have one or more resources installed with HACS that are not properly loaded in Lovelace.
+When you see this message you have one or more resources downloaded with HACS that are not properly loaded in Lovelace.
 
 To find out what element it is, look for the repository with a "Not Loaded" header in the Frontend section of HACS.
 

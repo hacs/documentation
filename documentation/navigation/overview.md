@@ -16,7 +16,7 @@ Every repository that has a pending update will show here, if you click on one o
 
 ## Sections
 
-This is your gateway to the sections in HACS where you will find your installed repositories.
+This is your gateway to the sections in HACS where you will find your downloaded repositories.
 
 ### Integrations
 

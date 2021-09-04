@@ -37,6 +37,6 @@ Your plugin exists in `www/community/plugin/plugin.js` you can use both `/local/
 ### Open source
 
 :::tip
-Every plugin you have installed with HACS will have an "Open source" option on the hamburger menu.
-This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404 try reinstalling it.
+Every plugin you have downloaded with HACS will have an "Open source" option on the hamburger menu.
+This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404 try downloading it again.
 :::

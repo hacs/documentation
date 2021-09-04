@@ -74,7 +74,7 @@ You must have added your integration to [home-assistant/brands](https://github.c
 
 It is preferred but not required to publish releases in your repository.
 
-*If you publish releases in your repository, HACS will present the user with a nice selection view of the 5 latest releases together with the default branch when they are installing or upgrading your integration.*
+*If you publish releases in your repository, HACS will present the user with a nice selection view of the 5 latest releases together with the default branch when they are downloading or upgrading your integration.*
 
 *If you don't publish releases in your repository, HACS will use the files in the branch marked as default.*
 

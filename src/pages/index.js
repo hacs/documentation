@@ -62,9 +62,9 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.indexButton,
               )}
-              to={useBaseUrl('docs/installation/prerequisites')}
+              to={useBaseUrl('docs/setup/prerequisites')}
             >
-              Installation
+              Download
             </Link>
             <Link
               className={classnames(
