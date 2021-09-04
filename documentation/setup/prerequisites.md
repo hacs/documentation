@@ -7,7 +7,7 @@ description: "Prerequisites"
 ## Requirements
 
 :::warning
-If you do not have or know **_all_** of the following, **do not** try to install/use HACS.
+If you do not have or know **_all_** of the following, **do not** try to setup/use HACS.
 :::
 
 - Home Assistant version `2021.2.0` or newer
