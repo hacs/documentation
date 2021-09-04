@@ -64,7 +64,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/setup/prerequisites')}
             >
-              Download
+              DOWNLOAD
             </Link>
             <Link
               className={classnames(
@@ -73,7 +73,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/configuration/start')}
             >
-              Configure
+              CONFIGURE
             </Link>
             <Link
               className={classnames(
@@ -82,7 +82,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/basic/getting_started')}
             >
-              Use
+              USE
             </Link>
           </div>
         </div>
