@@ -4,7 +4,7 @@ title: Getting started
 description: "Getting started"
 ---
 
-![hacsdemo](/img/demo.gif)
+![hacsdemo](/video/demo.mp4)
 
 ---
 

@@ -104,7 +104,7 @@ function Home() {
         </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-            <img className="demo" src="img/demo.gif"></img>
+            <video className="demo" src="video/demo.mp4" autoplay />
           </div>
         </section>
       </main>
