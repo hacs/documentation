@@ -104,7 +104,9 @@ function Home() {
         </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-            <video className="demo" src="video/demo.mp4" autoplay />
+            <video autoPlay loop muted>
+              <source src="video/demo.mp4" type="video/mp4" />
+            </video>
           </div>
         </section>
       </main>
