@@ -12,15 +12,15 @@ The documentation site for HACS is build with [Docusaurus](https://docusaurus.io
 
 There are two ways of contributing to the documentation:
 
-- Using the "Edit this page" link at the bottom of every page.
-- Locally changing (devcontainer)
+- 1)Using  "Edit this page" link at the bottom of every page.
+-2) Locally changing (devcontainer).
 
 _All changes to the documentation should go against the `master` branch._  
 The repository for the documentation is hosted @ https://github.com/hacs/documentation
 
 ### Edit this page
 
-When you see something that needs changing when you browse the documentation, scroll down to the bottom of the page you are looking at, and click the "Edit this page" link.
+When you see something that needs changing when you browse the documentation, scroll down to the bottom of the page you are looking at, and click the "Edit this page" link.By this you will be able to contribute to this page ,which in turn makes you as a open source contributor.
 
 ![edit](/img/edit_this.png)
 
@@ -38,9 +38,9 @@ yarn start
 
 You have now started a local webserver that hosts the documentation on http://localhost:3000
 
-That server will reload if you do changes to the documentation so you can live see how the changes look.
+That server will reload if you do changes to the documentation so you can see live , how the changes look.
 
-When you are happy with the result, push the changes to your fork and create a PR to have it merged to the HACS base.
+When you are happy with the result, push the changes to your fork and create a PR(pull request) to have it merged to the HACS base.
 
 ## Contents
 
@@ -74,7 +74,7 @@ Then you need to use:
 
 ### Reference images
 
-Lets say you need to reference an image that is located under:
+Lets say you need to refer an image that is located under:
 
 ```text
 documentation/static/img/features.png
