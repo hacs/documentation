@@ -26,6 +26,12 @@ If you are not sure what type of Home Assistant you are using, then you should p
 wget -O - https://get.hacs.xyz | bash -
 ```
 
+:::tip
+
+If you don't want to install a SSH add-on, you might use the integrated terminal from the  Visual Studio Code add-on
+
+:::
+
 ## Home Assistant Container
 
 For Home Assistant Container you have 2 options.
