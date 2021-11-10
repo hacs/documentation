@@ -108,12 +108,6 @@ This checks general things about the repository like:
 - Issues are enabled
 - It has topics defined
 
-### Check Wheels
-
-_Only applies to integrations, and only if they have requirements defined in the manifest.json file._
-
-This checks that the repository are added to https://github.com/home-assistant/wheels-custom-integrations if it has python requirements defined in the manifest.json file.
-
 ### Lint [jq]
 
 This make sure that the files still are valid JSON.
