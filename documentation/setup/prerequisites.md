@@ -10,7 +10,7 @@ description: "Prerequisites"
 If you do not have or know **_all_** of the following, **do not** try to setup/use HACS.
 :::
 
-- Home Assistant version `2021.2.0` or newer
+- Home Assistant version `2021.9.0` or newer
 - A GitHub account
 - A [supported](https://github.com/home-assistant/architecture/blob/master/adr/0012-define-supported-installation-method.md) Home Assistant installation
 - Access to the filesystem where Home Assistant is located
