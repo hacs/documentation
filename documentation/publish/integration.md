@@ -60,11 +60,6 @@ In your integration directory you must have a `manifest.json` file, which must a
 Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) for the values of those keys.
 
 
-### Python prerequisites
-
-If your integration requires other python libraries, your integration must be added to [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations).
-
-
 ### Home Assistant Brands
 
 You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) conform to the UI standards in Home Assistant.

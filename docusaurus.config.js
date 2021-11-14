@@ -22,10 +22,6 @@ module.exports = {
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    algolia: {
-      apiKey: 'ae98e104dc1572a7e897b97951c756a5',
-      indexName: 'hacs',
-    },
     image: 'https://assets.hacs.xyz/logo.svg',
     description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
     navbar: {
@@ -96,6 +92,15 @@ module.exports = {
         blog: {},
         pages: {},
         sitemap: {},
+      },
+    ],
+  ],
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        docsDir: "documentation"
       },
     ],
   ],

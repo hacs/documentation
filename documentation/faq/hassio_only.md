@@ -8,6 +8,4 @@ description: "NO, no, nope, this is for all Home Assistant installations (window
 
 It's not.
 
-You can use this on _any_ Home Assistant installation.
-
-_Windows might have issues, but if you are running HA on Windows you are probably used to that._
+You can use this on _any_ [supported](https://github.com/home-assistant/architecture/blob/master/adr/0012-define-supported-installation-method.md) Home Assistant installation.
