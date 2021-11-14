@@ -6,7 +6,7 @@ description: "Overview of the HACS UI"
 
 This is the overview of HACS.
 
-![nav_overview](/img/overview.png)
+![nav_overview](/img/panel/entry.png)
 
 The overview consist of the sections you have enabled, your pending updates and important messages.
 

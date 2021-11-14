@@ -12,6 +12,8 @@ import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import useBaseUrl from '@docusaurus/useBaseUrl'
 import styles from './styles.module.css'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const features = [
   {
@@ -104,9 +106,25 @@ function Home() {
         </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-            <img className="demo" src="img/demo.gif"></img>
+          <Carousel>
+            <div>
+              <img className="demo" src="img/panel/entry.png" />
+              <p className="legend">HACS Entry page</p>
+            </div>
+            <div>
+              <img className="demo" src="img/panel/store.png" />
+              <p className="legend">HACS Integration store panel</p>
+            </div>
+            <div>
+              <img className="demo" src="img/dialog/add_frontend_repository.png" />
+              <p className="legend">Discover and download frontend repositories</p>
+            </div>
+          </Carousel>
+          
+            
           </div>
         </section>
+
       </main>
     </Layout>
   )
