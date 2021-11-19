@@ -108,6 +108,10 @@ This checks general things about the repository like:
 - Issues are enabled
 - It has topics defined
 
+### Check Requirements
+
+This checks that the integration does not import builtin python packages and that the requirements can be installed.
+
 ### Lint [jq]
 
 This make sure that the files still are valid JSON.
