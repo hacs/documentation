@@ -5,7 +5,7 @@ description: "Initial startup"
 ---
 HACS does not ship with any knowledge about the repositories it is supposed to show.
 
-Since there is no central "HACS server", every installation that runsHACS fetches this information from GitHub, it has to get the information about all [default repositories](/default_repositories)
+Since there is no central "HACS server", every installation that runs HACS fetches this information from GitHub, it has to get the information about all [default repositories](/default_repositories)
 
 To get the information that is needed to show a representation of the repository in HACS, HACS uses the [GitHub API](https://docs.github.com/en/rest), this API is [rate limited](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting) and when you hit that rate limit, HACS will pause any communication to the GitHub API until the rate limit reset (can take up to one hour).
 
