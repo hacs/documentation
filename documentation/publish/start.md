@@ -76,6 +76,16 @@ Key | Type | Required | Description
 }
 ```
 
+Allow Home Assistant beta versions by appending `b0`. Without `b0`, only official releases will be allowed.
+```json title="hacs.json"
+{
+  "name": "My awesome thing",
+  "country": "NO",
+  "domains": ["media_player", "sensor"],
+  "homeassistant": "2021.12.0b0",
+  "persistent_directory": "userfiles",
+}
+```
 ### Versions
 
 If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. *Just publishing tags is not enough, you need to publish releases.*
