@@ -6,6 +6,7 @@ module.exports = {
       'basic/existing_elements',
       'basic/sensor',
       'basic/theming',
+      'basic/diagnostics',
       'basic/logs',
     ],
     Navigation: ['navigation/overview', 'navigation/stores'],

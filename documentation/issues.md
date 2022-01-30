@@ -51,6 +51,7 @@ Logs are **more** then _just_ errors, with debug logging it gives the person inv
 - Debug logs.
 - Steps to reproduce the issue.
 - If the issue is in the UI, add screenshots.
+- [Diagnostics](/docs/basic/diagnostics)
 
 You can see examples of good/bad issues further down on this page.
 
