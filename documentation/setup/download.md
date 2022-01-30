@@ -76,6 +76,10 @@ wget -O - https://get.hacs.xyz | bash -
 
 :::tip
 
-Having issues accessing `https://get.hacs.xyz`? try `wget -O - https://raw.githubusercontent.com/hacs/get/main/get | bash -` instead
+Having issues accessing `https://get.hacs.xyz`? try this instead:
+
+```
+wget -O - https://raw.githubusercontent.com/hacs/get/main/get | bash -
+```
 
 :::
