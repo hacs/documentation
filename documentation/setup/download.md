@@ -4,7 +4,7 @@ title: Download
 description: "HACS download steps"
 ---
 
-You use the [HACS download script](https://github.com/hacs/install) to setup HACS.
+You use the [HACS download script](https://github.com/hacs/get) to setup HACS.
 
 :::info
 If you are not sure what type of Home Assistant you are using, then you should probably not install HACS (or any other custom integration), but if you really want to know, you can find it here: 
@@ -76,6 +76,6 @@ wget -O - https://get.hacs.xyz | bash -
 
 :::tip
 
-Having issues accessing `https://get.hacs.xyz`? try `wget -O - https://raw.githubusercontent.com/hacs/install/main/install | bash -` instead
+Having issues accessing `https://get.hacs.xyz`? try `wget -O - https://raw.githubusercontent.com/hacs/get/main/get | bash -` instead
 
 :::
