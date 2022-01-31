@@ -24,4 +24,4 @@ To get the diagnostics dump for HACS do the following:
   ![download diagnostics](/img/download_diagnostics.png)]
 
 
-This will download a JSON file to the computer you are doing this from (usually the downloads directory), the contents of that file can be pasted to GitHub issues.
+This will download a file with `json.txt` file ending to the computer you are doing this from (usually the downloads directory), this file can be pasted or dragged into GitHub issues.
