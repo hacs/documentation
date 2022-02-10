@@ -73,7 +73,7 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.indexButton,
               )}
-              to={useBaseUrl('docs/configuration/start')}
+              to={useBaseUrl('docs/configuration/basic')}
             >
               CONFIGURE
             </Link>

@@ -6,7 +6,9 @@ description: "Configure HACS with YAML (legacy)"
 ---
 
 :::info
-_This page assume that you have already finished the [download](/docs/setup/prerequisites)_
+_This page assume that you have already finished the [download](/docs/setup/prerequisites)_.
+New installations should not use this.
+Use [this](/docs/configuration/basic) instead
 :::
 
 ## Example configuration

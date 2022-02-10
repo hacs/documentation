@@ -21,8 +21,8 @@ module.exports = {
   },
   setup: {
     Setup: ['setup/prerequisites', 'setup/download'],
-    Configuration: ['configuration/start', 'configuration/basic', 'configuration/options'],
-    'Legacy Configuration (YAML)': ['configuration/legacy'],
+    Configuration: ['configuration/basic', 'configuration/options'],
+    'Legacy Configuration': ['configuration/legacy'],
     Remove: ['setup/remove'],
   },
   'developer documentation': {

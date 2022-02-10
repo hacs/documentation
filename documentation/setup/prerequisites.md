@@ -6,13 +6,13 @@ description: "Prerequisites"
 
 ## Requirements
 
-:::warning
-If you do not have or know **_all_** of the following, **do not** try to setup/use HACS.
+:::caution
+If **all** of the points in the list below does not match you, **do not** try to setup/use HACS.
 :::
 
-- Home Assistant version `2021.9.0` or newer
-- A GitHub account
-- A [supported](https://github.com/home-assistant/architecture/blob/master/adr/0012-define-supported-installation-method.md) Home Assistant installation
-- Access to the filesystem where Home Assistant is located
-- **You know how to access the Home Assistant log file**
-- **A stable internet connection with sufficient available data or no data caps**
+- You are running [Home Assistant](https://www.home-assistant.io/) version [`2021.9.0`](https://my.home-assistant.io/redirect/info) or newer.
+- You are running a [supported](https://github.com/home-assistant/architecture/blob/master/adr/0012-define-supported-installation-method.md) Home Assistant installation.
+- You have Access to the filesystem where the Home Assistant configuratioin files is located.
+- You know how to access the Home Assistant log file.
+- You are aware that there are **no** [add-ons](https://www.home-assistant.io/docs/glossary/#add-on) in HACS.
+- You have a stable internet connection with sufficient available data or no data caps
