@@ -5,7 +5,7 @@ description: "Basic configuration"
 ---
 
 :::info
-_This page assume that you have already completed the [download](/docs/setup/prerequisites)_
+_This page assume that you have already completed the [download](/docs/setup/prerequisites)._
 :::
 
 ## In your Home Assistant UI go to "Configuration", then click "Integrations"
@@ -89,7 +89,7 @@ Now you can click "Submit" to complete the configuration of HACS.
 
 ![image](/img/conf5.png)
 
-_If something failed, you will be taken back to the [Add your configuration step](#add-your-configuration)_
+_If something failed, you will be taken back to the [Add your configuration step](#add-your-configuration)._
 
 ## Changing the configuration
 
