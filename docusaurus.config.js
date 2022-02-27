@@ -55,7 +55,7 @@ module.exports = {
               href: '/coc',
             },
             {
-              label: 'hi(at)hacs.xyz',
+              label: 'Contact (no support!)',
               href: 'mailto:hi@hacs.xyz',
             },
           ],
