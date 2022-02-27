@@ -1,5 +1,9 @@
 https://hacs.netlify.com/* https://hacs.xyz/:splat 301!
 
+/discord https://discord.gg/apgchf8
+/github https://github.com/hacs
+/coc https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
+
 /favicon.ico https://assets.hacs.xyz/logo.svg 301!
 
 /install https://raw.githubusercontent.com/hacs/get/main/get 301!

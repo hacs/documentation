@@ -44,15 +44,15 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/hacs',
+              href: '/github',
             },
             {
               label: 'Discord',
-              href: 'https://discord.gg/apgchf8',
+              href: '/discord',
             },
             {
               label: 'Code of Conduct',
-              href: 'https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md',
+              href: '/coc',
             },
             {
               label: 'hi(at)hacs.xyz',
