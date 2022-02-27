@@ -31,7 +31,7 @@ module.exports = {
         { to: 'docs/configuration/basic', label: 'Configuration', position: 'left' },
         { to: 'docs/basic/getting_started', label: 'Usage', position: 'left' },
         { to: 'docs/community_guides', label: 'Guides', position: 'left' },
-        { to: 'default_repositories', label: 'Repositories', position: 'left' },
+        { to: 'docs/default_repositories', label: 'Repositories', position: 'left' },
         { to: 'docs/developer/start', label: 'Developer docs', position: 'right' },
         { to: 'docs/faq/what', label: 'FAQ', position: 'right' },
         { to: 'help', label: 'Help', position: 'right' },
@@ -100,7 +100,8 @@ module.exports = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        docsDir: "documentation"
+        removeDefaultStopWordFilter: true,
+        docsDir: "documentation",
       },
     ],
   ],

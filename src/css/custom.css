@@ -21,11 +21,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
 }
-p.defaultrepo {
-  margin-bottom: 0px;
-  display: list-item;
-  margin-left: 16px;
-}
+
 html {
   height: 100%;
   background-color: var(--ifm-navbar-background-color) !important;

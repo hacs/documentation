@@ -2,7 +2,6 @@
   "name": "hacs",
   "version": "0.0.0",
   "private": true,
-  "main": "worker.js",
   "scripts": {
     "start": "docusaurus start --host 0.0.0.0",
     "build": "docusaurus build",

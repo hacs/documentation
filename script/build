@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+python3 -m pip install pip
+python3 -m pip install requests
+python3 script/generate_default_repositories.py
+yarn build
