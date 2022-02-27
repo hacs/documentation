@@ -9,17 +9,15 @@
     "swizzle": "docusaurus swizzle"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.15",
-    "@docusaurus/preset-classic": "^2.0.0-beta.15",
-    "@docusaurus/utils": "^2.0.0-beta.15",
+    "@docusaurus/core": "^2.0.0-beta.16",
+    "@docusaurus/preset-classic": "^2.0.0-beta.16",
+    "@docusaurus/utils": "^2.0.0-beta.16",
     "@easyops-cn/docusaurus-search-local": "^0.21.4",
     "classnames": "^2.3.1",
     "node-forge": "^1.2.1",
     "react": "^17.0.2",
-    "react-async": "^10.0.1",
     "react-dom": "^17.0.2",
-    "react-responsive-carousel": "^3.2.22",
-    "selfsigned": "^2.0.0"
+    "react-responsive-carousel": "^3.2.22"
   },
   "browserslist": {
     "production": [

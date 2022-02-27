@@ -7,16 +7,18 @@ help: ## Shows help message.
 
 init: bootstrap
 
-start: ## Start the documentation server
-	script/build
+start: generate ## Start the documentation server
 	yarn start;
 
 bootstrap: ## Run yarn
+	apt update
+	apt install -y python3-pip
+	rm -rf documentation/repositories
 	yarn global add prettier;
 	yarn;
 
 generate: ## Build the documentation
-	script/build
+	python3 script/generate_default_repositories.py
 
 update: ## Pull main from hacs/documentation
 	git pull upstream main;

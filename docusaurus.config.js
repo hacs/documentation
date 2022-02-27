@@ -87,7 +87,7 @@ module.exports = {
           editUrl: 'https://github.com/hacs/documentation/edit/main/',
           path: './documentation',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
         },
         blog: {},
         pages: {},
