@@ -59,7 +59,7 @@ for category, entries in data.items():
 
     BASE += f"\n## {title}\n\n"
     BASE += f"_{len(entries)} Repositories in total._\n\n"
-    for entry in sorted(entries, key=lambda entry: entry["stars"], reverse=True):
+    for entry in sorted(entries, key=lambda entry: entry["full_name"].lower()):
         repository_id = entry['full_name'].replace("/", "_").replace("-", "_").lower()
 
         BASE += f"<li><a href='/docs/repositories/{entry['category']}/{repository_id}'>{entry['full_name']}</a></li>\n"
