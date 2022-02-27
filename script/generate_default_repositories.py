@@ -113,7 +113,7 @@ def gen_authors(authors):
     links = []
     for author in authors:
         links.append(f"<a href='https://github.com/{author.replace('@', '')}' target='_blank'>{author.replace('@', '')}</a>")
-        return f"<p style={{{{marginBottom: 0}}}}>Author{'s' if len(links) != 1 else ''}: <i>{', '.join(links)}</i></p>"
+    return f"<p style={{{{marginBottom: 0}}}}>Author{'s' if len(links) != 1 else ''}: <i>{', '.join(links)}</i></p>"
 
 def gen_brands_icon(entry):
     if not entry["domain"] or not isinstance(entry["domain"], str):
