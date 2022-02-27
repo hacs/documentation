@@ -9,7 +9,6 @@ https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301
 
 /docs/installation/manual_cli /docs/setup/prerequisites
 /docs/installation/manual /docs/setup/prerequisites
-/docs/default_repositories /default_repositories
 /docs/configuration/pat /docs/configuration/legacy
 
 /docs/installation/prerequisites /docs/setup/prerequisites
@@ -18,3 +17,4 @@ https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301
 
 /docs/faq/initial_startup /
 /docs/configuration/start /docs/configuration/basic
+/default_repositories /docs/default_repositories

@@ -8,14 +8,15 @@ help: ## Shows help message.
 init: bootstrap
 
 start: ## Start the documentation server
+	script/build
 	yarn start;
 
 bootstrap: ## Run yarn
 	yarn global add prettier;
 	yarn;
 
-build: ## Build the documentation
-	yarn build;
+generate: ## Build the documentation
+	script/build
 
 update: ## Pull main from hacs/documentation
 	git pull upstream main;
