@@ -23,6 +23,79 @@ custom_edit_url: null
 
 """
 
+NOTE_INTEGRATION = """
+
+:::info
+This repository is included in HACS by default and you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Integrations" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTE_PLUGIN = """
+
+:::info
+This repository is included in HACS by default and you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Frontend" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTE_THEME = """
+
+:::info
+This repository is included in HACS by default, but before you can download it you need to configure themes, [inscrutctions on that can be found here.](/docs/categories/themes#enable-themes-in-home-assistant)
+Once you have restarted Home Assistant after enabling themes you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Frontend" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTE_PYTHON_SCRIPT = """
+
+:::info
+This repository is included in HACS by default, but before you can download it you need to configure `python_script`, [inscrutctions on that can be found here.](/docs/categories/python_scripts#enable-python-scripts-in-home-assistant)
+Once you have restarted Home Assistant after enabling `python_script` you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Automation" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTE_APPDAEMON = """
+
+:::info
+This repository is included in HACS by default, but before you can download it you need to configure HACS for AppDaemon, [inscrutctions on that can be found here.](/docs/categories/appdaemon_apps#enable-appdaemon-apps-in-hacs)
+Once you have enabled AppDaemon Apps in HACS you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Automation" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTE_NETDAEMON = """
+
+:::info
+This repository is included in HACS by default, but before you can download it you need to configure HACS for NetDaemon, [inscrutctions on that can be found here.](/docs/categories/netdaemon_apps#enable-netdaemon-apps-in-hacs)
+Once you have enabled NetDaemon Apps in HACS you can download it by clicking the "Explore & Download Repositories" button in the bottom right corner on the "Automation" tab inside HACS.
+
+![explore_download_button](/img/explore_download_button.png)
+:::
+
+"""
+
+NOTES = {
+    "integration": NOTE_INTEGRATION,
+    "plugin": NOTE_PLUGIN,
+    "theme": NOTE_THEME,
+    "python_script": NOTE_PYTHON_SCRIPT,
+    "appdaemon": NOTE_APPDAEMON,
+    "netdaemon": NOTE_NETDAEMON,
+}
+
 resp = requests.get("https://raw.githubusercontent.com/hacs/integration/main/custom_components/hacs/utils/default.repositories")
 repositories = resp.json()
 
@@ -80,6 +153,9 @@ for category, entries in data.items():
         REPOSITORY_CONTENT += f"<p style={{{{marginBottom: 0}}}}>\nRepository: <a href='https://github.com/{entry['full_name']}' target='_blank'>{entry['full_name']}</a>\n</p>\n"
         if entry["topics"]:
             REPOSITORY_CONTENT += f"<p>Topics: \n{''.join(f'<li style={{{{marginLeft: 24}}}}>{topic}</li>' for topic in entry['topics'])}</p>\n"
+
+
+        REPOSITORY_CONTENT += NOTES.get(category)
 
         with open(f"documentation/repositories/{entry['category']}/{repository_id}.md", "w") as mdfile:
             mdfile.write(REPOSITORY_CONTENT)
