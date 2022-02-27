@@ -84,7 +84,7 @@ for category, entries in data.items():
         with open(f"documentation/repositories/{entry['category']}/{repository_id}.md", "w") as mdfile:
             mdfile.write(REPOSITORY_CONTENT)
 
-
+BASE += "<sub>The content here is updated on each build of this site, so some date might be missing or outdated.</sub>"
 with open("documentation/default_repositories.md", "w") as mdfile:
     mdfile.write(BASE)
 

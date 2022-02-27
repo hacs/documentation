@@ -102,6 +102,7 @@ module.exports = {
         hashed: true,
         removeDefaultStopWordFilter: true,
         docsDir: "documentation",
+        indexPages: true,
       },
     ],
   ],
