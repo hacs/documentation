@@ -155,6 +155,7 @@ for category, entries in data.items():
             REPOSITORY_CONTENT += f"<p>Topics: \n{''.join(f'<li style={{{{marginLeft: 24}}}}>{topic}</li>' for topic in entry['topics'])}</p>\n"
 
 
+        REPOSITORY_CONTENT += "<br /><br /><br />"
         REPOSITORY_CONTENT += NOTES.get(category)
 
         with open(f"documentation/repositories/{entry['category']}/{repository_id}.md", "w") as mdfile:
