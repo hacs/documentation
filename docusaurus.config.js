@@ -33,7 +33,7 @@ module.exports = {
         { to: 'docs/community_guides', label: 'Guides', position: 'left' },
         { to: 'docs/default_repositories', label: 'Repositories', position: 'left' },
         { to: 'docs/developer/start', label: 'Developer docs', position: 'right' },
-        { to: 'docs/faq/what', label: 'FAQ', position: 'right' },
+        { to: 'docs/faq/addons', label: 'FAQ', position: 'right' },
         { to: 'help', label: 'Help', position: 'right' },
       ],
     },

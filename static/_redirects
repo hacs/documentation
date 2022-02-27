@@ -15,6 +15,7 @@ https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301
 /docs/installation/installation /docs/setup/download
 /docs/installation/remove /docs/setup/remove
 
-/docs/faq/initial_startup /
 /docs/configuration/start /docs/configuration/basic
 /default_repositories /docs/default_repositories
+
+/* / 404

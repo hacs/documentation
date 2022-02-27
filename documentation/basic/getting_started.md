@@ -2,6 +2,7 @@
 id: getting_started
 title: Getting started
 description: "Getting started"
+sidebar_position: 0
 ---
 
 ![entry page](/img/panel/entry.png)

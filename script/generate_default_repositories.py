@@ -133,7 +133,7 @@ for category, entries in data.items():
 
     BASE += f"\n## {title}\n\n"
     BASE += f"_{len(entries)} Repositories in total._\n\n"
-    for entry in sorted(entries, key=lambda entry: entry["full_name"].lower()):
+    for entry in sorted(entries, key=lambda entry: entry["full_name"].lower())[0:5 if os.environ.get("REMOTE_CONTAINERS") else -1]:
         repository_id = entry['full_name'].replace("/", "_").replace("-", "_").lower()
 
         BASE += f"<li><a href='/docs/repositories/{entry['category']}/{repository_id}'>{entry['full_name']}</a></li>\n"
