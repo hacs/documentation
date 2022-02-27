@@ -1,26 +1,25 @@
 https://hacs.netlify.com/* https://hacs.xyz/:splat 301!
-
-/discord https://discord.gg/apgchf8
-/github https://github.com/hacs
-/coc https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
-
-/favicon.ico https://assets.hacs.xyz/logo.svg 301!
-
-/install https://raw.githubusercontent.com/hacs/get/main/get 301!
-/get https://raw.githubusercontent.com/hacs/get/main/get 301!
 https://get.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301!
 https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301!
 
-/docs/installation/manual_cli /docs/setup/prerequisites
-/docs/installation/manual /docs/setup/prerequisites
-/docs/configuration/pat /docs/configuration/legacy
+/coc https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
+/discord https://discord.gg/apgchf8
+/favicon.ico https://assets.hacs.xyz/logo.svg 301!
+/get https://raw.githubusercontent.com/hacs/get/main/get 301!
+/github https://github.com/hacs
+/install https://raw.githubusercontent.com/hacs/get/main/get 301!
 
-/docs/installation/prerequisites /docs/setup/prerequisites
-/docs/installation/installation /docs/setup/download
-/docs/installation/remove /docs/setup/remove
 
-/docs/configuration/start /docs/configuration/basic
 /default_repositories /docs/default_repositories
+
+/docs/configuration/pat /docs/configuration/legacy
+/docs/configuration/start /docs/configuration/basic
+
+/docs/installation/installation /docs/setup/download
+/docs/installation/manual /docs/setup/prerequisites
+/docs/installation/manual_cli /docs/setup/prerequisites
+/docs/installation/prerequisites /docs/setup/prerequisites
+/docs/installation/remove /docs/setup/remove
 
 # Removed wihtout replacement, redirect home
 /faq/what /
