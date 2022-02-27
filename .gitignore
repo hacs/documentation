@@ -3,3 +3,4 @@ node_modules
 build/
 yarn-error.log
 documentation/repositories
+documentation/default_repositories.md
