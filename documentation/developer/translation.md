@@ -12,7 +12,7 @@ To help out with the translation of HACS you need an account on Lokalise, the ea
 
 When you have created your account [click here to join the HACS project on Lokalise.](https://lokalise.com/public/854515055f679055040b37.42677693/)
 
-If you are unsure on how to proceed their documentation is really good, and you can [find that here.](https://docs.lokalise.com/en/) or send me a message @ [discord](/discord) (username: `ludeeus#4212`)
+If you are unsure on how to proceed their documentation is really good, and you can [find that here.](https://docs.lokalise.com/en/) or send me a message @ [discord](https://hacs.xyz/discord) (username: `ludeeus#4212`)
 
 If you want to add translations for a language that is not listed please [open a FR here](https://github.com/hacs/frontend/issues/new)
 

@@ -43,7 +43,7 @@ const blocks = [
     description: (
       <>
         For questions, you can join the{' '}
-        <a href="/discord" target="_blank">
+        <a href="https://hacs.xyz/discord" target="_blank">
           discord server
         </a>
         , issues do still belong on GitHub.
