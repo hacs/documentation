@@ -101,7 +101,7 @@ NOTES = {
 
 
 REPOSITORY_NOTES= {
-    "zachowj_hass_node_red": "This will not give you NodeRED only an integration used by it, this is not NodeRED as that is seperate software and HACS does not install additional software, this is not the NodeRED add-on as [HACS does not manage add-ons](/docs/faq/addons)"
+    "zachowj_hass_node_red": "This will not give you NodeRED, only an integration used by it, this is not NodeRED as that is seperate software and HACS does not install additional software, this is not the NodeRED add-on as [HACS does not manage add-ons](/docs/faq/addons)"
 }
 
 resp = requests.get("https://raw.githubusercontent.com/hacs/integration/main/custom_components/hacs/utils/default.repositories")
@@ -172,7 +172,7 @@ for category, entries in data.items():
         REPOSITORY_CONTENT += f"<p style={{{{marginBottom: 0}}}}>\nRepository: <a href='https://github.com/{entry['full_name']}' target='_blank'>{entry['full_name']}</a>\n</p>\n"
         REPOSITORY_CONTENT += "<br /><br /><br />"
         if REPOSITORY_NOTES.get(repository_id):
-            REPOSITORY_CONTENT += f":::note\n\n{REPOSITORY_NOTES[repository_id]}\n\n:::"
+            REPOSITORY_CONTENT += f"\n:::note\n\n{REPOSITORY_NOTES[repository_id]}\n\n:::"
         REPOSITORY_CONTENT += NOTES.get(category)
 
         with open(f"documentation/repositories/{entry['category']}/{repository_id}.md", "w") as mdfile:
