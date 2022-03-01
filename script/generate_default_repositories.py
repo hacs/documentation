@@ -172,7 +172,7 @@ for category, entries in data.items():
         REPOSITORY_CONTENT += f"<p style={{{{marginBottom: 0}}}}>\nRepository: <a href='https://github.com/{entry['full_name']}' target='_blank'>{entry['full_name']}</a>\n</p>\n"
         REPOSITORY_CONTENT += "<br /><br /><br />"
         if REPOSITORY_NOTES.get(repository_id):
-            REPOSITORY_CONTENT += f"\n:::note\n\n{REPOSITORY_NOTES[repository_id]}\n\n:::"
+            REPOSITORY_CONTENT += f"\n\n:::note\n\n{REPOSITORY_NOTES[repository_id]}\n\n:::"
         REPOSITORY_CONTENT += NOTES.get(category)
 
         with open(f"documentation/repositories/{entry['category']}/{repository_id}.md", "w") as mdfile:
