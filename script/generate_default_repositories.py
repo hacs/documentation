@@ -101,7 +101,7 @@ NOTES = {
 
 
 REPOSITORY_NOTES= {
-    "zachowj_hass_node_red": "This will not give you NodeRED only an integration used by it, this is not NodeRED as that is seperate software and HACS does not install software, this is not the NodeRED add-on as [HACS does not manage add-ons](/faq/addons)"
+    "zachowj_hass_node_red": "This will not give you NodeRED only an integration used by it, this is not NodeRED as that is seperate software and HACS does not install additional software, this is not the NodeRED add-on as [HACS does not manage add-ons](/docs/faq/addons)"
 }
 
 resp = requests.get("https://raw.githubusercontent.com/hacs/integration/main/custom_components/hacs/utils/default.repositories")
