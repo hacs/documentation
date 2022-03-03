@@ -4,7 +4,7 @@ title: "Select a spesific version for download"
 description: "Instructions on how to enable beta for a repository"
 ---
 
-First you need to have the repository allready downloaded and managed by HACS.
+First you need to have the repository already downloaded and managed by HACS.
 
 Once that is in place, find the card for the repository you want to enable beta releases for, and click the 3 dots in the bottom right corner of the card to bring up the repository menu.
 ![repository_menu](/img/repository_menu.png).
