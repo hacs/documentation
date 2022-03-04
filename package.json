@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.16",
-    "@docusaurus/preset-classic": "^2.0.0-beta.16",
+    "@docusaurus/preset-classic": "^2.0.0-beta.17",
     "@docusaurus/utils": "^2.0.0-beta.16",
     "@easyops-cn/docusaurus-search-local": "^0.22.0",
     "classnames": "^2.3.1",
