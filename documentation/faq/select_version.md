@@ -1,6 +1,6 @@
 ---
 id: select_version
-title: "Select a spesific version for download"
+title: "Select a specific version for download"
 description: "Instructions on how to enable beta for a repository"
 ---
 
