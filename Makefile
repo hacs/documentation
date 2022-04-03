@@ -18,6 +18,7 @@ bootstrap: ## Run yarn
 	yarn;
 
 generate: ## Build the documentation
+	python3 -m pip install requests
 	python3 script/generate_default_repositories.py
 
 update: ## Pull main from hacs/documentation

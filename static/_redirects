@@ -22,4 +22,4 @@ https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301
 /docs/installation/remove /docs/setup/remove
 
 # Removed without replacement, redirect home
-/faq/what /
+/docs/faq/what /
