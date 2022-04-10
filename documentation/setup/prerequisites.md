@@ -7,7 +7,7 @@ description: "Prerequisites"
 ## Requirements
 
 :::caution
-If **all** of the points in the list below does not match you, **do not** try to setup/use HACS.
+If **any** of the points in the list below **do not** apply to you, **do not** try to setup/use HACS.
 :::
 
 - You are running [Home Assistant](https://www.home-assistant.io/) version [`2021.9.0`](https://my.home-assistant.io/redirect/info) or newer.
