@@ -49,9 +49,10 @@ Key | Type | Required | Description
 `zip_release` | bool | No | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.**
 `filename` | string | No | Name of the file HACS should look for, only applies to single item categories (plugin, theme, python_scripts, zip_release).
 `render_readme` | bool | No | Tells HACS to render the README.md file instead of info.md.
-`domains` | string | No | A list of domains.
+`hide_default_branch` | bool | No | Tells HACS to not offer installing the default branch.
 `country` | string | No | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 `homeassistant` | string | No | The minimum required Home Assistant version.
+`hacs` | string | No | The minimum required HACS version.
 `persistent_directory` | string | No | A relative path (within the integration directory) that will be kept safe during upgrades. *Can only be used with integrations.*
 
 
@@ -70,7 +71,6 @@ Key | Type | Required | Description
 {
   "name": "My awesome thing",
   "country": "NO",
-  "domains": ["media_player", "sensor"],
   "homeassistant": "0.99.9",
   "persistent_directory": "userfiles",
 }
@@ -81,7 +81,6 @@ Allow Home Assistant beta versions by appending `b0`. Without `b0`, only officia
 {
   "name": "My awesome thing",
   "country": "NO",
-  "domains": ["media_player", "sensor"],
   "homeassistant": "2021.12.0b0",
   "persistent_directory": "userfiles",
 }
@@ -91,77 +90,6 @@ Allow Home Assistant beta versions by appending `b0`. Without `b0`, only officia
 If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. *Just publishing tags is not enough, you need to publish releases.*
 
 If the repository does not use tags, the 7 first characters of the last commit will be used.
-
-## Templates
-
-You can use Jinja2 templates to control what and how the info is displayed.
-In addition to the default templates of Jinja these are added:
-
-Template value | Description
--- | --
-installed | True / False if it is installed.
-pending_update | True / False if an update is pending.
-prerelease | True / False if it's a pre release.
-selected_tag | The selected version.
-version_available | The latest available version.
-version_installed | The installed version
-
-### Examples
-
-### Prerelease
-
-```yaml title="info.md"
-{% if prerelease %}
-### NB!: This is a Beta version!
-{% endif %}
-```
-
-![beta](/img/beta.png)
-
-### [Here Travel Time](https://github.com/eifinger/here_travel_time/blob/master/info.md)
-
-```yaml title="info.md"
-{% if installed %}
-## Changes as compared to your installed version:
-
-### Breaking Changes
-
-### Changes
-
-### Features
-
-{% if version_installed.replace("v", "").replace(".","") | int < 141  %}
-- Added `mode: bicycle`
-- Added `mode: publicTransportTimeTable` - Please look [here](https://developer.here.com/documentation/routing/topics/public-transport-routing.html) for differences between the two public modes.
-{% endif %}
-{% if version_installed.replace("v", "").replace(".","") | int < 142  %}
-- Release notes are shown in HACS depending on your installed version
-{% endif %}
-
-### Bugfixes
-
-{% if version_installed.replace("v", "").replace(".","") | int < 143  %}
-- Fix for `mode: publicTransportTimeTable` returning `No timetable route found`
-{% endif %}
----
-{% endif %}
-```
-
-![here](/img/info_jinja_here.png)
-
-## Some examples of info.md files
-
-### [Custom Header](https://github.com/maykar/custom-header/blob/1.1.7/info.md)
-
-  ![cch](/img/info_cch.PNG)
-
-### [Lovelace Swipe Navigation](https://github.com/maykar/lovelace-swipe-navigation/blob/1.2.0/info.md)
-
-![swipe](/img/info_swipe.PNG)
-
-### [HomeAssistant-Atrea](https://github.com/JurajNyiri/HomeAssistant-Atrea/blob/2.1/info.md)
-
-![Atrea](/img/info_atrea.PNG)
 
 
 ## Want to add your repository to the store as a default?
