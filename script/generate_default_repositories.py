@@ -123,7 +123,7 @@ def gen_authors(authors):
     return f"<p style={{{{marginBottom: 0}}}}>Author{'s' if len(links) != 1 else ''}: <i>{', '.join(links)}</i></p>"
 
 def gen_brands_icon(entry):
-    domain = entry["domain"]
+    domain = entry.get("domain")
     if not domain or not isinstance(domain, str):
         return ""
     return f"<ThemedImage style={{{{maxHeight: 48, maxWidht: 48, marginRight: 8}}}} sources={{{{light: 'https://brands.home-assistant.io/_/{domain}/icon.png',dark: 'https://brands.home-assistant.io/_/{domain}/dark_icon.png'}}}} />"
@@ -149,14 +149,14 @@ for category, entries in data.items():
         repository_manifest = entry.get("repository_manifest", {})
         name = repository_manifest.get("name") or entry['name'] or entry['full_name']
         if repository_manifest.get("country"):
-            name = entry['name'] or entry['full_name']
+            name = entry.get("repository_manifest", {}).get('name', entry['full_name'])
         description = ""
         try:
             description = entry['description'].encode(encoding='utf-8').decode('ascii').replace('"', "'")
         except:
             pass
 
-        tags = entry["topics"] or []
+        tags = entry.get("topics", [])
         if entry["category"] not in tags:
             tags.append(entry["category"])
         for tag in list(tags):
@@ -168,7 +168,7 @@ for category, entries in data.items():
 
         REPOSITORY_CONTENT = REPOSITORY_BASE.format(id=repository_id, name=name, description=description, tags=tags)
         REPOSITORY_CONTENT += f"<div style={{{{display: 'flex', marginBottom: 4, alignItems: 'center'}}}}>\n {gen_brands_icon(entry)} \n<i>{description}</i>\n</div>\n"
-        REPOSITORY_CONTENT += gen_authors(entry["authors"] or [entry['full_name'].split("/")[0]])
+        REPOSITORY_CONTENT += gen_authors(entry.get("authors") or [entry['full_name'].split("/")[0]])
         REPOSITORY_CONTENT += f"<p style={{{{marginBottom: 0}}}}>\nRepository: <a href='https://github.com/{entry['full_name']}' target='_blank'>{entry['full_name']}</a>\n</p>\n"
         REPOSITORY_CONTENT += "<br /><br /><br />"
         if REPOSITORY_NOTES.get(repository_id):
