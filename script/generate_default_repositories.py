@@ -147,9 +147,9 @@ for category, entries in data.items():
         BASE += f"<li><a href='/docs/repositories/{entry['category']}/{repository_id}'>{entry['full_name']}</a></li>\n"
 
         repository_manifest = entry.get("repository_manifest", {})
-        name = repository_manifest.get("name") or entry['name'] or entry['full_name']
+        name = repository_manifest.get("name", entry.get('name', entry['full_name']))
         if repository_manifest.get("country"):
-            name = entry.get("repository_manifest", {}).get('name', entry['full_name'])
+            name = entry.get('name', entry['full_name'])
         description = ""
         try:
             description = entry['description'].encode(encoding='utf-8').decode('ascii').replace('"', "'")
