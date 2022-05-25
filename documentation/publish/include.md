@@ -55,13 +55,6 @@ _Only applies to integrations._
 
 For more information about the integration manifest see here https://developers.home-assistant.io/docs/creating_integration_manifest
 
-### Check hassfest
-
-_Only applies to integrations._
-
-This runs Home Assistant's `hassfest` against the integration.
-https://developers.home-assistant.io/blog/2020/04/16/hassfest
-
 ### Check HACS
 
 This runs the same validation that HACS itself uses.
@@ -77,12 +70,6 @@ https://hacs.xyz/docs/publish/start#hacsjson
 ### Check Info
 
 This checks that there is an info.md (or readme.md if configured) file with content in the repository.
-
-### Check Fork
-
-_This check can fail._
-
-This checks if the repository is a fork when there are good reasons for the fork.
 
 ### Check Archived
 
@@ -107,10 +94,6 @@ This checks general things about the repository like:
 - It has a description
 - Issues are enabled
 - It has topics defined
-
-### Check Requirements
-
-This checks that the integration does not import builtin python packages and that the requirements can be installed.
 
 ### Lint [jq]
 
