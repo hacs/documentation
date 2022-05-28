@@ -4,7 +4,8 @@ title: Lovelace Plugins
 description: "Category: Lovelace Plugins"
 ---
 
-The [Lovelace UI](https://www.home-assistant.io/lovelace/) is a customizable interface. With additional community plugins you can extend the default UI experience.  
+The [Lovelace UI](https://www.home-assistant.io/lovelace/) is a customizable interface. With additional community plugins you can extend the default experience.  
+
 
 ## Lovelace Plugin download location
 
