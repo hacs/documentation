@@ -27,5 +27,5 @@ If you want to try and add a custom repository to HACS do the following:
 
 
 :::tip
-The "Custom repositories" option might be hidden while background tasks is running to stop the user to break their installation. Wait a while or/and check HACS status. 
+The "Custom repositories" option might be hidden while background tasks is running to stop the user to break their instance. Wait a while or/and check HACS status. 
 :::

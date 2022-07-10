@@ -28,13 +28,6 @@ You actually need to do this, don't skip it.
 
 ![image](/img/conf3.png)
 
-:::info
-You see this when Home Assistant is installing the requirements needed for the integration.
-![image](/img/conf_note.png)
-
-If this takes longer than 10 minutes, you may have an issue with your Home Assistant installation.
-:::
-
 ## Accept usage
 
 ![image](/img/part1.png)

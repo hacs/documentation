@@ -20,13 +20,13 @@ _by [Ludeeus](https://github.com/ludeeus)_
     <img src="https://img.youtube.com/vi/vq0qQtDAOW0/0.jpg" />
 </a>
 
-### Danish HACS Installation Guide
+### Danish HACS Setup Guide
 
 _by [Daniel Bahl](https://danielbahl.com)_
 
 You can find the complete danish walkthrough guide at <a href="https://robotnet.dk/2020/hacs-home-assistant-community-store.html" target="_blank" title="HACS: Home Assistant Community Store in Danish">Robotnet.dk</a>
 
-<a href="https://www.youtube.com/watch?v=1KQH7n7Stss" target="_blank" title="Install HACS via Terminal - in Danish">
+<a href="https://www.youtube.com/watch?v=1KQH7n7Stss" target="_blank" title="Setup HACS via Terminal - in Danish">
     <img src="https://img.youtube.com/vi/1KQH7n7Stss/0.jpg" />
 </a>
 
@@ -34,11 +34,11 @@ You can find the complete danish walkthrough guide at <a href="https://robotnet.
     <img src="https://img.youtube.com/vi/v_S4MgJVqLE/0.jpg" />
 </a>
 
-### Install and Setup Walkthrough
+### Setup Walkthrough
 
 _by [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng)_
 
-<a href="https://www.youtube.com/watch?v=aJTTCAvzpIU " target="_blank" title="Install and Setup Walkthrough">
+<a href="https://www.youtube.com/watch?v=aJTTCAvzpIU " target="_blank" title="Setup Walkthrough">
     <img src="https://img.youtube.com/vi/aJTTCAvzpIU/0.jpg" />
 </a>
 
@@ -50,18 +50,18 @@ _by [KPeyanski](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg)_
     <img src="https://img.youtube.com/vi/4cOdgW23KCA/0.jpg" />
 </a>
 
-### German HACS Installation incl. first integration
+### German HACS Setup incl. first integration
 
 _by [Tristan](https://www.youtube.com/channel/UCe06G4hqXjUlYhB-rDmns4g)_
 
-<a href="https://youtu.be/-wWi6m7g0m0 " target="_blank" title="Installation von Auto_Backup inkl. HACS">
+<a href="https://youtu.be/-wWi6m7g0m0 " target="_blank" title="Setup von Auto_Backup inkl. HACS">
     <img src="https://img.youtube.com/vi/-wWi6m7g0m0/0.jpg" />
 </a>
 
-### How to install & use Home Assistant Community Store (HACS) | TUTORIAL
+### How to Setup & use Home Assistant Community Store (HACS) | TUTORIAL
 
  _by [KPeyanski](https://www.youtube.com/channel/UCiyU6otsAn6v2NbbtM85npg)_
 
- <a href="https://youtu.be/QPXxMSV3BUY" target="_blank" title="How to install & use Home Assistant Community Store (HACS) | TUTORIAL">
+ <a href="https://youtu.be/QPXxMSV3BUY" target="_blank" title="How to setup & use Home Assistant Community Store (HACS) | TUTORIAL">
      <img src="https://img.youtube.com/vi/QPXxMSV3BUY/0.jpg" />
  </a>

@@ -4,9 +4,9 @@ title: Updates
 description: "Data updates"
 ---
 
-## Installed elements
+## Managed elements
 
-HACS will check for updates to installed elements:
+HACS will check for updates to downloaded elements:
 
 - At startup.
 - Every 2 hours after HA startup.

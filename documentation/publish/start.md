@@ -49,7 +49,7 @@ Key | Type | Required | Description
 `zip_release` | bool | No | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.**
 `filename` | string | No | Name of the file HACS should look for, only applies to single item categories (plugin, theme, python_scripts, zip_release).
 `render_readme` | bool | No | Tells HACS to render the README.md file instead of info.md.
-`hide_default_branch` | bool | No | Tells HACS to not offer installing the default branch.
+`hide_default_branch` | bool | No | Tells HACS to not offer downloading the default branch.
 `country` | string | No | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 `homeassistant` | string | No | The minimum required Home Assistant version.
 `hacs` | string | No | The minimum required HACS version.

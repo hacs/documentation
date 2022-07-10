@@ -16,12 +16,12 @@ This will trigger if you are not using the expected URL, or if it's not included
 
 ## Lovelace in storage more (UI)
 
-Something strange has happened, click the 3 dots in the card for the repository and select "Reinstall".
+Something strange has happened, click on the card for it to get to the repository page and then click the 3 dots in the top right corner and select "Redownload".
 
 ## Lovelace in storage more (YAML)
 
 Add the correct URL to the `resource` key under your `lovelace` configuration entry.
-To find the URL click the 3 dots in the card for the repository and select "Reinstall".
+To find the URL click on the card for it to get to the repository page and then click the 3 dots in the top right corner and select "Redownload".
 
 :::tip
 [For information about the base of URL have a look here.](/docs/categories/plugins#special-notes-about-downloaded-lovelace-plugins)
