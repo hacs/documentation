@@ -36,7 +36,7 @@ None of the items are optional, you need to accept everything before you can set
 
 ## Device registration
 
-HACS uses a device OAuth flow for authentication against the GitHub API.
+HACS uses a device OAuth flow for authentication against the GitHub API (also see [Why do i need a GitHub Account?](/docs/faq/github_account)).
 
 _If you do not want that, you can use a Personal Access Token if you [configure HACS with YAML](/docs/configuration/legacy)._
 
