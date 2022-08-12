@@ -1,6 +1,6 @@
 ---
 id: my
-title: "My"
+title: "My Home Assistant"
 description: "My link support"
 ---
 
