@@ -20,7 +20,7 @@ This works for both default and custom repositories.
 1. Start by going to https://my.home-assistant.io/create-link/?redirect=hacs_repository
 1. Fill inn the filelds on that page to generate your my link.
     1. "Category" is only needed for custom repositories
-1. Copy the URL or snippets you want for your link.
+1. Copy the URL or snippets you want for your my link.
 
 
 Example for hacs/integration:
