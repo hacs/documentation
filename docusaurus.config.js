@@ -9,7 +9,7 @@ module.exports = {
   title: 'HACS',
   tagline: 'Home Assistant Community Store',
   url: 'https://hacs.xyz',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   favicon: '/favicon.ico',
   organizationName: 'HACS',
   projectName: 'hacs',
