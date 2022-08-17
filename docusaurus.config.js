@@ -60,18 +60,6 @@ module.exports = {
           ],
         },
         {},{},{},{},{},
-        {
-          title: 'Deploys by Netlify!',
-          items: [
-            {
-              html: `
-                <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
-                  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-                </a>
-              `,
-            },
-          ],
-        },
       ],
     },
   },

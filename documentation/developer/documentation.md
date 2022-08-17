@@ -4,9 +4,7 @@ title: Documentation
 description: "Documentation development"
 ---
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec224ba7-b3fb-4fc6-929e-991ba9801b53/deploy-status)](https://app.netlify.com/sites/hacs/deploys)
-
-The documentation site for HACS is build with [Docusaurus](https://docusaurus.io) and hosted on [Netlify](https://www.netlify.com/)
+The documentation site for HACS is build with [Docusaurus](https://docusaurus.io) and hosted on [GitHub Pages](https://pages.github.com/)
 
 ## Contribute to the documentation
 
