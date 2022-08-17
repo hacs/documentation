@@ -10,7 +10,8 @@ https://install.hacs.xyz https://raw.githubusercontent.com/hacs/get/main/get 301
 /install https://raw.githubusercontent.com/hacs/get/main/get 301!
 
 
-/default_repositories /docs/default_repositories
+/default_repositories /
+/default_repositories/* /
 
 /docs/configuration/pat /docs/configuration/legacy
 /docs/configuration/start /docs/configuration/basic
