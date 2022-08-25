@@ -8,7 +8,7 @@ description: "Configure HACS with YAML (legacy)"
 :::info
 _This page assume that you have already finished the [download](/docs/setup/prerequisites)_.
 New setups should **not** use this.
-This sections is indended for developers and really, really, really advanced users.
+This sections is intended for developers and really, really, really advanced users.
 Some features of HACS is not enabled if you use YAML.
 Use [this](/docs/configuration/basic) instead
 :::
