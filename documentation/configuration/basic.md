@@ -38,8 +38,6 @@ None of the items are optional, you need to accept everything before you can set
 
 HACS uses a device OAuth flow for authentication against the GitHub API.
 
-_If you do not want that, you can use a Personal Access Token if you [configure HACS with YAML](/docs/configuration/legacy)._
-
 ***
 
 ![image](/img/part2.png)

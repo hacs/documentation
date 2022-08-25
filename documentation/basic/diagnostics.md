@@ -4,12 +4,6 @@ title: Diagnostics
 description: "How to get HACS diagnostics"
 ---
 
-:::note
-
-If you configured HACS with YAML, you do not have this option.
-
-:::
-
 Starting with Home Assistant 2022.2 integrations can now provide a diagnostics dump, HACS have this implemented.
 
 The diagnostics dump is a JSON file with information about your instance, this is useful to upload to GitHub when creating issues.
