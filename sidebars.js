@@ -26,7 +26,6 @@ module.exports = {
   setup: {
     Setup: ['setup/prerequisites', 'setup/download'],
     Configuration: ['configuration/basic', 'configuration/options'],
-    'Legacy Configuration': ['configuration/legacy'],
     Remove: ['setup/remove'],
   },
   'developer documentation': {
