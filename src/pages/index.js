@@ -58,7 +58,7 @@ function Home() {
           <img className="logo" src="https://assets.hacs.xyz/logo.svg"></img>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <p className="hero__subtitle">{siteConfig.themeConfig.description}</p>
-          <div className={styles.buttons}>
+          <div className={styles.indexCtas}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg btt',

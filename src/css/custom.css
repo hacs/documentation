@@ -81,3 +81,14 @@ body {
   padding: 10px;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+  .carousel-root {
+    display: none;
+  }
+}
+
+.col {
+  --ifm-col-width: 100vw;
+}
