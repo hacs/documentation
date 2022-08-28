@@ -8,9 +8,9 @@ description: "Basic configuration"
 _This page assume that you have already completed the [download](/docs/setup/prerequisites)._
 :::
 
-## In your Home Assistant UI go to "Configuration", then click "Integrations"
+## In your Home Assistant UI go to the Integrations panel
 
-![image](/img/conf1.png)
+[![Open your Home Assistant instance and show your integrations.](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
 
 ## Clear your browser cache
 
@@ -20,9 +20,9 @@ Before HACS can show up in the list you need to clear your browser cache or perf
 You actually need to do this, don't skip it.
 :::
 
-## Click the "+" button in the bottom right corner
+## Click the "+ ADD INTEGRATION" button in the bottom right corner
 
-![image](/img/conf2.png)
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=hacs)
 
 ## Search for or scroll down to find "HACS" and select it
 
