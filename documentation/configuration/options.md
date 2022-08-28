@@ -8,9 +8,9 @@ description: "Configuration options"
 _This page assumes that you have already finished the [initial configuration](/docs/configuration/basic)_
 :::
 
-## In your Home Assistant UI go to "Configuration", then click "Integrations".
+## In your Home Assistant UI go to the Integrations panel
 
-![image](/img/conf1.png)
+[![Open your Home Assistant instance and show your integrations.](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
 
 ## Select "Options" on the card for "HACS"
 
