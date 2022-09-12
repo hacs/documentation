@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Home Assistant Community Store',
   url: 'https://hacs.xyz',
   baseUrl: '/',
-  favicon: '/favicon.ico',
+  favicon: 'https://assets.hacs.xyz/logo.svg',
   organizationName: 'HACS',
   projectName: 'hacs',
   themeConfig: {
@@ -43,15 +43,15 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://hacs.xyz/github',
+              href: 'https://github.com/hacs',
             },
             {
               label: 'Discord',
-              href: 'https://hacs.xyz/discord',
+              href: 'https://discord.gg/apgchf8',
             },
             {
               label: 'Code of Conduct',
-              href: 'https://hacs.xyz/coc',
+              href: 'https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md',
             },
             {
               label: 'Contact (no support!)',
