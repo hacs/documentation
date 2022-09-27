@@ -55,12 +55,22 @@ wget -O - https://get.hacs.xyz | bash -
 
 ```bash
 wget -O - https://get.hacs.xyz | bash -
-```
-
-
+```    
   </TabItem>
 </Tabs>
 
+
+### Missing /hacsfiles symlink 
+HACS frontend resource files are reffered to via the symlink /hacsfile (which should point to /config/www/community ). If this folder is not available on your docker image, consider adding it via an additional volume binding:
+
+```bash
+docker run
+  -v /volume1/docker/homeassistant:/config \
+  -v /volume1/docker/homeassistant/www/community:/hacsfiles \
+  homeassistant/home-assistant
+```
+
+Not doing so will result in frontend components not showing up in the UI.
 
   </TabItem>
   <TabItem value="core" label="Core">
