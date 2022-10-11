@@ -31,7 +31,7 @@ const blocks = [
     ),
   },
   {
-    title: <>Want to submit a Bug or a Feature request?</>,
+    title: <>Want to submit a Bug?</>,
     description: (
       <>
         <a href="/docs/issues">Before you do make sure you first have a look here.</a>
