@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.2.0",
-    "@docusaurus/plugin-client-redirects": "^2.1.0",
+    "@docusaurus/plugin-client-redirects": "^2.2.0",
     "@docusaurus/preset-classic": "^2.2.0",
     "@docusaurus/utils": "^2.0.1",
     "@easyops-cn/docusaurus-search-local": "^0.33.5",
