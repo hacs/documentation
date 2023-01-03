@@ -11,8 +11,8 @@ start: generate ## Start the documentation server
 	yarn start;
 
 bootstrap: ## Run yarn
-	apt update
-	apt install -y python3-pip
+	sudo apt update
+	sudo apt install -y python3-pip
 	rm -rf documentation/repositories
 	yarn global add prettier;
 	yarn;
@@ -23,3 +23,6 @@ generate: ## Build the documentation
 
 update: ## Pull main from hacs/documentation
 	git pull upstream main;
+
+upstream: ## Add upstream to be able to update
+    git remote add upstream https://github.com/hacs/documentation.git;
