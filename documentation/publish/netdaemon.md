@@ -4,6 +4,11 @@ title: NetDaemon Apps
 description: "NetDaemon Apps"
 ---
 
+:::warning
+    Netdaemon apps are deprecated and will not be supported in version 2 of HACS.
+    Note that apps that use current V3 version of the NetDaemon runtime is not supported at all.
+:::
+
 A template to use as a reference is [netdaemon-app-template](https://github.com/net-daemon/netdaemon-app-template)
 
 ## Requirements
