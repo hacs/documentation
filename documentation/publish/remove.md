@@ -23,6 +23,6 @@ So if you plan to do that, first create a PR to have it removed from HACS.
 
 1. Fork and clone https://github.com/hacs/default
 1. Create a new branch in your fork (example: "remove/some/repo")
-1. Run `make remove`
+1. Run `scripts/remove_repository`
 1. Commit the changes and push the new branch to your fork
 1. Create a PR on https://github.com/hacs/default to have your changes merged.
