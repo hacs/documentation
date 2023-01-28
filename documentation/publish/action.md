@@ -9,7 +9,6 @@ This will make sure that your repository can be validated in HACS after changes 
 
 This action uses the exact same code as HACS to validate a repository.
 
-
 The action have 3 run types:
 
 - For the [hacs/default repo](https://github.com/hacs/default) it is used to validate new default repositories.
@@ -25,7 +24,7 @@ To use it, follow these steps:
 1. Click on "Create new file"
 1. For filename, paste .github/workflows/validate.yaml
 1. Paste the following contents:
-1. Change the value of "CATEGORY" key, this needs to be one of: "appdaemon", "integration", "netdaemon", "plugin", "python_script", "theme"
+1. Change the value of `CATEGORY` key, this needs to be one of: `appdaemon`, `integration`, `netdaemon`, `plugin`, `python_script`, `theme`
 
 ```yaml title=".github/workflows/validate.yml"
 name: Validate
@@ -35,9 +34,10 @@ on:
   pull_request:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
-  validate:
+  validate-hacs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@v2"
@@ -47,7 +47,7 @@ jobs:
           category: "CHANGE_ME!"
 ```
 
-This will run on every PR and push, and at midnight every day.
+This will run on every PR and push, and at midnight every day. And `workflow_dispatch` allows you to run the action on demand from the Actions tab.
 
 :::tip
 If you maintain an integration, you can also validate your integration with [hassfest](https://developers.home-assistant.io/blog/2020/04/16/hassfest).
