@@ -1,8 +1,8 @@
 {
-	"name": "HACS Documentation",
+	"name": "hacs/doumentation",
 	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
-	"context": "..",
-	"postStartCommand": "make init",
+	"context": ".",
+	"postCreateCommand": "scripts/setup",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -12,9 +12,10 @@
 		  "editor.formatOnSave": false  
 		}
 	},
-	"appPort": ["3000:3000"],
-	"postCreateCommand": "make init",
+	"forwardPorts": [3000],
+	
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode"
 	]
 }
