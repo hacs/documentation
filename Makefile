@@ -11,8 +11,6 @@ start: generate ## Start the documentation server
 	yarn start;
 
 bootstrap: ## Run yarn
-	apt update
-	apt install -y python3-pip
 	rm -rf documentation/repositories
 	yarn global add prettier;
 	yarn;

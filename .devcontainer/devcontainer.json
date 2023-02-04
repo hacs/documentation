@@ -1,6 +1,6 @@
 {
 	"name": "HACS Documentation",
-	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
 	"context": "..",
 	"postStartCommand": "make init",
 	"settings": { 
@@ -9,14 +9,12 @@
 		"editor.formatOnSave": false,
 		"[javascript]": {
 		  "editor.defaultFormatter": "esbenp.prettier-vscode",
-		  "editor.formatOnSave": false,
-		  
-	}
+		  "editor.formatOnSave": false  
+		}
 	},
 	"appPort": ["3000:3000"],
 	"postCreateCommand": "make init",
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	]
-	}
 }
