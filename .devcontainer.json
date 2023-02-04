@@ -1,21 +1,23 @@
 {
 	"name": "hacs/doumentation",
 	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
-	"context": ".",
 	"postCreateCommand": "scripts/setup",
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.formatOnSave": false,
-		"[javascript]": {
-		  "editor.defaultFormatter": "esbenp.prettier-vscode",
-		  "editor.formatOnSave": false  
+	"forwardPorts": [3000],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode"
+			]
+		},
+		"settings": {
+			"editor.formatOnPaste": false,
+			"editor.formatOnSave": true,
+			"editor.formatOnType": true,
+			"[typescript]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"files.trimTrailingWhitespace": true
 		}
 	},
-	"forwardPorts": [3000],
-	
-	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode"
-	]
+	"remoteUser": "node"
 }
