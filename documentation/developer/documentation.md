@@ -13,7 +13,7 @@ There are two ways of contributing to the documentation:
 - Using the "Edit this page" link at the bottom of every page.
 - Locally changing (devcontainer)
 
-_All changes to the documentation should go against the `master` branch._  
+_All changes to the documentation should go against the `main` branch._  
 The repository for the documentation is hosted @ https://github.com/hacs/documentation
 
 ### Edit this page
@@ -31,7 +31,7 @@ First spin up the [devcontainer](/docs/developer/devcontainer)
 When you have that running issue the following commands:
 
 ```bash
-yarn start
+scripts/develop
 ```
 
 You have now started a local webserver that hosts the documentation on http://localhost:3000
@@ -85,8 +85,8 @@ Then you need to use:
 
 ## New pages
 
-1. Create a new `.md` file under `documentation/content/` in a sub-directory that fits the purpose of the file.
-1. Add a reference to that file in `documentation/sidebars.js`
+1. Create a new `.md` file under `documentation/` in a sub-directory that fits the purpose of the file.
+1. Add a reference to that file in `sidebars.js`
 
 At the top of all pages you should have this:
 

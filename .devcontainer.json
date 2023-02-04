@@ -1,0 +1,23 @@
+{
+	"name": "hacs/doumentation",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+	"postCreateCommand": "scripts/setup",
+	"forwardPorts": [3000],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode"
+			]
+		},
+		"settings": {
+			"editor.formatOnPaste": false,
+			"editor.formatOnSave": true,
+			"editor.formatOnType": true,
+			"[typescript]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"files.trimTrailingWhitespace": true
+		}
+	},
+	"remoteUser": "node"
+}

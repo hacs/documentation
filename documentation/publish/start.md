@@ -33,8 +33,6 @@ Your repository needs to have a [readme](https://github.com/matiassingers/awesom
 
 If you want to add a richer experience for your users you can add an `info.md` file to the root of your repository, this file will be rendered under the repository description. It does not support the full styling options from GitHub, so use with care. *This is optional, if you do not have this file you need to set the key [`render_readme`](#hacsjson) in the `hacs.json` file to `true`.*
 
-[See the Templates section on how you can make this awesome](#templates)
-
 
 ### hacs.json
 
