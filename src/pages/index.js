@@ -42,7 +42,7 @@ const features = [
     description: <></>,
   },
   {
-    title: <>NetDaemon Apps</>,
+    title: <>NetDaemon Apps (deprecated)</>,
     Url: '/docs/categories/netdaemon_apps',
     description: <></>,
   },
