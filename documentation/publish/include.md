@@ -33,14 +33,6 @@ When submitting a repository for the default repository a suite of CI checks wil
 All checks needs to pass for the repository to be included (unless something else are agreed on).
 
 
-### Re run checks
-
-If you need to rerun the checks add a comment with this as the content:
-
-```txt
-/recheck
-```
-
 ### Check Brands
 
 _Only applies to integrations._
