@@ -39,7 +39,6 @@ module.exports = {
       'publish/start',
       'publish/appdaemon',
       'publish/integration',
-      'publish/netdaemon',
       'publish/plugin',
       'publish/python_script',
       'publish/theme',

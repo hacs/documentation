@@ -1,7 +1,17 @@
 ---
 id: netdaemon_apps
-title: NetDaemon Apps
-description: "Category: NetDaemon Apps"
+title: NetDaemon Apps (deprecated)
+description: "Category: NetDaemon Apps (deprecated)"
+---
+
+## Deprecation notice
+
+:::caution
+NetDaemon apps are deprecated and will be removed in version 2.0.0 of HACS.
+
+Note that apps that use current V3 version of the NetDaemon runtime is not supported at all.
+:::
+
 ---
 
 NetDaemon apps are apps for [NetDaemon](https://netdaemon.xyz/)
@@ -24,8 +34,3 @@ Add a checkmark to the left of NetDaemon apps in the UI configuration for HACS.
 Any NetDaemon app downloaded with HACS is stored in `netdaemon/apps/` in your Home Assistant configuration directory.
 :::
 
----
-
-:::caution
-_NetDaemon app support was added in HACS version 0.23.0_
-:::
