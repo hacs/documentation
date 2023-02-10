@@ -6,7 +6,7 @@ description: "Remove HACS"
 
 If you want to remove HACS you need to do that using the following steps.
 
-**This should _only_ be done if you are not planing on using HACS anymore!**
+**This should _only_ be done if you are not planning on using HACS anymore!**
 
 1. Use the trashbin icon on the integration page.
 1. Restart Home Assistant **important**
