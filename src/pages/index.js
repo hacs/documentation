@@ -112,12 +112,12 @@ function Home() {
               <p className="legend">HACS Entry page</p>
             </div>
             <div>
-              <img className="demo" src="img/panel/store.png" />
-              <p className="legend">HACS Integration store panel</p>
+              <img className="demo" src="img/panel/search.png" />
+              <p className="legend">Search all repositories</p>
             </div>
             <div>
-              <img className="demo" src="img/dialog/add_frontend_repository.png" />
-              <p className="legend">Discover and download frontend repositories</p>
+              <img className="demo" src="img/panel/filter.png" />
+              <p className="legend">Filter repositories</p>
             </div>
           </Carousel>
           

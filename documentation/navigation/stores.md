@@ -4,7 +4,7 @@ title: Stores
 description: "Store tabs"
 ---
 
-![nav_stores](/img/panel/store.png)
+![nav_stores](/img/panel/search.png)
 
 This is where you can browse your downloaded repositories.
 
