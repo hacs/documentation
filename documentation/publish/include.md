@@ -16,7 +16,7 @@ Custom integrations that override core integrations will not be accepted, you ca
 
 Add both these actions to your own repository and make sure they pass:
 
-- https://github.com/home-assistant/actions#hassfest
+- https://github.com/home-assistant/actions#hassfest (only required for integrations)
 - https://github.com/hacs/action
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
