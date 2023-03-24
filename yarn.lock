@@ -1294,6 +1294,14 @@
     chalk "^4.1.2"
     tslib "^2.4.0"
 
+"@docusaurus/logger@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/logger/-/logger-2.4.0.tgz#393d91ad9ecdb9a8f80167dd6a34d4b45219b835"
+  integrity sha512-T8+qR4APN+MjcC9yL2Es+xPJ2923S9hpzDmMtdsOcUGLqpCGBbU1vp3AAqDwXtVgFkq+NsEk7sHdVsfLWR/AXw==
+  dependencies:
+    chalk "^4.1.2"
+    tslib "^2.4.0"
+
 "@docusaurus/mdx-loader@2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/mdx-loader/-/mdx-loader-2.3.1.tgz#7ec6acee5eff0a280e1b399ea4dd690b15a793f7"
@@ -1602,12 +1610,34 @@
     js-yaml "^4.1.0"
     tslib "^2.4.0"
 
-"@docusaurus/utils@2.3.1", "@docusaurus/utils@^2.0.0-rc.1", "@docusaurus/utils@^2.3.1":
+"@docusaurus/utils@2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.3.1.tgz#24b9cae3a23b1e6dc88f95c45722c7e82727b032"
   integrity sha512-9WcQROCV0MmrpOQDXDGhtGMd52DHpSFbKLfkyaYumzbTstrbA5pPOtiGtxK1nqUHkiIv8UwexS54p0Vod2I1lg==
   dependencies:
     "@docusaurus/logger" "2.3.1"
+    "@svgr/webpack" "^6.2.1"
+    escape-string-regexp "^4.0.0"
+    file-loader "^6.2.0"
+    fs-extra "^10.1.0"
+    github-slugger "^1.4.0"
+    globby "^11.1.0"
+    gray-matter "^4.0.3"
+    js-yaml "^4.1.0"
+    lodash "^4.17.21"
+    micromatch "^4.0.5"
+    resolve-pathname "^3.0.0"
+    shelljs "^0.8.5"
+    tslib "^2.4.0"
+    url-loader "^4.1.1"
+    webpack "^5.73.0"
+
+"@docusaurus/utils@^2.0.0-rc.1", "@docusaurus/utils@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.4.0.tgz#fdf0c3545819e48bb57eafc5057495fd4d50e900"
+  integrity sha512-89hLYkvtRX92j+C+ERYTuSUK6nF9bGM32QThcHPg2EDDHVw6FzYQXmX6/p+pU5SDyyx5nBlE4qXR92RxCAOqfg==
+  dependencies:
+    "@docusaurus/logger" "2.4.0"
     "@svgr/webpack" "^6.2.1"
     escape-string-regexp "^4.0.0"
     file-loader "^6.2.0"
