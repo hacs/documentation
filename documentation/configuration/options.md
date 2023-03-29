@@ -26,7 +26,7 @@ _This page assumes that you have already finished the [initial configuration](/d
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that)
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps)
 - `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/categories/netdaemon_apps)
-    - NetDaemin apps is deprecated and will [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
+    - NetDaemon apps is [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
 - `Enable experimental features`: This enables experimental features in HACS.
 
 ## Click submit and wait for confirmation
