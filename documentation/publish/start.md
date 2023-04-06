@@ -11,6 +11,7 @@ For your repository to be added there are several criteria that need to be met.
 - [Plugin requirements](plugin) for plugins.
 - [AppDaemon requirements](appdaemon) for AppDaemon apps.
 - [Python_scripts requirements](python_script) for python scripts.
+- [Template requirements](template) for custom templates.
 - [Theme requirements](theme) for themes.
 
 ## General requirements
