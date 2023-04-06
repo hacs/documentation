@@ -45,7 +45,7 @@ Key | Type | Required | Description
 `name` | string | Yes| The display name that will be used in the HACS UI.
 `content_in_root` | bool | No | Indicates whether the content is in the root of the repository as opposed to in a subdirectory.
 `zip_release` | bool | No | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.**
-`filename` | string | No | Name of the file HACS should look for, only applies to single item categories (plugin, theme, python_scripts, zip_release).
+`filename` | string | No | Name of the file HACS should look for, only applies to single item categories (plugin, theme, template, python_scripts, zip_release).
 `render_readme` | bool | No | Tells HACS to render the README.md file instead of info.md.
 `hide_default_branch` | bool | No | Tells HACS to not offer downloading the default branch.
 `country` | string | No | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)

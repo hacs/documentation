@@ -41,6 +41,7 @@ module.exports = {
       'publish/integration',
       'publish/plugin',
       'publish/python_script',
+      'publish/template',
       'publish/theme',
       'publish/include',
       'publish/action',

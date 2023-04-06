@@ -37,6 +37,11 @@ const features = [
     description: <></>,
   },
   {
+    title: <>Templates</>,
+    Url: '/docs/categories/templates',
+    description: <></>,
+  },
+  {
     title: <>Themes</>,
     Url: '/docs/categories/themes',
     description: <></>,
