@@ -20,13 +20,12 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     metadata: [
-      {name: 'twitter:card', content: 'summary'},
       {name: 'twitter:site', content: '@HACSIntegration'}
     ],
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    image: 'https://assets.hacs.xyz/logo.png',
+    image: 'https://assets.hacs.xyz/banner.png',
     description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
     navbar: {
       title: 'HACS',
