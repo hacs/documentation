@@ -19,6 +19,10 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    metadata: [
+      {name: 'og:image', content: 'https://assets.hacs.xyz/logo.svg'},
+      {name: 'twitter:card', content: 'summary'}
+    ],
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
