@@ -7,11 +7,11 @@ description: "General"
 For your repository to be added there are several criteria that need to be met.
 
 - [General requirements](#general-requirements)
-- [Integration requirements](integration) for integrations.
-- [Plugin requirements](plugin) for plugins.
-- [AppDaemon requirements](appdaemon) for AppDaemon apps.
-- [Python_scripts requirements](python_script) for python scripts.
-- [Theme requirements](theme) for themes.
+- [Integration requirements]([integration](../integration#requirements)) for integrations.
+- [Plugin requirements]([plugin](../plugin#requirements)) for plugins.
+- [AppDaemon requirements]([appdaemon](../appdaemon#requirements)) for AppDaemon apps.
+- [Python_scripts requirements]([python_script](../python_script#requirements)) for python scripts.
+- [Theme requirements]([theme](../theme#requirements)) for themes.
 
 ## General requirements
 
