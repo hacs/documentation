@@ -13,7 +13,6 @@ For an integration repository to be valid it must meet the requirements below.
 - There must only be one integration per repository, i.e. there can only be one subdirectory to `ROOT_OF_THE_REPO/custom_components/`. *If there are more than one, only the first one will be managed.*
 - All files required for the integration to run must be located inside the directory `ROOT_OF_THE_REPO/custom_components/INTEGRATION_NAME/`.
 
-
 #### OK example:
 
 ```
@@ -44,7 +43,7 @@ info.md
 README.md
 ```
 
-_if you have `content_in_root` set to `true` in [`hacs.json`](/docs/publish/start#hacsjson) this is valid._
+*if you have `content_in_root` set to `true` in [`hacs.json`](/docs/publish/start#hacsjson) this is valid.*
 
 ### manifest.json
 
@@ -59,11 +58,9 @@ In your integration directory you must have a `manifest.json` file, which must a
 
 Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/en/creating_integration_manifest.html) for the values of those keys.
 
-
 ### Home Assistant Brands
 
 You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) conform to the UI standards in Home Assistant.
-
 
 ### GitHub releases (optional)
 
@@ -73,6 +70,6 @@ It is preferred but not required to publish releases in your repository.
 
 *If you don't publish releases in your repository, HACS will use the files in the branch marked as default.*
 
-
 ### References and examples
+
 A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint). You can generate a template similar to blueprint and customized to your context by using [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).

@@ -7,11 +7,11 @@ description: "General"
 For your repository to be added there are several criteria that need to be met.
 
 - [General requirements](#general-requirements)
-- [Integration requirements]([integration]([../integration#requirements](./integration.md#requirements))) for integrations.
-- [Plugin requirements]([plugin](./plugin.md#requirements)) for plugins.
-- [AppDaemon requirements]([appdaemon](./appdaemon.md#requirements)) for AppDaemon apps.
-- [Python_scripts requirements]([python_script](./python_script.md#requirements)) for python scripts.
-- [Theme requirements]([theme](./theme.md#requirements)) for themes.
+- [Integration requirements](integration.md#requirements) for integrations.
+- [Plugin requirements](plugin.md#requirements) for plugins.
+- [AppDaemon requirements](appdaemon.md#requirements) for AppDaemon apps.
+- [Python_scripts requirements](python_script.md#requirements) for python scripts.
+- [Theme requirements](theme.md#requirements) for themes.
 
 ## General requirements
 
@@ -32,7 +32,6 @@ Your repository needs to have a [readme](https://github.com/matiassingers/awesom
 ### info&#46;md
 
 If you want to add a richer experience for your users you can add an `info.md` file to the root of your repository, this file will be rendered under the repository description. It does not support the full styling options from GitHub, so use with care. *This is optional, if you do not have this file you need to set the key [`render_readme`](#hacsjson) in the `hacs.json` file to `true`.*
-
 
 ### hacs.json
 
@@ -81,6 +80,7 @@ That is the same library that HACS and Home Assistant use when checking versions
 ```
 
 Allow Home Assistant beta versions by appending `b0`. Without `b0`, only official releases will be allowed.
+
 ```json title="hacs.json"
 {
   "name": "My awesome thing",
@@ -89,12 +89,12 @@ Allow Home Assistant beta versions by appending `b0`. Without `b0`, only officia
   "persistent_directory": "userfiles",
 }
 ```
+
 ### Versions
 
 If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. *Just publishing tags is not enough, you need to publish releases.*
 
 If the repository does not use tags, the 7 first characters of the last commit will be used.
-
 
 ## Want to add your repository to the store as a default?
 
@@ -106,7 +106,7 @@ Tell your users that your repository can be tracked with HACS.
 
 ### Default repository
 
-_If your repository is in the default store._
+*If your repository is in the default store.*
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
@@ -124,7 +124,7 @@ _If your repository is in the default store._
 
 ### Custom repository
 
-_If your repository can be added as a custom repository._
+*If your repository can be added as a custom repository.*
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
@@ -135,7 +135,6 @@ _If your repository can be added as a custom repository._
 ***
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-
 
 ```
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
