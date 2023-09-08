@@ -14,7 +14,7 @@ Note that apps that use current V3 version of the NetDaemon runtime is not suppo
 
 ---
 
-NetDaemon apps are apps for [NetDaemon](https://netdaemon.xyz/)
+NetDaemon apps are apps for [NetDaemon](https://netdaemon.xyz/).
 
 :::caution
 Since not all users are running NetDaemon, NetDaemon is **not** enabled by default in HACS.
@@ -22,11 +22,11 @@ Since not all users are running NetDaemon, NetDaemon is **not** enabled by defau
 
 ## Enable NetDaemon apps in HACS
 
-Add a checkmark to the left of NetDaemon apps in the UI configuration for HACS.
+Add a checkmark to the left of "Enable NetDaemon apps discovery & tracking" in the UI configuration for HACS, then click Submit.
 
 ![configuration](/img/option3.png)
 
-[For more about configuring HACS with the UI have a look here](configuration/basic.md)
+See the documentation for more information about [configuring HACS](configuration/basic.md).
 
 ## NetDaemon apps download location
 
