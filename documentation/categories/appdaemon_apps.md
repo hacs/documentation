@@ -4,21 +4,20 @@ title: AppDaemon Apps
 description: "Category: AppDaemon Apps"
 ---
 
-AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/)
+AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/).
 
 :::caution
 Since not all users are running AppDaemon, AppDaemon is **not** enabled by default in HACS.
 
-AppDaemon Has to be installed **before** doing the configuration with HACS.
 :::
 
 ## Enable AppDaemon apps in HACS
 
-Add a checkmark to the left of AppDaemon apps in the UI configuration for HACS.
+Add a checkmark to the left of "Enable AppDaemon apps discovery & tracking" in the UI configuration for HACS, then click Submit.
 
 ![configuration](/img/option3.png)
 
-[For more about configuring HACS with the UI have a look here](configuration/basic.md)
+See the documentation for more information about [configuring HACS](configuration/basic.md).
 
 ## AppDaemon apps download location
 
