@@ -53,6 +53,12 @@ Key | Type | Required | Description
 `hacs` | string | No | The minimum required HACS version.
 `persistent_directory` | string | No | A relative path (within the integration directory) that will be kept safe during upgrades. *Can only be used with integrations.*
 
+:::tip
+
+The [`AwesomeVersion` demo](https://ludeeus.github.io/awesomeversion) can validate and check version compares.
+That is the same library that HACS and Home Assistant use when checking versions.
+
+:::
 
 **examples:**
 

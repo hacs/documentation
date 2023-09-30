@@ -22,7 +22,7 @@ module.exports = {
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    image: 'https://assets.hacs.xyz/logo.svg',
+    image: 'https://assets.hacs.xyz/banner.png',
     description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
     navbar: {
       title: 'HACS',
