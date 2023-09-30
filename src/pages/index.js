@@ -82,9 +82,9 @@ function Home() {
                 'button button--outline button--secondary button--lg btt',
                 styles.indexButton,
               )}
-              to={useBaseUrl('docs/basic/getting_started')}
+              to={useBaseUrl('docs/publisher')}
             >
-              USE
+              PUBLISH
             </Link>
           </div>
         </div>

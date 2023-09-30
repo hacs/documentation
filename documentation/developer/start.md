@@ -1,8 +1,7 @@
 ---
 id: start
 title: Getting started
-description: "Getting started with HACS development"
-sidebar_position: 0
+description: 'Getting started with HACS development'
 ---
 
 This integration is **massive** and there are a lot of areas to contribute to.
