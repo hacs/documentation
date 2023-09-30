@@ -16,7 +16,7 @@ Custom integrations that override core integrations will not be accepted, you ca
 
 Add both these actions to your own repository and make sure they pass:
 
-- https://github.com/home-assistant/actions#hassfest
+- https://github.com/home-assistant/actions#hassfest (only for integrations)
 - https://github.com/hacs/action
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
@@ -94,3 +94,8 @@ This make sure that the files still are valid JSON.
 ### Lint [sorted]
 
 This make sure that the files still are sorted correctly.
+
+## After Submitting
+
+HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+draft%3Afalse) before querying your PR. Updating your PR will drop it to the bottom of the list.   
+

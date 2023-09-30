@@ -32,7 +32,7 @@ You actually need to do this, don't skip it.
 
 ![image](/img/part1.png)
 
-None of the items are optional, you need to accept everything before you can setup HACS.
+Only the last item (experimental features) are optional, you need to accept everything above that before you can setup HACS.
 
 ## Device registration
 
