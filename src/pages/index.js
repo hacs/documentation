@@ -111,22 +111,20 @@ function Home() {
         </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-          <Carousel>
-            <div>
-              <img className="demo" src="img/panel/entry.png" />
-              <p className="legend">HACS Entry page</p>
-            </div>
-            <div>
-              <img className="demo" src="img/panel/search.png" />
-              <p className="legend">Search all repositories</p>
-            </div>
-            <div>
-              <img className="demo" src="img/panel/filter.png" />
-              <p className="legend">Filter repositories</p>
-            </div>
-          </Carousel>
-          
-            
+            <Carousel>
+              <div>
+                <img className="demo" src="img/panel/entry.png" />
+                <p className="legend">HACS Entry page</p>
+              </div>
+              <div>
+                <img className="demo" src="img/panel/search.png" />
+                <p className="legend">Search all repositories</p>
+              </div>
+              <div>
+                <img className="demo" src="img/panel/filter.png" />
+                <p className="legend">Filter repositories</p>
+              </div>
+            </Carousel>
           </div>
         </section>
 
