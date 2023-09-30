@@ -1,6 +1,6 @@
 ---
 id: publisher_documentation
-title: Publisher documentation
+title: Publisher Documentation
 description: 'Everything HACS for publishers.'
 sidebar_position: 0
 ---

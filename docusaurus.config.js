@@ -118,6 +118,10 @@ module.exports = {
           {
             from: "/docs/faq/what",
             to: "/docs/faq/"
+          },
+          {
+            from: "/docs/developer/start",
+            to: "/docs/developer/"
           }
         ]
       }

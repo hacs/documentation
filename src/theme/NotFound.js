@@ -9,7 +9,7 @@ export default function NotFound() {
       />
       <Layout>
         <main className="container margin-vert--xl">
-          <div className="row  tilted-404">
+          <div className="row tilted-404">
             <div className="col col--6 col--offset-3">
               <h1 className="hero__title">
                 Oh no! :(

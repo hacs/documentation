@@ -1,6 +1,6 @@
 ---
 id: user_documentation
-title: User documentation
+title: User Documentation
 description: 'Everything HACS for users.'
 sidebar_position: 0
 ---
