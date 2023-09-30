@@ -105,9 +105,9 @@ even replaced the whole hacs folder with a fresh download
 
 _Good issues have too much text to extract it (some also have screenshots) but here is a few links:_
 
-- [https://github.com/custom-components/hacs/issues/452](https://github.com/custom-components/hacs/issues/452)
-- [https://github.com/custom-components/hacs/issues/470](https://github.com/custom-components/hacs/issues/470)
-- [https://github.com/custom-components/hacs/issues/356](https://github.com/custom-components/hacs/issues/356)
+- [https://github.com/hacs/integration/issues/452](https://github.com/hacs/integration/issues/452)
+- [https://github.com/hacs/integration/issues/470](https://github.com/hacs/integration/issues/470)
+- [https://github.com/hacs/integration/issues/356](https://github.com/hacs/integration/issues/356)
 
 # Last words
 
