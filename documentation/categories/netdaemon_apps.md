@@ -22,7 +22,7 @@ Since not all users are running NetDaemon, NetDaemon is **not** enabled by defau
 
 ## Enable NetDaemon apps in HACS
 
-Add a checkmark to the left of "Enable NetDaemon apps discovery & tracking" in the UI configuration for HACS, then click Submit.
+Add a checkmark to the left of "[DEPRECATED] Enable NetDaemon apps discovery & tracking" in the UI configuration for HACS, then click Submit.
 
 ![configuration](/img/option3.png)
 
