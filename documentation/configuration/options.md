@@ -23,10 +23,10 @@ _This page assumes that you have already finished the [initial configuration](/d
 - `Side panel title`: The name/title you want to display for HACS in the sidebar.
 - `Side panel icon`: The icon you want to display for HACS in the sidebar.
 - `Number of releases to show`: Number of releases to show in the dropdown.
-- `Filter with country code`: Only show repositories for your country (if the repository has information about that)
-- `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps)
-- `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/categories/netdaemon_apps)
-    - NetDaemin apps is deprecated and will [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
+- `Filter with country code`: Only show repositories for your country (if the repository has information about that).
+- `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps).
+- `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/categories/netdaemon_apps).
+    - NetDaemon apps is deprecated and will [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
 - `Enable experimental features`: This enables experimental features in HACS.
 
 :::note
