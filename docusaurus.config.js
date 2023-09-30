@@ -60,7 +60,7 @@ module.exports = {
             },
           ],
         },
-        {},{},{},{},{},
+        {}, {}, {}, {}, {},
       ],
     },
   },
@@ -98,7 +98,7 @@ module.exports = {
       {
         redirects: [
           {
-            from: "/default_repositories",
+            from: ["/default_repositories"],
             to: "/"
           },
           {
