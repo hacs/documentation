@@ -106,22 +106,20 @@ function Home() {
         </section>
         <section className={classnames('hero hero--primary', styles.heroBanner)}>
           <div className="container">
-          <Carousel>
-            <div>
-              <img className="demo" src="img/panel/entry.png" />
-              <p className="legend">HACS Entry page</p>
-            </div>
-            <div>
-              <img className="demo" src="img/panel/store.png" />
-              <p className="legend">HACS Integration store panel</p>
-            </div>
-            <div>
-              <img className="demo" src="img/dialog/add_frontend_repository.png" />
-              <p className="legend">Discover and download frontend repositories</p>
-            </div>
-          </Carousel>
-          
-            
+            <Carousel>
+              <div>
+                <img className="demo" src="img/panel/entry.png" />
+                <p className="legend">HACS Entry page</p>
+              </div>
+              <div>
+                <img className="demo" src="img/panel/store.png" />
+                <p className="legend">HACS Integration store panel</p>
+              </div>
+              <div>
+                <img className="demo" src="img/dialog/add_frontend_repository.png" />
+                <p className="legend">Discover and download frontend repositories</p>
+              </div>
+            </Carousel>
           </div>
         </section>
 
