@@ -1,6 +1,6 @@
 {
 	"name": "hacs/doumentation",
-	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20",
 	"postCreateCommand": "scripts/setup",
 	"forwardPorts": [3000],
 	"customizations": {
