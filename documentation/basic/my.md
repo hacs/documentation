@@ -1,7 +1,7 @@
 ---
 id: my
-title: "My Home Assistant"
-description: "My link support"
+title: 'My Home Assistant'
+description: 'My link support'
 ---
 
 :::note
@@ -19,12 +19,5 @@ This works for both default and custom repositories.
 
 1. Start by going to https://my.home-assistant.io/create-link/?redirect=hacs_repository
 1. Fill in the fields on that page to generate your My link.
-    1. "Category" is only needed for custom repositories
+   1. "Category" is only needed for custom repositories
 1. Copy the URL or snippets you want for your My link.
-
-
-Example for hacs/integration:
-
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=hacs&repository=integration)
-
-

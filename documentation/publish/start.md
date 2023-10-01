@@ -100,12 +100,8 @@ If the repository does not use tags, the 7 first characters of the last commit w
 
 [See here for how to add a custom repository.](/docs/publish/include)
 
-## My links (Badges)
+## My links
 
-Tell your users that your repository can be tracked with HACS by adding a [my-link](https://my.home-assistant.io) badge to your documentation.
+Tell your users that your repository can be tracked with HACS by adding a [my-link](https://my.home-assistant.io) link to your documentation.
 
-Generate a unique badge/link for your repository here: https://my.home-assistant.io/create-link/?redirect=hacs_repository
-
-Example:
-
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=hacs&repository=integration&category=integration)
+Generate a unique link for your repository here: https://my.home-assistant.io/create-link/?redirect=hacs_repository

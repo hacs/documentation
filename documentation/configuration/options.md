@@ -1,20 +1,18 @@
 ---
 id: options
 title: Configuration options
-description: "Configuration options"
+description: 'Configuration options'
 ---
 
 :::info
 _Finish [initial configuration](/docs/configuration/basic) before you modify HACS options described here._
 :::
 
-## In Home Assistant, go to the Settings ➤ Integrations panel
+## Change HACS options
 
-[![Open your Home Assistant instance and show your integrations.](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
-
-## Select "Options" on the card for "HACS"
-
-![image](/img/option1.png)
+1. First go to the "Settings" in the Home Assistant UI, then "Devices & Services" and the "Integrations" tab in the Home Assistant UI
+1. Then click on the entry for HACS.
+1. On the card click on "Configure"
 
 ## Options
 
@@ -26,7 +24,7 @@ _Finish [initial configuration](/docs/configuration/basic) before you modify HAC
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/categories/appdaemon_apps).
 - `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/categories/netdaemon_apps).
-    - NetDaemon apps is deprecated and will [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
+  - NetDaemon apps is deprecated and will [deprecated](/docs/categories/netdaemon_apps#deprecation-notice) and will be removed from HACS.
 - `Enable experimental features`: This enables [experimental features](https://experimental.hacs.xyz/) in HACS.
 
 :::note
