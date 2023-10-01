@@ -30,13 +30,11 @@ module.exports = {
     navbar: {
       title: 'HACS',
       items: [
-        { to: 'docs/setup/prerequisites', label: 'Download', position: 'left' },
-        { to: 'docs/configuration/basic', label: 'Configuration', position: 'left' },
-        { to: 'docs/basic/getting_started', label: 'Usage', position: 'left' },
-        { to: 'docs/community_guides', label: 'Guides', position: 'left' },
-        { to: 'docs/developer/start', label: 'Developer docs', position: 'right' },
-        { to: 'docs/faq/', label: 'FAQ', position: 'right' },
-        { to: 'help', label: 'Help', position: 'right' },
+        { to: 'docs/user', label: 'Use', position: 'left' },
+        { to: 'docs/publisher', label: 'Publish', position: 'left' },
+        { to: 'docs/faq/', label: 'FAQ', position: 'left' },
+        { to: 'help', label: 'Help', position: 'left' },
+        { to: 'docs/developer', label: 'Develop', position: 'right' },
       ],
     },
     footer: {
@@ -63,7 +61,7 @@ module.exports = {
             },
           ],
         },
-        {},{},{},{},{},
+        {}, {}, {}, {}, {},
       ],
     },
   },
@@ -101,7 +99,7 @@ module.exports = {
       {
         redirects: [
           {
-            from: "/default_repositories",
+            from: ["/default_repositories",],
             to: "/"
           },
           {
@@ -123,6 +121,10 @@ module.exports = {
           {
             from: "/docs/faq/what",
             to: "/docs/faq/"
+          },
+          {
+            from: "/docs/developer/start",
+            to: "/docs/developer/"
           }
         ]
       }

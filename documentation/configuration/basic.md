@@ -1,7 +1,7 @@
 ---
 id: basic
 title: Initial Configuration
-description: "Basic configuration"
+description: 'Basic configuration'
 ---
 
 :::info
@@ -10,7 +10,8 @@ _This page assume that you have already completed the [download](/docs/setup/pre
 
 ## In your Home Assistant UI go to the Integrations panel
 
-[![Open your Home Assistant instance and show your integrations.](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
+1. First go to the "Settings" in the Home Assistant UI
+1. Then "Devices & Services" and the "Integrations" tab in the Home Assistant UI
 
 ## Clear your browser cache
 
@@ -20,11 +21,11 @@ Before HACS can show up in the list you need to clear your browser cache or perf
 You actually need to do this, don't skip it.
 :::
 
-## Click the "+ ADD INTEGRATION" button in the bottom right corner
+## Add the integration
 
-[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=hacs)
-
-## Search for or scroll down to find "HACS" and select it
+1. Click on the "+ Add integration" button in the bottom right corner.
+1. Search for "HACS".
+1. Then select (click on) it.
 
 ![image](/img/conf3.png)
 
@@ -38,7 +39,7 @@ Only the last item (experimental features) are optional, you need to accept ever
 
 HACS uses a device OAuth flow for authentication against the GitHub API.
 
-***
+---
 
 ![image](/img/part2.png)
 
@@ -46,37 +47,37 @@ On the first screen you are presented with a device code, copy that to your clip
 
 **Do not click on submit yet!**
 
-***
+---
 
 ![image](/img/no_account.png)
 
 If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are already signed in, you can skip this part.
 
-***
+---
 
 ![image](/img/part3.png)
 
 When that page is loaded up, paste or type in your device code that was presented to you in the previous step.
 
-***
+---
 
 ![image](/img/part4.png)
 
 Here you click on "Authorize hacs".
 
-***
+---
 
 ![image](/img/part5.png)
 
 Once you see the confirmation screen, you can close the tab and go back to Home Assistant.
 
-***
+---
 
 ![image](/img/part2.png)
 
 Now you can click "Submit" to complete the configuration of HACS.
 
-***
+---
 
 ![image](/img/conf5.png)
 

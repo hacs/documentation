@@ -8,13 +8,11 @@ description: 'Configuration options'
 _Finish [initial configuration](/docs/configuration/basic) before you modify HACS options described here._
 :::
 
-## In Home Assistant, go to the Settings ➤ Integrations panel
+## Change HACS options
 
-[![Open your Home Assistant instance and show your integrations.](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
-
-## Select "Options" on the card for "HACS"
-
-![image](/img/option1.png)
+1. First go to the "Settings" in the Home Assistant UI, then "Devices & Services" and the "Integrations" tab in the Home Assistant UI
+1. Then click on the entry for HACS.
+1. On the card click on "Configure"
 
 ## Options
 

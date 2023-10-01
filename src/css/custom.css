@@ -39,21 +39,28 @@ html[data-theme='dark'] .invertDark {
   margin-top: 36px;
   height: calc(100vh - var(--ifm-navbar-height) - 270px) !important;
 }
+
 .category {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
 .demo {
-  box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
-  -webkit-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
-  -moz-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);;
+  box-shadow: 3px 3px 1px var(--ifm-contents-border-color);
+  ;
+  -webkit-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);
+  ;
+  -moz-box-shadow: 3px 3px 1px var(--ifm-contents-border-color);
+  ;
 }
 
 .logo {
   height: 25em;
 }
 
-.hero__title, .hero__subtitle,.btt {
+.hero__title,
+.hero__subtitle,
+.btt {
   color: var(--ifm-color-secondary) !important;
 }
 
@@ -65,4 +72,8 @@ html[data-theme='dark'] .invertDark {
   .carousel-root {
     display: none;
   }
+}
+
+.tilted-404 {
+  rotate: -9deg;
 }
