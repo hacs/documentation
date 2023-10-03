@@ -5,7 +5,7 @@ description: 'Basic configuration'
 ---
 
 :::info
-_This page assume that you have already completed the [download](/docs/setup/prerequisites)._
+_This page assumes that you have already completed the [download](/docs/setup/prerequisites)._
 :::
 
 ## In your Home Assistant UI go to the Integrations panel
