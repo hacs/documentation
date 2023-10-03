@@ -9,6 +9,8 @@ sidebar_position: 0
 
 ---
 
+Begin by opening HACS in the left column and search for an element in the top search bar. You can also clear the default filter to show all available elements.
+
 ## What can HACS do?
 
 HACS is a manager for downloading and maintaining custom elements for Home Assistant.
