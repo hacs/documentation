@@ -10,4 +10,4 @@ import { useCurrentSidebarCategory } from '@docusaurus/theme-common'
 
 <i>{frontMatter.description}</i>
 
-<DocCardList items={useCurrentSidebarCategory().items} />
+<DocCardList items={useCurrentSidebarCategory().items.filter(entry => entry.docId !== "faq/faq_entry")} />

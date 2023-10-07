@@ -1,0 +1,13 @@
+---
+id: categories
+title: Categories
+description: "Categories available in HACS."
+sidebar_position: 0
+---
+
+import DocCardList from '@theme/DocCardList'
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common'
+
+<i>{frontMatter.description}</i>
+
+<DocCardList items={useCurrentSidebarCategory().items.filter(entry => entry.docId !== "categories/categories")} />

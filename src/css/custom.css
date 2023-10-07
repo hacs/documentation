@@ -77,3 +77,10 @@ html[data-theme='dark'] .invertDark {
 .tilted-404 {
   rotate: -9deg;
 }
+
+
+svg.inline {
+  fill: var(--ifm-color-content);
+  height: 24px;
+  vertical-align: bottom;
+}

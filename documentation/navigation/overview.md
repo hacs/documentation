@@ -1,35 +1,56 @@
 ---
 id: overview
 title: Overview
-description: "Overview of the HACS UI"
+description: 'Overview of the HACS UI'
 ---
 
-This is the overview of HACS.
+This is the home of HACS.
 
 ![nav_overview](/img/panel/entry.png)
 
-The overview consist of the sections you have enabled, your pending updates and important messages.
+By default it only shows you which repositories you have downloaded with HACS.
 
-## Pending updates
+If you want to see more use the [search](#search) and [filter](#filter) capabilites.
 
-Every repository that has a pending update will show here, if you click on one of them a popup will show that give you the option to update it.
+## Search
 
-## Sections
+Above the list of repositories there is a search field.
+In this field you can serch for both downloaded and available repositories you can manage with HACS.
 
-This is your gateway to the sections in HACS where you will find your downloaded repositories.
+You can search data in all [columns](#columns) of each repository including:
 
-### Integrations
+- Author
+- Category
+- Description
+- Name
+- Status
+- Topics
 
-Here are your integrations (custom_components)
+## Filter
 
-### Frontend
+If you are just looking to bowse repositories, you can do so with filtering.
+You can find and set the filters in the filter menu you can open with the (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z" /></svg>) icon button to the right in the searchbar.
 
-Here are your themes, and elements for lovelace.
+![image of filters](/img/filters.png)
 
-### Automation
+### Downloaded filter
 
-Here are your automations apps
+This is the default filter, and when enabled will show downloaded repositoruies.
 
-### about
+### New filter
 
-This opens a popup with information about HACS.
+When enabled this will show repositories you have not looked at before.
+
+### Category filter
+
+With this filter you can select one of the available [categories](/docs/categories) to show.
+
+Once enabled it will show repositories in that category.
+
+## Columns
+
+:::note
+This is **not** available for mobile devices.
+:::
+
+You choose what's important to you, select the commumns you want to see.
