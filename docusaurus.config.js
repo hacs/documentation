@@ -20,7 +20,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     metadata: [
-      {name: 'twitter:site', content: '@HACSIntegration'}
+      { name: 'twitter:site', content: '@HACSIntegration' }
     ],
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
@@ -125,6 +125,10 @@ module.exports = {
           {
             from: "/docs/developer/start",
             to: "/docs/developer/"
+          },
+          {
+            from: "/docs/navigation/stores",
+            to: "/docs/navigation/overview"
           }
         ]
       }
