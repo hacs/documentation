@@ -28,6 +28,8 @@ With this you can quickly manage the repository and get to its issue tracker.
 Above the list of repositories there is a search field.
 In this field you can serch for both downloaded and available repositories you can manage with HACS.
 
+![image of search](/img/panel/search.png)
+
 You can search data in all [columns](#columns) of each repository including:
 
 - Author
@@ -42,7 +44,7 @@ You can search data in all [columns](#columns) of each repository including:
 If you are just looking to bowse repositories, you can do so with filtering.
 You can find and set the filters in the filter menu you can open with the (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z" /></svg>) icon button to the right in the searchbar.
 
-![image of filters](/img/filters.png)
+![image of filters](/img/panel/filter.png)
 
 ### Downloaded filter
 
@@ -67,3 +69,16 @@ This is **not** available for mobile devices.
 You choose what's important to you, select the commumns you want to see.
 
 ## HACS Menu
+
+At the top-right corner you will find the 3 dots menu (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" /></svg>).
+
+![image of menu](/img/panel/menu.png)
+
+Here you can:
+
+- Open the documentation of HACS itself
+- Open the [GitHub](https://github.com) page of HACS itself.
+- Open an issue for HACS itself.
+- Add [custom repositories](/docs/faq/custom_repositories).
+- Dismiss all new repositories (if you have any).
+- Show information about your HACS installation.
