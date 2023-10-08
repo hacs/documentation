@@ -1,7 +1,8 @@
 ---
-id: overview
-title: Overview
-description: 'Overview of the HACS UI'
+id: dashboard
+title: Dashboard
+description: 'HACS Dashboard'
+sidebar_position: 1
 ---
 
 This is the home of HACS.

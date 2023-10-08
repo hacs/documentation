@@ -127,8 +127,8 @@ module.exports = {
             to: "/docs/developer/"
           },
           {
-            from: "/docs/navigation/stores",
-            to: "/docs/navigation/overview"
+            from: ["/docs/navigation/stores", "/docs/navigation/overview"],
+            to: "/docs/basic/dashboard"
           }
         ]
       }
