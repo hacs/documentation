@@ -1,6 +1,6 @@
 ---
 id: dashboard
-title: Dashboard
+title: Main Dashboard
 description: 'HACS Dashboard'
 sidebar_position: 1
 ---
@@ -65,3 +65,5 @@ This is **not** available for mobile devices.
 :::
 
 You choose what's important to you, select the commumns you want to see.
+
+## HACS Menu
