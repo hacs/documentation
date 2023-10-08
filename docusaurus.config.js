@@ -19,6 +19,11 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    announcementBar: {
+      id: 'experimental_docs',
+      content:
+        'Looking for the <a rel="noopener noreferrer" href="https://experimental.hacs.xyz">experimental</a> documentation? <a rel="noopener noreferrer" href="https://experimental.hacs.xyz">Have a look here!</a>',
+    },
     prism: {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
