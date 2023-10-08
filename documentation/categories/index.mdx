@@ -9,5 +9,5 @@ import DocCardList from '@theme/DocCardList'
 import { useCurrentSidebarCategory } from '@docusaurus/theme-common'
 
 <i>{frontMatter.description}</i>
-
-<DocCardList items={useCurrentSidebarCategory().items.filter(entry => entry.docId !== "categories/categories")} />
+<br/><br/>
+<DocCardList items={useCurrentSidebarCategory().items.filter(entry => entry.label !== frontMatter.title)} />
