@@ -1,7 +1,7 @@
 ---
 id: include
 title: Include default repositories
-description: "Include default repositories"
+description: 'Include default repositories'
 ---
 
 As a developer you can now add your repository to be included in as a default repository in the store.
@@ -31,7 +31,6 @@ When a PR for this is merged, it will show up in HACS after the first scheduled 
 
 When submitting a repository for the default repository a suite of CI checks will be run to ensure that the repository follows the requirements.
 All checks needs to pass for the repository to be included (unless something else are agreed on).
-
 
 ### Check Brands
 
@@ -97,5 +96,4 @@ This make sure that the files still are sorted correctly.
 
 ## After Submitting
 
-HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+draft%3Afalse) before querying your PR. Updating your PR will drop it to the bottom of the list.   
-
+HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Acreated-asc) before querying your PR. Updating your PR will drop it to the bottom of the list.
