@@ -93,45 +93,6 @@ module.exports = {
         docsDir: "documentation",
         indexPages: true,
       },
-    ],
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            from: ["/default_repositories",],
-            to: "/"
-          },
-          {
-            from: ["/docs/configuration/pat", "/docs/configuration/legacy", "/docs/configuration/start"],
-            to: "/docs/configuration/basic"
-          },
-          {
-            from: "/docs/installation/installation",
-            to: "/docs/setup/download"
-          },
-          {
-            from: ["/docs/installation/manual", "/docs/installation/manual_cli", "/docs/installation/prerequisites"],
-            to: "/docs/setup/prerequisites"
-          },
-          {
-            from: "/docs/installation/remove",
-            to: "/docs/setup/remove"
-          },
-          {
-            from: "/docs/faq/what",
-            to: "/docs/faq/"
-          },
-          {
-            from: "/docs/developer/start",
-            to: "/docs/developer/"
-          },
-          {
-            from: ["/docs/navigation/stores", "/docs/navigation/overview"],
-            to: "/docs/basic/dashboard"
-          }
-        ]
-      }
     ]
   ],
 }
