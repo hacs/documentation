@@ -1,1 +1,11 @@
 /blog/* /
+
+/default_repositories /
+/docs/configuration/pat /docs/configuration/basic
+/docs/configuration/legacy /docs/configuration/basic
+/docs/configuration/start /docs/configuration/basic
+/docs/installation/installation /docs/setup/download
+/docs/installation/remove /docs/setup/remove
+/docs/installation/* /docs/setup/prerequisites
+/docs/faq/what /docs/faq
+/docs/developer/start /docs/developer
