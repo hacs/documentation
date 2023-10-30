@@ -97,5 +97,4 @@ This make sure that the files still are sorted correctly.
 
 ## After Submitting
 
-HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+draft%3Afalse) before querying your PR. Updating your PR will drop it to the bottom of the list.   
-
+HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+draft%3Afalse) before querying your PR.
