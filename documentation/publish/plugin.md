@@ -23,10 +23,10 @@ Repository name: "lovelace-awesome-card"
 File name of one of the files: "awesome-card.js"
 ```
 
-When searching for accepted files HACS will look in this order:
+When searching for accepted files HACS will look in this order (based on value of `content_in_root` in hacs.json):
 
-- The `dist`directory.
-- On the latest release.
+- On the latest release if `content_in_root` is `false`.
+- The `dist` directory if `content_in_root` is `false`.
 - The root of the repository.
 
 All `.js` files it finds in the first location it finds one that matches the name will be downloaded.
