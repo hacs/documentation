@@ -9,7 +9,7 @@
     "swizzle": "docusaurus swizzle"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/core": "^3.0.1",
     "@docusaurus/preset-classic": "^2.4.3",
     "@docusaurus/utils": "^2.4.3",
     "@easyops-cn/docusaurus-search-local": "^0.36.0",
