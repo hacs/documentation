@@ -29,34 +29,13 @@ wget -O - https://get.hacs.xyz | bash -
   </TabItem>
   <TabItem value="container" label="Container">
 
-For Home Assistant Container you have 2 options.
-
-<Tabs>
-  <TabItem value="host" label="Host" default>
-
-
 1. Open a terminal
-1. Change directory to your Home Assistant configuration directory
+1. Go inside the container with `docker exec -it homeassistant bash` (or similar)
 1. Run the HACS download script
 
 ```bash
 wget -O - https://get.hacs.xyz | bash -
 ```
-
-  </TabItem>
-  <TabItem value="container" label="Container">
-
-1. Open a terminal
-1. Go inside the container with `docker exec -it homeassistant bash`
-1. Run the HACS download script
-
-```bash
-wget -O - https://get.hacs.xyz | bash -
-```
-
-
-  </TabItem>
-</Tabs>
 
 
   </TabItem>
@@ -78,11 +57,7 @@ wget -O - https://get.hacs.xyz | bash -
 
 ## Troubleshooting
 
-
-- `CTRL+V` not working for you? 
+### `CTRL+V` not working for you? 
   - Try `CTRL+SHIFT+V` instead
   - Try `SHIFT+INS(insert)` instead
   - Try `Right-click` instead
-
-- Having issues accessing `https://get.hacs.xyz` in the terminal?
-  - Try it with `https://raw.githubusercontent.com/hacs/get/main/get` instead
