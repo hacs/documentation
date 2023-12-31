@@ -25,7 +25,7 @@ module.exports = {
         'Looking for the <a rel="noopener noreferrer" href="https://experimental.hacs.xyz">experimental</a> documentation? <a rel="noopener noreferrer" href="https://experimental.hacs.xyz">Have a look here!</a>',
     },
     prism: {
-      darkTheme: require('prism-react-renderer/themes/dracula'),
+      darkTheme: require('prism-react-renderer').themes.github,
     },
     image: 'https://assets.hacs.xyz/banner.png',
     description: 'HACS gives you a powerful UI to handle downloads of all your custom needs.',
