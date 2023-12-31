@@ -14,11 +14,11 @@ To find out what element it is, look for the repository with a "Not Loaded" head
 
 This will trigger if you are not using the expected URL, or if it's not included in the first place.
 
-## Lovelace in storage more (UI)
+## Lovelace in storage mode (UI)
 
 Something strange has happened, click on the card for it to get to the repository page and then click the 3 dots in the top right corner and select "Redownload".
 
-## Lovelace in storage more (YAML)
+## Lovelace in storage mode (YAML)
 
 Add the correct URL to the `resource` key under your `lovelace` configuration entry.
 To find the URL click on the card for it to get to the repository page and then click the 3 dots in the top right corner and select "Redownload".
