@@ -20,4 +20,4 @@ HACS will check for updates to every element:
 
 ## Manually trigger updates
 
-On each RepositoryView (the page with details about the element), click the "kebab" menu in the top-right corner and choose "Redownload" from the dropdown.
+On each RepositoryView (the page with details about the element), click the "kebab" menu in the top-right corner and choose "Update information" from the dropdown.
