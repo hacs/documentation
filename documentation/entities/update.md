@@ -10,7 +10,7 @@ This require [experimental features](/docs/configuration/options#options) enable
 
 HACS provide [update entities](https://www.home-assistant.io/integrations/update/) for all tracked repositories.
 
-# Install service
+## Install service
 
 Like all other [update entities](/docs/entities/update), you can use the `update.install` service to handle updates.
 
