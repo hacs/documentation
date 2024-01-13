@@ -6,7 +6,6 @@ description: 'Data updates'
 
 Everything you download with HACS will create a dedicated [update entity](/docs/entities/update) for that repository.
 
-When a update is available for the repository, this will be shown in the Configuration panel of Home Assistant with other updates.
 
 ## Managed elements
 
