@@ -42,17 +42,16 @@ You can search data in all [columns](#columns) of each repository including:
 ## Filter
 
 If you are just looking to bowse repositories, you can do so with filtering.
-You can find and set the filters in the filter menu you can open with the (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z" /></svg>) icon button to the right in the searchbar.
+You can find and set the filters in the dialog you can open with the (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z" /></svg>) icon button to the right in the searchbar.
 
-![image of filters](/img/panel/filter.png)
+![image of filters](/img/dialog/manage_overview_table.png)
 
-### Downloaded filter
+### Base filters
 
-This is the default filter, and when enabled will show downloaded repositoruies.
+There are 2 base filters:
 
-### New filter
-
-When enabled this will show repositories you have not looked at before.
+- Downloaded (This is the default filter that is applied, and when enabled will show downloaded repositoruies.)
+- New (When enabled this will show repositories you have not looked at before.)
 
 ### Category filter
 
