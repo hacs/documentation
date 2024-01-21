@@ -12,7 +12,7 @@ HACS provide [update entities](https://www.home-assistant.io/integrations/update
 
 ## Install service
 
-Like all other [update entities](/docs/entities/update), you can use the `update.install` service to handle updates.
+Like all other [update entities](https://www.home-assistant.io/integrations/update/), you can use the `update.install` service to handle updates.
 
 The "Version" field supports the folowing:
 
