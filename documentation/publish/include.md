@@ -74,7 +74,10 @@ This checks if the repository is archived.
 
 _This check can fail._
 
-This checks if the submitter is the owner of repository, this can fail if the repository belong to an org. or that the submitter is a major contributor to the repository.
+This checks if:
+
+- the submitter is the owner of repository (this can fail if the repository belong to an org).
+- or the submitter is a major contributor to the repository.
 
 ### Check Images
 
