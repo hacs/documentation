@@ -14,8 +14,7 @@ If you want to remove HACS you need to do that using the following steps.
 1. Delete the `hacs` directory under `custom_components`.
 1. Restart Home Assistant.
 
-When removed the wrong way. An option is to download it again.
-Just move hacs back to custom components and reboot. And start the remove procedure again.
+When removed the wrong way, an option is to [download HACS again](/docs/setup/download). Then just move the `hacs` directory back under `custom_components` after which you can reboot and start the remove procedure again.
 
 
 # Revoke OAuth access
