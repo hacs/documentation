@@ -30,6 +30,6 @@ Here are your themes, and elements for lovelace.
 
 Here are your automations apps
 
-### about
+### About
 
 This opens a popup with information about HACS.
