@@ -1,0 +1,25 @@
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{{ page.content }}
+{% set splitpath = page.file.src_path.split("/") %}
+{% if page.meta and page.meta.generated and splitpath[-1] == "index.md" %}
+    {% set directory = "/".join(splitpath[0:-1]) %}
+    <i>{{page.meta and page.meta.description or ""}}</i>
+    <div class="grid cards" markdown>
+        <ul>
+            {% for file in pages %}
+            {% if file.src_path.startswith(directory) and not file.src_path.endswith("index.md") %}
+
+            <li>
+                <p><b>{{file.page.title}}</b></p>
+                <hr>
+                <a href="{{file.url}}">-> Read more</a>
+            </li>
+
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% if page.meta.get("feedback", true) %}
+    {% include "partials/feedback.html" %}
+{% endif %}

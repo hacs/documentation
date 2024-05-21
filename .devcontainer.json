@@ -1,8 +1,7 @@
 {
 	"name": "hacs/doumentation",
-	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20",
+	"image": "mcr.microsoft.com/devcontainers/python:3.12",
 	"postCreateCommand": "scripts/setup",
-	"forwardPorts": [3000],
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -11,13 +10,12 @@
 		},
 		"settings": {
 			"editor.formatOnPaste": false,
-			"editor.formatOnSave": true,
-			"editor.formatOnType": true,
+			"editor.formatOnSave": false,
+			"editor.formatOnType": false,
 			"[typescript]": {
 				"editor.defaultFormatter": "esbenp.prettier-vscode"
 			},
 			"files.trimTrailingWhitespace": true
 		}
-	},
-	"remoteUser": "node"
+	}
 }

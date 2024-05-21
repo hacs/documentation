@@ -1,0 +1,39 @@
+:root {
+    --hacs-color-primary: #41BDF5;
+}
+
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: var(--hacs-color-primary) !important;
+    --md-typeset-a-color: var(--hacs-color-primary) !important;
+}
+
+.feedback-actions {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 720px;
+}
+
+.twemoji.right-icon {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .footer-right-links {
+        text-align: right;
+    }
+    .twemoji.left-icon {
+        display: none;
+    }
+    .twemoji.right-icon {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 720px) {
+    .md-footer-meta__inner.md-grid {
+        flex-direction: column-reverse;
+    }
+}
+
