@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4.1.6
 
       - name: Setup
-        uses: scripts/setup
+        runs: scripts/setup
 
       - name: Build
-        uses: scripts/build
+        runs: scripts/build
