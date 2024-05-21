@@ -1,4 +1,4 @@
-name: "Actions"
+name: Actions
 
 on:
   pull_request:
@@ -10,11 +10,25 @@ on:
 
 jobs:
   lint:
-    name: pre-commit
+    name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: 📦 Checkout the repository
+      - name: Checkout the repository
         uses: actions/checkout@v4.1.6
 
-      - name: ✅ Run pre-commit
+      - name: Run pre-commit
         uses: pre-commit/action@v3.0.1
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4.1.6
+
+      - name: Setup
+        uses: scripts/setup
+
+      - name: Build
+        uses: scripts/build
