@@ -21,6 +21,10 @@ Add both these actions to your own repository and make sure they pass:
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
+In your fork of `hacs/default`, create a new branch for your changes from the `master`branch. Do **not** use the`master` branch directly for your changes.
+
+Your PR needs to be editable, so you can not submit it from an organization.
+
 :::caution
 _NB!: The list is case sensitive._
 :::
