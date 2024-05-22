@@ -17,8 +17,8 @@ The `<section>` is one of `[appdaemon|critical|integration|netdaemon|theme|pytho
 
 Examples:
 
-- <https://data-v2.hacs.xyz/integration/data.json>
-- <https://data-v2.hacs.xyz/integration/repositories.json>
+- https://data-v2.hacs.xyz/integration/data.json
+- https://data-v2.hacs.xyz/integration/repositories.json
 
 The `data` `<type>` contains a dictionary data generated from the repositories defined for that `<section>` in the 
 
@@ -50,7 +50,7 @@ If any of your downloaded repositories have an update, their [update entity](/do
 
 ### Every 48 hours after startup
 
-Suppose HACS has yet to fetch the contents of <https://data-v2.hacs.xyz/integration/data.json> at least once successfully. In that case, it will use the [GitHub REST API](https://docs.github.com/en/rest) to refresh information about hacs/integration. If it has fetched one or more successfully, this action is skipped.
+Suppose HACS has yet to fetch the contents of https://data-v2.hacs.xyz/integration/data.json at least once successfully. In that case, it will use the [GitHub REST API](https://docs.github.com/en/rest) to refresh information about hacs/integration. If it has fetched one or more successfully, this action is skipped.
 
 If you have downloaded any custom repositories, they will refresh their data using the [GitHub REST API](https://docs.github.com/en/rest).
 
