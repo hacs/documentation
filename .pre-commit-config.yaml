@@ -6,4 +6,5 @@ repos:
         args:
           - --ignore-words-list=hass
           - --quiet-level=2
-        exclude: ^yarn\.lock$
+          - --skip=yarn.lock
+          - --skip=.yarn/*
