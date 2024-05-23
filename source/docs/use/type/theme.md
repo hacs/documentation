@@ -21,3 +21,7 @@ frontend:
 
 !!! info
     Any theme downloaded with HACS is stored in `themes/` in your Home Assistant configuration directory.
+
+??? example ":material-glasses: Nerd mode"
+
+    Nothing yet :(

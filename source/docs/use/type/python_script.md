@@ -20,3 +20,7 @@ python_script:
 
 !!! info
     Any Python Script downloaded with HACS is stored in `python_scripts/` in your Home Assistant configuration directory.
+
+??? example ":material-glasses: Nerd mode"
+
+    Nothing yet :(
