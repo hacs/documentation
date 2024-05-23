@@ -20,6 +20,6 @@
         </ul>
     </div>
 {% endif %}
-{% if page.meta.get("feedback", true) %}
+{% if page.meta.get("feedback", true)  and not page.file.src_path.startswith("blog") %}
     {% include "partials/feedback.html" %}
 {% endif %}
