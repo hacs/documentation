@@ -20,7 +20,7 @@ When a `.js` file is downloaded, a compressed `.gz` version of it will be create
 
 If you make local changes to a dashboard element in the `.js` file, delete the `.gz` variant to have HACS serve up that one.
 
-At the bottom of every page for plugins, it will state how you should add it to your Lovelace configuration.
+At the bottom of every page for dashboard elements, it will state how you should add it to your dashboard configuration.
 
 ### Custom view (/hacsfiles)
 
