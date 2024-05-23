@@ -21,6 +21,10 @@ Add both these actions to your own repository and make sure they pass:
 
 When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
 
+In your fork of `hacs/default`, create a new branch for your changes from the `master`branch. Do **not** use the`master` branch directly for your changes.
+
+Your PR needs to be editable, so you can not submit it from an organization.
+
 !!! danger "Read this!"
     _NB!: The list is case sensitive._
 
@@ -68,9 +72,9 @@ This checks if the repository is archived.
 
 ### Check Owner
 
-_This check can fail._
-
-This checks if the submitter is the owner of repository, this can fail if the repository belong to an org. or that the submitter is a major contributor to the repository.
+This checks if the submitter is one of the following:
+- The owner of the repository
+- A major contributor to the repository
 
 ### Check Images
 

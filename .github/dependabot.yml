@@ -5,6 +5,10 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
+  groups:
+    docusaurus:
+      patterns:
+      - "@docusaurus/*"
 - package-ecosystem: github-actions
   directory: "/"
   schedule:

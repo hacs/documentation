@@ -17,8 +17,8 @@ The `<section>` is one of `[appdaemon|critical|integration|netdaemon|theme|pytho
 
 Examples:
 
-- <https://data-v2.hacs.xyz/integration/data.json>
-- <https://data-v2.hacs.xyz/integration/repositories.json>
+- https://data-v2.hacs.xyz/integration/data.json
+- https://data-v2.hacs.xyz/integration/repositories.json
 
 The `data` `<type>` contains a dictionary data generated from the repositories defined for that `<section>` in the 
 
