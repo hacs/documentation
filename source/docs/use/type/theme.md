@@ -1,7 +1,6 @@
 ---
-id: themes
-title: Themes
-description: "Category: Themes"
+title: Theme
+layout: type
 ---
 
 Themes is a part of the Home Assistant [`frontend` integration.](https://www.home-assistant.io/integrations/frontend/)

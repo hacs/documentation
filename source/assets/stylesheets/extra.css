@@ -19,6 +19,28 @@
     display: none;
 }
 
+
+a.generated-grid-link {
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .1rem;
+    display: block;
+    margin: 0;
+    padding: .8rem;
+    transition: border .25s, box-shadow .25s;
+    color: var(--md-default-fg-color);
+    line-height: 0.3em;
+}
+
+a.generated-grid-link:hover {
+    border: .01rem solid var(--md-accent-fg-color);
+    box-shadow: 0 0 0 .01rem var(--md-accent-fg-color);
+    background-color: var(--md-default-fg-color--lightest);
+}
+
+a.generated-grid-link p:last-of-type {
+    font-size: 0.65rem;
+}
+
 @media (min-width: 720px) {
     .footer-right-links {
         text-align: right;

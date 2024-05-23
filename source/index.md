@@ -20,55 +20,55 @@ Lorem Ipsum...
 
 <div class="grid cards" markdown>
 
--   **Integrations**
+-   **Integration**
 
     ---
 
     Install [`mkdocs-material`](#) with [`pip`](#) and get up
     and running in minutes
 
-    [:octicons-arrow-right-24: Read more](/docs/categories/integrations.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/integration.md)
 
--   **Dashboard/UI**
+-   **Dashboard cards**
 
     ---
 
     Focus on your content and generate a responsive and searchable static site
 
-    [:octicons-arrow-right-24: Read more](/docs/categories/plugins.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/dashboard_card.md)
 
--  **Themes**
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Read more](/docs/categories/themes.md)
-
--  **Templates**
+-  **Theme**
 
     ---
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Read more](/docs/categories/templates.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/theme.md)
 
--   **Python Scripts**
+-  **Template**
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Read more](/docs/use/type/template.md)
+
+-   **Python Script**
 
     ---
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Read more](/docs/categories/python_scripts.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/python_script.md)
 
 
--   **Appdaemon apps**
+-   **Appdaemon**
 
     ---
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Read more](/docs/categories/appdaemon_apps.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/appdaemon.md)
 
 </div>
 

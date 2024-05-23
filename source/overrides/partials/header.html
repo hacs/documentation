@@ -3,6 +3,10 @@
 -#}
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
@@ -24,13 +28,11 @@
         {% include "partials/palette.html" %}
       {% endif %}
     {% endif %}
-    {% if "material/search" in config.plugins %}
-      <label class="md-header__button md-icon" for="__search">
-        {% set icon = config.theme.icon.search or "material/magnify" %}
-        {% include ".icons/" ~ icon ~ ".svg" %}
-      </label>
-      {% include "partials/search.html" %}
-    {% endif %}
+    <label class="md-header__button md-icon" for="__search">
+      {% set icon = config.theme.icon.search or "material/magnify" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    {% include "partials/search.html" %}
     {% if config.repo_url %}
       <div class="md-header__source">
         {% include "partials/source.html" %}

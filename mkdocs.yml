@@ -66,7 +66,6 @@ theme:
 plugins:
   - blog:
       blog_toc: true
-  - offline
   - privacy
   - search:
       lang: en
@@ -154,7 +153,7 @@ not_in_nav: |
 nav:
   - Home: index.md
   - Use:
-    - docs/user/index.md
+    - docs/use/index.md
     - Download:
       - docs/setup/prerequisites.md
       - docs/setup/download.md
@@ -162,15 +161,15 @@ nav:
     - Configuration:
       - docs/configuration/basic.md
       - docs/configuration/options.md
-    - Categories:
-      - docs/categories/index.md
-      - docs/categories/integrations.md
-      - docs/categories/plugins.md
-      - docs/categories/appdaemon_apps.md
-      - docs/categories/python_scripts.md
-      - docs/categories/templates.md
-      - docs/categories/themes.md
-      - docs/categories/netdaemon_apps.md
+    - Types:
+      - docs/use/type/index.md
+      - docs/use/type/integration.md
+      - docs/use/type/dashboard_card.md
+      - docs/use/type/appdaemon.md
+      - docs/use/type/python_script.md
+      - docs/use/type/template.md
+      - docs/use/type/theme.md
+      - docs/use/type/netdaemon.md
     - Usage:
       - docs/basic/getting_started.md
       - docs/basic/dashboard.md

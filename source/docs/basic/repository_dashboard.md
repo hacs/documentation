@@ -9,7 +9,7 @@ Everything inside HACS are public [GitHub](https://github.com) repositories.
 
 Each repository HACS tracks (downloaded or not) have a dedicated page inside HACS.
 
-What you see on this page depends on what [category](/docs/categories/index.md) it is, and what information the author of it provides.
+What you see on this page depends on what [type](/docs/use/type/index.md) it is, and what information the author of it provides.
 
 ![repository_dashboard](/assets/images/repository_dashboard.png)
 The above image is an example representation of a integration ([Spook 👻 Not your homie](https://github.com/frenck/spook)) that has not been downloaded by HACS.

@@ -1,7 +1,5 @@
 ---
-id: templates
-title: Templates
-description: "Manage custom templates with HACS"
+title: Template
 ---
 
 [Custom templates](https://www.home-assistant.io/docs/configuration/templating/#reusing-templates) was introduced in the Home Assistant 2023.4.0

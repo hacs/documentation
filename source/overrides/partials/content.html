@@ -9,11 +9,11 @@
             {% for file in pages %}
             {% if file.src_path.startswith(directory) and not file.src_path.endswith("index.md") %}
 
-            <li>
-                <p><b>{{file.page.title}}</b></p>
+            <a href="/{{file.page.url}}" class="generated-grid-link">
+                <p class="generated-header"><b>{{file.page.title}}</b></p>
                 <hr>
-                <a href="{{file.url}}">-> Read more</a>
-            </li>
+                <p>{{file.page.meta.description}}</p>
+            </a>
 
             {% endif %}
             {% endfor %}

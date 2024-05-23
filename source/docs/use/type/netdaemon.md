@@ -1,7 +1,5 @@
 ---
-id: netdaemon_apps
-title: NetDaemon Apps (deprecated)
-description: "Category: NetDaemon Apps (deprecated)"
+title: NetDaemon
 ---
 
 !!! failure "Deprecation notice"

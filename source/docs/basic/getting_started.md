@@ -20,6 +20,6 @@ It can help you download and update elements, and can also help you discover new
 - Custom integrations (components/platforms/custom_component) for Home Assistant
 - Custom lovelace elements (cards/rows/mods)
 - AppDaemon apps for [AppDaemon](https://appdaemon.readthedocs.io/en/latest/)
-- NetDaemon apps ([deprecated](/docs/categories/netdaemon_apps.md)) for [NetDaemon](https://netdaemon.xyz/)
+- NetDaemon apps ([deprecated](/docs/use/type/netdaemon.md)) for [NetDaemon](https://netdaemon.xyz/)
 - Themes for the [frontend integration](https://www.home-assistant.io/components/frontend/) in Home Assistant
 - "python_scripts" for the [`python_scripts` integration](https://www.home-assistant.io/components/python_script/) in Home Assistant

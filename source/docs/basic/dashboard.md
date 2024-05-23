@@ -55,7 +55,7 @@ There are 2 base filters:
 
 ### Category filter
 
-With this filter you can select one of the available [categories](/docs/categories/index.md) to show.
+With this filter you can select one of the available [types](/docs/use/type/index.md) to show.
 
 Once enabled it will show repositories in that category.
 

@@ -1,7 +1,6 @@
 ---
-id: plugins
-title: Lovelace Plugins
-description: "Category: Lovelace Plugins"
+title: Dashboard Card
+description: Lorem ipsum...
 ---
 
 The [Lovelace UI](https://www.home-assistant.io/lovelace/) is a customizable interface. With additional community plugins you can extend the default experience.  
