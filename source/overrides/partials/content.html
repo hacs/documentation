@@ -1,4 +1,6 @@
-<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% if page.file.src_path != "index.md" %}
+    <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
 {{ page.content }}
 {% set splitpath = page.file.src_path.split("/") %}
 {% if page.meta and page.meta.generated and splitpath[-1] == "index.md" %}

@@ -1,5 +1,4 @@
 ---
-template: home.html
 feedback: false
 ---
 ![hero_image](/assets/images/hacs_banner.png){.hero-image}
