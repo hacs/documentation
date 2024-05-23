@@ -182,7 +182,6 @@ nav:
       - docs/basic/updates.md
     - Entities:
       - docs/entities/update.md
-    - Community guides: docs/community_guides.md
   - Publish:
     - docs/publish/index.md
     - docs/publish/start.md
