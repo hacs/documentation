@@ -35,7 +35,7 @@ Lorem Ipsum...
 
     Focus on your content and generate a responsive and searchable static site
 
-    [:octicons-arrow-right-24: Read more](/docs/use/type/dashboard_card.md)
+    [:octicons-arrow-right-24: Read more](/docs/use/type/dashboard.md)
 
 -  **Theme**
 

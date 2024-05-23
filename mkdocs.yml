@@ -164,7 +164,7 @@ nav:
     - Types:
       - docs/use/type/index.md
       - docs/use/type/integration.md
-      - docs/use/type/dashboard_card.md
+      - docs/use/type/dashboard.md
       - docs/use/type/appdaemon.md
       - docs/use/type/python_script.md
       - docs/use/type/template.md
