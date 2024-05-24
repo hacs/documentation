@@ -19,7 +19,7 @@ If you want to see more use the [search](#search) and [filter](#filter) capabili
 
 ## Quick actions
 
-All downloaded repositories will have a quick action button (this is the 3 dots to the right of each downloaded repository (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" /></svg>)).
+All downloaded repositories will have a quick action button (this is the 3 dots to the right of each downloaded repository (:material-dots-vertical:)).
 
 With this you can quickly manage the repository and get to its issue tracker.
 
@@ -42,7 +42,7 @@ You can search data in all [columns](#columns) of each repository including:
 ## Filter
 
 If you are just looking to bowse repositories, you can do so with filtering.
-You can find and set the filters in the dialog you can open with the (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z" /></svg>) icon button to the right in the searchbar.
+You can find and set the filters in the dialog you can open with the (:material-filter-variant:) icon button to the right in the searchbar.
 
 ![image of filters](/assets/images/dialog/manage_overview_table.png)
 
@@ -69,7 +69,7 @@ You choose what's important to you, select the commumns you want to see.
 
 ## HACS Menu
 
-At the top-right corner you will find the 3 dots menu (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" /></svg>).
+At the top-right corner you will find the 3 dots menu (:material-dots-vertical:).
 
 ![image of menu](/assets/images/panel/menu.png)
 

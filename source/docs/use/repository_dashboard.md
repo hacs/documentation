@@ -25,7 +25,7 @@ Tese badges provides some key information about the repository, like the author(
 
 ## Options
 
-At the top-right corner you will find the 3 dots menu (<svg className="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" /></svg>).
+At the top-right corner you will find the 3 dots menu (:material-dots-vertical:).
 
 This can be used to quickly access the repository at [GitHub](https://github.com), and it's issue tracker.
 
