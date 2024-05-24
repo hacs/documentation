@@ -1,8 +1,10 @@
 ---
-id: plugin
-title: Plugins
-description: "Plugins"
+title: Plugin (Dashboard)
 ---
+
+!!! note "Naming conflict"
+
+    In the frontend of HACS this type is called "Dashboard", but it is still referred to as "plugin" in the backend.
 
 A good template to use as a reference is [boilerplate-card](https://github.com/custom-cards/boilerplate-card)
 

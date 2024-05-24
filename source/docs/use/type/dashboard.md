@@ -1,6 +1,5 @@
 ---
 title: Dashboard
-description: Lorem ipsum...
 ---
 
 ??? note "Aliases (old names)"
