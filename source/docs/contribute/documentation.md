@@ -1,30 +1,29 @@
 ---
-id: documentation
 title: Documentation
 description: "Documentation development"
 ---
-
-The documentation site for HACS is build with [Docusaurus](https://docusaurus.io) and hosted on [GitHub Pages](https://pages.github.com/)
+The documentation site for HACS is build with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) and hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Contribute to the documentation
 
 There are two ways of contributing to the documentation:
 
-- Using the "Edit this page" link at the bottom of every page.
-- Locally changing (devcontainer)
+- Using the "Edit this page on GitHub" link at the bottom of every page.
+- Locally.
 
-_All changes to the documentation should go against the `main` branch._  
+_All changes to the documentation should go against the `{{ config.remote_branch }}` branch._  
 The repository for the documentation is hosted @ https://github.com/hacs/documentation
 
-### Edit this page
+### Edit this page on GitHub
 
-When you see something that needs changing when you browse the documentation, scroll down to the bottom of the page you are looking at, and click the "Edit this page" link.
+When you see something that needs changing when you browse the documentation, scroll down to the bottom of the page you are looking at, and click the "Edit this page on GitHub" button in the "Help us to improve the documentation" section.
 
-![edit](/assets/images/edit_this.png)
+[:fontawesome-solid-file-pen: Edit this page on GitHub](https://github.com/hacs/documentation/edit/{{config.remote_branch}}/source/{{page.file.src_path}}){ .md-button }
+
 
 This will take you to the GitHub page for it so you can change the content.
 
-### Locally changing (devcontainer)
+### Locally
 
 First spin up the [devcontainer](/docs/contribute/devcontainer.md)
 
@@ -34,7 +33,7 @@ When you have that running issue the following commands:
 scripts/docs/develop
 ```
 
-You have now started a local webserver that hosts the documentation on http://localhost:3000
+You have now started a local webserver that hosts the documentation on `http://localhost:8000`
 
 That server will reload if you do changes to the documentation so you can live see how the changes look.
 
@@ -45,13 +44,13 @@ When you are happy with the result, push the changes to your fork and create a P
 All pages for the HACS documentation is located under:
 
 ```text
-documentation/content/
+source/
 ```
 
 All images for the HACS documentation is located under:
 
 ```text
-documentation/static/assets/images/
+source/assets/images/
 ```
 
 
@@ -62,12 +61,12 @@ documentation/static/assets/images/
 Lets say you need to reference another page that is located under:
 
 ```text
-documentation/content/docs/contribute/features.md
+source/docs/contribute/features.md
 ```
 Then you need to use:
 
 ```md
-[Features](/docs/contribute/features)
+[Features](/docs/contribute/features.md)
 ```
 
 ### Reference images
@@ -75,7 +74,7 @@ Then you need to use:
 Lets say you need to reference an image that is located under:
 
 ```text
-documentation/static/assets/images/features.png
+source/assets/images/features.png
 ```
 Then you need to use:
 
@@ -85,14 +84,13 @@ Then you need to use:
 
 ## New pages
 
-1. Create a new `.md` file under `documentation/` in a sub-directory that fits the purpose of the file.
-1. Add a reference to that file in `sidebars.js`
+1. Create a new `.md` file under `source/docs/` in a sub-directory that fits the purpose of the file.
+1. Add a reference to that file in `mkdocs.yml`
 
 At the top of all pages you should have this:
 
-```text
+```yaml
 ---
-id: An ID for that file, ie. 'feature' (lowercase)
 title: A Title for the page, this will also be used in the sidebar, ie. Feature
 description: "A nice description here"
 ---

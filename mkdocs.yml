@@ -68,6 +68,9 @@ plugins:
   - blog:
       blog_toc: true
   - privacy
+  - open-in-new-tab
+  - macros:
+      on_undefined: strict
   - search:
       lang: en
   - social:
