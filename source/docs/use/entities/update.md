@@ -1,13 +1,8 @@
 ---
-id: update_entities
 title: Update entities
 description: 'Update entities'
+experimental: true
 ---
-
-!!! note
-    This require [experimental features](/docs/use/configuration/options.md#options) enabled.
-
-
 HACS provide [update entities](https://www.home-assistant.io/integrations/update/) for all tracked repositories.
 
 ## Install service
