@@ -66,8 +66,7 @@ theme:
   icon:
     annotation: material/information
 plugins:
-  - blog:
-      blog_toc: true
+  - blog
   - privacy
   - macros:
       on_undefined: strict
