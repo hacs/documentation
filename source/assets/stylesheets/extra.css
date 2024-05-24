@@ -14,6 +14,9 @@
     text-align: center;
     max-width: 720px;
 }
+.feedback-actions a {
+    word-break: normal;
+}
 
 .twemoji.right-icon {
     display: none;

@@ -3,6 +3,7 @@ site_description: HACS gives you a powerful UI to handle downloads of all your c
 site_url: https://hacs.xyz
 repo_url: https://github.com/hacs/integration
 repo_name: hacs/integration
+remote_branch: !ENV [CF_PAGES_BRANCH, "experimental"]
 docs_dir: source
 site_dir: build
 use_directory_urls: true
