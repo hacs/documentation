@@ -8,3 +8,4 @@ documentation/default_repositories.md
 documentation/repositories
 node_modules
 yarn-error.log
+__pycache__

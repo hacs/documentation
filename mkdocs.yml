@@ -28,6 +28,7 @@ theme:
     code: Roboto Mono
     text: Roboto
   features:
+    - announce.dismiss
     - content.code.copy
     - content.footnote.tooltips
     - content.tooltips
