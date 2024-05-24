@@ -21,7 +21,7 @@
             <a href="/{{file.page.url}}" class="generated-grid-link">
                 <p class="generated-header"><b>{{file.page.title}}</b></p>
                 <hr>
-                <p>{{file.page.meta.description}}</p>
+                <p>{{file.page.meta.description or "Learn more..."}}</p>
             </a>
 
             {% endif %}
