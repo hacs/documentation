@@ -3,7 +3,6 @@ id: devcontainer
 title: Devcontainer
 description: "Set up devcontainer"
 ---
-
 [The easiest way to contribute is to spin up a devcontainer](https://code.visualstudio.com/remote/containers) with Visual Studio Code (VS Code). It has all the tools you need included, and it does not interfere with your system.
 
 **Requirements:**

@@ -79,3 +79,9 @@ a.generated-grid-link p:last-of-type {
   -webkit-mask-image: var(--md-admonition-icon--nerd-mode);
           mask-image: var(--md-admonition-icon--nerd-mode);
 }
+
+
+.md-typeset [type=checkbox]+.task-list-indicator:before {
+    background-color: red;
+    mask-image: var(--md-admonition-icon--failure);
+  }

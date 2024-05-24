@@ -203,15 +203,14 @@ nav:
     - docs/contribute/devcontainer.md
     - docs/contribute/documentation.md
     - docs/contribute/frontend.md
-    - docs/contribute/maintainer.md
     - docs/contribute/translation.md
+    - docs/contribute/maintainer.md
   - FAQ:
     - docs/faq/index.md
     - docs/faq/addons.md
     - docs/faq/beta.md
     - docs/faq/custom_repositories.md
     - docs/faq/data_sources.md
-    - docs/faq/download.md
     - docs/faq/experimental_features.md
     - docs/faq/github_account.md
     - docs/faq/ha_update.md
@@ -221,6 +220,7 @@ nav:
     - docs/faq/other_git_providers.md
     - docs/faq/private_repositories.md
     - docs/faq/select_version.md
+    - docs/faq/download.md
     - docs/faq/upgrade.md
   - Help: 
     - docs/help/index.md

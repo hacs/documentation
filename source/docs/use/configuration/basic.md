@@ -17,7 +17,7 @@ description: 'Basic configuration'
 
 Before HACS can show up in the list you need to clear your browser cache or perform hard-refresh.
 
-!!! info
+!!! tip
     You actually need to do this, don't skip it.
 
 ## Add the integration
