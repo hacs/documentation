@@ -202,7 +202,6 @@ nav:
     - docs/developer/frontend.md
     - docs/developer/maintainer.md
     - docs/developer/translation.md
-  - Blog: blog/index.md
   - Help: 
     - help.md
     - Issues: docs/issues.md

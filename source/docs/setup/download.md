@@ -18,19 +18,23 @@ You use the [HACS download script](https://github.com/hacs/get) to setup HACS.
     1. Connect to the SSH add-on
     1. Run the HACS download script
 
-    ```bash
-    wget -O - https://get.hacs.xyz | bash -
-    ```
+        ```bash
+        wget -O - https://get.hacs.xyz | bash -
+        ```
+
+    1. Restart Home Assistant
 
 === "Container"
 
     1. Open a terminal
-    1. Go inside the container with `docker exec -it homeassistant bash`
+    1. Go inside the container with `docker exec -it <name of container running homeassistant> bash`
     1. Run the HACS download script
 
-    ```bash
-    wget -O - https://get.hacs.xyz | bash -
-    ```
+        ```bash
+        wget -O - https://get.hacs.xyz | bash -
+        ```
+
+    1. Restart Home Assistant
 
 === "Core"
 
@@ -38,18 +42,15 @@ You use the [HACS download script](https://github.com/hacs/get) to setup HACS.
     1. Change to the user that is running Home Assistant
     1. Run the HACS download script
 
-    ```bash
-    wget -O - https://get.hacs.xyz | bash -
-    ```
+        ```bash
+        wget -O - https://get.hacs.xyz | bash -
+        ```
 
+    1. Restart Home Assistant
 
 ## Troubleshooting
 
-
-- `CTRL+V` not working for you? 
-  - Try `CTRL+SHIFT+V` instead
-  - Try `SHIFT+INS(insert)` instead
-  - Try `Right-click` instead
-
-- Having issues accessing `https://get.hacs.xyz` in the terminal?
-  - Try it with `https://raw.githubusercontent.com/hacs/get/main/get` instead
+- ++ctrl+v++ not working for you? 
+    - Try ++ctrl+shift+v++ instead
+    - Try ++ctrl+ins++ `SHIFT+INS(insert)` instead
+    - Try `Right-click` instead
