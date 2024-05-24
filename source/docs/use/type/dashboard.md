@@ -28,7 +28,7 @@ HACS has a custom view/path/endpoint for serving up dashboard elements `/hacsfil
 - The `/hacsfiles` endpoint does not cache anything; it will instruct your browser to fetch a new version on each load.
 - The `/hacsfiles` endpoint will try to serve a `.gz` variant of the element, making the element smaller and the transfer faster.
 
-??? example ":material-glasses: Nerd mode"
+??? nerd-mode
 
     - Every dashboard you have downloaded with HACS will have an "Open source" option on the hamburger menu. This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404, try downloading it again.
     - `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. When you use `/local`, you will transfer the `.js` file, which is 101kB. However, if you use HACS and reference the dashboard with `/hacsfiles`, it will serve the 20kB `.gz` version automatically (sizes accurate for version 1.4.7 of CCH).

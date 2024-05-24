@@ -15,6 +15,6 @@ When using HACS to download custom template files you do not have to call the `h
 
 HACS will call that service each time it downloads a custom template file (both new and updates), so you can start using it immediately.
 
-??? example ":material-glasses: Nerd mode"
+??? nerd-mode
 
     Nothing yet :(

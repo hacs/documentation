@@ -27,6 +27,6 @@ See the documentation for more information about [configuring HACS](/docs/use/co
 !!! info
     Any NetDaemon app downloaded with HACS is stored in `netdaemon/apps/` in your Home Assistant configuration directory.
 
-??? example ":material-glasses: Nerd mode"
+??? nerd-mode
 
     Nothing yet :(
