@@ -1,6 +1,6 @@
 site_name: HACS
 site_description: HACS gives you a powerful UI to handle downloads of all your custom needs
-site_url: https://hacs.xyz
+site_url: !ENV [CF_PAGES_URL, "https://hacs.xyz"]
 repo_url: https://github.com/hacs/integration
 repo_name: hacs/integration
 remote_branch: !ENV [CF_PAGES_BRANCH, "experimental"]
