@@ -1,81 +1,22 @@
 ---
+description: "Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI."
 feedback: false
+hide:
+  - navigation
 ---
 ![hero_image](/assets/images/hacs_banner.png){.hero-image}
 
-# Welcome to HACS
+HACS is a integration that gives the user a powerful UI to handle downloads of custom needs.
 
-Lorem Ipsum...
+Highlights of what HACS can do:
 
-> Lorem Ipsum...
-> <br><sub>&nbsp;&nbsp;&nbsp;&nbsp;_- Some dude._</sub>
+- Help you discover new custom elements.
+- Help you download new custom elements.
+- Help you keep track of your custom elements.
+- Manage(download/update/remove)
+- Shortcuts to repositories/issue tracker
 
-Lorem Ipsum...
-Lorem Ipsum...
-
-## Getting started
-
-Lorem Ipsum...
-
-<div class="grid cards" markdown>
-
--   **Integration**
-
-    ---
-
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/integration.md)
-
--   **Dashboard cards**
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/dashboard.md)
-
--  **Theme**
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/theme.md)
-
--  **Template**
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/template.md)
-
--   **Python Script**
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/python_script.md)
-
-
--   **Appdaemon**
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: Read more](/docs/use/type/appdaemon.md)
-
-</div>
-
-## Publishing
-
-Lorem Ipsum...
-
-## Contributing
-
-Lorem Ipsum...
-
+---
+[Start using HACS](/docs/use/index.md){ .md-button }
+[Publish with HACS](/docs/publish/index.md){ .md-button }
+[Contribute to HACS](/docs/contribute/index.md){ .md-button }
