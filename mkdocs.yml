@@ -68,7 +68,6 @@ plugins:
   - blog:
       blog_toc: true
   - privacy
-  - open-in-new-tab
   - macros:
       on_undefined: strict
   - search:
@@ -78,7 +77,8 @@ plugins:
       cards_layout_options:
         background_color: "#41BDF5"
   - tags
-
+hooks:
+  - source/hooks/external_links_md.py
 extra:
   links:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md

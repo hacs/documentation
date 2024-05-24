@@ -1,3 +1,2 @@
 mkdocs-material[imaging]==9.5.23
-mkdocs-open-in-new-tab==1.0.3
 mkdocs-macros-plugin==1.0.5
