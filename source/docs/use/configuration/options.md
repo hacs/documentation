@@ -5,7 +5,7 @@ description: 'Configuration options'
 ---
 
 !!! info
-    _Finish [initial configuration](/docs/configuration/basic.md) before you modify HACS options described here._
+    _Finish [initial configuration](/docs/use/configuration/basic.md) before you modify HACS options described here._
 
 
 ## Change HACS options

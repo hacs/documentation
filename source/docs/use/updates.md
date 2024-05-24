@@ -4,7 +4,7 @@ title: Updates
 description: 'Data updates'
 ---
 
-Everything you download with HACS will create a dedicated [update entity](/docs/entities/update.md) for that repository.
+Everything you download with HACS will create a dedicated [update entity](/docs/use/entities/update.md) for that repository.
 
 ## Managed elements
 

@@ -14,7 +14,7 @@ Add a checkmark to the left of "Enable AppDaemon apps discovery & tracking" in t
 
 ![configuration](/assets/images/options_flow/option3.png)
 
-See the documentation for more information about [configuring HACS](/docs/configuration/basic.md).
+See the documentation for more information about [configuring HACS](/docs/use/configuration/basic.md).
 
 ## AppDaemon apps download location
 

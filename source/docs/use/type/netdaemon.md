@@ -20,7 +20,7 @@ Add a checkmark to the left of "[DEPRECATED] Enable NetDaemon apps discovery & t
 
 ![configuration](/assets/images/options_flow/option3.png)
 
-See the documentation for more information about [configuring HACS](/docs/configuration/basic.md).
+See the documentation for more information about [configuring HACS](/docs/use/configuration/basic.md).
 
 ## NetDaemon apps download location
 

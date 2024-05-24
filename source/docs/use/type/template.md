@@ -2,7 +2,7 @@
 title: Template
 ---
 
-[Custom templates](https://www.home-assistant.io/docs/configuration/templating/#reusing-templates) was introduced in the Home Assistant 2023.4.0
+[Custom templates](https://www.home-assistant.io/docs/use/configuration/templating/#reusing-templates) was introduced in the Home Assistant 2023.4.0
 
 ## Templates download location
 

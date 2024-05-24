@@ -42,6 +42,7 @@ a.generated-grid-link:hover {
 
 a.generated-grid-link p:last-of-type {
     font-size: 0.65rem;
+    line-height: normal;
 }
 
 @media (min-width: 720px) {

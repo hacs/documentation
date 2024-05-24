@@ -156,33 +156,31 @@ nav:
   - Use:
     - docs/use/index.md
     - Download:
-      - docs/setup/prerequisites.md
-      - docs/setup/download.md
-      - docs/setup/remove.md
+      - docs/use/download/prerequisites.md
+      - docs/use/download/download.md
+      - docs/use/download/remove.md
     - Configuration:
-      - docs/configuration/basic.md
-      - docs/configuration/options.md
+      - docs/use/configuration/basic.md
+      - docs/use/configuration/options.md
     - Types:
       - docs/use/type/index.md
-      - docs/use/type/integration.md
-      - docs/use/type/dashboard.md
       - docs/use/type/appdaemon.md
+      - docs/use/type/dashboard.md
+      - docs/use/type/integration.md
+      - docs/use/type/netdaemon.md
       - docs/use/type/python_script.md
       - docs/use/type/template.md
       - docs/use/type/theme.md
-      - docs/use/type/netdaemon.md
-    - Usage:
-      - docs/basic/getting_started.md
-      - docs/basic/dashboard.md
-      - docs/basic/repository_dashboard.md
-      - docs/basic/data.md
-      - docs/basic/diagnostics.md
-      - docs/basic/existing_elements.md
-      - docs/basic/logs.md
-      - docs/basic/my.md
-      - docs/basic/updates.md
     - Entities:
-      - docs/entities/update.md
+      - docs/use/entities/update.md
+    - docs/use/dashboard.md
+    - docs/use/data.md
+    - docs/use/diagnostics.md
+    - docs/use/existing_elements.md
+    - docs/use/logs.md
+    - docs/use/my.md
+    - docs/use/repository_dashboard.md
+    - docs/use/updates.md
   - Publish:
     - docs/publish/index.md
     - docs/publish/start.md
@@ -196,30 +194,31 @@ nav:
     - docs/publish/theme.md
     - docs/publish/remove.md
   - Contribute:
-    - docs/developer/index.md
-    - docs/developer/backend.md
-    - docs/developer/devcontainer.md
-    - docs/developer/documentation.md
-    - docs/developer/frontend.md
-    - docs/developer/maintainer.md
-    - docs/developer/translation.md
+    - docs/contribute/index.md
+    - docs/contribute/backend.md
+    - docs/contribute/devcontainer.md
+    - docs/contribute/documentation.md
+    - docs/contribute/frontend.md
+    - docs/contribute/maintainer.md
+    - docs/contribute/translation.md
+  - FAQ:
+    - docs/faq/index.md
+    - docs/faq/addons.md
+    - docs/faq/beta.md
+    - docs/faq/custom_repositories.md
+    - docs/faq/data_sources.md
+    - docs/faq/download.md
+    - docs/faq/experimental_features.md
+    - docs/faq/github_account.md
+    - docs/faq/ha_update.md
+    - docs/faq/hassio_only.md
+    - docs/faq/highlights.md
+    - docs/faq/limitations.md
+    - docs/faq/other_git_providers.md
+    - docs/faq/private_repositories.md
+    - docs/faq/select_version.md
+    - docs/faq/upgrade.md
   - Help: 
-    - help.md
-    - Issues: docs/issues.md
-    - FAQ:
-      - docs/faq/index.md
-      - docs/faq/addons.md
-      - docs/faq/beta.md
-      - docs/faq/custom_repositories.md
-      - docs/faq/data_sources.md
-      - docs/faq/download.md
-      - docs/faq/experimental_features.md
-      - docs/faq/github_account.md
-      - docs/faq/ha_update.md
-      - docs/faq/hassio_only.md
-      - docs/faq/highlights.md
-      - docs/faq/limitations.md
-      - docs/faq/other_git_providers.md
-      - docs/faq/private_repositories.md
-      - docs/faq/select_version.md
-      - docs/faq/upgrade.md
+    - docs/help/index.md
+    - docs/help/issues.md
+

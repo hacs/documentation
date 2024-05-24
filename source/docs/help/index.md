@@ -13,7 +13,7 @@ Find out what's new with this project over at [GitHub](https://github.com/hacs).
 
 ## Want to submit a Bug?
 
-[Before you do make sure you first have a look here.](/docs/issues.md)
+[Before you do make sure you first have a look here.](/docs/help/issues.md)
 
 ## Discord
 

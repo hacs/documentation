@@ -46,7 +46,7 @@ If any of your downloaded repositories have been removed as default in HACS, you
 
 HACS will reach out to [HACS Data](#hacs-data) for all the categories you have enabled, it will also get newly removed repositories.
 
-If any of your downloaded repositories have an update, their [update entity](/docs/entities/update.md) will now show an update.
+If any of your downloaded repositories have an update, their [update entity](/docs/use/entities/update.md) will now show an update.
 
 ### Every 48 hours after startup
 
@@ -64,7 +64,7 @@ When you click the "Update information" action on the "..." repository menu, HAC
 
 ### Update a downloaded repository
 
-When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/entities/update.md) or the `update.install` service, HACS will use the [GitHub REST API](https:/.github.com/en/rest) to ensure that the information it acts on is up-to-date.
+When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/use/entities/update.md) or the `update.install` service, HACS will use the [GitHub REST API](https:/.github.com/en/rest) to ensure that the information it acts on is up-to-date.
 
 
 ## Special notes

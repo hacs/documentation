@@ -6,7 +6,7 @@ description: "Frontend development"
 
 The repository for the frontend is hosted @ https://github.com/hacs/frontend
 
-First spin up the [devcontainer](/docs/developer/devcontainer.md)
+First spin up the [devcontainer](/docs/contribute/devcontainer.md)
 
 When you have that running issue the following commands:
 

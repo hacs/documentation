@@ -26,7 +26,7 @@ This will take you to the GitHub page for it so you can change the content.
 
 ### Locally changing (devcontainer)
 
-First spin up the [devcontainer](/docs/developer/devcontainer.md)
+First spin up the [devcontainer](/docs/contribute/devcontainer.md)
 
 When you have that running issue the following commands:
 
@@ -62,12 +62,12 @@ documentation/static/assets/images/
 Lets say you need to reference another page that is located under:
 
 ```text
-documentation/content/docs/developer/features.md
+documentation/content/docs/contribute/features.md
 ```
 Then you need to use:
 
 ```md
-[Features](/docs/developer/features)
+[Features](/docs/contribute/features)
 ```
 
 ### Reference images

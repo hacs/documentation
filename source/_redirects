@@ -3,5 +3,6 @@
 /github https://github.com/hacs 301
 /twitter https://twitter.com/HACSIntegration 301
 
-/faq/what /faq
+/faq/what /docs/faq
+/faq/* /docs/faq/:splat
 /img/demo.gif /assets/images/legacy/demo.gif
