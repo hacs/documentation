@@ -5,6 +5,8 @@ description: >
 date: 2024-06-04
 categories:
   - Release Notes
+search:
+  exclude: true
 ---
 Lorem ipsum...
 
@@ -13,25 +15,6 @@ Lorem ipsum...
 Lorem ipsum...
 
 Lorem ipsum...
-
-## New dashboard
-
-Lorem ipsum...
-
-## Update entities
-
-Lorem ipsum...
-
-## Templates
-
-Lorem ipsum...
-
-## Lorem ipsum...
-
-
-## Backwards incompatible changes
-
-- Lorem ipsum...
 
 ## All changes
 

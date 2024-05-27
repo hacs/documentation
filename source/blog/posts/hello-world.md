@@ -5,6 +5,8 @@ description: >
 date: 2019-02-26
 categories:
   - Announcement
+search:
+  exclude: true
 ---
 
 :wave:
