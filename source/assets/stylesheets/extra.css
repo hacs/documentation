@@ -1,0 +1,87 @@
+:root {
+    --hacs-color-primary: #41BDF5;
+    --md-admonition-icon--nerd-mode: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 10c-.24 0-.45.09-.59.25-.14.15-.2.37-.17.61l.5 2.99C2.82 14.5 3.4 15 4 15h3c.64 0 1.36-.56 1.5-1.18l1.06-3.19c.04-.13.01-.32-.06-.44-.11-.12-.28-.19-.5-.19H3m4 7H4C2.38 17 .96 15.74.76 14.14l-.5-2.99C.15 10.3.39 9.5.91 8.92 1.43 8.34 2.19 8 3 8h6c.83 0 1.58.35 2.06.96.11.15.21.31.29.49.43-.09.87-.09 1.29 0 .08-.18.18-.34.3-.49C13.41 8.35 14.16 8 15 8h6c.81 0 1.57.34 2.09.92.51.58.75 1.38.65 2.19l-.51 3.07C23.04 15.74 21.61 17 20 17h-3c-1.56 0-3.08-1.19-3.46-2.7l-.9-2.71c-.38-.28-.91-.28-1.29 0l-.92 2.78C10.07 15.82 8.56 17 7 17m8-7c-.22 0-.39.07-.5.19-.08.12-.1.31-.05.51l1.01 3.05c.18.69.9 1.25 1.54 1.25h3c.59 0 1.18-.5 1.25-1.11l.51-3.07c.03-.2-.03-.42-.17-.57A.769.769 0 0 0 21 10h-6Z"></path></svg>')
+}
+
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: var(--hacs-color-primary) !important;
+    --md-typeset-a-color: var(--hacs-color-primary) !important;
+}
+
+.feedback-actions {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 720px;
+}
+.feedback-actions a {
+    word-break: normal;
+}
+
+.twemoji.right-icon {
+    display: none;
+}
+
+
+a.generated-grid-link {
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .1rem;
+    display: block;
+    margin: 0;
+    padding: .8rem;
+    transition: border .25s, box-shadow .25s;
+    color: var(--md-default-fg-color);
+    line-height: 0.3em;
+}
+
+a.generated-grid-link:hover {
+    border: .01rem solid var(--md-accent-fg-color);
+    box-shadow: 0 0 0 .01rem var(--md-accent-fg-color);
+    background-color: var(--md-default-fg-color--lightest);
+}
+
+a.generated-grid-link p:last-of-type {
+    font-size: 0.65rem;
+    line-height: normal;
+}
+
+@media (min-width: 720px) {
+    .footer-right-links {
+        text-align: right;
+    }
+    .twemoji.left-icon {
+        display: none;
+    }
+    .twemoji.right-icon {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 720px) {
+    .md-footer-meta__inner.md-grid {
+        flex-direction: column-reverse;
+    }
+}
+
+
+.md-typeset .admonition.nerd-mode,
+.md-typeset details.nerd-mode {
+  border-color: rgb(247, 152, 29);
+}
+.md-typeset .nerd-mode > .admonition-title,
+.md-typeset .nerd-mode > summary {
+  background-color: rgba(247, 152, 29, 0.1);
+}
+.md-typeset .nerd-mode > .admonition-title::before,
+.md-typeset .nerd-mode > summary::before {
+  background-color: rgb(247, 152, 29);
+  -webkit-mask-image: var(--md-admonition-icon--nerd-mode);
+          mask-image: var(--md-admonition-icon--nerd-mode);
+}
+
+
+.md-typeset [type=checkbox]+.task-list-indicator:before {
+    background-color: red;
+    mask-image: var(--md-admonition-icon--failure);
+  }

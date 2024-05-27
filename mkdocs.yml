@@ -1,0 +1,227 @@
+site_name: HACS
+site_description: HACS gives you a powerful UI to handle downloads of all your custom needs
+site_url: !ENV [CF_PAGES_URL, "https://hacs.xyz"]
+repo_url: https://github.com/hacs/integration
+repo_name: hacs/integration
+remote_branch: !ENV [CF_PAGES_BRANCH, "experimental"]
+docs_dir: source
+site_dir: build
+use_directory_urls: true
+strict: true
+validation:
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
+    not_found: warn
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: relative_to_docs
+theme:
+  name: material
+  language: en
+  custom_dir: source/overrides
+  logo: assets/images/hacs_logo.png
+  favicon: assets/images/hacs_logo.png
+  font:
+    code: Roboto Mono
+    text: Roboto
+  features:
+    - announce.dismiss
+    - content.code.copy
+    - content.footnote.tooltips
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    annotation: material/information
+plugins:
+  - blog
+  - privacy
+  - macros:
+      on_undefined: strict
+  - search:
+      lang: en
+  - social:
+      cards: true
+      cards_layout_options:
+        background_color: "#41BDF5"
+  - tags
+hooks:
+  - source/hooks/external_links_md.py
+extra:
+  links:
+    - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
+      title: Code of Conduct
+      icon: fontawesome/solid/scale-balanced
+    - link: mailto:hi@hacs.xyz
+      title: Contact (no support!)
+      icon: fontawesome/solid/at
+    - title: GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/hacs
+      right: true
+    - title: Discord
+      icon: fontawesome/brands/discord
+      link: https://discord.gg/apgchf8
+      right: true
+    - link: https://squidfunk.github.io/mkdocs-material/
+      title: Made with Material for MkDocs
+      icon: logo
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - source/includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra_css:
+  - assets/stylesheets/extra.css
+
+not_in_nav: |
+  includes/*
+  glossary.md
+nav:
+  - Home: index.md
+  - Use:
+    - docs/use/index.md
+    - Download:
+      - docs/use/download/prerequisites.md
+      - docs/use/download/download.md
+      - docs/use/download/remove.md
+    - Configuration:
+      - docs/use/configuration/basic.md
+      - docs/use/configuration/options.md
+    - Types:
+      - docs/use/type/index.md
+      - docs/use/type/appdaemon.md
+      - docs/use/type/dashboard.md
+      - docs/use/type/integration.md
+      - docs/use/type/netdaemon.md
+      - docs/use/type/python_script.md
+      - docs/use/type/template.md
+      - docs/use/type/theme.md
+    - Entities:
+      - docs/use/entities/update.md
+    - docs/use/dashboard.md
+    - docs/use/data.md
+    - docs/use/diagnostics.md
+    - docs/use/existing_elements.md
+    - docs/use/logs.md
+    - docs/use/my.md
+    - docs/use/repository_dashboard.md
+    - docs/use/updates.md
+  - Publish:
+    - docs/publish/index.md
+    - docs/publish/start.md
+    - docs/publish/include.md
+    - docs/publish/action.md
+    - docs/publish/appdaemon.md
+    - docs/publish/integration.md
+    - docs/publish/plugin.md
+    - docs/publish/python_script.md
+    - docs/publish/template.md
+    - docs/publish/theme.md
+    - docs/publish/remove.md
+  - Contribute:
+    - docs/contribute/index.md
+    - docs/contribute/backend.md
+    - docs/contribute/devcontainer.md
+    - docs/contribute/documentation.md
+    - docs/contribute/frontend.md
+    - docs/contribute/translation.md
+    - docs/contribute/maintainer.md
+  - FAQ:
+    - docs/faq/index.md
+    - docs/faq/addons.md
+    - docs/faq/beta.md
+    - docs/faq/custom_repositories.md
+    - docs/faq/data_sources.md
+    - docs/faq/experimental_features.md
+    - docs/faq/github_account.md
+    - docs/faq/ha_update.md
+    - docs/faq/hassio_only.md
+    - docs/faq/highlights.md
+    - docs/faq/limitations.md
+    - docs/faq/other_git_providers.md
+    - docs/faq/private_repositories.md
+    - docs/faq/select_version.md
+    - docs/faq/download.md
+    - docs/faq/upgrade.md
+  - Help: 
+    - docs/help/index.md
+    - docs/help/issues.md
+

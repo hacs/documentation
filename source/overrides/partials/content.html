@@ -1,0 +1,34 @@
+{% if page.file.src_path != "index.md" %}
+    <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+{% if page.meta.experimental %}
+    <div class="admonition example">
+        <p class="admonition-title">Experimental</p>
+        <p>This require <a href="/docs/faq/experimental_features">experimental features</a> enabled.</p>
+    </div>
+{% endif %}
+{{ page.content }}
+{% set splitpath = page.file.src_path.split("/") %}
+{% if page.meta and page.meta.generated and splitpath[-1] == "index.md" %}
+    {% set directory = "/".join(splitpath[0:-1]) %}
+    <i>{{page.meta and page.meta.description or ""}}</i>
+    <div class="grid cards" markdown>
+        <ul>
+            {% for file in pages %}
+            {% if file.src_path.startswith(directory) and not file.src_path.endswith("index.md") %}
+
+            <a href="/{{file.page.url}}" class="generated-grid-link">
+                <p class="generated-header"><b>{{file.page.title}}</b></p>
+                <hr>
+                <p>{{file.page.meta.description or "Learn more..."}}</p>
+            </a>
+
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% if page.meta.get("feedback", true)  and not page.file.src_path.startswith("blog") %}
+    {% include "partials/feedback.html" %}
+{% endif %}
