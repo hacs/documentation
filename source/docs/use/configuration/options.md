@@ -23,8 +23,6 @@ description: 'Configuration options'
 - `Number of releases to show`: Number of releases to show in the dropdown.
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/use/type/appdaemon.md).
-- `Enable NetDaemon apps discovery & tracking`: Enables [NetDaemon](/docs/use/type/netdaemon.md).
-  - NetDaemon apps is **deprecated** and will be removed from HACS.
 - `Enable experimental features`: This enables experimental features in HACS.
 
 !!! note

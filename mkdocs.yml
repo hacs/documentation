@@ -171,7 +171,6 @@ nav:
       - docs/use/type/appdaemon.md
       - docs/use/type/dashboard.md
       - docs/use/type/integration.md
-      - docs/use/type/netdaemon.md
       - docs/use/type/python_script.md
       - docs/use/type/template.md
       - docs/use/type/theme.md

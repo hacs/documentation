@@ -13,7 +13,7 @@ HACS has two different data sources it reaches out to for information on what to
 
 HACS Data is the data source accessible on `data-v2.hacs.xyz` with the following structures `https://data-v2.hacs.xyz/<section>/<type>.json`.
 
-The `<section>` is one of `[appdaemon|critical|integration|netdaemon|theme|python_script|plugin|removed]` and `<type>` is one of `[data|repositories]`
+The `<section>` is one of `[appdaemon|critical|integration|theme|python_script|plugin|removed]` and `<type>` is one of `[data|repositories]`
 
 Examples:
 
