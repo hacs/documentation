@@ -12,5 +12,5 @@ Before you start using HACS, you need to make sure you have the following requir
 - You have access to the filesystem where the Home Assistant configuration files are located.
 - You know how to access the Home Assistant log file.
 - You are aware that there are **no** [add-ons](https://www.home-assistant.io/glossary/#add-on) in HACS.
-- You have a stable internet connection with sufficent available bandwidth and no data caps.
+- You have a stable internet connection with sufficient available bandwidth and no data caps.
 - You are not blocking outgoing requests to GitHub or Cloudflare (See [faq/Data sources](/docs/faq/data_sources.md)).

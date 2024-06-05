@@ -12,7 +12,7 @@ Like all other [update entities](https://www.home-assistant.io/integrations/upda
 !!! danger
     Setting the version in this service call is considered an advanced feature, and should **NOT** be used without instructions to use it from the author of the repository you are updating.
 
-The **Version** field supports the folowing:
+The **Version** field supports the following:
 
 - [x] A GitHub tag (release)
 - [x] A public branch of the repository (this does **not** include forks)

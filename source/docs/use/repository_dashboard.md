@@ -21,7 +21,7 @@ The main section of this view renders the README file of the repository.
 ## Badges
 
 Above the main content of the page is a row of badges.
-Tese badges provides some key information about the repository, like the author(s), [GitHub](https://github.com) stars and open issues[^1].
+These badges provides some key information about the repository, like the author(s), [GitHub](https://github.com) stars and open issues[^1].
 
 ## Options
 

@@ -14,7 +14,7 @@ Each line in the data table, represent a repository that is (or can be) managed 
 
 By default it only shows you which repositories you have downloaded with HACS.
 
-If you want to see more use the [search](#search) and [filter](#filter) capabilites.
+If you want to see more use the [search](#search) and [filter](#filter) capabilities.
 
 ## Quick actions
 
@@ -25,7 +25,7 @@ With this you can quickly manage the repository and get to its issue tracker.
 ## Search
 
 Above the list of repositories there is a search field.
-In this field you can serch for both downloaded and available repositories you can manage with HACS.
+In this field you can search for both downloaded and available repositories you can manage with HACS.
 
 ![nav_overview](/assets/images/screenshots/overview/search/light.png#only-light)
 ![nav_overview](/assets/images/screenshots/overview/search/dark.png#only-dark)
