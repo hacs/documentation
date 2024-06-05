@@ -78,7 +78,7 @@ plugins:
         background_color: "#41BDF5"
   - tags
 hooks:
-  - source/hooks/external_links_md.py
+  - source/hooks/html_tag_modifier.py
 extra:
   links:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
