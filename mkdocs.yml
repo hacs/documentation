@@ -154,6 +154,7 @@ extra_css:
 not_in_nav: |
   includes/*
   glossary.md
+  assets/images/screenshots/README.md
 nav:
   - Home: index.md
   - Use:

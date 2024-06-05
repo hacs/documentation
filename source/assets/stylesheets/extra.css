@@ -23,6 +23,12 @@
     display: none;
 }
 
+img[src$="#only-light"], img[src$="#only-dark"]{
+    border-radius: 6px;
+    outline: 3px solid var(--md-default-bg-color);
+    outline-offset: -1.5px;
+}
+
 
 a.generated-grid-link {
     border: .05rem solid var(--md-default-fg-color--lightest);

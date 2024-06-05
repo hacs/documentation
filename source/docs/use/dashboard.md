@@ -1,13 +1,12 @@
 ---
-id: dashboard
 title: Main Dashboard
 description: 'HACS Dashboard'
-sidebar_position: 1
 ---
 
 This is the home of HACS!
 
-![nav_overview](/assets/images/panel/entry.png)
+![nav_overview](/assets/images/screenshots/overview/base/light.png#only-light)
+![nav_overview](/assets/images/screenshots/overview/base/dark.png#only-dark)
 
 This is based on the same data table that you will find elsewhere in the [Home Assistant](https://www.home-assistant.io) frontend.
 
@@ -28,7 +27,8 @@ With this you can quickly manage the repository and get to its issue tracker.
 Above the list of repositories there is a search field.
 In this field you can serch for both downloaded and available repositories you can manage with HACS.
 
-![image of search](/assets/images/panel/search.png)
+![nav_overview](/assets/images/screenshots/overview/search/light.png#only-light)
+![nav_overview](/assets/images/screenshots/overview/search/dark.png#only-dark)
 
 You can search data in all [columns](#columns) of each repository including:
 
@@ -44,7 +44,8 @@ You can search data in all [columns](#columns) of each repository including:
 If you are just looking to bowse repositories, you can do so with filtering.
 You can find and set the filters in the dialog you can open with the (:material-filter-variant:) icon button to the right in the searchbar.
 
-![image of filters](/assets/images/dialog/manage_overview_table.png)
+![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
+![nav_overview](/assets/images/screenshots/overview/filter/dark.png#only-dark)
 
 ### Base filters
 
@@ -71,7 +72,8 @@ You choose what's important to you, select the commumns you want to see.
 
 At the top-right corner you will find the 3 dots menu (:material-dots-vertical:).
 
-![image of menu](/assets/images/panel/menu.png)
+![nav_overview](/assets/images/screenshots/overview/menu/light.png#only-light)
+![nav_overview](/assets/images/screenshots/overview/menu/dark.png#only-dark)
 
 Here you can:
 
