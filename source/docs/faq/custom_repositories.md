@@ -1,5 +1,4 @@
 ---
-id: custom_repositories
 title: Custom Repositories
 description: "Custom repositories in HACS"
 ---
@@ -12,16 +11,17 @@ But there are a number of different reasons why a developer might not want to pu
 
 If you want to try and add a custom repository to HACS do the following:
 
-![custom_repositories_entry](/assets/images/custom_repositories_entry.png)
+![overview_menu](/assets/images/screenshots/overview/menu/light.png#only-light)
+![overview_menu](/assets/images/screenshots/overview/menu/dark.png#only-dark)
 
-1. Go to any of the sections (integrations, frontend, automation).
 1. Click on the 3 dots in the top right corner.
 1. Select "Custom repositories"
 1. Add the URL to the repository.
 1. Select the correct category.
 1. Click the "ADD" button.
 
-![custom_repositories](/assets/images/custom_repositories.png)
+![custom_repository_add](/assets/images/screenshots/dialog/custom_repository/add/light.png#only-light)
+![custom_repository_add](/assets/images/screenshots/dialog/custom_repository/add/dark.png#only-dark)
 
 
 !!! tip
