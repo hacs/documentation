@@ -204,6 +204,8 @@ nav:
     - docs/contribute/frontend.md
     - docs/contribute/translation.md
     - docs/contribute/maintainer.md
+  - Blog:
+    - blog/index.md
   - FAQ:
     - docs/faq/index.md
     - docs/faq/addons.md

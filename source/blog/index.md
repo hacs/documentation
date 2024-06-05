@@ -1,5 +1,1 @@
----
-search:
-  exclude: true
----
 # Blog

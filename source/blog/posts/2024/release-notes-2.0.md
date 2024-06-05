@@ -2,11 +2,9 @@
 title: "Release Notes: 2.0"
 description: >
   Release notes for HACS 2.0
-date: 2024-06-04
+date: 2024-06-10
 categories:
   - Release Notes
-search:
-  exclude: true
 ---
 Lorem ipsum...
 
