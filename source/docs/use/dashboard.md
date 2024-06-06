@@ -22,7 +22,7 @@ All downloaded repositories will have a quick action button (this is the 3 dots 
 
 With this you can quickly manage the repository and get to its issue tracker.
 
-## Search
+## {{coreui("ui.components.data-table.search")}}
 
 Above the list of repositories there is a search field.
 In this field you can search for both downloaded and available repositories you can manage with HACS.
@@ -60,7 +60,7 @@ With this filter you can select one of the available [types](/docs/use/type/inde
 
 Once enabled it will show repositories in that category.
 
-## Columns
+## {{hacsui("dialog_overview.columns")}}
 
 !!! note
     This is **not** available for mobile devices.

@@ -70,6 +70,8 @@ plugins:
   - privacy
   - macros:
       on_undefined: strict
+      include_dir: source/includes
+      module_name: source/macros
   - search:
       lang: en
   - social:
