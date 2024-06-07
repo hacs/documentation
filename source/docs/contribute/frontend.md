@@ -1,5 +1,4 @@
 ---
-id: frontend
 title: Frontend
 description: "Frontend development"
 ---
@@ -8,10 +7,14 @@ The repository for the frontend is hosted @ https://github.com/hacs/frontend
 
 First spin up the [devcontainer](/docs/contribute/devcontainer.md)
 
-When you have that running issue the following commands:
+When you have that, the following command:
 
 ```bash
-yarn start
+script/develop
 ```
 
-You have now started a local webserver that hosts the frontend on `http://localhost:5000` which you can attach to a Home Assistant instance that is running HACS.
+Once that is done you can attach this development frontend to a development integration instance by using the `-f` flag for the integration develop script.
+
+```bash
+scripts/develop -f <path to the development frontend directory>
+```

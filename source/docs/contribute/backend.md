@@ -1,5 +1,4 @@
 ---
-id: backend
 title: Backend
 description: "Backend development"
 ---
