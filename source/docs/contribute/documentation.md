@@ -35,7 +35,7 @@ This will take you to the GitHub page for it so you can change the content.
 
     - You have now started a local webserver that hosts the documentation on `http://localhost:8000`
 
-    - That server will reload if you make changes to the documentation so you can view your changes.
+    - The server automatically reloads to reflect any documentation changes.
 
 3. When you are happy with the result, push the changes to your fork and create a PR to have it merged to the HACS base.
 
