@@ -20,4 +20,4 @@ description: "Set up devcontainer"
 
 When you open this repository with VS code, you are asked to **Reopen in Container**. This starts the build of the container.
 
-_If you don't see this notification, open the command pallet and select  **Remote-Containers: Open Folder in Container**_
+_If you don't see this notification, open the command pallet and select  **Remote-Containers: Open Folder in Container**._
