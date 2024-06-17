@@ -2,7 +2,7 @@
 title: Documentation
 description: "Documentation development"
 ---
-The documentation site for HACS is using markdown and built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/). The site is hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+The documentation site for HACS is using [markdown](https://daringfireball.net/projects/markdown/) and built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/). The site is hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Contributing to the documentation
 
