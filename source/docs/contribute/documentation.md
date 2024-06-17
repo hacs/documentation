@@ -56,7 +56,8 @@ source/assets/images/
 
 ## Contents linking
 
-Instructions how to create references in markdown.
+Instructions on how to create references in markdown.
+
 
 ### Referencing another page
 
