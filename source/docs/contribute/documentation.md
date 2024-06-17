@@ -90,7 +90,7 @@ Then you need to use:
 
 ## New pages
 
-1. Create a new `.md` file under `source/docs/` in a sub-directory that fits the purpose of the file.
+1. Create a new `.md` file under `source/docs/` in a subdirectory that fits the purpose of the file.
 1. Add a reference to that file in `mkdocs.yml`.
 
 At the top of all pages, you should have this:
