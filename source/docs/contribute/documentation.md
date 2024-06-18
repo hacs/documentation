@@ -40,7 +40,7 @@ This will take you to the GitHub page for it so you can change the content.
 
 3. When you are happy with the result, push the changes to your fork and create a PR to have it merged to the HACS base.
 
-## Documentation contents
+## Documentation folder structure
 
 All pages of the HACS documentation are located under:
 
@@ -54,13 +54,25 @@ All images of the HACS documentation are located under:
 source/assets/images/
 ```
 
+## Creating new pages
 
-## Contents linking
+1. Create a new `.md` file under `source/docs/` in a subdirectory that fits the purpose of the file.
+2. Add a reference to that file in `mkdocs.yml`.
 
-Instructions on how to create references in Markdown.
+At the top of all pages, add a header:
 
+```yaml
+---
+title: A title for the page, this will also be used in the sidebar. For example, Feature.
+description: "A summary of the contents of this page"
+---
+```
 
-### Referencing another page
+## Linking in Markdown
+
+Instructions on how to create Markdown references in the documentation.
+
+### Linking to another page
 
 Let's say you need to reference another page that is located under:
 
@@ -73,7 +85,11 @@ This is a link pointing to the same website. In this case, use a relative link:
 [Features](/docs/contribute/features.md)
 ```
  
- If you link to an external page, use the full URL.
+To link to an external page, use the full URL.
+
+```md
+[mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+```
 
 ### Referencing images
 
@@ -86,18 +102,4 @@ Then you need to use:
 
 ```md
 ![image](/assets/images/features.png)
-```
-
-## New pages
-
-1. Create a new `.md` file under `source/docs/` in a subdirectory that fits the purpose of the file.
-1. Add a reference to that file in `mkdocs.yml`.
-
-At the top of all pages, you should have this:
-
-```yaml
----
-title: A title for the page, this will also be used in the sidebar. For example, Feature.
-description: "A nice description here"
----
 ```
