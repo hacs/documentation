@@ -68,6 +68,19 @@ description: "A summary of the contents of this page"
 ---
 ```
 
+## About screenshots
+
+When adding a new screenshot to the documentation, follow these guidelines:
+
+- **Size**: before screenshotting, make sure the fullscreen is set to 1440x900 pixels.
+- **Format**: PNG format.
+- **Dark and light theme**: Create 2 screenshots, one for dark and one for light theme.
+- **File naming convention**: 
+    - `name_of_the_screenshot/light.png`
+    - `name_of_the_screenshot/dark.png`
+    - Use underscores `_` to separate words
+    - use lower case characters
+
 ## Linking in the documentation
 
 
