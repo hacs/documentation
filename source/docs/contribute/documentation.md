@@ -68,7 +68,8 @@ description: "A summary of the contents of this page"
 ---
 ```
 
-## Linking in Markdown
+## Linking in the documentation
+
 
 Instructions on how to create Markdown references in the documentation.
 
