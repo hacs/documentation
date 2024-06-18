@@ -81,6 +81,7 @@ plugins:
   - tags
 hooks:
   - source/hooks/html_tag_modifier.py
+  - source/hooks/shortcodes.py
 extra:
   links:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
