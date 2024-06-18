@@ -15,7 +15,8 @@ The backend repository is hosted @ https://github.com/hacs/integration
 
 ## Target branch for contributor PRs
 
-When contributing to the backend, target your PR against the `{{ config.remote_branch }}` branch.
+When contributing to the backend, target your PR against the `main` branch.
+
 
 ## Creating your code changes using the devcontainer
 
@@ -28,8 +29,9 @@ When contributing to the backend, target your PR against the `{{ config.remote_b
     scripts/develop
     ```
 
-    - You have now started a local server that hosts the application on `http://localhost:8123`
+    - You have now started a local instance of Home Assistant with HACS on `http://localhost:8123`
 
-    - The server automatically reloads to reflect your changes.
+
+    - To use and see HACS inside the local Home Assistant instance, you need to [configure it in the Home Assistant UI](/docs/use/configuration/basic.md)
 
 4. When you are happy with the result, push the changes to your fork and create a PR to have it merged to the HACS base.
