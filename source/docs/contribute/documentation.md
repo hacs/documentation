@@ -76,11 +76,11 @@ When adding a new screenshot to the documentation, follow these guidelines:
 - **Format**: PNG format.
 - **Dark and light theme**: Create 2 screenshots, one for dark and one for light theme.
 - **Location**: Place new screenshots under `source/assets/images/screenshots/`.
-- **File naming convention**: 
-    - `name_of_the_screenshot/light.png`
-    - `name_of_the_screenshot/dark.png`
-    - Use underscores `_` to separate words
-    - use lower case characters
+- **File naming convention**:
+  - `name_of_the_screenshot/light.png`
+  - `name_of_the_screenshot/dark.png`
+  - Use underscores `_` to separate words
+  - use lower case characters
 
 ## Linking in the documentation
 
