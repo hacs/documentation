@@ -1,6 +1,6 @@
 ---
 title: Documentation
-description: "Documentation development"
+description: "Contributing to HACS documentation"
 ---
 The documentation site for HACS is using [Markdown](https://daringfireball.net/projects/markdown/) and is built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/). The site is hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
@@ -17,12 +17,12 @@ The repository for the documentation is hosted @ https://github.com/hacs/documen
 
 ### Editing this page on GitHub
 
-When you see something that needs changing while you browse the documentation, scroll down to the bottom of the page. In the **Help us to improve the documentation** section, select the **Edit this page on GitHub** button.
+1. When you see something in the documentation that needs changing, scroll down to the bottom of the page.
+2. In the **Help us to improve the documentation** section, select **Edit this page on GitHub**.
 
-[:fontawesome-solid-file-pen: Edit this page on GitHub](https://github.com/hacs/documentation/edit/{{config.remote_branch}}/source/{{page.file.src_path}}){ .md-button }
+    [:fontawesome-solid-file-pen: Edit this page on GitHub](https://github.com/hacs/documentation/edit/{{config.remote_branch}}/source/{{page.file.src_path}}){ .md-button }
 
-
-This will take you to the GitHub page for it so you can change the content.
+3. This will take you to the GitHub page and you can start changing the content.
 
 ### Locally, using a devcontainer
 
@@ -40,7 +40,7 @@ This will take you to the GitHub page for it so you can change the content.
 
 3. When you are happy with the result, push the changes to your fork and create a PR to have it merged to the HACS base.
 
-## Documentation folder structure
+## About documentation folder structure
 
 All pages of the HACS documentation are located under:
 
@@ -77,13 +77,12 @@ When adding a new screenshot to the documentation, follow these guidelines:
 - **Dark and light theme**: Create 2 screenshots, one for dark and one for light theme.
 - **Location**: Place new screenshots under `source/assets/images/screenshots/`.
 - **File naming convention**:
-  - `name_of_the_screenshot/light.png`
-  - `name_of_the_screenshot/dark.png`
-  - Use underscores `_` to separate words
-  - use lower case characters
+    - `name_of_the_screenshot/light.png`
+    - `name_of_the_screenshot/dark.png`
+    - Use underscores `_` to separate words
+    - Use lower case characters
 
-## Linking in the documentation
-
+## Creating links
 
 Instructions on how to create Markdown references in the documentation.
 
