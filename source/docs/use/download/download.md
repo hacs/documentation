@@ -1,52 +1,49 @@
 ---
-id: download
 title: Download
 description: "HACS download steps"
 ---
-You use the [HACS download script](https://github.com/hacs/get) to setup HACS.
+Setting up HACS is done by using the [HACS download script](https://github.com/hacs/get).
 
 !!! info
-    If you are not sure what type of Home Assistant you are using or how to find that, then you should probably not use HACS (or any other custom integration).
+    If you are not sure what type of Home Assistant installation you are running or how to find that, then you should not use HACS (or any other custom integration). 
 
 
 === "OS/Supervised"
 
-    1. Go to the Add-on store
-    1. Install one of the SSH add-ons (you need to enable advanced mode in your user profile to see them)
-    1. Configure the SSH add-on you chose by following the documentation for it
-    1. Start the SSH add-on
-    1. Connect to the SSH add-on
-    1. Run the HACS download script
+    For Home Assistant Operating System and Supervised, there is an add-on for downloading HACS. To add the custom add-on repository that allows you to get this add-on, follow these steps.
 
-        ```bash
-        wget -O - https://get.hacs.xyz | bash -
-        ```
-
-    1. Restart Home Assistant
+    1. To add the HACS add-on repository to your Home Assistant, select this [my link](https://my.home-assistant.io/redirect/supervisor_addon/?addon=cb646a50_get&repository_url=https%3A%2F%2Fgithub.com%2Fhacs%2Faddons).
+        - Once you selected the link, in the confirmation dialog, select **OK**.
+        - This brings up the **Missing add-on repository** dialog. To add the repository, select **Add**.
+        - You have now added the repository to your Home Assistant that allows you to download HACS.
+    2. In the **Get HACS** add-on, select **Install**.
+    3. Start the add-on.
+    4. Navigate to the add-on logs and follow instructions given there.
+    5. Restart Home Assistant.
 
 === "Container"
 
-    1. Open a terminal
-    1. Go inside the container with `docker exec -it <name of container running homeassistant> bash`
-    1. Run the HACS download script
+    1. Open a terminal.
+    2. Go inside the container with `docker exec -it <name of container running homeassistant> bash`.
+    3. Run the HACS download script.
 
         ```bash
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-    1. Restart Home Assistant
+    4. Restart Home Assistant.
 
 === "Core"
 
-    1. Open a terminal
-    1. Change to the user that is running Home Assistant
-    1. Run the HACS download script
+    1. Open a terminal.
+    2. Change to the user that is running Home Assistant.
+    3. Run the HACS download script.
 
         ```bash
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-    1. Restart Home Assistant
+    4. Restart Home Assistant.
 
 ## Troubleshooting
 
