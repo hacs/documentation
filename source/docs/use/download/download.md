@@ -19,7 +19,6 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
     2. In the **Get HACS** add-on, select **Install**.
     3. **Start** the add-on.
     4. Navigate to the add-on logs and follow instructions given there.
-    5. Restart Home Assistant.
 
 === "Container"
 
@@ -31,8 +30,7 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-    4. Restart Home Assistant.
-
+    
 === "Core"
 
     1. Open a terminal.
@@ -43,7 +41,10 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-    4. Restart Home Assistant.
+## Finalizing steps
+
+1. Restart Home Assistant.
+2. Follow the steps on [setting up the HACS integration](/docs/use/configuration/basic.md).
 
 ## Troubleshooting
 
