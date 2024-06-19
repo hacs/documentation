@@ -41,11 +41,10 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-
 ## Finalizing steps
 
 1. Restart Home Assistant.
-2. Follow the steps on [setting up the HACS integration](/docs/use/configuration/basic.md).
+2. Follow the steps on [setting up the HACS integration](/docs/use/configuration/basic/).
 
 ## Troubleshooting
 
