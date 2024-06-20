@@ -30,7 +30,7 @@ _If you are flagging it because you don't like it, have issues with it, or it's 
 
 You use this when you have issues with HACS.
 
-[To enable debug logs for HACS (required when adding an issue) have a look here](/docs/use/logs.md).
+[To enable debug logs for HACS (required when adding an issue) have a look here](/docs/use/troubleshooting/logs.md).
 
 Logs are **more** then _just_ errors, with debug logging it gives the person investigating the issue a full picture of what happened.
 
@@ -41,7 +41,7 @@ Logs are **more** then _just_ errors, with debug logging it gives the person inv
 - Debug logs.
 - Steps to reproduce the issue.
 - If the issue is in the UI, add screenshots.
-- [Diagnostics](/docs/use/diagnostics.md)
+- [Diagnostics](/docs/use/troubleshooting/diagnostics.md)
 
 You can see examples of good/bad issues further down on this page.
 

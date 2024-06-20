@@ -1,5 +1,4 @@
 ---
-id: diagnostics
 title: Diagnostics
 description: 'How to get HACS diagnostics'
 ---
