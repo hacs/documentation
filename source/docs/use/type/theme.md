@@ -3,14 +3,14 @@ title: Theme
 layout: type
 ---
 
-Themes is a part of the Home Assistant [`frontend` integration.](https://www.home-assistant.io/integrations/frontend/)
+[Themes](https://www.home-assistant.io/integrations/frontend/#defining-themes) are used to [style your user interface](https://www.home-assistant.io/frontend/). They are part of the Home Assistant [`frontend` integration](https://www.home-assistant.io/integrations/frontend/).
 
 !!! info
-    Themes in HACS will automagically be enabled if you have it enabled in Home Assistant
+    Themes in HACS will automagically be enabled if you have them enabled in Home Assistant
 
 ## Enable themes in Home Assistant
 
-Add this to your `configuration.yaml`
+Add this to your [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/).
 
 ```yaml title="configuration.yaml"
 frontend:
@@ -19,9 +19,4 @@ frontend:
 
 ## Themes download location
 
-!!! info
-    Any theme downloaded with HACS is stored in `themes/` in your Home Assistant configuration directory.
-
-??? nerd-mode
-
-    Nothing yet :(
+Any theme downloaded with HACS is stored in `themes/` in your Home Assistant configuration directory.
