@@ -1,84 +1,57 @@
 ---
-id: basic
-title: Initial Configuration
-description: 'Basic configuration'
+title: Initial configuration
+description: 'Setting up and authenticating the HACS integration'
 ---
 
-!!! info
-    _This page assumes that you have already completed the [download](/docs/use/download/prerequisites.md)._
+## Prerequisites
 
 
-## In your Home Assistant UI go to the Integrations panel
+This page assumes that you have completed the following steps:
 
-1. First go to the "Settings" in the Home Assistant UI
-1. Then "Devices & Services" and the "Integrations" tab in the Home Assistant UI
+   - [Downloaded HACS](/docs/use/download/prerequisites.md)
+   - Restarted Home Assistant
 
-## Clear your browser cache
+## Setting up the HACS integration
 
-Before HACS can show up in the list you need to clear your browser cache or perform hard-refresh.
+1. In Home Assistant, go to <!-- hacs:my integrations **{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}** -->.
+2. Clear your browser cache.
+    - Before HACS can show up in the list, you need to clear your browser cache or perform a hard-refresh.
+    !!! tip
+        You actually need to do this, don't skip it.
 
-!!! tip
-    You actually need to do this, don't skip it.
+3. In the bottom right corner, select **+ {{coreui('ui.panel.config.integrations.add_integration')}}**.
+4. Search for **HACS** and select it.
+5. Acknowledge the statements and select **Submit**.
+6. Authenticate the integration:
+    - HACS uses a device OAuth flow for authentication against the GitHub API.
+    - Copy the device code and select the link [https://github.com/login/device](https://github.com/login/device).
 
-## Add the integration
+        ![image](/assets/images/config_flow/part2.png)
 
-1. Click on the "+ Add integration" button in the bottom right corner.
-1. Search for "HACS".
-1. Then select (click on) it.
+    - Sign in to GitHub.
+        - If you are not signed in to GitHub in your browser, you need to sign up or sign in now to continue the setup.
+        - If you are already signed in, you can skip this part.
 
-![image](/assets/images/config_flow/conf3.png)
+             ![image](/assets/images/config_flow/no_account.png)
 
-## Accept usage
+    - Enter the device code you copied in the previous step and select **Continue**.
 
-![image](/assets/images/config_flow/part1.png)
+        ![image](/assets/images/config_flow/part3.png)
 
-Only the last item (experimental features) are optional, you need to accept everything above that before you can setup HACS.
+    - Select **Authorize HACS**.
 
-## Device registration
+        ![image](/assets/images/config_flow/part4.png)
 
-HACS uses a device OAuth flow for authentication against the GitHub API.
+    - Once you see the confirmation screen, you can close the tab and go back to Home Assistant.
 
----
+        ![image](/assets/images/config_flow/part5.png)
 
-![image](/assets/images/config_flow/part2.png)
+7. Assign HACS to an area and select **Finish**.
 
-On the first screen you are presented with a device code, copy that to your clipboard and click on the [https://github.com/login/device](https://github.com/login/device) link to continue the setup.
-
-**Do not click on submit yet!**
-
----
-
-![image](/assets/images/config_flow/no_account.png)
-
-If you are not signed in to GitHub in your browser you need to signup or signin now to continue the setup, if you are already signed in, you can skip this part.
-
----
-
-![image](/assets/images/config_flow/part3.png)
-
-When that page is loaded up, paste or type in your device code that was presented to you in the previous step.
+    ![image](/assets/images/config_flow/conf5.png)
 
 ---
 
-![image](/assets/images/config_flow/part4.png)
-
-Here you click on "Authorize hacs".
-
----
-
-![image](/assets/images/config_flow/part5.png)
-
-Once you see the confirmation screen, you can close the tab and go back to Home Assistant.
-
----
-
-![image](/assets/images/config_flow/part2.png)
-
-Now you can click "Submit" to complete the configuration of HACS.
-
----
-
-![image](/assets/images/config_flow/conf5.png)
 
 ## Changing the configuration
 
