@@ -2,19 +2,14 @@
 title: Template
 ---
 
-[Custom templates](https://www.home-assistant.io/docs/use/configuration/templating/#reusing-templates) was introduced in the Home Assistant 2023.4.0
+The templates shown in HACS are [custom templates](https://www.home-assistant.io/docs/configuration/templating/#reusing-templates) shared by someone from the community.
 
 ## Templates download location
 
-Any template downloaded with HACS is stored in `custom_templates/` in your Home Assistant configuration directory.
+Any template downloaded via HACS is stored under `custom_templates/` in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory).
 
 
-## Reload service
 
-When using HACS to download custom template files you do not have to call the `homeassistant.reload_custom_templates`service.
+## No need to call the reload service
 
-HACS will call that service each time it downloads a custom template file (both new and updates), so you can start using it immediately.
-
-??? nerd-mode
-
-    Nothing yet :(
+HACS will call the `homeassistant.reload_custom_templates`service each time it downloads a custom template file (both new and updates). You can start using this new template immediately. There is no need to call the service manually.
