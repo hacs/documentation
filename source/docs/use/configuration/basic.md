@@ -20,7 +20,7 @@ description: 'Setting up and authenticating the HACS integration'
     !!! tip
         You actually need to do this, don't skip it.
 
-3. In the bottom right corner, select **+ Add integration**.
+3. In the bottom right corner, select **+ {{coreui('ui.panel.config.integrations.add_integration')}}**.
 4. Search for **HACS** and select it.
 5. Acknowledge the statements and select **Submit**.
 6. Authenticate the integration:
