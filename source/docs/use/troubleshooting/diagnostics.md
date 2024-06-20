@@ -1,7 +1,7 @@
 ---
-id: diagnostics
 title: Diagnostics
 description: 'How to get HACS diagnostics'
+icon: material/hammer-wrench
 ---
 
 The diagnostics file is a JSON file with information about your instance. This file is particularly helpful when you want to report a HACS issue via issue tracker on GitHub. The diagnostics file provides context and helps people understand your setup.

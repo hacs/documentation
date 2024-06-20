@@ -1,6 +1,7 @@
 ---
 title: Log file and debug logging
 description: "Enabling debug logging"
+icon: material/hammer-wrench
 ---
 
 Like any other integration, the HACS integration logs to the `home-assistant.log` file.

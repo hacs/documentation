@@ -181,11 +181,12 @@ nav:
       - docs/use/entities/update.md
     - docs/use/dashboard.md
     - docs/use/data.md
-    - docs/use/diagnostics.md
-    - docs/use/logs.md
     - docs/use/my.md
     - docs/use/repository_dashboard.md
     - docs/use/updates.md
+    - Troubleshooting:
+      - docs/use/troubleshooting/diagnostics.md
+      - docs/use/troubleshooting/logs.md
   - Publish:
     - docs/publish/index.md
     - docs/publish/start.md
