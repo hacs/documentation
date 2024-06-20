@@ -1,5 +1,5 @@
 ---
 title: Types of repositories
-description: "Types of repositores published for HACS."
+description: "Types of repositories published for HACS."
 generated: true
 ---
