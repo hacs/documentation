@@ -15,4 +15,4 @@ logger:
     aiogithubapi: debug
 ```
 
-Like . The logs created via **Enable debug logging** button only include the `custom_components.hacs` logs, but not other parts like `aiogithubapi` or logs written during start up. For this reason, you need to define debug logging in your `configuration.yaml` file. Don't forget to remove the entry once your done troubleshooting.
+The logs created via [**Enable debug logging**](https://www.home-assistant.io/docs/configuration/troubleshooting/#debug-logs-and-diagnostics) button only include the `custom_components.hacs` logs, but not other parts like `aiogithubapi` or logs written during start up. For this reason, you need to define debug logging in your [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/) file. Don't forget to remove the entry once your done troubleshooting.
