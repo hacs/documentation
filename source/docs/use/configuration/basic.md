@@ -5,12 +5,11 @@ description: 'Setting up and authenticating the HACS integration'
 
 ## Prerequisites
 
-!!! Prerequisites
 
-    This page assumes that you have completed the following steps:
+This page assumes that you have completed the following steps:
 
-    - [Downloaded HACS](/docs/use/download/prerequisites.md)
-    - Restarted Home Assistant
+   - [Downloaded HACS](/docs/use/download/prerequisites.md)
+   - Restarted Home Assistant
 
 ## Setting up the HACS integration
 
