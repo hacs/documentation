@@ -2,12 +2,6 @@
     <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
 
-{% if page.meta.experimental %}
-    <div class="admonition example">
-        <p class="admonition-title">Experimental</p>
-        <p>This require <a href="/docs/faq/experimental_features">experimental features</a> enabled.</p>
-    </div>
-{% endif %}
 {{ page.content }}
 {% set splitpath = page.file.src_path.split("/") %}
 {% if page.meta and page.meta.generated and splitpath[-1] == "index.md" %}

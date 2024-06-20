@@ -3,7 +3,7 @@ site_description: HACS gives you a powerful UI to handle downloads of all your c
 site_url: !ENV [SITE_URL, CF_PAGES_URL, "https://hacs.xyz"]
 repo_url: https://github.com/hacs/integration
 repo_name: hacs/integration
-remote_branch: !ENV [CF_PAGES_BRANCH, "experimental"]
+remote_branch: !ENV [CF_PAGES_BRANCH, "next"]
 docs_dir: source
 site_dir: build
 use_directory_urls: true
@@ -182,7 +182,6 @@ nav:
     - docs/use/dashboard.md
     - docs/use/data.md
     - docs/use/diagnostics.md
-    - docs/use/existing_elements.md
     - docs/use/logs.md
     - docs/use/my.md
     - docs/use/repository_dashboard.md
@@ -215,7 +214,7 @@ nav:
     - docs/faq/beta.md
     - docs/faq/custom_repositories.md
     - docs/faq/data_sources.md
-    - docs/faq/experimental_features.md
+    - docs/faq/existing_elements.md
     - docs/faq/github_account.md
     - docs/faq/ha_update.md
     - docs/faq/hassio_only.md

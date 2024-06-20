@@ -1,7 +1,6 @@
 ---
 title: Update entities
 description: 'Update entities'
-experimental: true
 ---
 HACS provide [update entities](https://www.home-assistant.io/integrations/update/) for all tracked repositories.
 

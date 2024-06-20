@@ -23,14 +23,6 @@ description: 'Configuration options'
 - `Number of releases to show`: Number of releases to show in the dropdown.
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/use/type/appdaemon.md).
-- `Enable experimental features`: This enables experimental features in HACS.
-
-!!! note
-    After you change the setting for experimental features, you must fully reload HACS. Restart Home Assistant and then, once Home Assistant has fully started, clear your browser cache.
-
-
-!!! note
-    When changing the toggle for experimental features, you need to restart Home Assistant and clear the browser cache when it has fully started for it to properly be changed.
 
 
 ## Click submit and wait for confirmation
