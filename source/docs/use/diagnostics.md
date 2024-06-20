@@ -12,7 +12,8 @@ To get the diagnostics file for HACS, follow these steps:
 2. Select the **HACS** integration.
 3. Select the three-dots menu, then select **Download diagnostics**.
 
-    - This will download a file with `json.txt` file ending to the computer you are doing this from (usually the downloads directory), this file can be pasted or dragged into GitHub issues.
+    - This will download a file with `.json` file ending to the computer you are doing this from (usually the downloads directory), this file can be dragged into GitHub issues.
+
 
 ![image showing how to download diagnostics](/assets/images/diagnostics.png)
 
