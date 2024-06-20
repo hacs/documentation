@@ -6,7 +6,8 @@ The templates shown in HACS are [custom templates](https://www.home-assistant.io
 
 ## Templates download location
 
-Any template downloaded via HACS is stored under `custom_templates/` in your Home Assistant configuration directory.
+Any template downloaded via HACS is stored under `custom_templates/` in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory).
+
 
 
 ## No need to call the reload service
