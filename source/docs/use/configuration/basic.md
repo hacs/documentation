@@ -13,7 +13,7 @@ This page assumes that you have completed the following steps:
 
 ## Setting up the HACS integration
 
-1. In Home Assistant, go to <!-- hacs:my integrations **{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}** -->.
+1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Clear your browser cache.
     - Before HACS can show up in the list, you need to clear your browser cache or perform a hard-refresh.
     !!! tip

@@ -7,7 +7,7 @@ The diagnostics file is a JSON file with information about your instance. This f
 
 To get the diagnostics file for HACS, follow these steps:
 
-1. In Home Assistant, go to <!-- hacs:my integrations **{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}** -->.
+1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Select the **HACS** integration.
 3. Select the three-dots menu, then select **Download diagnostics**.
 

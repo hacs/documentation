@@ -4,22 +4,35 @@ import re
 from re import Match
 
 
+def get_dict(s):
+    parts = re.split(r"\s*(\w+)=", s)
+    return dict(zip(parts[1::2], parts[2::2]))
+
+
 def on_page_markdown(markdown: str, *args, **kwargs):
     def replace(match: Match):
-        type, args = match.groups()
-        args = args.strip().split(" ")
-
-        match type:
+        tag, extra = match.groups()
+        args = []
+        for arg in extra.split():
+            if "=" in arg:
+                break
+            else:
+                args.append(arg)
+        kwargs = get_dict(extra)
+        
+        
+        match tag:
             case "my":
-                return _my_link(args)
+                return _my_link(args, **kwargs)
 
             case _:
-                raise RuntimeError(f"Unknown shortcode: {type}")
+                raise RuntimeError(f"Unknown shortcode: {tag}")
 
     return re.sub(r"<!-- hacs:(\w+)(.*?) -->", replace, markdown, flags=re.I | re.M)
 
 
-def _my_link(args: list[str]) -> str:
+
+def _my_link(args: list[str], **kwargs: dict[str, str]) -> str:
     redirect = args[0]
-    label = " ".join(args[1:]) if len(args) > 1 else redirect
+    label = kwargs.get("title", redirect).rstrip('"').lstrip('"')
     return f"<a href='https://my.home-assistant.io/redirect/{redirect}/' target='_blank' rel='noreferrer noopener'>{label}</a>"
