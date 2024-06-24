@@ -19,4 +19,4 @@ frontend:
 
 ## Themes download location
 
-Any theme downloaded with HACS is stored in `themes/` in your Home Assistant configuration directory.
+Any theme downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory), under `themes/`.

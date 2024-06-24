@@ -18,7 +18,7 @@ Integrations in HACS (or custom_components as they are often referred to) are co
 
 ## Integrations download location
 
-Any Integration you download with HACS is stored in `custom_components/` in your Home Assistant configuration directory.
+Any Integration you download with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory), under `custom_components/`.
 
 ??? nerd-mode
 
