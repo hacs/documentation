@@ -19,7 +19,7 @@ See the documentation for more information about [configuring HACS](/docs/use/co
 ## AppDaemon apps download location
 
 !!! info
-    Any AppDaemon app downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory), under  `appdaemon/apps/`.
+    Any AppDaemon app downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory), under  `appdaemon/apps/`.
 
 ??? nerd-mode
 

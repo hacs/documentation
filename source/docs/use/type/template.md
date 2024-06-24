@@ -6,7 +6,7 @@ The templates shown in HACS are [custom templates](https://www.home-assistant.io
 
 ## Templates download location
 
-Any template downloaded via HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#configuration-directory) under `custom_templates/`.
+Any template downloaded via HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory) under `custom_templates/`.
 
 
 
