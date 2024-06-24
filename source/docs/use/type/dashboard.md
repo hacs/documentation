@@ -9,27 +9,29 @@ title: Dashboard
     - Plugin
     - Lovelace
 
+The term "Dashboard elements" in HACS refers to all types of dashboard elements, such as [dashboards](https://www.home-assistant.io/dashboards/dashboards/), [views](https://www.home-assistant.io/dashboards/views/), or [cards](https://www.home-assistant.io/dashboards/cards/). It includes any element that you can add under <!-- hacs:my lovelace_resources title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.dashboards.main')}}** > three dots menu > **{{coreui('ui.panel.config.lovelace.resources.caption')}}**" -->
+
 ## Dashboard elements download location
 
-Any dashboard element you download with HACS is stored in `www/community/` in your Home Assistant configuration directory.
+Any dashboard element you download with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory), under `www/community/`.
 
-## Special notes about downloaded dashboard elements
+## About downloaded dashboard elements
 
-When a `.js` file is downloaded, a compressed `.gz` version of it will be created. This file (assuming it exists) will be served to the requester to save transfer size/time.
+Typically, dashboard elements are `.js` file. When a `.js` file is downloaded, HACS creates a compressed `.gz` version of it. This file is then served to the requester (instead of the .js file) to save transfer size and time.
 
-If you make local changes to a dashboard element in the `.js` file, delete the `.gz` variant to have HACS serve up that one.
+If you made local changes to a dashboard element in the `.js` file, delete the `.gz` variant. The the `.gz` variant does not contain your changes.
 
-At the bottom of every page for dashboard elements, it will state how you should add it to your dashboard configuration.
+For instructions on how to add a dashboard element to your dashboard configuration, refer to the instructions at bottom of the page of that dashboard element.
 
-### Custom view (/hacsfiles)
+### Custom features for files stored under (/hacsfiles)
 
-HACS has a custom view/path/endpoint for serving up dashboard elements `/hacsfiles/`. This works mostly the same way as `/local` but has some extra features.
+HACS has a custom path for serving up dashboard elements `/hacsfiles/`, also referred to as *`/hacsfiles` endpoint*. This works mostly the same way as `/local` but has some extra features.
 
 - The `/hacsfiles` endpoint does not cache anything; it will instruct your browser to fetch a new version on each load.
 - The `/hacsfiles` endpoint will try to serve a `.gz` variant of the element, making the element smaller and the transfer faster.
 
 ??? nerd-mode
 
-    - Every dashboard you have downloaded with HACS will have an "Open source" option on the hamburger menu. This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404, try downloading it again.
-    - `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. When you use `/local`, you will transfer the `.js` file, which is 101kB. However, if you use HACS and reference the dashboard with `/hacsfiles`, it will serve the 20kB `.gz` version automatically (sizes accurate for version 1.4.7 of CCH).
+    - Every dashboard you have downloaded with HACS has an **Open source** option on the hamburger menu. This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404, try downloading it again.
+    - `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. When you use `/local`, you will transfer the `.js` file, which is 101&nbsp;kB. However, if you use HACS and reference the dashboard with `/hacsfiles`, it will serve the 20&nbsp;kB `.gz` version automatically (sizes accurate for version 1.4.7 of CCH).
     - Your dashboard exists in `www/community/dashboard/dashboard.js`. You can use both `/local/community/dashboard/dashboard.js` and `/hacsfiles/dashboard/dashboard.js` to reference it, but only the `/hacsfiles` version will have the extra features that HACS offers.
