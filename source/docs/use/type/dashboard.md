@@ -21,7 +21,7 @@ Typically, a dashboard element is a `.js` file. When a `.js` file is downloaded,
 
 If you made local changes to a dashboard element in the `.js` file, delete the `.gz` variant. The the `.gz` variant does not contain your changes.
 
-For instructions on how to add a dashboard element to your dashboard configuration, refer to the instructions at bottom of the page of that dashboard element.
+For instructions on how to add a dashboard element to your dashboard configuration, refer to the instructions at the bottom of the page of that dashboard element.
 
 ### Custom features for files stored under (/hacsfiles)
 
