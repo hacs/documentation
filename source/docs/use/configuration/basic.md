@@ -3,21 +3,25 @@ title: Initial configuration
 description: 'Setting up and authenticating the HACS integration'
 ---
 
-## Prerequisites
+## Setting up the HACS integration
+
+Follow these steps to set up the HACS integration and authenticate it against the GitHub API.
+
+### Prerequisites
 
 
-This page assumes that you have completed the following steps:
+This guide assumes that you have completed the following steps:
 
    - [Downloaded HACS](/docs/use/download/prerequisites.md)
    - Restarted Home Assistant
 
-## Setting up the HACS integration
+### To setting up the HACS integration
 
 1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Clear your browser cache.
     - Before HACS can show up in the list, you need to clear your browser cache or perform a hard-refresh.
-    !!! tip
-        You actually need to do this, don't skip it.
+        !!! tip
+            You actually need to do this, don't skip it.
 
 3. In the bottom right corner, select **+ {{coreui('ui.panel.config.integrations.add_integration')}}**.
 4. Search for **HACS** and select it.
