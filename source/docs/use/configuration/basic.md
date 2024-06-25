@@ -50,9 +50,3 @@ This page assumes that you have completed the following steps:
 
     ![image](/assets/images/config_flow/conf5.png)
 
----
-
-
-## Changing the configuration
-
-If you need to change the configuration, you first need to delete the integration from the integrations list, then you need to add it back again.
