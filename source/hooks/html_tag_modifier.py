@@ -1,3 +1,4 @@
+from __future__ import annotations
 from urllib.parse import urlparse
 
 import markdown
@@ -9,15 +10,14 @@ EXTERNAL_SCHEMES=("http", "https")
 class Processor(markdown.treeprocessors.Treeprocessor):
     def run(self, root: Element) -> Element | None:
         for element in root.iter():
-            match element.tag:
-                case "a":
-                    if urlparse(element.get("href", "")).scheme not in EXTERNAL_SCHEMES:
-                        continue
-                    element.set("target", "_blank")
-                    element.set("rel", "noopener")
+            if element.tag == "a":
+                if urlparse(element.get("href", "")).scheme not in EXTERNAL_SCHEMES:
+                    continue
+                element.set("target", "_blank")
+                element.set("rel", "noopener")
 
-                case "img":
-                    element.set("loading", "lazy")
+            elif element.tag == "img":
+                element.set("loading", "lazy")
             
 
 class Extension(markdown.Extension):
