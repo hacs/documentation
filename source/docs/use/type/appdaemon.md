@@ -2,7 +2,7 @@
 title: AppDaemon apps
 ---
 
-AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/). According to their documentation, *"AppDaemon is a loosely coupled, multi-threaded, sandboxed python execution environment for writing automation apps for home automation projects [...]"*.
+AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/).
 
 !!! abscract "Not enabled by default"
     By default, AppDaemon apps are **not** visible in HACS because they are used only by a small subset of users. To see them, you need to enable them in the configuration options.
