@@ -4,29 +4,34 @@ title: Configuration options
 description: 'Configuration options'
 ---
 
-!!! info
-    _Finish [initial configuration](/docs/use/configuration/basic.md) before you modify HACS options described here._
+The configuration options allow you to change some settings of the HACS integration, such as the name and icon shown in the sidebar in Home Assistant.
 
+## Changing the HACS configuration options
 
-## Change HACS options
+Follow these steps to change the HACS configuration options.
 
-1. First go to the "Settings" in the Home Assistant UI, then "Devices & Services" and the "Integrations" tab in the Home Assistant UI
-1. Then click on the entry for HACS.
-1. On the card click on "Configure"
+### Prerequisites
 
-## Options
+This guide assumes you have completed [initial configuration](/docs/use/configuration/basic.md).
 
-![image](/assets/images/options_flow/option3.png)
+### To change the HACS configuration options
 
-- `Side panel title`: The text (name or title) to display for HACS in the sidebar. Defaults to "HACS".
+1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
+2. Select the HACS integration.
+3. On the integration card, select **Configure**.
+4. Edit the [options](#about-configuration-options).
+5. To save your changes, select **Submit**.
+    - This will reload HACS and your changes will be reflected when you see the confirmation.
+
+      ![Screenshot of the HACS configuration options confirmation dialog](/assets/images/options_flow/option4.png)
+
+## About configuration options
+
+- `Side panel title`: The text (name or title) to display for HACS in the sidebar. Defaults to **HACS**.
 - `Side panel icon`: The icon you want to display for HACS in the sidebar.
 - `Number of releases to show`: Number of releases to show in the dropdown.
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/use/type/appdaemon.md).
 
+![Screenshot of the HACS configuration options dialog](/assets/images/options_flow/option3.png)
 
-## Click submit and wait for confirmation
-
-_This will reload HACS and your changes will be reflected when you see the confirmation._
-
-![image](/assets/images/options_flow/option4.png)
