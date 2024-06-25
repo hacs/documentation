@@ -19,7 +19,7 @@ python_script:
 ## Python Scripts download location
 
 !!! info
-    Any Python Script downloaded with HACS is stored in `python_scripts/` in your Home Assistant configuration directory.
+    Any Python Script downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory) under `python_scripts/`.
 
 ??? nerd-mode
 

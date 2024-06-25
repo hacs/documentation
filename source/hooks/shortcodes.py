@@ -21,12 +21,10 @@ def on_page_markdown(markdown: str, *args, **kwargs):
         kwargs = get_dict(extra)
         
         
-        match tag:
-            case "my":
-                return _my_link(args, **kwargs)
-
-            case _:
-                raise RuntimeError(f"Unknown shortcode: {tag}")
+        if tag == "my":
+            return _my_link(args, **kwargs)
+        else:
+            raise RuntimeError(f"Unknown shortcode: {tag}")
 
     return re.sub(r"<!-- hacs:(\w+)(.*?) -->", replace, markdown, flags=re.I | re.M)
 
