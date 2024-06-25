@@ -18,7 +18,7 @@ The repository for the documentation is hosted @ https://github.com/hacs/documen
 ### Editing this page on GitHub
 
 1. When you see something in the documentation that needs changing, scroll down to the bottom of the page.
-2. In the **Help us to improve the documentation** section, select **Edit this page on GitHub**.
+2. In the **Help us improve the documentation** section, select **Edit this page on GitHub**.
 
     [:fontawesome-solid-file-pen: Edit this page on GitHub](https://github.com/hacs/documentation/edit/{{config.remote_branch}}/source/{{page.file.src_path}}){ .md-button }
 
