@@ -5,7 +5,7 @@ description: 'Setting up and authenticating the HACS integration'
 
 ## Setting up the HACS integration
 
-Follow these steps to set up the HACS integration and authenticate it against the GitHub API.
+Follow these steps to set up the HACS integration and authenticate it with GitHub.
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ This guide assumes that you have completed the following steps:
 4. Search for **HACS** and select it.
 5. Acknowledge the statements and select **Submit**.
 6. Authenticate the integration:
-    - HACS uses a device OAuth flow for authentication against the GitHub API.
+    - HACS uses a device OAuth flow for authentication with GitHub.
     - Copy the device code and select the link [https://github.com/login/device](https://github.com/login/device).
 
         ![image](/assets/images/config_flow/part2.png)
