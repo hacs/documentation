@@ -15,7 +15,7 @@ This guide assumes that you have completed the following steps:
    - [Downloaded HACS](/docs/use/download/prerequisites.md)
    - Restarted Home Assistant
 
-### To setting up the HACS integration
+### To set up the HACS integration
 
 1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Clear your browser cache.
