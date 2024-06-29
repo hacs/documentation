@@ -14,7 +14,7 @@ If you want to try and add a custom repository to HACS do the following:
 
 ![custom_repositories_entry](/img/custom_repositories_entry.png)
 
-1. Go to any of the sections (integrations, frontend, automation).
+1. On your homeassistant, navigate to the HACS page via the sidebar on the left.
 1. Click on the 3 dots in the top right corner.
 1. Select "Custom repositories"
 1. Add the URL to the repository.
