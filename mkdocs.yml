@@ -25,8 +25,8 @@ theme:
   logo: assets/images/hacs_logo.png
   favicon: assets/images/hacs_logo.png
   font:
-    code: Roboto Mono
-    text: Roboto
+    code: "Consolas"
+    text: "Instrument Sans"
   features:
     - announce.dismiss
     - content.code.copy
@@ -60,9 +60,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
-  font:
-    text: Roboto
-    code: Roboto Mono
   icon:
     annotation: material/information
 plugins:

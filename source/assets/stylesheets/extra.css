@@ -1,7 +1,10 @@
 :root {
     --hacs-color-primary: #41BDF5;
+    --hacs-border-radius: 16px;
     --md-admonition-icon--nerd-mode: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 10c-.24 0-.45.09-.59.25-.14.15-.2.37-.17.61l.5 2.99C2.82 14.5 3.4 15 4 15h3c.64 0 1.36-.56 1.5-1.18l1.06-3.19c.04-.13.01-.32-.06-.44-.11-.12-.28-.19-.5-.19H3m4 7H4C2.38 17 .96 15.74.76 14.14l-.5-2.99C.15 10.3.39 9.5.91 8.92 1.43 8.34 2.19 8 3 8h6c.83 0 1.58.35 2.06.96.11.15.21.31.29.49.43-.09.87-.09 1.29 0 .08-.18.18-.34.3-.49C13.41 8.35 14.16 8 15 8h6c.81 0 1.57.34 2.09.92.51.58.75 1.38.65 2.19l-.51 3.07C23.04 15.74 21.61 17 20 17h-3c-1.56 0-3.08-1.19-3.46-2.7l-.9-2.71c-.38-.28-.91-.28-1.29 0l-.92 2.78C10.07 15.82 8.56 17 7 17m8-7c-.22 0-.39.07-.5.19-.08.12-.1.31-.05.51l1.01 3.05c.18.69.9 1.25 1.54 1.25h3c.59 0 1.18-.5 1.25-1.11l.51-3.07c.03-.2-.03-.42-.17-.57A.769.769 0 0 0 21 10h-6Z"></path></svg>');
     --md-admonition-icon--prerequisites: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 10.1C17.11 10.1 16.69 10.05 16.36 9.91L4.97 21.25L2.86 19.14L10.27 11.74L8.5 9.96L7.78 10.66L6.33 9.25V12.11L5.63 12.81L2.11 9.25L2.81 8.55H5.62L4.22 7.14L7.78 3.58C8.95 2.41 10.83 2.41 12 3.58L9.89 5.74L11.3 7.14L10.59 7.85L12.38 9.63L14.2 7.75C14.06 7.42 14 7 14 6.63C14 4.66 15.56 3.11 17.5 3.11C18.09 3.11 18.61 3.25 19.08 3.53L16.41 6.2L17.91 7.7L20.58 5.03C20.86 5.5 21 6 21 6.63C21 8.55 19.45 10.1 17.5 10.1Z" /></svg>');
+    --md-code-font: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    --md-text-font: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 [data-md-color-scheme=slate] {
@@ -106,3 +109,13 @@ a.generated-grid-link p:last-of-type {
     background-color: red;
     mask-image: var(--md-admonition-icon--failure);
   }
+
+  input, form, div, code, a, .md-button {
+    border-radius: var(--hacs-border-radius) !important;
+  }
+
+  code {
+    font-size: 0.8em;
+    border: .1px solid var(--md-default-fg-color);
+    padding: 0.1em 0.4em !important;
+}
