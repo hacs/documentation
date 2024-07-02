@@ -6,3 +6,6 @@
 /faq/what /docs/faq
 /faq/* /docs/faq/:splat
 /img/demo.gif /assets/images/legacy/demo.gif
+
+/docs/entities/update_entities#install-service
+/docs/use/entities/update/#install-service
