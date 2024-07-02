@@ -2,7 +2,7 @@
 title: Integration
 ---
 
-Integrations in HACS (also known as *custom components*) are community-built integrations.
+Integrations in HACS are community-built integrations.
 
 ## Downloading integrations
 
