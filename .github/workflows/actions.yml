@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - next
   push:
     branches:
       - main
@@ -26,6 +27,13 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4.1.7
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
 
       - name: Setup
         run: scripts/setup

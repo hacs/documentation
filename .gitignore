@@ -1,7 +1,11 @@
-node_modules
+.cache
 .docusaurus
-build/
-yarn-error.log
-documentation/repositories
-documentation/default_repositories.md
+.yarn
 .yarn/install-state.gz
+build
+build/
+documentation/default_repositories.md
+documentation/repositories
+node_modules
+yarn-error.log
+__pycache__
