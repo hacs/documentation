@@ -12,9 +12,19 @@ This is based on the same data table that you will find elsewhere in the [Home A
 
 Each line in the data table, represent a repository that is (or can be) managed by HACS.
 
-By default it only shows you which repositories you have downloaded with HACS.
+By default, it only shows you which repositories you have downloaded with HACS.
 
-If you want to see more use the [search](#search) and [filter](#filter) capabilities.
+If you want to see more, use the [search](#search) and [filter](#filter) capabilities.
+
+## Downloading a repository
+
+1. In Home Assistant, open HACS and and find the repository of interest. 
+    - If you want to browse by type, [filter](/docs/use/dashboard.md#filter), for example for type *integration*.
+    - If you already know what you want, type the name into the search field.
+2. Select the repository from the list and read its documentation.
+3. To download the repository, select **Download**.
+    - The repository is now added to your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration.md#to-find-the-configuration-directory).
+4. [Restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
 
 ## Quick actions
 
@@ -41,7 +51,7 @@ You can search data in all [columns](#columns) of each repository including:
 
 ## Filter
 
-If you are just looking to bowse repositories, you can do so with filtering.
+If you are just looking to browse repositories, you can do so with filtering.
 You can find and set the filters in the dialog you can open with the (:material-filter-variant:) icon button to the right in the searchbar.
 
 ![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
