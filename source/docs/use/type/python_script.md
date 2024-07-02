@@ -3,14 +3,13 @@ title: Python Script
 ---
 
 Python Scripts is a part of the Home Assistant [`python_script` integration.](https://www.home-assistant.io/integrations/python_script/)
-
-!!! info
-    Python Scripts in HACS will automagically be enabled if you have it enabled in Home Assistant
-
+ 
 
 ## Enable Python Scripts in Home Assistant
 
-Add this to your `configuration.yaml`
+Python Scripts are automagically enabled in HACS if you have them enabled in Home Assistant.
+
+To enable Python Scripts in Home Assistant, add this to your [`configuration.yaml` file](https://www.home-assistant.io/docs/configuration/)
 
 ```yaml title="configuration.yaml"
 python_script:
@@ -18,9 +17,4 @@ python_script:
 
 ## Python Scripts download location
 
-!!! info
-    Any Python Script downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory) under `python_scripts/`.
-
-??? nerd-mode
-
-    Nothing yet :(
+Any Python Script downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory) under `python_scripts/`.
