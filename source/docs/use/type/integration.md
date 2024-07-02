@@ -2,24 +2,19 @@
 title: Integration
 ---
 
-Integrations in HACS (or custom_components as they are often referred to) are community-built integrations.
+Integrations in HACS are community-built integrations.
 
-## Special notes about Integrations
+## Configuring integrations
 
-!!! info
-    When you download, update or remove an integration in HACS, you need to restart Home Assistant.
+1. Follow the steps on [downloading a repository](/docs/use/dashboard.md#downloading-a-repository).
+2. How you configure the integration in Home Assistant depends on the integration:
 
-
-!!! tip
-    You _may_ need to clear your browser cache before you see it in the "+" list.
-
-    _Note that this **only** applies for the initial download of that Integration, if you update it, you still need to restart Home Assistant before it loads the new files._
+    - The integration documentation page in HACS should instruct you how to get started.
+    - Some integrations, you can add from the integration page on <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
+    - Others, you need to add via YAML.
+    - If you select the **Add integration** button and the integration does not show, clear your browser cache to refresh the UI.
 
 
 ## Integrations download location
 
 Any Integration you download with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory), under `custom_components/`.
-
-??? nerd-mode
-
-    Nothing yet :(
