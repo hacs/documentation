@@ -9,7 +9,8 @@ layout: type
 
 Themes are automagically enabled in HACS if you have them enabled in Home Assistant.
 
-To enable Themes in Home Assistant, add this to your [`configuration.yaml` file](https://www.home-assistant.io/docs/configuration/).
+To enable themes in Home Assistant, add this to your [`configuration.yaml` file](https://www.home-assistant.io/docs/configuration/).
+
 
 ```yaml title="configuration.yaml"
 frontend:
