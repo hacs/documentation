@@ -6,6 +6,11 @@ Hi there :wave:
 
 This is the beginning of the user documentation for HACS.
 
+This section explains how to use HACS. It does not show how to contribute to HACS or how to publish.
+
+- If you want to publish a repository to HACS, take a look at the [publisher documentation](/docs/publish/index.md).
+- If you want to contribute to HACS itself, take a look at the [contributor documentation](/docs/contribute/index.md)
+
 ## Getting started with HACS
 
 New to HACS? To get started with HACS, follow these steps:
@@ -18,8 +23,3 @@ New to HACS? To get started with HACS, follow these steps:
 
 Use the sidebar to navigate this section.
 
-!!! note
-    This section explains how to use HACS. It does not show how to contribute to HACS or how to publish.
-
-    - If you want to publish a repository to HACS, take a look at the [publisher documentation](/docs/publish/index.md).
-    - If you want to contribute to HACS itself, take a look at the [contributor documentation](/docs/contribute/index.md)
