@@ -1,11 +1,11 @@
 ---
-title: Removing HACS
+title: Remove HACS
 description: "Step-by-step instructions on removing HACS"
 ---
 
 If you are not planning on using HACS anymore, you can remove HACS.
 
-## To remove HACS
+## Removing HACS
 
 1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Select the HACS integration and in the three dot menu (:material-dots-vertical:), select **Delete**.
@@ -18,7 +18,6 @@ If you are not planning on using HACS anymore, you can remove HACS.
 
 
 # Revoking OAuth access
-
 
 1. Navigate to https://github.com/settings/applications.
 2. In the list of apps, find HACS and select the three dots menu.

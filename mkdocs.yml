@@ -162,7 +162,6 @@ nav:
     - Download HACS:
       - docs/use/download/prerequisites.md
       - docs/use/download/download.md
-      - docs/use/download/remove.md
     - Configure HACS:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
@@ -184,6 +183,7 @@ nav:
     - Troubleshooting:
       - docs/use/troubleshooting/diagnostics.md
       - docs/use/troubleshooting/logs.md
+    - docs/use/remove.md
   - Publish:
     - docs/publish/index.md
     - docs/publish/start.md
