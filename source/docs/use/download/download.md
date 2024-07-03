@@ -9,7 +9,7 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
 This section provides instructions for each installation type. Make sure to select the tab that matches your Home Assistant installation type (OS/Supervised, Container, or Core).
 
 !!! info
-    If you don't know what type of Home Assistant installation you are running, you should not use HACS (or any other custom integration). 
+    If you don't know what type of Home Assistant installation you are running, you should not use HACS (or any other custom integration).
 
 === "OS/Supervised"
 
