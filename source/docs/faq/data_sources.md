@@ -7,7 +7,7 @@ description: "Data source HACS users for updates"
 HACS has two different data sources it reaches out to for information on what to show you.
 
 - HACS Data
-- [GitHub REST API](https:/.github.com/en/rest)
+- [GitHub REST API](https://docs.github.com/en/rest)
 
 ## HACS Data
 
@@ -25,9 +25,9 @@ The `data` `<type>` contains a dictionary data generated from the repositories d
 The `repositories` `<type>` contains a list of the repositories defined for that `<section>` in the 
 
 These URLs serve data stored in [Cloudflare R2 buckets](https://developers.cloudflare.com/r2/). Those files are updated with three different [GitHub actions](https://github.com/features/actions):
-- [hacs/integration - Generate HACS data](https://github.com/hacs/integration/blob/main/.github/workflows/generate-hacs-data.yml)
-- [hacs/default - Upload critical file to R2](https://github.com/hacs/default/blob/master/.github/workflows/upload-critical.yml)
-- [hacs/default - Upload removed file to R2](https://github.com/hacs/default/blob/master/.github/workflows/upload-removed.yml)
+- [hacs/integration - Generate HACS data](https://github.com/hacs/integration/blob/main//docs.github/workflows/generate-hacs-data.yml)
+- [hacs/default - Upload critical file to R2](https://github.com/hacs/default/blob/master//docs.github/workflows/upload-critical.yml)
+- [hacs/default - Upload removed file to R2](https://github.com/hacs/default/blob/master//docs.github/workflows/upload-removed.yml)
 
 
 ## Updates
@@ -38,7 +38,7 @@ There are multiple times and actions that will trigger your HACS installation to
 
 During startup, HACS will reach out to [HACS Data](#hacs-data) for all the repository types you have enabled, it will also get newly removed repositories.
 
-If you have any custom repositories added to HACS, these will use the [GitHub REST API](https:/.github.com/en/rest) during startup.
+If you have any custom repositories added to HACS, these will use the [GitHub REST API](https://docs.github.com/en/rest) during startup.
 
 If any of your downloaded repositories have been removed as default in HACS, you will be presented with a [repair issue](https://www.home-assistant.io/integrations/repairs/) stating why it was removed.
 
@@ -50,21 +50,21 @@ If any of your downloaded repositories have an update, their [update entity](/do
 
 ### Every 48 hours after startup
 
-Suppose HACS has yet to fetch the contents of <https://data-v2.hacs.xyz/integration/data.json> at least once successfully. In that case, it will use the [GitHub REST API](https:/.github.com/en/rest) to refresh information about hacs/integration. If it has fetched one or more successfully, this action is skipped.
+Suppose HACS has yet to fetch the contents of <https://data-v2.hacs.xyz/integration/data.json> at least once successfully. In that case, it will use the [GitHub REST API](https://docs.github.com/en/rest) to refresh information about hacs/integration. If it has fetched one or more successfully, this action is skipped.
 
-If you have downloaded any custom repositories, they will refresh their data using the [GitHub REST API](https:/.github.com/en/rest).
+If you have downloaded any custom repositories, they will refresh their data using the [GitHub REST API](https://docs.github.com/en/rest).
 
 ### Browse a repository inside HACS
 
-When you browse a repository inside HACS, HACS will use the [GitHub REST API](https:/.github.com/en/rest) to ensure that the information it acts on is up-to-date.
+When you browse a repository inside HACS, HACS will use the [GitHub REST API](https://docs.github.com/en/rest) to ensure that the information it acts on is up-to-date.
 
 ### Click "Update information" inside HACS
 
-When you click the "Update information" action on the "..." repository menu, HACS will use the [GitHub REST API](https:/.github.com/en/rest) to ensure that the information it acts on is up-to-date.
+When you click the "Update information" action on the "..." repository menu, HACS will use the [GitHub REST API](https://docs.github.com/en/rest) to ensure that the information it acts on is up-to-date.
 
 ### Update a downloaded repository
 
-When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/use/entities/update.md) or the `update.install` service, HACS will use the [GitHub REST API](https:/.github.com/en/rest) to ensure that the information it acts on is up-to-date.
+When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/use/entities/update.md) or the `update.install` service, HACS will use the [GitHub REST API](https://docs.github.com/en/rest) to ensure that the information it acts on is up-to-date.
 
 
 ## Special notes

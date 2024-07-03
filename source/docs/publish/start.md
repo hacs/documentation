@@ -24,7 +24,7 @@ Your repository on GitHub needs to have a description that in a few words descri
 
 ### Topics
 
-Your repository on GitHub needs to have [topics](https:/.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics). _Topics are not displayed in HACS, but they can be used for searchability in the HACS store._
+Your repository on GitHub needs to have [topics](https://docs.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics). _Topics are not displayed in HACS, but they can be used for searchability in the HACS store._
 
 ### README
 
