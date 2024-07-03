@@ -76,6 +76,9 @@ a.generated-grid-link p:last-of-type {
     .md-footer-meta__inner.md-grid {
         flex-direction: column-reverse;
     }
+    .md-flex {
+        flex-direction: column;
+    }
 }
 
 
@@ -120,6 +123,14 @@ a.generated-grid-link p:last-of-type {
 
 .md-source__repository.md-source__repository--active {
     padding-right: 0.5em;
+}
+
+.md-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
 }
 
 input,
