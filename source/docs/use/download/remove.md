@@ -18,7 +18,6 @@ If you are not planning on using HACS anymore, you can remove HACS.
 
 # Revoking OAuth access
 
-If you are using HACS with OAuth, you also need to revoke the access to complete the removal.
 
 1. Navigate to https://github.com/settings/applications.
 2. In the list of apps, find HACS and select the three dots menu.
