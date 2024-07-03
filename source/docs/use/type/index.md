@@ -1,5 +1,5 @@
 ---
 title: Repository types
-description: "There are 6 different types of repositories published for HACS."
+description: "There are different types of repositories published for HACS. Select the type below to see the description."
 generated: true
 ---
