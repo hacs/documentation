@@ -19,6 +19,7 @@
     text-align: center;
     max-width: 720px;
 }
+
 .feedback-actions a {
     word-break: normal;
 }
@@ -27,7 +28,8 @@
     display: none;
 }
 
-img[src$="#only-light"], img[src$="#only-dark"]{
+img[src$="#only-light"],
+img[src$="#only-dark"] {
     border-radius: 6px;
     outline: 3px solid var(--md-default-bg-color);
     outline-offset: -1.5px;
@@ -60,9 +62,11 @@ a.generated-grid-link p:last-of-type {
     .footer-right-links {
         text-align: right;
     }
+
     .twemoji.left-icon {
         display: none;
     }
+
     .twemoji.right-icon {
         display: inline-flex;
     }
@@ -77,45 +81,60 @@ a.generated-grid-link p:last-of-type {
 
 .md-typeset .admonition.nerd-mode,
 .md-typeset details.nerd-mode {
-  border-color: rgb(247, 152, 29);
+    border-color: rgb(247, 152, 29);
 }
-.md-typeset .nerd-mode > .admonition-title,
-.md-typeset .nerd-mode > summary {
-  background-color: rgba(247, 152, 29, 0.1);
+
+.md-typeset .nerd-mode>.admonition-title,
+.md-typeset .nerd-mode>summary {
+    background-color: rgba(247, 152, 29, 0.1);
 }
-.md-typeset .nerd-mode > .admonition-title::before,
-.md-typeset .nerd-mode > summary::before {
-  background-color: rgb(247, 152, 29);
-  -webkit-mask-image: var(--md-admonition-icon--nerd-mode);
-          mask-image: var(--md-admonition-icon--nerd-mode);
+
+.md-typeset .nerd-mode>.admonition-title::before,
+.md-typeset .nerd-mode>summary::before {
+    background-color: rgb(247, 152, 29);
+    -webkit-mask-image: var(--md-admonition-icon--nerd-mode);
+    mask-image: var(--md-admonition-icon--nerd-mode);
 }
 
 .md-typeset .admonition.prerequisites,
 .md-typeset details.prerequisites {
-  border-color: rgb(0, 128, 0);
+    border-color: rgb(0, 128, 0);
 }
-.md-typeset .prerequisites > .admonition-title,
-.md-typeset .prerequisites > summary {
-  background-color: rgba(0, 128, 0, 0.1);
+
+.md-typeset .prerequisites>.admonition-title,
+.md-typeset .prerequisites>summary {
+    background-color: rgba(0, 128, 0, 0.1);
 }
-.md-typeset .prerequisites > .admonition-title::before,
-.md-typeset .prerequisites > summary::before {
-  background-color: rgb(0, 128, 0);
-  -webkit-mask-image: var(--md-admonition-icon--prerequisites);
-          mask-image: var(--md-admonition-icon--prerequisites);
+
+.md-typeset .prerequisites>.admonition-title::before,
+.md-typeset .prerequisites>summary::before {
+    background-color: rgb(0, 128, 0);
+    -webkit-mask-image: var(--md-admonition-icon--prerequisites);
+    mask-image: var(--md-admonition-icon--prerequisites);
 }
 
 .md-typeset [type=checkbox]+.task-list-indicator:before {
     background-color: red;
     mask-image: var(--md-admonition-icon--failure);
-  }
+}
 
-  input, form, div, code, a, .md-button {
+.md-source__repository.md-source__repository--active {
+    padding-right: 0.5em;
+}
+
+input,
+form,
+div,
+code,
+a,
+.md-button {
     border-radius: var(--hacs-border-radius) !important;
-  }
+}
 
-  code {
+code {
     font-size: 0.8em;
     border: .1px solid var(--md-default-fg-color);
-    padding: 0.1em 0.4em !important;
+    padding: 0.25em 0.75em !important;
+    min-height: 42px;
+    align-content: center;
 }
