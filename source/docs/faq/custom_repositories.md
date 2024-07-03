@@ -17,7 +17,7 @@ If you want to try and add a custom repository to HACS do the following:
 1. Click on the 3 dots in the top right corner.
 1. Select "Custom repositories"
 1. Add the URL to the repository.
-1. Select the correct category.
+1. Select the correct type.
 1. Click the "ADD" button.
 
 ![custom_repository_add](/assets/images/screenshots/dialog/custom_repository/add/light.png#only-light)

@@ -36,7 +36,7 @@ There are multiple times and actions that will trigger your HACS installation to
 
 ### Startup
 
-During startup, HACS will reach out to [HACS Data](#hacs-data) for all the categories you have enabled, it will also get newly removed repositories.
+During startup, HACS will reach out to [HACS Data](#hacs-data) for all the repository types you have enabled, it will also get newly removed repositories.
 
 If you have any custom repositories added to HACS, these will use the [GitHub REST API](https:/.github.com/en/rest) during startup.
 
@@ -44,7 +44,7 @@ If any of your downloaded repositories have been removed as default in HACS, you
 
 ### Every 6 hours after startup
 
-HACS will reach out to [HACS Data](#hacs-data) for all the categories you have enabled, it will also get newly removed repositories.
+HACS will reach out to [HACS Data](#hacs-data) for all the repository types you have enabled, it will also get newly removed repositories.
 
 If any of your downloaded repositories have an update, their [update entity](/docs/use/entities/update.md) will now show an update.
 

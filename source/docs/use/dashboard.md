@@ -45,7 +45,7 @@ In this field you can search for both downloaded and available repositories you 
 You can search data in all [columns](#columns) of each repository including:
 
 - Author
-- Category
+- Type
 - Description
 - Name
 - Status
@@ -66,11 +66,11 @@ There are 2 base filters:
 - Downloaded (This is the default filter that is applied, and when enabled will show downloaded repositoruies.)
 - New (When enabled this will show repositories you have not looked at before.)
 
-### Category filter
+### Repository type filter
 
 With this filter you can select one of the available [types](/docs/use/type/index.md) to show.
 
-Once enabled it will show repositories in that category.
+Once enabled it will show repositories in that type.
 
 ## {{hacsui("dialog_overview.columns")}}
 

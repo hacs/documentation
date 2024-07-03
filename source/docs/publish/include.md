@@ -19,7 +19,7 @@ Add both these actions to your own repository and make sure they pass:
 - https://github.com/home-assistant/actions#hassfest (only for integrations)
 - https://github.com/hacs/action
 
-When all of this is covered, you can add it to repository category files in https://github.com/hacs/default
+When all of this is covered, you can add it to repository type files in https://github.com/hacs/default
 
 In your fork of `hacs/default`, create a new branch for your changes from the `master`branch. Do **not** use the`master` branch directly for your changes.
 

@@ -24,7 +24,7 @@ To use it, follow these steps:
 1. Click on "Create new file"
 1. For filename, paste .github/workflows/validate.yaml
 1. Paste the following contents:
-1. Change the value of `CATEGORY` key, this needs to be one of: `appdaemon`, `integration`, `plugin`:material-information-outline:{ title="Plugin is the old name for dashboard but it is still used in the backend" }, `python_script`, `theme`
+1. Change the value of `category` key, this needs to be one of: `appdaemon`, `integration`, `plugin`:material-information-outline:{ title="Plugin is the old name for dashboard but it is still used in the backend" }, `python_script`, `template`, `theme`
 
 ```yaml title=".github/workflows/validate.yml"
 name: Validate
