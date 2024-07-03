@@ -12,7 +12,8 @@ This section shows you how to use the HACS dashboard.
     - The HACS dashboard uses the same [table features](https://www.home-assistant.io/docs/organizing/filtering) used elsewhere in Home Assistant.
     - Each line in the data table represents a community repository that can be downloaded via HACS.
 2. If you do not see the repository you are looking for, use the [search](#search) and [filter](#filter).
-    - By default, the dashboard only shows the repositories you have downloaded with HACS. 
+    - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list. 
+
 
 ![nav_overview](/assets/images/screenshots/overview/base/light.png#only-light)
 ![nav_overview](/assets/images/screenshots/overview/base/dark.png#only-dark)
