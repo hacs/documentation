@@ -163,7 +163,7 @@ nav:
       - docs/use/download/prerequisites.md
       - docs/use/download/download.md
       - docs/use/download/remove.md
-    - Configuration:
+    - Configure HACS:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
     - Types:
