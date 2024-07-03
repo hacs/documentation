@@ -166,7 +166,7 @@ nav:
     - Configure HACS:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
-    - Types:
+    - Repository types:
       - docs/use/type/index.md
       - docs/use/type/appdaemon.md
       - docs/use/type/dashboard.md
