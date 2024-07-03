@@ -10,6 +10,6 @@ This is the beginning of the publisher documentation.
 
 Use the sidebar to navigate this section.
 
-- [If you are looking for how to use HACS have a look at the user documentation](/docs/use/index.md)
-- [If you are looking for how to develop/change something for HACS itself have a look at the developer documentation](/docs/contribute/index.md)
+- If you want to use HACS, take a look at the [user documentation](/docs/use/index.md)
+- If you want to develop something for HACS itself, take a look at the [developer documentation](/docs/contribute/index.md)
 
