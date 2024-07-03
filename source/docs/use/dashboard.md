@@ -20,7 +20,6 @@ If you want to see more, use the [search](#search) and [filter](#filter) capabil
 
 1. In Home Assistant, open HACS and find the repository of interest.
     - If you are unsure what you are looking for and want to browse, you can [filter](/docs/use/dashboard.md#filter). For example, for type *integration*.
-
     - If you already know what you want, type the name into the search field.
 2. Select the repository from the list and read its documentation.
 3. To download the repository, select **Download**.
