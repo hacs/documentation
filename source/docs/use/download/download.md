@@ -1,12 +1,15 @@
 ---
-title: Download
-description: "HACS download steps"
+title: Downloading HACS
+description: "Step-by-step instructions on downloading HACS to your Home Assistant"
 ---
 Setting up HACS is done by using the [HACS download script](https://github.com/hacs/get).
 
-!!! info
-    If you are not sure what type of Home Assistant installation you are running or how to find that, then you should not use HACS (or any other custom integration). 
+## To download HACS
 
+This section provides instructions for each installation type. Make sure to select the tab that matches your Home Assistant installation type (OS/Supervised, Container, or Core).
+
+!!! warning
+    If you don't know what type of Home Assistant installation you are running, you should not use HACS (or any other custom integration).
 
 === "OS/Supervised"
 
@@ -41,7 +44,7 @@ Setting up HACS is done by using the [HACS download script](https://github.com/h
         wget -O - https://get.hacs.xyz | bash -
         ```
 
-## Finalizing steps
+### Finalizing steps
 
 1. Restart Home Assistant.
 2. Follow the steps on [setting up the HACS integration](/docs/use/configuration/basic.md).

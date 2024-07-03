@@ -50,7 +50,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -159,7 +159,7 @@ nav:
   - Home: index.md
   - Use:
     - docs/use/index.md
-    - Download:
+    - Download HACS:
       - docs/use/download/prerequisites.md
       - docs/use/download/download.md
       - docs/use/download/remove.md
