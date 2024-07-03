@@ -32,7 +32,6 @@ theme:
     - content.code.copy
     - content.footnote.tooltips
     - content.tooltips
-    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -80,21 +79,13 @@ hooks:
   - source/hooks/html_tag_modifier.py
   - source/hooks/shortcodes.py
 extra:
-  links:
+  resources:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
       title: Code of Conduct
       icon: fontawesome/solid/scale-balanced
     - link: mailto:hi@hacs.xyz
       title: Contact (no support!)
       icon: fontawesome/solid/at
-    - title: GitHub
-      icon: fontawesome/brands/github
-      link: https://github.com/hacs
-      right: true
-    - title: Discord
-      icon: fontawesome/brands/discord
-      link: https://discord.gg/apgchf8
-      right: true
     - link: https://squidfunk.github.io/mkdocs-material/
       title: Made with Material for MkDocs
       icon: logo
