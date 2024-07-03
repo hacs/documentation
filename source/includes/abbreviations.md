@@ -1,2 +1,2 @@
 *[HACS]: Home Assistant Community Store
-*[integrations]: previously called _custom components_
+*[integrations]: previously called "custom components"
