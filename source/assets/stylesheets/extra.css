@@ -161,6 +161,7 @@ code {
     padding: 0.25em 0.75em !important;
     min-height: 42px;
     align-content: center;
+    margin-right: 2px;
 }
 
 .md-header,
