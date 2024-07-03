@@ -170,7 +170,6 @@ nav:
     - docs/use/data.md
     - docs/use/my.md
     - docs/use/repository_dashboard.md
-    - docs/use/updates.md
     - Troubleshooting:
       - docs/use/troubleshooting/diagnostics.md
       - docs/use/troubleshooting/logs.md
