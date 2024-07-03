@@ -1,0 +1,45 @@
+{% extends "main.html" %}
+{% block tabs %}
+<style>
+    .md-main,
+    .mdx-container {
+        background-color: var(--hacs-color-primary);
+    }
+
+    .mdx-hero__content {
+        color: #fefefe;
+        font-weight: 800;
+        padding: 50px 16px 16px;
+    }
+
+    .md-button {
+        --md-typeset-a-color: #fefefe;
+        margin: 8px 4px;
+    }
+
+    @media (max-width: 720px) {
+        .mdx-hero__content {
+            padding: 16px;
+        }
+    }
+    .mdx-container {
+        min-height: calc(100vh - 180px);
+    }
+</style>
+<section class="mdx-container">
+    <div class="md-flex md-typeset">
+        <div class="mdx-hero">
+            <img src="{{page.meta.hero_image}}" alt="HACS Logo" class="mdx-hero__logo">
+        </div>
+        <div class="mdx-hero__content">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="md-flex md-typeset md-buttons">
+        <a href="/docs/use/index.md" class="md-button">Start using HACS</a>
+        <a href="/docs/publish/index.md" class="md-button">Publish with HACS</a>
+        <a href="/docs/contribute/index.md" class="md-button">Contribute to HACS</a>
+    </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
