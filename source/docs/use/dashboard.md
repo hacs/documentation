@@ -1,6 +1,6 @@
 ---
-title: Using HACS
-description: 'Using HACS via the HACS dashboard'
+title: Getting started with the HACS dashboard
+description: 'Steps on getting started with the HACS dashboard'
 ---
 
 This section shows you how to use the HACS dashboard.
