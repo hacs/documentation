@@ -159,7 +159,7 @@ nav:
   - Home: index.md
   - Use:
     - docs/use/index.md
-    - Download:
+    - Download HACS:
       - docs/use/download/prerequisites.md
       - docs/use/download/download.md
       - docs/use/download/remove.md
