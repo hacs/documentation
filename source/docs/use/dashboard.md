@@ -12,7 +12,7 @@ This is based on the same data table that you will find elsewhere in the [Home A
 
 Each line in the data table, represent a repository that is (or can be) managed by HACS.
 
-By default, it only shows you which repositories you have downloaded with HACS.
+By default, it only shows the repositories you have downloaded with HACS.
 
 If you want to see more, use the [search](#search) and [filter](#filter) capabilities.
 
