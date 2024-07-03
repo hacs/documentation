@@ -13,8 +13,14 @@
     }
 
     .md-button {
-        --md-typeset-a-color: #fefefe;
+        color: #fefefe !important;
         margin: 8px 4px;
+    }
+
+    .md-typeset .md-button:focus, .md-typeset .md-button:hover {
+        background-color: #fefefe;
+        border-color: var(--hacs-color-primary);
+        color: var(--hacs-color-primary) !important;
     }
 
     @media (max-width: 720px) {
