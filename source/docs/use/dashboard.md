@@ -24,7 +24,7 @@ If you want to see more, use the [search](#search) and [filter](#filter) capabil
     - If you already know what you want, type the name into the search field.
 2. Select the repository from the list and read its documentation.
 3. To download the repository, select **Download**.
-    - The repository is now added to your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration.md#to-find-the-configuration-directory).
+    - The files provided by the repository is now added to your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration.md#to-find-the-configuration-directory).
 4. [Restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
 
 ## Quick actions
