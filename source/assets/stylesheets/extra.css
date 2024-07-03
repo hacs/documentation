@@ -5,23 +5,19 @@
     --md-admonition-icon--prerequisites: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 10.1C17.11 10.1 16.69 10.05 16.36 9.91L4.97 21.25L2.86 19.14L10.27 11.74L8.5 9.96L7.78 10.66L6.33 9.25V12.11L5.63 12.81L2.11 9.25L2.81 8.55H5.62L4.22 7.14L7.78 3.58C8.95 2.41 10.83 2.41 12 3.58L9.89 5.74L11.3 7.14L10.59 7.85L12.38 9.63L14.2 7.75C14.06 7.42 14 7 14 6.63C14 4.66 15.56 3.11 17.5 3.11C18.09 3.11 18.61 3.25 19.08 3.53L16.41 6.2L17.91 7.7L20.58 5.03C20.86 5.5 21 6 21 6.63C21 8.55 19.45 10.1 17.5 10.1Z" /></svg>');
     --md-code-font: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --md-text-font: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-    --md-primary-fg-color: #41BDF5;
+    --md-primary-fg-color: #0973A2;
     --md-primary-fg-color--light: #6DCAF6;
     --md-primary-fg-color--dark: #0973A2;
     --md-accent-fg-color: var(--md-primary-fg-color--dark);
-}
-
-[data-md-color-scheme=slate] {
-    --md-accent-fg-color: var(--hacs-color-primary) !important;
-    --md-typeset-a-color: var(--hacs-color-primary) !important;
 }
 
 [data-md-color-accent=indigo] {
-    --md-primary-fg-color: #41BDF5;
+    --md-primary-fg-color: #0973A2;
     --md-primary-fg-color--light: #6DCAF6;
     --md-primary-fg-color--dark: #0973A2;
+    --md-typeset-color: var(--md-default-fg-color--light);
     --md-accent-fg-color: var(--md-primary-fg-color--dark);
+    --md-typeset-a-color: var(--md-primary-fg-color--dark) !important;
 }
 
 img[src$="#only-light"],
@@ -151,4 +147,25 @@ code {
 .footer-section{
     font-size: 0.65rem;
     color: var(--md-default-fg-color--light);
+}
+
+ol:not(.no-styling) {
+    list-style: none;
+    counter-reset: markdown-ordered-list;
+}
+
+ol:not(.no-styling)>li:before {
+    counter-increment: markdown-ordered-list;
+    content: counter(markdown-ordered-list);
+    float: left;
+    width: 1.9em;
+    margin-left: -1.5rem;
+    margin-top: 1.5px;
+    font-size: .6rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: var(--md-default-fg-color--light);
+    color: var(--md-default-bg-color);
+    border-radius: 50%;
 }
