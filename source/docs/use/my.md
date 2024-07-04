@@ -16,6 +16,6 @@ description: 'Creating a My link to a HACS repository'
 1. Go to https://my.home-assistant.io/create-link/?redirect=hacs_repository.
 2. Fill in the fields on that page to generate your My link.
    - **Owner**: the author of the repository. In the example of spook (`frenck/spook`), this is "frenck"
-   - **Repository**: the name of the repositroy. For example: "spook"
+   - **Repository**: the name of the repository. For example: "spook"
    - **Category**. refers to the type of repository. For example: "integration". Only needed for custom repositories.
 3. Copy the URL or snippets you want for your My link.
