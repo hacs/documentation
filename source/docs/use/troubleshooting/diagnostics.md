@@ -9,11 +9,12 @@ To get the diagnostics file for HACS, follow these steps:
 
 1. In Home Assistant, go to <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
 2. Select the **HACS** integration.
-3. Select the three-dots menu, then select **Download diagnostics**.
+3. Select the three-dots (:material-dots-vertical:) menu, then select **Download diagnostics**.
 
-    - This will download a file with `.json` file ending to the computer you are doing this from (usually the downloads directory), this file can be dragged into GitHub issues.
+    - This downloads a `.json` file to the computer you are doing this from (usually into the downloads directory).
+    - This file can be dragged into GitHub issues.
 
 
-![image showing how to download diagnostics](/assets/images/diagnostics.png)
+    ![image showing how to download diagnostics](/assets/images/diagnostics.png)
 
-4. For more instructions on how to report an issue, refer to the Home Assistant documentation on [reporting issues](https://www.home-assistant.io/help/reporting_issues/).
+4. For more instructions, refer to the Home Assistant documentation on [reporting issues](https://www.home-assistant.io/help/reporting_issues/).
