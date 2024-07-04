@@ -1,5 +1,4 @@
 ---
-id: data
 title: Data and backup
 description: "About repository data and backup"
 ---
