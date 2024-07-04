@@ -1,5 +1,4 @@
 ---
-id: my
 title: 'My Home Assistant'
 description: 'Creating a My link to a HACS repository'
 ---
