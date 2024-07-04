@@ -1,42 +1,34 @@
 ---
-id: repository_dashboard
-title: Repository Dashboard
-description: 'Representation of a repository inside HACS.'
-sidebar_position: 2
+title: Download a repository
+description: 'Steps on downloading a repository via HACS.'
 ---
 
-Everything inside HACS are public [GitHub](https://github.com) repositories.
+Each entry you see on the HACS dashboard refers to a public [GitHub](https://github.com) repository, created by someone from the community. This section shows you how to download such a repository by using HACS.
 
-Each repository HACS tracks (downloaded or not) have a dedicated page inside HACS.
+## Prerequisites
 
-What you see on this page depends on what [type](/docs/use/type/index.md) it is, and what information the author of it provides.
+This section assumes you have completed the following:
 
-![repository_dashboard](/assets/images/repository_dashboard.png)
-The above image is an example representation of a integration ([Spook 👻 Not your homie](https://github.com/frenck/spook)) that has not been downloaded by HACS.
+- [Downloaded HACS](/docs/use/download/download.md)
+- [Configured HACS](/docs/use/configuration/basic.md)
 
-## Overview
+## Downloading a repository
 
-The main section of this view renders the README file of the repository.
+1. In Home Assistant, open HACS and find the repository of interest.
+2. Select the repository and view it's overview page.
+    - The main section of this view renders the README file of the repository.
+    - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and number of open issues and pull requests.
+    - This page should also contain the documentation on how to use it.
+    - The content depends on the repository [type](/docs/use/type/index.md) and on the information the author provides.
+    ![repository_dashboard](/assets/images/repository_dashboard.png)
+3. To download the repository, in the bottom-right corner, select the **Download** button.
+    - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
-## Badges
+## About repository options
 
-Above the main content of the page is a row of badges.
-These badges provides some key information about the repository, like the author(s), [GitHub](https://github.com) stars and open issues[^1].
-
-## Options
-
-At the top-right corner you will find the 3 dots menu (:material-dots-vertical:).
+In the top-right corner, you will find the 3 dots menu (:material-dots-vertical:).
 
 This can be used to quickly access the repository at [GitHub](https://github.com), and it's issue tracker.
 
 Here you can also force a refresh of the data for the repository.
 
-## Download
-
-!!! note
-    This will **only** show for repositories you have **not** downloaded with HACS.
-
-
-In the bottom-right corner you will find the "Download" button, you click on this to open the download dialog to confirm that you want to download this repository.
-
-[^1]: Open issues include both Issues and Pull request
