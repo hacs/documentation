@@ -22,7 +22,7 @@ This section assumes you have completed the following:
     - This page should also contain the documentation on how to use it.
     - The content depends on the repository [type](/docs/use/type/index.md) and on the information the author provides.
     ![repository_dashboard](/assets/images/repository_dashboard.png)
-3. To download the repository, in the bottom right corner, select the **Download** button.
+3. To download the repository, in the bottom-right corner, select the **Download** button.
     - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
 ## About repository options
