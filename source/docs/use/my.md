@@ -8,7 +8,7 @@ description: 'Creating a My link to a HACS repository'
 ## To create a My link using a hotkey
 
 1. In Home Assistant, open the repository of interest and press the `m` key.
-      - The My link page opens, with the information already filled in. 
+      - The My link page opens, with the information already filled in.
 2. Copy the URL or snippets you want for your My link.
 
 ## To create a My link manually
