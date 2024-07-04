@@ -165,6 +165,8 @@ nav:
     - Configure HACS:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
+    - docs/use/dashboard.md
+    - docs/use/repository_dashboard.md
     - Repository types:
       - docs/use/type/index.md
       - docs/use/type/appdaemon.md
@@ -175,10 +177,8 @@ nav:
       - docs/use/type/theme.md
     - Entities:
       - docs/use/entities/update.md
-    - docs/use/dashboard.md
     - docs/use/data.md
     - docs/use/my.md
-    - docs/use/repository_dashboard.md
     - docs/use/updates.md
     - Troubleshooting:
       - docs/use/troubleshooting/diagnostics.md
