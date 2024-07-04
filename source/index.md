@@ -9,8 +9,4 @@ HACS is a integration that gives the user a powerful UI to handle downloads of c
 
 Highlights of what HACS can do:
 
-- Help you discover new custom elements.
-- Help you download new custom elements.
-- Help you keep track of your custom elements.
-- Manage(download/update/remove)
-- Shortcuts to repositories/issue tracker
+--8<-- "source/docs/faq/highlights.md:5"
