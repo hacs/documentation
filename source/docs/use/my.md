@@ -3,7 +3,7 @@ title: 'My Home Assistant'
 description: 'Creating a My link to a HACS repository'
 ---
 
-**Home Assistant My links** can be used to link directly to a repository inside HACS. This is used for example, to share a link on Discord or to bookmark it. My links work for both default and custom repositories.
+**Home Assistant My links** can be used to link directly to a repository inside HACS. This is used, for example, to share a link on Discord or to bookmark it. My links work for both default and custom repositories.
 
 ## To create a My link using a hotkey
 
