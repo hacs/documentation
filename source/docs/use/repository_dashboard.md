@@ -3,7 +3,7 @@ title: Download a repository
 description: 'Steps on downloading a repository via HACS.'
 ---
 
-Each entry you see on the HACS dashboard refers to a public [GitHub](https://github.com) repository, created by someone from the community. This section shows you how to download such a repository to Home Assistant by using HACS.
+Each entry you see on the HACS dashboard refers to a public [GitHub](https://github.com) repository, created by someone from the community. This section shows you how to download such a repository by using HACS.
 
 ## Prerequisites
 
