@@ -32,7 +32,6 @@ theme:
     - content.code.copy
     - content.footnote.tooltips
     - content.tooltips
-    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -80,21 +79,13 @@ hooks:
   - source/hooks/html_tag_modifier.py
   - source/hooks/shortcodes.py
 extra:
-  links:
+  resources:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
       title: Code of Conduct
       icon: fontawesome/solid/scale-balanced
     - link: mailto:hi@hacs.xyz
       title: Contact (no support!)
       icon: fontawesome/solid/at
-    - title: GitHub
-      icon: fontawesome/brands/github
-      link: https://github.com/hacs
-      right: true
-    - title: Discord
-      icon: fontawesome/brands/discord
-      link: https://discord.gg/apgchf8
-      right: true
     - link: https://squidfunk.github.io/mkdocs-material/
       title: Made with Material for MkDocs
       icon: logo
@@ -179,7 +170,6 @@ nav:
       - docs/use/entities/update.md
     - docs/use/data.md
     - docs/use/my.md
-    - docs/use/updates.md
     - Troubleshooting:
       - docs/use/troubleshooting/diagnostics.md
       - docs/use/troubleshooting/logs.md
@@ -209,7 +199,6 @@ nav:
   - FAQ:
     - docs/faq/index.md
     - docs/faq/addons.md
-    - docs/faq/beta.md
     - docs/faq/custom_repositories.md
     - docs/faq/data_sources.md
     - docs/faq/existing_elements.md
@@ -217,12 +206,9 @@ nav:
     - docs/faq/ha_update.md
     - docs/faq/hassio_only.md
     - docs/faq/highlights.md
-    - docs/faq/limitations.md
     - docs/faq/other_git_providers.md
     - docs/faq/private_repositories.md
-    - docs/faq/select_version.md
     - docs/faq/download.md
-    - docs/faq/upgrade.md
   - Help: 
     - docs/help/index.md
     - docs/help/issues.md
