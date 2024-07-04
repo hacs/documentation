@@ -26,7 +26,7 @@ This section assumes you have completed the following:
     - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
 ## About repository options
-
+In the top-right corner, you will find the 3 dots menu (:material-dots-vertical:).
 At the top-right corner, you will find the 3 dots menu (:material-dots-vertical:).
 
 This can be used to quickly access the repository at [GitHub](https://github.com), and it's issue tracker.
