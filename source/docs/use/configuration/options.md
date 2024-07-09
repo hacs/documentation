@@ -29,7 +29,6 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
 
 - `Side panel title`: The text (name or title) to display for HACS in the sidebar. Defaults to **HACS**.
 - `Side panel icon`: The icon you want to display for HACS in the sidebar.
-- `Number of releases to show`: Number of releases to show in the dropdown.
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/use/type/appdaemon.md).
 
