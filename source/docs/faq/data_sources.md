@@ -64,7 +64,7 @@ When you click the "Update information" action on the "..." repository menu, HAC
 
 ### Update a downloaded repository
 
-When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/use/entities/update.md) or the `update.install` service, HACS will use the [GitHub REST API](https://docs.github.com/en/rest) to ensure that the information it acts on is up-to-date.
+When you update a downloaded repository with the "Update" button in the more info dialog of its [update entities](/docs/use/entities/update.md) or the `update.install` action, HACS will use the [GitHub REST API](https://docs.github.com/en/rest) to ensure that the information it acts on is up-to-date.
 
 
 ## Special notes

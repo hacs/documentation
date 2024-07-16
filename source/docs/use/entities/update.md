@@ -4,12 +4,12 @@ description: 'Update entities'
 ---
 HACS provide [update entities](https://www.home-assistant.io/integrations/update/) for all tracked repositories.
 
-## Install service
+## Install action
 
-Like all other [update entities](https://www.home-assistant.io/integrations/update/), you can use the `update.install` service to handle updates.
+Like all other [update entities](https://www.home-assistant.io/integrations/update/), you can use the `update.install` action to handle updates.
 
 !!! danger
-    Setting the version in this service call is considered an advanced feature, and should **NOT** be used without instructions to use it from the author of the repository you are updating.
+    Setting the version in this action call is considered an advanced feature, and should **NOT** be used without instructions to use it from the author of the repository you are updating.
 
 The **Version** field supports the following:
 
@@ -24,6 +24,6 @@ The **Version** field supports the following:
 - In case there is a branch and tag that have identical names, the tag will be used.
 - If the repository does not support versions, or if the specified version is not compliant with HACS (or your Home Assistant version) it will fail with a message similar to this:
     <figure markdown="span">
-        ![Image showing the service failing](/assets/images/update_service_failed.png){ width="720" }
-        <figcaption>Image showing the service failing</figcaption>
+        ![Image showing the action failing](/assets/images/update_action_failed.png){ width="720" }
+        <figcaption>Image showing the action failing</figcaption>
     </figure>
