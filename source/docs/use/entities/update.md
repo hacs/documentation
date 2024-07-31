@@ -24,6 +24,7 @@ The **Version** field supports the following:
 - In case there is a branch and tag that have identical names, the tag will be used.
 - If the repository does not support versions, or if the specified version is not compliant with HACS (or your Home Assistant version) it will fail with a message similar to this:
     <figure markdown="span">
-        ![Image showing the action failing](/assets/images/update_action_failed.png){ width="720" }
+        ![Image showing the action failing](/assets/images/screenshots/core/update_action_failed/light.png#only-light)
+        ![Image showing the action failing](/assets/images/screenshots/core/update_action_failed/dark.png#only-dark)
         <figcaption>Image showing the action failing</figcaption>
     </figure>
