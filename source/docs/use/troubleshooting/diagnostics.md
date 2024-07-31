@@ -14,7 +14,7 @@ To get the diagnostics file for HACS, follow these steps:
     - This downloads a `.json` file to the computer you are doing this from (usually into the downloads directory).
     - This file can be dragged into GitHub issues.
 
-
-    ![image showing how to download diagnostics](/assets/images/diagnostics.png)
+    ![image showing how to download diagnostics](/assets/images/screenshots/core/diagnostics/light.png#only-light)
+    ![image showing how to download diagnostics](/assets/images/screenshots/core/diagnostics/dark.png#only-dark)
 
 4. For more instructions, refer to the Home Assistant documentation on [reporting issues](https://www.home-assistant.io/help/reporting_issues/).
