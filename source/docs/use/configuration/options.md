@@ -23,8 +23,6 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
 5. To save your changes, select **Submit**.
     - This will reload HACS and your changes will be reflected when you see the confirmation.
 
-      ![Screenshot of the HACS configuration options confirmation dialog](/assets/images/options_flow/option4.png)
-
 ## About configuration options
 
 - `Side panel title`: The text (name or title) to display for HACS in the sidebar. Defaults to **HACS**.
@@ -32,5 +30,5 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
 - `Filter with country code`: Only show repositories for your country (if the repository has information about that).
 - `Enable AppDaemon apps discovery & tracking`: Enables [AppDaemon](/docs/use/type/appdaemon.md).
 
-![Screenshot of the HACS configuration options dialog](/assets/images/options_flow/option3.png)
-
+![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/light.png#only-light)
+![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/dark.png#only-dark)

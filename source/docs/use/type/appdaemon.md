@@ -15,7 +15,8 @@ To enable AppDaemon apps in HACS, follow these steps:
 1. In Home Assistant, open the HACS configuration options as described under [Configuration options](/docs/use/configuration/options.md).
 2. In the **Options** dialog, select **Enable AppDaemon apps discovery & tracking**.
 
-    ![configuration](/assets/images/options_flow/option3.png)
+    ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/light.png#only-light)
+    ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/dark.png#only-dark)
 
 3. To save the changes, select **Submit**.
 
