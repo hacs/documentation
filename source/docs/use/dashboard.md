@@ -18,8 +18,6 @@ This section shows you how to use the HACS dashboard.
     - To view the source code, select **Repository**.
 4. Once you found the custom element you want to use in Home Assistant, [download the repository](/docs/use/download_repository.md).
 
-With this, you can quickly manage the repository and get to its issue tracker.
-
 ## {{coreui("ui.components.data-table.search")}} repositories
 
 You can search for both downloaded and available repositories in HACS.
