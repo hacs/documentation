@@ -21,6 +21,6 @@ New to HACS? To get started with HACS, follow these steps:
 2. [Download HACS](/docs/use/download/download.md).
 3. [Setup the HACS integration](/docs/use/configuration/basic.md).
 4. [Check the configuration options](/docs/use/configuration/options.md).
-5. Get an overview of the [HACS dashboard](/docs/use/dashboard.md) and the [repository dashboard](/docs/use/dashboard.md) and start using HACS.
+5. Get an overview of the [HACS dashboard](/docs/use/repositories/dashboard.md) and start using HACS.
 
 
