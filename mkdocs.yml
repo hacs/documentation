@@ -157,7 +157,7 @@ nav:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
     - docs/use/dashboard.md
-    - docs/use/repository_dashboard.md
+    - docs/use/download_repository.md
     - Repository types:
       - docs/use/type/index.md
       - docs/use/type/appdaemon.md
