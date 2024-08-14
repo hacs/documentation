@@ -22,7 +22,6 @@ With this you can quickly manage the repository and get to its issue tracker.
 
 ## {{coreui("ui.components.data-table.search")}} repositories
 
-
 You can search for both downloaded and available repositories in HACS.
 
 1. Enter your search term in the search field.
