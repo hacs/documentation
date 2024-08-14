@@ -4,6 +4,5 @@ description: "TLDR;"
 ---
 - Help you discover new custom elements.
 - Help you download new custom elements.
-- Help you keep track of your custom elements.
-- Manage(download/update/remove)
-- Shortcuts to repositories/issue tracker
+- Manage (update/remove) custom elements.
+- Publish your own custom element repository and create shortcuts to repositories or issue trackers.

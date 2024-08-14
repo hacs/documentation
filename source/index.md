@@ -5,8 +5,8 @@ hero_image: "/assets/images/hacs_logo.png"
 hide:
   - navigation
 ---
-HACS is a integration that gives the user a powerful UI to handle downloads of custom needs.
+The Home Assistant Community Store (HACS) is a custom integration that provides a UI to manage custom elements in [Home Assistant](https://www.home-assistant.io/).
 
-Highlights of what HACS can do:
+What HACS can do:
 
 --8<-- "source/docs/faq/highlights.md:5"
