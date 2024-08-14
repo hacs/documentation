@@ -1,5 +1,5 @@
 ---
-title: Switch Entities
+title: Switch entities
 description: 'Switch entities'
 ---
 
