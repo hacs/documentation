@@ -14,7 +14,7 @@ This section shows you how to use the HACS dashboard.
 2. To browse the repositories, use the [search](#search-repositories) and [filter](#filter-repositories) functions.
     - The HACS dashboard uses the same [table features](https://www.home-assistant.io/docs/organizing/filtering) used elsewhere in Home Assistant.
     - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list.
-3. To view the repository documentation, the select the 3 dots :material-dots-vertical:, then select **Show details**.
+3. To view the repository documentation, the select the 3 dots :material-dots-vertical: menu, then select **Show details**.
     - To view the source code, select **Repository**.
 4. Once you found the custom element you want to use in Home Assistant, [download the repository](/docs/use/download_repository.md).
 
@@ -53,14 +53,14 @@ You can search for both downloaded and available repositories in HACS.
 
 If you're experiencing an issue with a particular custom element, always report the issue to the repository owner, not to HACS or Home Assistant.
 
-1. On the repository entry, select the 3 dots :material-dots-vertical:, then select **Open issue**.
+1. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Open issue**.
     - This opens the issue tracker of the GitHub repository for that custom element.
 2. To open an issue, in their repository, select **New issue**.
 3. Add a detailed description of your issue and submit.
 
 ## HACS Menu
 
-At the top-right corner you will find the 3 dots menu (:material-dots-vertical:).
+At the top-right corner you will find the 3 dots (:material-dots-vertical:) menu.
 
 ![nav_overview](/assets/images/screenshots/overview/menu/light.png#only-light)
 ![nav_overview](/assets/images/screenshots/overview/menu/dark.png#only-dark)
