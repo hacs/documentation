@@ -2,7 +2,8 @@
 title: Downloading HACS
 description: "Step-by-step instructions on downloading HACS to your Home Assistant"
 ---
-To set up HACS, you can use the [HACS download script](https://github.com/hacs/get).
+
+This section shows how to download HACS to your Home Assistant and how to troubleshoot some common issues.
 
 ## To download HACS
 
@@ -25,6 +26,8 @@ How you download HACS depends on your Home Assistant installation type. In the i
 
 === "Container"
 
+    To set up HACS, you can use the [HACS download script](https://github.com/hacs/get).
+
     1. Open a terminal.
     2. Go inside the container with `docker exec -it <name of container running homeassistant> bash`.
     3. Run the HACS download script.
@@ -35,6 +38,8 @@ How you download HACS depends on your Home Assistant installation type. In the i
 
     
 === "Core"
+
+    To set up HACS, you can use the [HACS download script](https://github.com/hacs/get).
 
     1. Open a terminal.
     2. Change to the user that is running Home Assistant.
