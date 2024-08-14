@@ -7,78 +7,58 @@ This section shows you how to use the HACS dashboard.
 
 ## Getting started with the HACS dashboard
 
-1. To use HACS, in the Home Assistant sidebar, select the HACS icon. 
-    - This opens the HACS dashboard.
-    - The HACS dashboard uses the same [table features](https://www.home-assistant.io/docs/organizing/filtering) used elsewhere in Home Assistant.
+1. To open HACS, in the Home Assistant sidebar, select the HACS icon.
     - Each line in the data table represents a community repository that can be downloaded via HACS.
-2. If you do not see the repository you are looking for, use the [search](#search) and [filter](#filter).
-    - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list. 
-
-
-![nav_overview](/assets/images/screenshots/overview/base/light.png#only-light)
-![nav_overview](/assets/images/screenshots/overview/base/dark.png#only-dark)
-
-## Downloading a repository
-
-1. In Home Assistant, open HACS and find the repository of interest.
-    - If you are unsure what you are looking for and want to browse, you can [filter](/docs/use/dashboard.md#filter). For example, for type *integration*.
-    - If you already know what you want, type the name into the search field.
-2. Select the repository from the list and read its documentation.
-3. To download the repository, select **Download**.
-    - The files provided by the repository are now added to your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration.md#to-find-the-configuration-directory).
-4. [Restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
-
-## Quick actions
-
-All downloaded repositories will have a quick action button (this is the 3 dots to the right of each downloaded repository (:material-dots-vertical:)).
+    ![nav_overview](/assets/images/screenshots/overview/base/light.png#only-light)
+    ![nav_overview](/assets/images/screenshots/overview/base/dark.png#only-dark)
+2. To browse the repositories, use the [search](#search-repositories) and [filter](#filter-repositories) functions.
+    - The HACS dashboard uses the same [table features](https://www.home-assistant.io/docs/organizing/filtering) used elsewhere in Home Assistant.
+    - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list.
+3. To view the repository documentation, the select the 3 dots :material-dots-vertical:, then select **Show details**.
+    - To view the source code, select **Repository**.
+4. Once you found the custom element you want to use in Home Assistant, [download the repository](/docs/use/download_repository.md).
 
 With this you can quickly manage the repository and get to its issue tracker.
 
-## {{coreui("ui.components.data-table.search")}}
-
-Above the list of repositories there is a search field.
-In this field you can search for both downloaded and available repositories you can manage with HACS.
-
-![nav_overview](/assets/images/screenshots/overview/search/light.png#only-light)
-![nav_overview](/assets/images/screenshots/overview/search/dark.png#only-dark)
-
-You can search data in all [columns](#columns) of each repository including:
-
-- Author
-- Type
-- Description
-- Name
-- Status
-- Topics
-
-## Filter
-
-If you are just looking to browse repositories, you can do so with filtering.
-You can find and set the filters in the dialog you can open with the (:material-filter-variant:) icon button to the right in the searchbar.
-
-![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
-![nav_overview](/assets/images/screenshots/overview/filter/dark.png#only-dark)
-
-### Base filters
-
-There are 2 base filters:
-
-- Downloaded (This is the default filter that is applied, and when enabled will show downloaded repositoruies.)
-- New (When enabled this will show repositories you have not looked at before.)
-
-### Repository type filter
-
-With this filter you can select one of the available [types](/docs/use/type/index.md) to show.
-
-Once enabled it will show repositories in that type.
-
-## {{hacsui("dialog_overview.columns")}}
-
-!!! note
-    This is **not** available for mobile devices.
+## {{coreui("ui.components.data-table.search")}} repositories
 
 
-You choose what's important to you, select the commumns you want to see.
+You can search for both downloaded and available repositories in HACS.
+
+1. Enter your search term in the search field.
+2. The search is not limited to the repository name or description. You can search for data from different categories, including:
+
+    - Author
+    - Type
+    - Description
+    - Name
+    - Status
+    - Topics
+
+    ![nav_overview](/assets/images/screenshots/overview/search/light.png#only-light)
+    ![nav_overview](/assets/images/screenshots/overview/search/dark.png#only-dark)
+
+
+## Filter repositories
+
+1. To define filters, next to the searchbar, select the (:material-filter-variant:) **Filters** button.
+
+    ![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
+    ![nav_overview](/assets/images/screenshots/overview/filter/dark.png#only-dark)
+2. There are currently 2 filter types:
+   - **Status**: for example, show only repositories, that have been **Downloaded**, or that are **New**.
+   - **Type**: filters for a specific [type](/docs/use/type/index.md) of custom element, such as integration, dashboard, or theme.
+3. **Troubleshooting**: Don't see the status or type in your table? 
+   - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
+
+## Reporting an issue with a repository
+
+If you're experiencing an issue with a particular custom element, always report the issue to the repository owner, not to HACS or Home Assistant.
+
+1. On the repository entry, select the 3 dots :material-dots-vertical:, then select **Open issue**.
+   - This opens the issue tracker of the GitHub repository for that custom element.
+2. To open an issue, in their repository, select **New issue**.
+3. Add a detailed description of your issue and submit.
 
 ## HACS Menu
 
