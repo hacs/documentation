@@ -2,7 +2,8 @@
 title: Dashboard
 ---
 
-The term "Dashboard elements" in HACS refers to all types of dashboard elements, such as [dashboards](https://www.home-assistant.io/dashboards/dashboards/), [views](https://www.home-assistant.io/dashboards/views/), [cards](https://www.home-assistant.io/dashboards/cards/), and more. It includes any element that you can add under <!-- hacs:my lovelace_resources title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.dashboards.main')}}** > three dots menu > **{{coreui('ui.panel.config.lovelace.resources.caption')}}**" -->
+The term "Dashboard elements" in HACS refers to all types of dashboard elements, such as [dashboards](https://www.home-assistant.io/dashboards/dashboards/), [views](https://www.home-assistant.io/dashboards/views/), [cards](https://www.home-assistant.io/dashboards/cards/), and more. It includes any element that you can add to Home Assistant under <!-- hacs:my lovelace_resources title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.dashboards.main')}}** > three dots menu > **{{coreui('ui.panel.config.lovelace.resources.caption')}}**" -->
+
 
 ??? note "Aliases (old names)"
 
