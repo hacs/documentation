@@ -11,7 +11,6 @@ AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stab
 
 ## Making AppDaemon apps visible in HACS
 
-
 To make AppDaemon apps visible in HACS, follow these steps:
 
 1. In Home Assistant, open the HACS configuration options as described under [Configuration options](/docs/use/configuration/options.md).
