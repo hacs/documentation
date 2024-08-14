@@ -1,11 +1,11 @@
 ---
-title: Getting started with the HACS dashboard
+title: Using the HACS dashboard
 description: 'Steps on getting started with the HACS dashboard'
 ---
 
 This section shows you how to use the HACS dashboard.
 
-## Getting started with the HACS dashboard
+## Browsing repositories
 
 1. To open HACS, in the Home Assistant sidebar, select the HACS icon.
     - Each line in the data table represents a community repository that can be downloaded via HACS.
@@ -16,7 +16,7 @@ This section shows you how to use the HACS dashboard.
     - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list.
 3. To view the repository documentation, the select the 3 dots :material-dots-vertical: menu, then select **Show details**.
     - To view the source code, select **Repository**.
-4. Once you found the custom element you want to use in Home Assistant, [download the repository](/docs/use/download_repository.md).
+4. Once you found the custom element you want to use in Home Assistant, [download the repository](#downloading-a-repository).
 
 ## {{coreui("ui.components.data-table.search")}} repositories
 
@@ -44,10 +44,25 @@ You can search for both downloaded and available repositories in HACS.
 2. There are currently 2 filter types:
 
     - **Status**: For example, show only repositories that have been **Downloaded** or are **New**.
-    - **Type**: filters for a specific [type](/docs/use/type/index.md) of custom element, such as integration, dashboard, or theme.
+    - **Type**: filters for a specific [type](/docs/use/manage/type/index.md) of custom element, such as integration, dashboard, or theme.
 
 3. **Troubleshooting**: Don't see the status or type in your table?
     - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
+
+## Downloading a repository
+
+1. In Home Assistant, open HACS and find the repository of interest.
+2. Select the repository and view it's overview page.
+    - The main section of this view renders the README file of the repository.
+    - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and number of open issues and pull requests.
+    - This page should also contain the documentation on how to use it.
+    - The content depends on the repository [type](/docs/use/manage/type/index.md) and on the information the author provides.
+
+    ![Repository dashboard](/assets/images/screenshots/repository/overview/light.png#only-light)
+    ![Repository dashboard](/assets/images/screenshots/repository/overview/dark.png#only-dark)
+
+3. To download the repository, in the bottom-right corner, select the **Download** button.
+    - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
 ## Reporting an issue with a repository
 
@@ -58,7 +73,7 @@ If you're experiencing an issue with a particular custom element, always report 
 2. To open an issue, in their repository, select **New issue**.
 3. Add a detailed description of your issue and submit.
 
-## HACS Menu
+## Using the HACS Menu
 
 At the top-right corner you will find the 3 dots (:material-dots-vertical:) menu.
 

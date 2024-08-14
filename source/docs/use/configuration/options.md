@@ -25,7 +25,7 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
     - **Side panel icon**: The icon you want to display for HACS in the sidebar.
         - You can use [Material icons](https://pictogrammers.com/library/mdi/).
     - **Filter with country code**: Only show repositories for a specific country (if the repository has information about that).
-    - **Enable AppDaemon apps discovery & tracking**: Enables [AppDaemon](/docs/use/type/appdaemon.md).
+    - **Enable AppDaemon apps discovery & tracking**: Enables [AppDaemon](/docs/use/manage/type/appdaemon.md).
 
 ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/light.png#only-light)
 ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/dark.png#only-dark)

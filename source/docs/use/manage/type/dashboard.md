@@ -2,14 +2,15 @@
 title: Dashboard
 ---
 
-The term "Dashboard elements" in HACS refers to all types of dashboard elements, such as [dashboards](https://www.home-assistant.io/dashboards/dashboards/), [views](https://www.home-assistant.io/dashboards/views/), [cards](https://www.home-assistant.io/dashboards/cards/), and more. It includes any element that you can add to Home Assistant under <!-- hacs:my lovelace_resources title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.dashboards.main')}}** > three dots menu > **{{coreui('ui.panel.config.lovelace.resources.caption')}}**" -->
-
 ??? note "Aliases (old names)"
 
     As things move on, this type has also had some changes, it has previously been known as:
 
     - Plugin
     - Lovelace
+
+The term "Dashboard elements" in HACS refers to all types of dashboard elements, such as [dashboards](https://www.home-assistant.io/dashboards/dashboards/), [views](https://www.home-assistant.io/dashboards/views/), [cards](https://www.home-assistant.io/dashboards/cards/), and more. It includes any element that you can add under <!-- hacs:my lovelace_resources title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.dashboards.main')}}** > three dots menu > **{{coreui('ui.panel.config.lovelace.resources.caption')}}**" -->
+
 
 ## Dashboard elements download location
 
@@ -32,10 +33,6 @@ HACS has a custom path for serving up dashboard elements `/hacsfiles/`, also ref
 
 ??? nerd-mode
 
-    - Every dashboard you have downloaded with HACS has an **Open source** option on the hamburger menu. This is useful when troubleshooting:
-        - If you can see a code wall (the underlying `.js` file), everything is OK.
-        - But if you get a 404, try downloading it again.
-    - `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. 
-        - When you use `/local`, you will transfer the `.js` file, which is 101&nbsp;kB. 
-        - However, if you use HACS and reference the dashboard with `/hacsfiles`, it will serve the 20&nbsp;kB `.gz` version automatically. (Sizes are accurate for version 1.4.7 of CCH).
+    - Every dashboard you have downloaded with HACS has an **Open source** option on the hamburger menu. This is useful when troubleshooting; if you can see a code wall (the underlying `.js` file) everything is OK, but if you get a 404, try downloading it again.
+    - `.gz` example: CCH (Compact Custom Header) is a fairly popular element for Lovelace. When you use `/local`, you will transfer the `.js` file, which is 101&nbsp;kB. However, if you use HACS and reference the dashboard with `/hacsfiles`, it will serve the 20&nbsp;kB `.gz` version automatically (sizes accurate for version 1.4.7 of CCH).
     - Your dashboard exists in `www/community/dashboard/dashboard.js`. You can use both `/local/community/dashboard/dashboard.js` and `/hacsfiles/dashboard/dashboard.js` to reference it, but only the `/hacsfiles` version will have the extra features that HACS offers.

@@ -156,16 +156,16 @@ nav:
     - Configure HACS:
       - docs/use/configuration/basic.md
       - docs/use/configuration/options.md
-    - docs/use/dashboard.md
-    - docs/use/download_repository.md
-    - Repository types:
-      - docs/use/type/index.md
-      - docs/use/type/appdaemon.md
-      - docs/use/type/dashboard.md
-      - docs/use/type/integration.md
-      - docs/use/type/python_script.md
-      - docs/use/type/template.md
-      - docs/use/type/theme.md
+    - Repositories:
+      - docs/use/manage/dashboard.md
+      - Repository types:
+            - docs/use/manage/type/index.md
+            - docs/use/manage/type/appdaemon.md
+            - docs/use/manage/type/dashboard.md
+            - docs/use/manage/type/integration.md
+            - docs/use/manage/type/python_script.md
+            - docs/use/manage/type/template.md
+            - docs/use/manage/type/theme.md
     - Entities:
       - docs/use/entities/update.md
       - docs/use/entities/switch.md
