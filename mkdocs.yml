@@ -159,13 +159,13 @@ nav:
     - Repositories:
       - docs/use/repositories/dashboard.md
       - Repository types:
-            - docs/use/repositories/type/index.md
-            - docs/use/repositories/type/appdaemon.md
-            - docs/use/repositories/type/dashboard.md
-            - docs/use/repositories/type/integration.md
-            - docs/use/repositories/type/python_script.md
-            - docs/use/repositories/type/template.md
-            - docs/use/repositories/type/theme.md
+        - docs/use/repositories/type/index.md
+        - docs/use/repositories/type/appdaemon.md
+        - docs/use/repositories/type/dashboard.md
+        - docs/use/repositories/type/integration.md
+        - docs/use/repositories/type/python_script.md
+        - docs/use/repositories/type/template.md
+        - docs/use/repositories/type/theme.md
     - Entities:
       - docs/use/entities/update.md
       - docs/use/entities/switch.md
