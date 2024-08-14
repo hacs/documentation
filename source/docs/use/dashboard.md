@@ -38,7 +38,6 @@ You can search for both downloaded and available repositories in HACS.
     ![nav_overview](/assets/images/screenshots/overview/search/light.png#only-light)
     ![nav_overview](/assets/images/screenshots/overview/search/dark.png#only-dark)
 
-
 ## Filter repositories
 
 1. To define filters, next to the searchbar, select the (:material-filter-variant:) **Filters** button.
