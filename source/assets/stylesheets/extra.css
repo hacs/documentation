@@ -50,6 +50,10 @@ a.generated-grid-link p:last-of-type {
     line-height: normal;
 }
 
+.mdx-hero__content {
+    max-width: 600px;
+}
+
 
 @media (max-width: 720px) {
     .md-footer-meta__inner.md-grid {
