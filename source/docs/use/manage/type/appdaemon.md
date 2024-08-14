@@ -23,7 +23,3 @@ To enable AppDaemon apps in HACS, follow these steps:
 ## AppDaemon apps download location
 
 Any AppDaemon app downloaded with HACS is stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory), under  `appdaemon/apps/`.
-
-??? nerd-mode
-
-    Nothing yet :(
