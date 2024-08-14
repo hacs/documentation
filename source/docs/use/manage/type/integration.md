@@ -4,7 +4,6 @@ title: Integration
 
 Integrations in HACS are community-built custom integrations.
 
-
 ## Configuring integrations
 
 1. Follow the steps on [downloading a repository](/docs/use/download_repository.md).
