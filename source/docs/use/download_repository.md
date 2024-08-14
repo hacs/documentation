@@ -3,7 +3,7 @@ title: Download a repository
 description: 'Steps on downloading a repository via HACS.'
 ---
 
-Each entry you see on the HACS dashboard refers to a public [GitHub](https://github.com) repository, created by someone from the community. This section shows you how to download such a repository by using HACS.
+Each entry you see on the HACS dashboard refers to a public [GitHub](https://github.com) repository, created by someone from the community. This section shows you how to download such a repository to Home Assistant by using HACS.
 
 ## Prerequisites
 
@@ -27,11 +27,4 @@ This section assumes you have completed the following:
 3. To download the repository, in the bottom-right corner, select the **Download** button.
     - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
-## About repository options
-
-In the top-right corner, you will find the 3 dots menu (:material-dots-vertical:).
-
-This can be used to quickly access the repository at [GitHub](https://github.com), and it's issue tracker.
-
-Here you can also force a refresh of the data for the repository.
 
