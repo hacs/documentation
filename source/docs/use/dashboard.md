@@ -44,17 +44,19 @@ You can search for both downloaded and available repositories in HACS.
     ![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
     ![nav_overview](/assets/images/screenshots/overview/filter/dark.png#only-dark)
 2. There are currently 2 filter types:
-   - **Status**: For example, show only repositories that have been **Downloaded** or are **New**.
-   - **Type**: filters for a specific [type](/docs/use/type/index.md) of custom element, such as integration, dashboard, or theme.
+
+    - **Status**: For example, show only repositories that have been **Downloaded** or are **New**.
+    - **Type**: filters for a specific [type](/docs/use/type/index.md) of custom element, such as integration, dashboard, or theme.
+
 3. **Troubleshooting**: Don't see the status or type in your table?
-   - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
+    - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
 
 ## Reporting an issue with a repository
 
 If you're experiencing an issue with a particular custom element, always report the issue to the repository owner, not to HACS or Home Assistant.
 
 1. On the repository entry, select the 3 dots :material-dots-vertical:, then select **Open issue**.
-   - This opens the issue tracker of the GitHub repository for that custom element.
+    - This opens the issue tracker of the GitHub repository for that custom element.
 2. To open an issue, in their repository, select **New issue**.
 3. Add a detailed description of your issue and submit.
 
