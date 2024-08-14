@@ -6,7 +6,7 @@ Integrations in HACS are community-built integrations.
 
 ## Configuring integrations
 
-1. Follow the steps on [downloading a repository](/docs/use/dashboard.md#downloading-a-repository).
+1. Follow the steps on [downloading a repository](/docs/use/download_repository.md).
 2. How you configure the integration in Home Assistant depends on the integration:
 
     - The integration documentation page in HACS should instruct you how to get started.
