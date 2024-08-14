@@ -16,8 +16,6 @@ Integrations in HACS are community-built custom integrations.
     - Some integrations can be added from the integration page on <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
     - Others need to be added via YAML.
 3. **Troubleshooting**: If you select the **Add integration** button but the integration does not show, clear your browser cache to refresh the UI.
-    - Others, you need to add via YAML.
-    - If you select the **Add integration** button and the integration does not show, clear your browser cache to refresh the UI.
 
 
 ## Integrations download location
