@@ -5,7 +5,7 @@ description: "Enabling debug logging"
 
 Like any other integration, the HACS integration logs to the `home-assistant.log` file.
 
-To enable `debug` logging, add this to your [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/):
+To enable `debug` logging, add the following line to your [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/):
 
 ```yaml title="configuration.yaml"
 logger:
