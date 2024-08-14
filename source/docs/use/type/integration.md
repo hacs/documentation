@@ -2,7 +2,7 @@
 title: Integration
 ---
 
-Integrations in HACS are community-built integrations.
+Integrations in HACS are community-built custom integrations.
 
 ## Configuring integrations
 
@@ -10,9 +10,9 @@ Integrations in HACS are community-built integrations.
 2. How you configure the integration in Home Assistant depends on the integration:
 
     - The integration documentation page in HACS should instruct you how to get started.
-    - Some integrations, you can add from the integration page on <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
-    - Others, you need to add via YAML.
-    - If you select the **Add integration** button and the integration does not show, clear your browser cache to refresh the UI.
+    - Some integrations can be added from the integration page on <!-- hacs:my integrations title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.dashboard.devices.main')}}**" -->.
+    - Others need to be added via YAML.
+3. **Troubleshooting**: If you select the **Add integration** button but the integration does not show, clear your browser cache to refresh the UI.
 
 
 ## Integrations download location
