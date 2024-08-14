@@ -44,7 +44,7 @@ You can search for both downloaded and available repositories in HACS.
 2. There are currently 2 filter types:
 
     - **Status**: For example, show only repositories that have been **Downloaded** or are **New**.
-    - **Type**: filters for a specific [type](/docs/use/manage/type/index.md) of custom element, such as integration, dashboard, or theme.
+    - **Type**: filters for a specific [type](/docs/use/repositories/type/index.md) of custom element, such as integration, dashboard, or theme.
 
 3. **Troubleshooting**: Don't see the status or type in your table?
     - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
@@ -56,7 +56,7 @@ You can search for both downloaded and available repositories in HACS.
     - The main section of this view renders the README file of the repository.
     - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and number of open issues and pull requests.
     - This page should also contain the documentation on how to use it.
-    - The content depends on the repository [type](/docs/use/manage/type/index.md) and on the information the author provides.
+    - The content depends on the repository [type](/docs/use/repositories/type/index.md) and on the information the author provides.
 
     ![Repository dashboard](/assets/images/screenshots/repository/overview/light.png#only-light)
     ![Repository dashboard](/assets/images/screenshots/repository/overview/dark.png#only-dark)
