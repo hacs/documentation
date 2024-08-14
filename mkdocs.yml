@@ -168,6 +168,7 @@ nav:
       - docs/use/type/theme.md
     - Entities:
       - docs/use/entities/update.md
+      - docs/use/entities/switch.md
     - docs/use/data.md
     - docs/use/my.md
     - Troubleshooting:
