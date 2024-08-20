@@ -12,6 +12,3 @@ You updated to a newer version of HACS, be it manually or because you had previo
 The only way to recover is by restoring your previous setup from your backup.
 
 To restore your installation from a backup, follow the steps on [restoring a backup](https://www.home-assistant.io/integrations/backup/#restoring-a-backup) in the Home Assistant documentation.
-
-
-
