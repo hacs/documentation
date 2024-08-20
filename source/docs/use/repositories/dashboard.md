@@ -95,3 +95,8 @@ Here you can:
 - Add [custom repositories](/docs/faq/custom_repositories.md).
 - Dismiss all new repositories (if you have any).
 - Show information about your HACS installation.
+
+## Dismissing new repositories
+
+Any addition to HACS that you have not yet seen will show status **New**.
+If you are sorting by status, they will show on top by default. If you want, you can dismiss these, so that they are no longer shown as **new**. This is similar to marking mails as *read* in your inbox.
