@@ -64,6 +64,12 @@ You can search for both downloaded and available repositories in HACS.
 3. To download the repository, in the bottom-right corner, select the **Download** button.
     - Don't see a download button? The button doesn't show if the repository has already been downloaded.
 
+## Removing a repository
+
+1. In Home Assistant, open HACS and find the repository you want to remove.
+2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Remove**.
+   -  This removes the repository and the data that was stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory).
+
 ## Reporting an issue with a repository
 
 If you're experiencing an issue with a particular custom element, always report the issue to the repository owner, not to HACS or Home Assistant.
