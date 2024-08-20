@@ -27,9 +27,10 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
     - **Filter with country code**: Only show repositories for a specific country (if the repository has information about that).
     - **Enable AppDaemon apps discovery & tracking**: Enables [AppDaemon](/docs/use/repositories/type/appdaemon.md).
 
-![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/light.png#only-light)
-![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/dark.png#only-dark)
+    ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/light.png#only-light)
+    ![Screenshot of the HACS configuration options dialog](/assets/images/screenshots/core/options_flow/dark.png#only-dark)
 
 5. To save your changes, select **Submit**.
     - HACS is being reloaded. Your changes will show after the confirmation message.
+6. If you haven't already done so, [setup a backup process](/docs/use/data.md).
 
