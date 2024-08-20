@@ -175,6 +175,7 @@ nav:
       - docs/use/troubleshooting/diagnostics.md
       - docs/use/troubleshooting/logs.md
       - docs/use/troubleshooting/hacs_update_broke_my_hacs.md
+      - docs/use/troubleshooting/ha_update_broke_my_hacs.md
     - docs/use/remove.md
   - Publish:
     - docs/publish/index.md
