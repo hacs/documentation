@@ -72,5 +72,7 @@ This guide assumes that you have completed the following steps:
 8. Congrats! You have installed the HACS integration in Home Assistant.
 
     - Now, go checkout the [configuration options](/docs/use/configuration/options.md).
+    - Don't forget to [setup a backup process](/docs/use/data/).
+
 
 
