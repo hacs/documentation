@@ -98,5 +98,5 @@ Here you can:
 
 ## Dismissing new repositories
 
-Any addition to HACS that you have not yet seen will show status **New**.
+Any addition to HACS that you have not yet seen will show the status **New**.
 If you are sorting by status, they will show on top by default. If you want, you can dismiss these, so that they are no longer shown as **new**. This is similar to marking mails as *read* in your inbox.
