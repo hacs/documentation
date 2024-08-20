@@ -3,11 +3,13 @@ title: Data and backup
 description: "About repository data and backup"
 ---
 
-All repository data is saved to files under `.storage` (hidden by default).
+## Data storage
+
+All repository data is saved in Home Assistant to files under `.storage` (hidden by default).
 
 ## Creating a backup
 
-All HACS data is part of the regular Home Assistant backup. Make sure to regularly backup Home Assistant and store the backup files somewhere safe. 
+All HACS data is part of the regular Home Assistant backup. Make sure to regularly backup Home Assistant and store the backup files somewhere safe and outside of your Home Assistant instance. So that you can restore from backup if needed.
 
 For instructions on creating a backup, select the link below corresponding to your installation type.
 
