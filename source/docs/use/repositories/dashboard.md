@@ -68,7 +68,8 @@ You can search for both downloaded and available repositories in HACS.
 
 1. In Home Assistant, open HACS and find the repository you want to remove.
 2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Remove**.
-   -  This removes the repository and the data that was stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory).
+   -  This removes the repository that was stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory).
+3. Removing the repository does not remove the related data. Check the documentation of the repository for instructions on how to remove it.
 
 ## Reporting an issue with a repository
 
