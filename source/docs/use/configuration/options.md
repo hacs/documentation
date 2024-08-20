@@ -32,5 +32,5 @@ This guide assumes you have completed [initial configuration](/docs/use/configur
 
 5. To save your changes, select **Submit**.
     - HACS is being reloaded. Your changes will show after the confirmation message.
-6. If you haven't already done so, [setup a backup process](/docs/use/data/).
+6. If you haven't already done so, [setup a backup process](/docs/use/data.md).
 
