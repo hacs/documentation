@@ -17,7 +17,7 @@ Find out what's new with this project over at [GitHub](https://github.com/hacs).
 
 ## Want to submit a bug?
 
-If you're having an issue with a custom element, this is not the page for you. [Report an issue for that repository](/docs/use/repositories/dashboard.md/#reporting-an-issue-with-a-repository).
+If you're having an issue with a custom element, [report an issue for that repository](/docs/use/repositories/dashboard.md/#reporting-an-issue-with-a-repository).
 
 Experiencing an issue with HACS itself? [Create an issue for HACS](/docs/help/issues.md).
 
