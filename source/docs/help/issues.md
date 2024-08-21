@@ -94,7 +94,7 @@ _Good issues have too much text to extract it (some also have screenshots), but 
 
 # Flagging a repository for removal
 
-This should **only** be used, when there is grounds for removing (blacklisting) a repository in HACS.
+This should **only** be used when there are grounds for removing (blacklisting) a repository in HACS.
 
 _If you don't like a repository, have issues with it, or it's not working, you should report that to the repository owner, not to HACS._
 
