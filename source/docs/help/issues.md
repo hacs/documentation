@@ -36,12 +36,12 @@ The content of the issue depends on the type of issue. At least, include the fol
     oh... and almost forgot... `latest` is **NOT** a version. Provide the actual version number.
 
 
-# Examples
+## Issue examples
 
 This section provides a collection of good and some bad (unhelpful) issue descriptions.
 
 
-## Examples of bad issues
+### Examples of bad issues
 
 ```text
 
@@ -84,7 +84,7 @@ I checked and it exactly how its supposed to be
 even replaced the whole hacs folder with a fresh download
 ```
 
-## Examples of good issues
+### Examples of good issues
 
 _Good issues have too much text to extract it (some also have screenshots), but a few are linked below:_
 
