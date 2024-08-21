@@ -13,7 +13,7 @@ If you're having an issue with a custom element, [report an issue for that repos
 To report an issue with HACS, **[use the issue template](https://github.com/hacs/integration/issues)**.
 
 - All templates have a defined structure. Follow the structure and provide the requested details.
-- _Issues that are missing required information will be closed._
+_Issues missing required information will be closed._
 
 ## What should be in the issue
 
