@@ -23,7 +23,7 @@ The content of the issue depends on the type of issue. At least, include the fol
     - Checkout some real-world examples of [good](#examples-of-good-issues) and [bad](#examples-of-bad-issues) issue descriptions.
 - Debug logs.
     - To enable debug logs for HACS, follow [the steps on enabling debug logs](/docs/use/troubleshooting/logs.md).
-    - Logs are **more** then _just_ errors, with debug logging it gives the person investigating the issue a full picture of what happened.
+    - Logs are **more** than _just_ errors; debug logging provides a full picture of what happened.
 - Steps to reproduce the issue.
 - If the issue is in the UI, add screenshots.
 - [Diagnostics](/docs/use/troubleshooting/diagnostics.md)
