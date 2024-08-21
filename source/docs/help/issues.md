@@ -105,7 +105,7 @@ When you are flagging a repository, provide at least the following information:
     - "It's not working and it has not been maintained for an extended period of time" could be a reason.
 - The name of the repository.
 - Proof that you have tried to contact the owner of that repository. 
-    - Provide a link to issue you created in their GitHub repository.
+    - Provide a link to the issue you created in their GitHub repository.
 
 # Last words
 
