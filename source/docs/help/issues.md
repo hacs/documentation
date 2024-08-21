@@ -20,7 +20,7 @@ _Issues missing required information will be closed._
 The content of the issue depends on the type of issue. At least, include the following information:
 
 - A GOOD description of the issue.
-    - Checkout some real-world examples of [good](#examples-of-good-issues) and [bad](#examples-of-bad-issues) issue descriptions.
+  - Check out some real-world examples of [good](#examples-of-good-issues) and [bad](#examples-of-bad-issues) issue descriptions.
 - Debug logs.
     - To enable debug logs for HACS, follow [the steps on enabling debug logs](/docs/use/troubleshooting/logs.md).
     - Logs are **more** than _just_ errors; debug logging provides a full picture of what happened.
