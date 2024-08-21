@@ -5,7 +5,7 @@ description: "Help"
 
 ## Browse the documentation
 
-Read the docs on the [using HACS](/docs/use/), [publishing your own custom element to HACS](/docs/publish/), or on [developing HACS](/docs/contribute/).
+Read the docs on the [using HACS](/docs/use/index.md), on [publishing your own custom element to HACS](/docs/publish/index.md), or on [developing HACS](/docs/contribute/index.md).
 
 ## FAQ
 
