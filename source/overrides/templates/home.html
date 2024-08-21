@@ -1,0 +1,59 @@
+{% extends "main.html" %}
+{% block tabs %}
+<style>
+    .md-main,
+    .mdx-container {
+        background-color: var(--hacs-color-primary);
+    }
+
+    .mdx-hero__content {
+        color: #fefefe;
+        font-weight: 800;
+        padding: 50px 16px 16px;
+    }
+
+    .md-button {
+        color: #fefefe !important;
+        margin: 8px 4px;
+    }
+    .md-flex {
+        justify-content: center;
+    }
+
+    .md-typeset .md-button:focus, .md-typeset .md-button:hover {
+        background-color: #fefefe;
+        border-color: var(--hacs-color-primary);
+        color: var(--hacs-color-primary) !important;
+    }
+
+    @media (max-width: 720px) {
+        .mdx-hero__content {
+            padding: 16px;
+        }
+    }
+    .mdx-container {
+        min-height: calc(100vh - 180px);
+    }
+
+    .mdx-container ul > li {
+        font-weight: normal;
+    }
+</style>
+<section class="mdx-container">
+    <div class="md-flex md-typeset">
+        <div class="mdx-hero">
+            <img src="{{page.meta.hero_image}}" alt="HACS Logo" class="mdx-hero__logo">
+        </div>
+        <div class="mdx-hero__content">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="md-flex md-typeset md-buttons">
+        <a href="/docs/use/" class="md-button">Start using HACS</a>
+        <a href="/docs/publish/" class="md-button">Publish with HACS</a>
+        <a href="/docs/contribute/" class="md-button">Contribute to HACS</a>
+    </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}    

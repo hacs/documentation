@@ -1,0 +1,67 @@
+{% if page.file.src_path != "index.md" %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+{{ page.content }}
+{% set splitpath = page.file.src_path.split("/") %}
+{% if page.meta and page.meta.generated and splitpath[-1] == "index.md" %}
+{% set directory = "/".join(splitpath[0:-1]) %}
+<i>{{page.meta and page.meta.description or ""}}</i>
+<div class="grid cards" markdown>
+    <ul>
+        {% for file in pages %}
+        {% if file.src_path.startswith(directory) and not file.src_path.endswith("index.md") %}
+
+        <a href="/{{file.page.url}}" class="generated-grid-link">
+            <p class="generated-header"><b>{{file.page.title}}</b></p>
+            <hr>
+            <p>{{file.page.meta.description or "Learn more..."}}</p>
+        </a>
+
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+<hr>
+<div class="md-typeset footer-section">
+    <h3>Help and support</h3>
+    <div class="md-flex">
+        <div class="footer-item">
+            <h4>Resources</h4>
+
+            {% for link in config.extra.resources %}
+            <div>
+                <span class="twemoji">
+                    {% include ".icons/" ~ link.icon ~ ".svg" %}
+                </span>
+                <a href="{{link.link}}" target="_blank" rel="noopener">
+                    {{link.title}}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="footer-item">
+            <h4>Help us make these docs great!</h4>
+            <p>All HACS docs are open source. See something that's wrong or unclear? Submit a pull request.</p>
+            <a class="md-button"
+                href="https://github.com/hacs/documentation/edit/{{config.remote_branch}}/source/{{page.file.src_path}}"
+                target="_blank">
+                <span class="twemoji">
+                    {% include ".icons/fontawesome/solid/file-pen.svg" %}
+                </span>
+                Edit this page on GitHub
+            </a>
+            <br />
+            <sub><a href="/docs/contribute/documentation/">Learn how to contribute</a></sub>
+        </div>
+        <div class="footer-item">
+            <h4>Still need help?</h4>
+            <ul>
+                <li><a href="/docs/help/issues.md">Create an issue</a></li>
+                <li><a href="https://discord.gg/apgchf8" target="_blank">Join the Discord server</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% block footer %}{% endblock %} 
