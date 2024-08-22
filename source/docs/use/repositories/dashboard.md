@@ -51,7 +51,7 @@ You can search for both downloaded and available repositories in HACS.
 
 ## Updating repository metadata
 
-HACS [regularly checks the repositories for updates](/docs/faq/data_sources/#updates) and imports the new metadata, if there were changes. The metadata is what HACS knows about this repository. For example: the description, the documentation, the version information. In general, you do not need to check for updates. It is done automatically. But if you want to check immediately, you can manually trigger an update of the repository data.
+HACS [regularly checks the repositories for updates](/docs/faq/data_sources.md/#updates) and imports the new metadata, if there were changes. The metadata is what HACS knows about this repository. For example: the description, the documentation, the version information. In general, you do not need to check for updates. It is done automatically. But if you want to check immediately, you can manually trigger an update of the repository data.
 
 1. In Home Assistant, open HACS and find the repository of interest.
 2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Update information**.
@@ -78,7 +78,7 @@ To use the functionality provided by a repository, you need to download it to Ho
 
 3. To download the repository, in the bottom-right corner, select the **Download** button.
     - This opens a dialog that lets you select a specific version.
-      - Typically, you would install the latest version.
+      - Typically, you would install the newest version.
       - A reason to choose an older version of a repository would be, if you run an older version of Home Assistant and the newer version of the repository requires a newer version of Home Assistant.
       - Check the documentation of the repository to find out which version of Home Assistant is required.
     - Don't see a download button? The button doesn't show if the repository has already been downloaded.
