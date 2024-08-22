@@ -21,7 +21,6 @@ For a python_script repository to be valid these are the requirements:
 
 ```text
 python_scripts/awesome.py
-info.md
 README.md
 ```
 
@@ -29,7 +28,6 @@ README.md
 
 ```text
 awesome.py
-info.md
 README.md
 ```
 

@@ -62,10 +62,6 @@ This checks that the hacs.json file at least contains the following:
 
 https://hacs.xyz/docs/publish/start#hacsjson
 
-### Check Info
-
-This checks that there is an info.md (or readme.md if configured) file with content in the repository.
-
 ### Check Archived
 
 This checks if the repository is archived.

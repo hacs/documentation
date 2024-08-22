@@ -20,7 +20,6 @@ For an AppDaemon app repository to be valid these are the requirements:
 
 ```text
 apps/awesome/awesome.py
-info.md
 README.md
 ```
 
@@ -28,7 +27,6 @@ README.md
 
 ```text
 awesome/awesome.py
-info.md
 README.md
 ```
 
@@ -36,7 +34,6 @@ README.md
 
 ```text
 awesome.py
-info.md
 README.md
 ```
 

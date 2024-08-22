@@ -28,11 +28,7 @@ Your repository on GitHub needs to have [topics](https://docs.github.com/en/gith
 
 ### README
 
-Your repository needs to have a [readme](https://github.com/matiassingers/awesome-readme) with information about how to use it. _This is not used in HACS, unless you have defined the key `render_readme` in `hacs.json` below._
-
-### info&#46;md
-
-If you want to add a richer experience for your users you can add an `info.md` file to the root of your repository, this file will be rendered under the repository description. It does not support the full styling options from GitHub, so use with care. _This is optional, if you do not have this file you need to set the key [`render_readme`](#hacsjson) in the `hacs.json` file to `true`._
+Your repository needs to have a [readme](https://github.com/matiassingers/awesome-readme) with information about how to use it.
 
 ### hacs.json
 
@@ -46,7 +42,6 @@ The following keys are supported:
 | `content_in_root`      |  bool  |    No    | Indicates whether the content is in the root of the repository as opposed to in a subdirectory.                                                                                           |
 | `zip_release`          |  bool  |    No    | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.** |
 | `filename`             | string |    No    | Name of the file HACS should look for, only applies to single item types (plugin, theme, template, python_scripts, zip_release).                                                     |
-| `render_readme`        |  bool  |    No    | Tells HACS to render the README.md file instead of info.md.                                                                                                                               |
 | `hide_default_branch`  |  bool  |    No    | Tells HACS to not offer downloading the default branch.                                                                                                                                   |
 | `country`              | string |    No    | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)                                              |
 | `homeassistant`        | string |    No    | The minimum required Home Assistant version.                                                                                                                                              |
