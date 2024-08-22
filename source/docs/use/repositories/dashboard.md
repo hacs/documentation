@@ -47,7 +47,7 @@ You can search for both downloaded and available repositories in HACS.
     - **Status**:
         - **Pending restart**: The repository has been downloaded. But for the software version to become active, you need to restart Home Assistant.
         - **New**: HACS found repositories it has not seen before. If you select **Dismiss new**, these will be shown under **Available for download**.
-        - **Downloaded**: The repository has been downloaded.
+        - **Downloaded**: The repository has been downloaded. You can use its functionality.
         - **Available for download**: This is a repository that is not new to HACS and that you can download.
 
         ![nav_overview](/assets/images/screenshots/overview/filter/status/light.png#only-light)
