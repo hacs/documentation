@@ -46,7 +46,7 @@ You can search for both downloaded and available repositories in HACS.
     - **Type**: filters for a specific [type](/docs/use/repositories/type/index.md) of custom element: integration, dashboard, theme, template, AppDaemon app, or Python Script.
     - **Status**:
         - **Pending restart**: The repository has been downloaded. But for the software version to become active, you need to restart Home Assistant.
-            - Repositories with a pending restart generate a repair issue under {% my updates title="**System** > **Updates**" %}. You can restart directly from there.
+            - Repositories with a pending restart generate a repair issue under [**System** > **Updates**](https://my.home-assistant.io/redirect/updates/). You can restart directly from there.
         - **New**: HACS found repositories it has not seen before. If you select **Dismiss new**, these will be shown under **Available for download**.
         - **Downloaded**: The repository has been downloaded. You can use its functionality.
         - **Available for download**: This is a repository that is not new to HACS and that you can download.
@@ -55,7 +55,7 @@ You can search for both downloaded and available repositories in HACS.
         ![nav_overview](/assets/images/screenshots/overview/filter/status/dark.png#only-dark)
 
 3. **Troubleshooting**: Don't see the status or type in your table?
-    - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
+    - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns).
 
 ## Updating repository metadata
 
