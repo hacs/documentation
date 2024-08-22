@@ -20,7 +20,7 @@ Follow these steps to update HACS itself. Updating HACS does not automatically u
 Each repository represents an independent open-source project maintained by someone from the community. Each repository therefore has its very own update cycle.
 HACS [regularly checks the repositories for updates](/docs/faq/data_sources.md/#updates). This means that the list of repositories is regularly updated, there is no need for you to keep track of this.
 
-However, if you want to immediately go see if something has changed for a repository, you can manually check for an [update of the repository metadata](/docs/use/repositories/dashboard.md/#updating-repository-metadata).
+However, if you want to immediately check if something has changed for a repository, you can manually check for an [update of the repository metadata](/docs/use/repositories/dashboard.md/#updating-repository-metadata).
 
 ## To update a downloaded repository
 
@@ -30,4 +30,4 @@ These steps assume that you have already downloaded a repository. Follow these s
 2. If you have already downloaded a repository, you will get an update notification under <!-- hacs:my updates title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.updates.caption')}}**" -->.
     - Open the notification and read the release notes.
     - Select **Install**.
-3. [Restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
+3. If the repository is an integration, [restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
