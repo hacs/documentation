@@ -51,11 +51,11 @@ You can search for both downloaded and available repositories in HACS.
 
 ## Updating repository metadata
 
-HACS regularly checks the repositories for updates and imports the new meta data, if there were changes. The meta data is what HACS knows about this repository. For example: the description, the documentation, the version information. In general, you do not need to check for updates. It is done automatically. But if you want to check immediately, you can manually trigger an update of the repository data.
+HACS regularly checks the repositories for updates and imports the new metadata, if there were changes. The metadata is what HACS knows about this repository. For example: the description, the documentation, the version information. In general, you do not need to check for updates. It is done automatically. But if you want to check immediately, you can manually trigger an update of the repository data.
 
 1. In Home Assistant, open HACS and find the repository of interest.
 2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Update information**.
-    - **Result**: If there were changes, the repository meta data is updated.
+    - **Result**: If there were changes, the repository metadata is updated.
         - You can now make an informed decision whether you want to [download](#downloading-a-repository) the new software version of the repository (if there even was a new version).
 
         !!! note "Update information does not change the downloaded repository content"
