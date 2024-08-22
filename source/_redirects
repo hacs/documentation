@@ -6,3 +6,6 @@
 /faq/what /docs/faq
 /faq/* /docs/faq/:splat
 /img/demo.gif /assets/images/legacy/demo.gif
+
+/docs/configuration/basic /docs/use/configuration/basic
+/docs/issues /docs/help/issues
