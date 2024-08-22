@@ -46,6 +46,7 @@ You can search for both downloaded and available repositories in HACS.
     - **Type**: filters for a specific [type](/docs/use/repositories/type/index.md) of custom element: integration, dashboard, theme, template, AppDaemon app, or Python Script.
     - **Status**:
         - **Pending restart**: The repository has been downloaded. But for the software version to become active, you need to restart Home Assistant.
+            - Repositories with a pending restart generate a repair issue under {% my updates title="**System** > **Updates**" %}. You can restart directly from there.
         - **New**: HACS found repositories it has not seen before. If you select **Dismiss new**, these will be shown under **Available for download**.
         - **Downloaded**: The repository has been downloaded. You can use its functionality.
         - **Available for download**: This is a repository that is not new to HACS and that you can download.
