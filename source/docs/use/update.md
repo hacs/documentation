@@ -27,7 +27,11 @@ However, if you want to immediately check if something has changed for a reposit
 These steps assume that you have already downloaded a repository. Follow these steps to update to a new software version of this repository.
 
 1. [Create a backup](/docs/use/data.md/#creating-a-backup) and download that backup to another device.
-2. If you have already downloaded a repository, you will get an update notification under <!-- hacs:my updates title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.updates.caption')}}**" -->.
-    - Open the notification and read the release notes.
-    - Select **Install**.
+2. There are 2 ways to install an update for a repository:
+    - **Option 1**: From the update notification  under <!-- hacs:my updates title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.updates.caption')}}**" -->.
+        - Open the notification and read the release notes.
+        - Select **Install**.
+    - **Option 2**: From the HACS dashboard.
+        - The repositories with updates have status **Pending update**.
+        - Select the 3 dots :material-dots-vertical: menu, then select **Redownload**.
 3. If the repository is an integration, [restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
