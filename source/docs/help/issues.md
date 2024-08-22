@@ -10,7 +10,8 @@ This page shows you how to report an issue for HACS.
 
 If you're having an issue with a custom element, [report an issue for that repository](/docs/use/repositories/dashboard.md/#reporting-an-issue-with-a-repository).
 
-To report an issue with HACS, **[use the issue template](https://github.com/hacs/integration/issues)**.
+To report an issue with HACS, **[use one of the issue templates](https://github.com/hacs/integration/issues)**.
+
 
 - All templates have a defined structure. Follow the structure and provide the requested details.
 _Issues missing required information will be closed._
