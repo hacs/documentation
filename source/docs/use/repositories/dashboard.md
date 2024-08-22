@@ -41,10 +41,17 @@ You can search for both downloaded and available repositories in HACS.
 
     ![nav_overview](/assets/images/screenshots/overview/filter/light.png#only-light)
     ![nav_overview](/assets/images/screenshots/overview/filter/dark.png#only-dark)
-2. There are currently 2 filter types:
+2. There are currently 2 filter types, **Type** and **Status**:
 
-    - **Status**: For example, show only repositories that have been **Downloaded** or are **New**.
-    - **Type**: filters for a specific [type](/docs/use/repositories/type/index.md) of custom element, such as integration, dashboard, or theme.
+    - **Type**: filters for a specific [type](/docs/use/repositories/type/index.md) of custom element: integration, dashboard, theme, template, AppDeamon app, or Python Script.
+    - **Status**:
+        - **Pending restart**: The repository has been downloaded. But for the software version to become active, you need to restart Home Assistant.
+        - **New**: HACS found repositories it has not seen before. If you select **Dismiss new**, these will be shown under **Available for download**.
+        - **Downloaded**: The repository has been downloaded.
+        - **Available for download**: This is a repository that is not new to HACS and that you can download.
+
+        ![nav_overview](/assets/images/screenshots/overview/filter/status/light.png#only-light)
+        ![nav_overview](/assets/images/screenshots/overview/filter/status/dark.png#only-dark)
 
 3. **Troubleshooting**: Don't see the status or type in your table?
     - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
