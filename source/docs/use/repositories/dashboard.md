@@ -49,26 +49,45 @@ You can search for both downloaded and available repositories in HACS.
 3. **Troubleshooting**: Don't see the status or type in your table?
     - Make sure the [columns are not hidden](https://www.home-assistant.io/docs/organizing/tables#customizing-columns)
 
+## Updating repository metadata
+
+HACS [regularly checks the repositories for updates](/docs/faq/data_sources.md/#updates) and imports the new metadata, if there were changes. The metadata is what HACS knows about this repository. For example: the description, the documentation, the version information. In general, you do not need to check for updates. It is done automatically. But if you want to check immediately, you can manually trigger an update of the repository data.
+
+1. In Home Assistant, open HACS and find the repository of interest.
+2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Update information**.
+    - **Result**: If there were changes, the repository metadata is updated.
+        - You can now make an informed decision whether you want to [download](#downloading-a-repository) the new software version of the repository (if there even was a new version).
+
+        !!! note "Update information does not change the downloaded repository content"
+
+            **Update information** only updates what HACS knows about this repository. To get the new software version, you need to [download](#downloading-a-repository) it.
+
 ## Downloading a repository
+
+To use the functionality provided by a repository, you need to download it to Home Assistant.
 
 1. In Home Assistant, open HACS and find the repository of interest.
 2. Select the repository and view it's overview page.
     - The main section of this view renders the README file of the repository.
     - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and number of open issues and pull requests.
-    - This page should also contain the documentation on how to use it.
-    - The content depends on the repository [type](/docs/use/repositories/type/index.md) and on the information the author provides.
+        - This page should also contain the documentation on how to use it.
+        - The content depends on the repository [type](/docs/use/repositories/type/index.md) and on the information the author provides.
 
     ![Repository dashboard](/assets/images/screenshots/repository/overview/light.png#only-light)
     ![Repository dashboard](/assets/images/screenshots/repository/overview/dark.png#only-dark)
 
 3. To download the repository, in the bottom-right corner, select the **Download** button.
-    - Don't see a download button? The button doesn't show if the repository has already been downloaded.
+    - This opens a dialog that lets you download the repository. You can also select a different version, if needed.
+      - Typically, you would install the newest version.
+      - A reason to choose an older version of a repository would be if you run an older version of Home Assistant and the newer version of the repository requires a newer version of Home Assistant.
+      - Check the documentation of the repository to find out which version of Home Assistant is required.
+    - Don't see the **Download** button? The button doesn't show if the repository has already been downloaded.
 
 ## Removing a repository
 
 1. In Home Assistant, open HACS and find the repository you want to remove.
 2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select **Remove**.
-   -  This removes the repository that was stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory).
+    -  This removes the repository that was stored in your [Home Assistant configuration directory](https://www.home-assistant.io/docs/configuration/#to-find-the-configuration-directory).
 3. Removing the repository does not remove the related data. Check the documentation of the repository for instructions on how to remove it.
 
 ## Reporting an issue with a repository
