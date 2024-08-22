@@ -12,8 +12,6 @@ Follow these steps to update HACS itself. Updating HACS does not automatically u
 1. [Create a backup](/docs/use/data.md/#creating-a-backup) and download that backup to another device.
 2. In Home Assistant, go to <!-- hacs:my updates title="**{{coreui('panel.config')}}** > **{{coreui('ui.panel.config.updates.caption')}}**" -->.
     - Select the **HACS update** notification and check the release notes for backward-incompatible changes.
-        - If you rely on a functionality that is being removed with this update, for example, you might decide not to update yet. 
-        - In this case, you might also need to stop updating Home Assistant.
     - If you're sure you want to update, select **Install**.
 3. [Restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
 
