@@ -22,12 +22,12 @@ def init_translations():
     if not os.path.exists(f"{TRANSLATIONSFILES}/hacs.json"):
         with open(f"{TRANSLATIONSFILES}/hacs.json", "w") as file:
             translations = requests.get("https://raw.githubusercontent.com/hacs/frontend/main/src/localize/languages/en.json").json()
-            json.dump(flatten_json(translations), file)
+            json.dump(flatten_json(translations), file, indent=4, sort_keys=True)
             
     if not os.path.exists(f"{TRANSLATIONSFILES}/core.json"):
         with open(f"{TRANSLATIONSFILES}/core.json", "w") as file:
             translations = requests.get("https://raw.githubusercontent.com/home-assistant/frontend/dev/src/translations/en.json").json()
-            json.dump(flatten_json(translations), file)
+            json.dump(flatten_json(translations), file, indent=4, sort_keys=True)
 
 
 def define_env(env):
