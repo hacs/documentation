@@ -79,7 +79,7 @@ To use the functionality provided by a repository, you need to download it to Ho
 3. To download the repository, in the bottom-right corner, select the **Download** button.
     - This opens a dialog that lets you select a specific version.
       - Typically, you would install the newest version.
-      - A reason to choose an older version of a repository would be, if you run an older version of Home Assistant and the newer version of the repository requires a newer version of Home Assistant.
+      - A reason to choose an older version of a repository would be if you run an older version of Home Assistant and the newer version of the repository requires a newer version of Home Assistant.
       - Check the documentation of the repository to find out which version of Home Assistant is required.
     - Don't see the **Download** button? The button doesn't show if the repository has already been downloaded.
 
