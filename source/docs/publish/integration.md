@@ -55,7 +55,7 @@ In your integration directory you must have a `manifest.json` file, which must a
 - `name`
 - `version`
 
-Check the official Home Assistant [documentation](https://docs/developers.home-assistant.io/en/creating_integration_manifest.html) for the values of those keys.
+Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/creating_integration_manifest/) for the values of those keys.
 
 
 ### Home Assistant Brands
