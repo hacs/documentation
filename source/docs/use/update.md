@@ -34,5 +34,4 @@ These steps assume that you have already downloaded a repository. Follow these s
     - **Option 2**: From the HACS dashboard.
         - The repositories with updates have status **Pending update**.
         - Select the 3 dots :material-dots-vertical: menu, then select **Redownload**.
-        - Under **Need a different version?**, select the version you want to install.
 3. If the repository is an integration, [restart Home Assistant](https://www.home-assistant.io/docs/configuration/#reloading-the-configuration-to-apply-changes).
