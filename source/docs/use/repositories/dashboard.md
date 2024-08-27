@@ -107,6 +107,7 @@ To download a specific version, follow these steps:
     - **Download**, if the repository has not been downloaded yet.
     - **Redownload**, if the repository has been downloaded previously.
 3. Under **Need a different version?**, select the version you want to download.
+    - **Troubleshooting**: Don't see a version selector? Not all repositories support versioning. 
 
 ## Removing a repository
 
