@@ -93,6 +93,21 @@ To use the functionality provided by a repository, you need to download it to Ho
         - If you need a different version, under **Need a different version?**, select the version you want to download.
     - **Troubleshooting**: Don't see the **Download** button? The button doesn't show if the repository has already been downloaded.
 
+## Downloading a specific version of a repository
+
+By default, the newest version of a repository is downloaded. If needed, you can select a specific version.
+
+- A reason to choose an older version would be if you run an older version of Home Assistant and the newer version of the repository requires a newer version of Home Assistant.
+- Check the documentation of the repository to find out which version of Home Assistant is required.
+
+To download a specific version, follow these steps:
+
+1. In Home Assistant, open HACS and find the repository of interest.
+2. On the repository entry, select the 3 dots :material-dots-vertical: menu, then select the available option:
+    - **Download**, if the repository has not been downloaded yet.
+    - **Redownload**, if the repository has been downloaded previously.
+3. Under **Need a different version?**, select the version you want to download.
+
 ## Removing a repository
 
 1. In Home Assistant, open HACS and find the repository you want to remove.
