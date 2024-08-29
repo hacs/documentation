@@ -29,7 +29,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
     To set up HACS, you can use the [HACS download script](https://github.com/hacs/get).
 
     1. Open a terminal.
-    2. Go inside the container with `docker exec -it <name of container running homeassistant> bash`.
+    2. Go inside the container with `docker exec -it <name of the container running homeassistant> bash`.
     3. Run the HACS download script.
 
         ```bash
@@ -56,7 +56,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
 
 ## Troubleshooting
 
-- ++ctrl+v++ not working for you? 
+- Is ++ctrl+v++ not working for you? 
     - Try ++ctrl+shift+v++ instead
     - Try ++ctrl+ins++ `SHIFT+INS(insert)` instead
     - Try `Right-click` instead
