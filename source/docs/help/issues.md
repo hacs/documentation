@@ -87,7 +87,7 @@ even replaced the whole hacs folder with a fresh download
 
 ### Examples of good issues
 
-_Good issues have too much text to extract it (some also have screenshots), but a few are linked below:_
+_Good issues have too much text to extract (some also have screenshots), but a few are linked below:_
 
 - [https://github.com/hacs/integration/issues/452](https://github.com/hacs/integration/issues/452)
 - [https://github.com/hacs/integration/issues/470](https://github.com/hacs/integration/issues/470)
