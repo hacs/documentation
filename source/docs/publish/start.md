@@ -4,7 +4,7 @@ title: General
 description: 'General'
 ---
 
-For your repository to be added there are several criteria that need to be met.
+For your repository to be added several criteria need to be met.
 
 - [General requirements](#general-requirements)
 - [Integration requirements](/docs/publish/integration.md) for integrations.
@@ -32,7 +32,7 @@ Your repository needs to have a [readme](https://github.com/matiassingers/awesom
 
 ### hacs.json
 
-This is a special manifest file that both defines the information that HACS shows in the UI and what files/paths that HACS should use. _This file must be located in the root of your repository._
+This is a special manifest file that defines the information that HACS shows in the UI and what files/paths that HACS should use. _This file must be located in the root of your repository._
 
 The following keys are supported:
 
@@ -87,7 +87,7 @@ Allow Home Assistant beta versions by appending `b0`. Without `b0`, only officia
 
 ### Versions
 
-If the repository uses GitHub releases, the tagname from the latest release is used to set the remote version. _Just publishing tags is not enough, you need to publish releases._
+If the repository uses GitHub releases, the tag name from the latest release is used to set the remote version. _Just publishing tags is not enough, you need to publish releases._
 
 If the repository does not use tags, the 7 first characters of the last commit will be used.
 
