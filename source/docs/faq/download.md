@@ -3,7 +3,7 @@ id: download
 title: "How does it work: Download"
 description: "How does it work: Download"
 ---
-When you download an element, this is what's happening:
+When you download an element, this is what happens:
 
 1. The local target directory (folder) is deleted.
 1. A new local target directory is created.
