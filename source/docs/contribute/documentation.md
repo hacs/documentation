@@ -10,7 +10,7 @@ The documentation site for HACS is using [Markdown](https://daringfireball.net/p
 There are two ways of contributing to the documentation:
 
 - Using the **Edit this page on GitHub** link at the bottom of every page.
-- Building the documentation locally, using a devcontainer.
+- Building the documentation locally using a devcontainer.
 
 _All changes to the documentation should go against the `{{ config.remote_branch }}` branch._  
 The repository for the documentation is hosted @ https://github.com/hacs/documentation
@@ -80,7 +80,7 @@ When adding a new screenshot to the documentation, follow these guidelines:
     - `name_of_the_screenshot/light.png`
     - `name_of_the_screenshot/dark.png`
     - Use underscores `_` to separate words
-    - Use lower case characters
+    - Use lowercase characters
 
 ## Creating links
 
