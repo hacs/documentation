@@ -6,7 +6,7 @@ description: "Integrations"
 
 ## Requirements
 
-For an integration repository to be valid it must meet the requirements below.
+For an integration repository to be valid, it must meet the requirements below.
 
 ### Repository structure
 
@@ -60,7 +60,7 @@ Check the official Home Assistant [documentation](https://developers.home-assist
 
 ### Home Assistant Brands
 
-You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) conform to the UI standards in Home Assistant.
+You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) to conform to the UI standards in Home Assistant.
 
 
 ### GitHub releases (optional)
@@ -73,4 +73,4 @@ It is preferred but not required to publish releases in your repository.
 
 
 ### References and examples
-A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint). You can generate a template similar to blueprint and customized to your context by using [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).
+A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint). You can generate a template similar to blueprint and customized it to your context by using [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).
