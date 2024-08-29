@@ -6,10 +6,10 @@ description: "Remove default repositories"
 
 Repositories can be removed from the default pool of repositories for any number of reasons, some examples:
 
-- It's abandoned
+- It has been abandoned
 - It breaks Home Assistant
 - It steals credentials
-- It's deleted/removed
+- It has been deleted or removed
 
 !!! warning
     If you as a maintainer delete/remove the GitHub repository that is added to HACS as a default repository, all your default repositories will be removed from HACS and you will not be able to add any more in the future.
