@@ -9,3 +9,6 @@
 
 /docs/configuration/basic /docs/use/configuration/basic
 /docs/issues /docs/help/issues
+
+# Used in old manifest.json
+/docs/configuration/start /docs/use/
