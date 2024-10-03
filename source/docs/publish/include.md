@@ -40,7 +40,7 @@ All checks need to pass for the repository to be included (unless something else
 
 _Only applies to integrations._
 
-This checks that the repository is added to https://github.com/home-assistant/brands
+This checks that the repository is added to [https://github.com/home-assistant/brands](https://github.com/home-assistant/brands)
 
 ### Check Manifest
 
