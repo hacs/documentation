@@ -16,4 +16,4 @@ If you are unsure of how to proceed, their documentation is really good, and you
 
 Before each release new translations are pulled from Lokalise, so if you have added something look for it in the next version of HACS.
 
-If you add elements to the UI of HACS that need translations, update the [`en.json`](https://github.com/hacs/frontend/blob/master/src/localize/languages/en.json) file, when your PR is merged, those new keys will be added to Lokalise ready to be translated.
+If you add elements to the UI of HACS that need translations, update the [`en.json`](https://github.com/hacs/frontend/blob/master/src/localize/languages/en.json) file, when your PR is merged, those new keys will be added to Lokalise, ready to be translated.
