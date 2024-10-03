@@ -43,7 +43,7 @@ README.md
 
 When downloading/upgrading it will scan the content in the latest release.
 
-If there are multiple releases in the repository the user has some options to download a specific version.
+If there are multiple releases in the repository, the user has some options to download a specific version.
 The choices will be the last 5 releases and the default branch.
 
 #### If there are no releases
