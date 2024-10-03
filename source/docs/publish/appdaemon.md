@@ -14,7 +14,6 @@ For an AppDaemon app repository to be valid, these are the requirements:
 
 - There is only one app (one directory under `ROOT_OF_THE_REPO/apps/`) pr. repository (if you have more, only the first one will be managed.)
 - The app (all the Python files for it) are located under `ROOT_OF_THE_REPO/apps/APP_NAME/`
-- The app and all the Python files for it are located under `ROOT_OF_THE_REPO/apps/APP_NAME/`
 
 #### OK example:
 
