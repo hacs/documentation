@@ -26,7 +26,7 @@ This applies to repositories that fall into these categories:
 
 HACS is prepared to handle those, and this is the flow of it:
 
-1. The repository is marked as dangerous/has security issues, by someone opening an issue in https://github.com/hacs/default repository using the "Flag" issue template.
+1. The repository is marked as dangerous/has security issues, by someone opening an issue in [the HACS repository](https://github.com/hacs/default) using the "Flag" issue template.
 2. The issue is reviewed if the repository is considered to be of a critical character:
     1. A PR is opened to add the repository to https://github.com/hacs/default/blob/master/critical
     2. That PR will have a description of why, and extra steps you need to take.
