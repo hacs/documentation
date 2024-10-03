@@ -17,7 +17,7 @@ Any dashboard element you download with HACS is stored in your [Home Assistant c
 
 ## About downloaded dashboard elements
 
-Typically, a dashboard element is a `.js` file. When a `.js` file is downloaded, HACS creates a compressed `.gz` version of it. This file is then served to the requester (instead of the .js file) to reduce size and and transfer time.
+Typically, a dashboard element is a `.js` file. When a `.js` file is downloaded, HACS creates a compressed `.gz` version of it. This file is then served to the requester (instead of the .js file) to reduce the size and transfer time.
 
 If you made local changes to a dashboard element in the `.js` file, delete the `.gz` variant. The `.gz` variant does not contain your changes.
 
