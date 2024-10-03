@@ -14,9 +14,9 @@ This section shows you how to use the HACS dashboard.
 2. To browse the repositories, use the [search](#search-repositories) and [filter](#filtering-repositories) functions.
     - The HACS dashboard uses the same [table features](https://www.home-assistant.io/docs/organizing/filtering) used elsewhere in Home Assistant.
     - By default, the dashboard shows the repositories you have downloaded with HACS on top of the list.
-3. To view the repository documentation, the select the 3 dots :material-dots-vertical: menu, then select **Show details**.
+3. To view the repository documentation, select the 3 dots :material-dots-vertical: menu, then select **Show details**.
     - To view the source code, select **Repository**.
-4. Once you found the custom element you want to use in Home Assistant, [download the repository](#downloading-a-repository).
+4. Once you have found the custom element you want to use in Home Assistant, [download the repository](#downloading-a-repository).
 
 ## {{coreui("ui.components.data-table.search")}} repositories
 
@@ -76,9 +76,9 @@ HACS [regularly checks the repositories for updates](/docs/faq/data_sources.md/#
 To use the functionality provided by a repository, you need to download it to Home Assistant.
 
 1. In Home Assistant, open HACS and find the repository of interest.
-2. Select the repository and view it's overview page.
+2. Select the repository and view its overview page.
     - The main section of this view renders the README file of the repository.
-    - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and number of open issues and pull requests.
+    - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and the number of open issues and pull requests.
         - This page should also contain the documentation on how to use it.
         - The content depends on the repository [type](/docs/use/repositories/type/index.md) and on the information the author provides.
 
@@ -127,7 +127,7 @@ If you're experiencing an issue with a particular custom element, always report 
 
 ## Using the HACS Menu
 
-At the top-right corner you will find the 3 dots (:material-dots-vertical:) menu.
+At the top-right corner, you will find the 3 dots (:material-dots-vertical:) menu.
 
 ![nav_overview](/assets/images/screenshots/overview/menu/light.png#only-light)
 ![nav_overview](/assets/images/screenshots/overview/menu/dark.png#only-dark)
@@ -144,4 +144,4 @@ Here you can:
 ## Dismissing new repositories
 
 Any addition to HACS that you have not yet seen will show the status **New**.
-If you are sorting by status, they will show on top by default. If you want, you can dismiss these, so that they are no longer shown as **new**. This is similar to marking mails as *read* in your inbox.
+If you are sorting by status, they will show on top by default. If you want, you can dismiss these, so that they are no longer shown as **new**. This is similar to marking emails as *read* in your inbox.
