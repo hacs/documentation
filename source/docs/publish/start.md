@@ -4,7 +4,7 @@ title: General
 description: 'General'
 ---
 
-For your repository to be added several criteria need to be met.
+For your repository to be added, several criteria need to be met.
 
 - [General requirements](#general-requirements)
 - [Integration requirements](/docs/publish/integration.md) for integrations.
