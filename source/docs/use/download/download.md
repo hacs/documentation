@@ -56,7 +56,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
 
 ## Troubleshooting
 
-- Is ++ctrl+v++ not working for you? 
+- Is ++ctrl+v++ not working for you?
     - Try ++ctrl+shift+v++ instead
     - Try ++ctrl+ins++ `SHIFT+INS(insert)` instead
     - Try `Right-click` instead
