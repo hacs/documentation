@@ -5,7 +5,7 @@ description: "How to recover from a HACS update"
 
 ## Symptom
 
-You updated to a newer version of HACS, be it manually or because you had previously set up an update automation, and now HACS does not seems to work as expected anymore.
+You updated to a newer version of HACS, be it manually or because you had previously set up an update automation, and now HACS does not seem to work as expected anymore.
 
 ## Remedy
 
