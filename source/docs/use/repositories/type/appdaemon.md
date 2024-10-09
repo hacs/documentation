@@ -4,7 +4,7 @@ title: AppDaemon apps
 
 AppDaemon apps are apps for [AppDaemon](https://appdaemon.readthedocs.io/en/stable/).
 
-!!! abscract "Not enabled by default"
+!!! abstract "Not enabled by default"
     By default, AppDaemon apps are **not** visible in HACS because they are used only by a small subset of users. To see them, you need to enable discovery in the configuration options.
 
 

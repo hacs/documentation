@@ -11,6 +11,6 @@ description: 'NO, no, nope, this is not an add-on, and does not handle add-ons'
 
 ## The exception
 
-With all rules, there will at sompoint exist exceptions.
+With all rules, there will be exceptions at some point.
 
-For HACS and add-ons that is now the [Get HACS add-on](https://github.com/hacs/addons) that was made for Home Assistatnt Operating System and Supervised to simplify the initial download of HACS itself.
+For HACS and add-ons that is now the [Get HACS add-on](https://github.com/hacs/addons) that was made for Home Assistant Operating System and Supervised to simplify the initial download of HACS itself.

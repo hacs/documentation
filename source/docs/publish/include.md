@@ -4,7 +4,7 @@ title: Include default repositories
 description: 'Include default repositories'
 ---
 
-As a developer you can now add your repository to be included in as a default repository in the store.
+As a developer, you can now add your repository to be included as a default repository in the store.
 
 Only the owner of the repository or a major contributor to it can submit a PR to have it included as a default.
 
@@ -19,9 +19,9 @@ Add both these actions to your own repository and make sure they pass:
 - https://github.com/home-assistant/actions#hassfest (only for integrations)
 - https://github.com/hacs/action
 
-When all of this is covered, you can add it to repository type files in https://github.com/hacs/default
+When all of this is covered, you can add it to repository type files at [https://github.com/hacs/default](https://github.com/hacs/default)
 
-In your fork of `hacs/default`, create a new branch for your changes from the `master`branch. Do **not** use the`master` branch directly for your changes.
+In your fork of `hacs/default`, create a new branch for your changes from the `master` branch. Do **not** use the `master` branch directly for your changes.
 
 Your PR needs to be editable, so you can not submit it from an organization.
 
@@ -34,13 +34,13 @@ When a PR for this is merged, it will show up in HACS after the first scheduled 
 ## CI Checks
 
 When submitting a repository for the default repository a suite of CI checks will be run to ensure that the repository follows the requirements.
-All checks needs to pass for the repository to be included (unless something else are agreed on).
+All checks need to pass for the repository to be included (unless something else is agreed on).
 
 ### Check Brands
 
 _Only applies to integrations._
 
-This checks that the repository are added to https://github.com/home-assistant/brands
+This checks that the repository is added to [https://github.com/home-assistant/brands](https://github.com/home-assistant/brands)
 
 ### Check Manifest
 
@@ -88,11 +88,11 @@ This checks general things about the repository like:
 
 ### Lint [jq]
 
-This make sure that the files still are valid JSON.
+This makes sure that the files still are valid JSON.
 
 ### Lint [sorted]
 
-This make sure that the files still are sorted correctly.
+This makes sure that the files still are sorted correctly.
 
 ## After Submitting
 

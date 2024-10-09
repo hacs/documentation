@@ -12,6 +12,6 @@ Before you start using HACS, make sure the following requirements are met:
 - You know how to access the Home Assistant log file.
     - You know how to [enable debug logging](https://www.home-assistant.io/docs/configuration/troubleshooting/#debug-logs-and-diagnostics).
 - You are aware that although you can use an add-on to download HACS, HACS itself is not an add-on, and does not contain any [add-ons](https://www.home-assistant.io/docs/glossary/#add-on).
-- You have a stable internet connection with sufficient available bandwidth and no data caps.
+- You have a stable internet connection, sufficient bandwidth, and no data caps.
 - You are not blocking outgoing requests to GitHub or Cloudflare.
     - For more information, refer to the documentation under [**FAQ** > **Data sources**](/docs/faq/data_sources.md).

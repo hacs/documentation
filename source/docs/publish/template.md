@@ -5,13 +5,13 @@ description: "Publish custom templates with HACS"
 ---
 ## Requirements
 
-For a custom template repository to be valid these are the requirements:
+For a custom template repository to be valid, these are the requirements:
 
 ### Repository structure
 
-- A `README.md` file exist in the root of the repository
-- A `hacs.json` file exist in the root of the repository
-- A `.jinja` file exist in the root of the repository
+- A `README.md` file exists in the root of the repository
+- A `hacs.json` file exists in the root of the repository
+- A `.jinja` file exists in the root of the repository
 - The `filename` key of the `hacs.json` file matches a `.jinja` file in the root of the repository
 - The repository is using GitHub releases
 

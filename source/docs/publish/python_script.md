@@ -10,12 +10,12 @@ This is for the [`python_script` integration in Home Assistant](https://www.home
 
 ## Requirements
 
-For a python_script repository to be valid these are the requirements:
+For a python_script repository to be valid, these are the requirements:
 
 ### Repository structure
 
-- The python script are located here `ROOT_OF_THE_REPO/python_scripts/SCRIPT_NAME.py`
-- There is only one python file (one directory under `ROOT_OF_THE_REPO/python_scripts/`) per repository (if you have more, only the first one will be managed.)
+- The Python script is located here `ROOT_OF_THE_REPO/python_scripts/SCRIPT_NAME.py`
+- There is only one Python file (one directory under `ROOT_OF_THE_REPO/python_scripts/`) per repository (if you have more, only the first one will be managed.)
 
 #### OK example:
 
@@ -37,7 +37,7 @@ README.md
 
 When downloading/upgrading it will scan the content in the latest release.
 
-If there are multiple releases in the repository the user have some options to download a specific version.
+If there are multiple releases in the repository, the user has some options to download a specific version.
 The choices will be the last 5 releases and the default branch.
 
 #### If there are no releases
