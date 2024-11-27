@@ -21,6 +21,7 @@ custom_components/awesome/__init__.py
 custom_components/awesome/sensor.py
 custom_components/awesome/manifest.json
 README.md
+hacs.json
 ```
 
 #### Not OK example (1):
@@ -29,6 +30,7 @@ README.md
 awesome/__init__.py
 awesome/sensor.py
 awesome/manifest.json
+awesome/hacs.json
 README.md
 ```
 
@@ -39,6 +41,7 @@ __init__.py
 sensor.py
 manifest.json
 README.md
+hacs.json
 ```
 
 _if you have `content_in_root` set to `true` in [`hacs.json`](start.md#hacsjson) this is valid._
