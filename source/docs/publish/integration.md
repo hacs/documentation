@@ -17,7 +17,7 @@ For an integration repository to be valid, it must meet the requirements below.
 #### OK example:
 
 ```
-custom_components/awesome/__init_.py
+custom_components/awesome/__init__.py
 custom_components/awesome/sensor.py
 custom_components/awesome/manifest.json
 README.md
@@ -26,7 +26,7 @@ README.md
 #### Not OK example (1):
 
 ```
-awesome/__init_.py
+awesome/__init__.py
 awesome/sensor.py
 awesome/manifest.json
 README.md
@@ -35,7 +35,7 @@ README.md
 #### Not OK example (2):
 
 ```
-__init_.py
+__init__.py
 sensor.py
 manifest.json
 README.md
