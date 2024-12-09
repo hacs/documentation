@@ -17,28 +17,31 @@ For an integration repository to be valid, it must meet the requirements below.
 #### OK example:
 
 ```
-custom_components/awesome/__init_.py
+custom_components/awesome/__init__.py
 custom_components/awesome/sensor.py
 custom_components/awesome/manifest.json
 README.md
+hacs.json
 ```
 
 #### Not OK example (1):
 
 ```
-awesome/__init_.py
+awesome/__init__.py
 awesome/sensor.py
 awesome/manifest.json
+awesome/hacs.json
 README.md
 ```
 
 #### Not OK example (2):
 
 ```
-__init_.py
+__init__.py
 sensor.py
 manifest.json
 README.md
+hacs.json
 ```
 
 _if you have `content_in_root` set to `true` in [`hacs.json`](start.md#hacsjson) this is valid._
