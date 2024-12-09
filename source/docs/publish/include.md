@@ -48,7 +48,7 @@ _Only applies to integrations._
 
 [See Integration](integration.md#manifestjson)
 
-For more information about the integration manifest see here https://developers.home-assistant.io/creating_integration_manifest
+For more information about the integration manifest, [check out the documentation](https://developers.home-assistant.io/docs/creating_integration_manifest)
 
 ### Check HACS
 
