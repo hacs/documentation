@@ -1,6 +1,6 @@
 ---
 title: Log file and debug logging
-description: "Enabling debug logging"
+description: "Disable debug logging"
 ---
 
 Like any other integration, the HACS integration logs to the `home-assistant.log` file.
