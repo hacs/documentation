@@ -3,7 +3,9 @@ import os
 from pathlib import Path    
 import json
 
+ANALYTICSFILES = ".cache/analytics/"
 TRANSLATIONSFILES = ".cache/translations/"
+
 
 def flatten_json(json_obj, parent_key='', sep='.'):
     items = {}
@@ -14,6 +16,15 @@ def flatten_json(json_obj, parent_key='', sep='.'):
         else:
             items[new_key] = v
     return items
+
+def init_analytics():
+    if not os.path.exists(ANALYTICSFILES):
+        os.makedirs(ANALYTICSFILES)
+        
+    if not os.path.exists(f"{ANALYTICSFILES}/custom_integrations.json"):
+        with open(f"{ANALYTICSFILES}/custom_integrations.json", "w") as file:
+            analytics = requests.get("https://analytics.home-assistant.io/custom_integrations.json").json()
+            json.dump(flatten_json(analytics), file, indent=4, sort_keys=True)
 
 def init_translations():
     if not os.path.exists(TRANSLATIONSFILES):
@@ -32,10 +43,20 @@ def init_translations():
 
 def define_env(env):
     init_translations()
+    init_analytics()
     translations = {
         "hacs": json.loads(Path(f"{TRANSLATIONSFILES}/hacs.json").read_text()),
         "core": json.loads(Path(f"{TRANSLATIONSFILES}/core.json").read_text())
     }
+    analytics = {
+        "custom_integrations": json.loads(Path(f"{ANALYTICSFILES}/custom_integrations.json").read_text())
+    }
+    
+    @env.macro
+    def custom_integrations_analytics(text: str):
+        if (value :=  analytics["custom_integrations"].get(text)) is None:
+            raise ValueError(f"Analytics for '{text}' not found")
+        return value
     
     @env.macro
     def hacsui(text: str, placeholders: dict = {}):
