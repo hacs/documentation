@@ -125,6 +125,10 @@ a.generated-grid-link p:last-of-type {
     max-width: 320px;
 }
 
+.resource-item {
+    margin-bottom: .5em;
+}
+
 input,
 form,
 div,
