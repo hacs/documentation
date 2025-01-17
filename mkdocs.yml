@@ -82,9 +82,6 @@ extra:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
       title: Code of Conduct
       icon: fontawesome/solid/scale-balanced
-    - link: mailto:hi@hacs.xyz
-      title: Contact (no support!)
-      icon: fontawesome/solid/at
     - link: https://squidfunk.github.io/mkdocs-material/
       title: Made with Material for MkDocs
       icon: logo
