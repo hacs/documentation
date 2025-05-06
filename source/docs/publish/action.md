@@ -40,7 +40,7 @@ All these checks can be disabled with `with.ignore`. Use a string, and if you ig
 | `issues`      | [More info](/docs/publish/include.md#check-repository)    | Checks that issues are enabled                   |
 | `topics`      | [More info](/docs/publish/include.md#check-repository)    | Checks that the repository has topics            |
 
-## Using a Specific Version
+## Using a specific version
 
 To use a specific version of this action instead of `main` set the value after `@` in the `uses` definition, like:
 
