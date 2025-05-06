@@ -20,10 +20,10 @@ The action itself lives [here](https://github.com/hacs/action) and you are free 
 
 ## Action inputs
 
-| Input      | Description                                                                             |
-| ---------- | --------------------------------------------------------------------------------------- |
-| `ignore`   | A space separated list of ignored checks                                                |
-| `category` | The type of repository (integration, plugin, template, theme, appdaemon, python_script) |
+| Input      | Description                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------- |
+| `ignore`   | A space separated list of ignored checks                                                            |
+| `category` | The type of repository (`integration`, `plugin`, `template`, `theme`, `appdaemon`, `python_script`) |
 
 ## Ignorable checks
 
