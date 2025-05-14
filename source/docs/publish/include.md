@@ -4,101 +4,102 @@ title: Include default repositories
 description: 'Include default repositories'
 ---
 
-As a developer, you can now add your repository to be included as a default repository in the store.
+## Who can submit?
 
-Only the owner of the repository or a major contributor to it can submit a PR to have it included as a default.
+- Only the owner or a major contributor of a repository can submit a pull request (PR) to add it as a default.
+- Custom integrations used for alpha or beta testing core integrations, or those that override core integrations, are not accepted as defaults. You can still use them as a [custom repository](/docs/faq/custom_repositories.md).
 
-Custom integrations that exist to alpha/beta test core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories.md)
+## Before you start
 
-Custom integrations that override core integrations will not be accepted, you can still use it as a [custom repository](/docs/faq/custom_repositories.md)
+Make sure your repository meets these requirements:
 
-## Before submitting
+- Your repository can be added to HACS as a custom repository.
+- Your repository is public and hosted on GitHub.
+- Add and pass these GitHub Actions:
+    - [HACS Action](https://github.com/hacs/action) (Before you submit your PR, this action must pass without any errors or ignores.)
+    - [Hassfest](https://github.com/home-assistant/actions#hassfest) (for integrations only)
+- Create a new GitHub release (not just a tag, a full release) after the actions run successfully.
 
-Add both these actions to your own repository and make sure they pass:
+Once everything checks out, add your repository to the appropriate file in [hacs/default](https://github.com/hacs/default).
 
-- https://github.com/home-assistant/actions#hassfest (only for integrations)
-- https://github.com/hacs/action
-- A new release is created _after_ the actions run successfully.
-
-When all of this is covered, you can add it to repository type files at [https://github.com/hacs/default](https://github.com/hacs/default)
-
-In your fork of `hacs/default`, create a new branch for your changes from the `master` branch. Do **not** use the `master` branch directly for your changes.
-
-Your PR needs to be editable, so you can not submit it from an organization.
-
-!!! danger "Read this!"
-    _NB!: The list is case sensitive._
+- [./appdaemon](https://github.com/hacs/default/blob/master/appdaemon) for AppDaemon apps
+- [./integration](https://github.com/hacs/default/blob/master/integration) for integrations (custom components)
+- [./plugin](https://github.com/hacs/default/blob/master/plugin) for plugins (custom cards, dashboards, etc.)
+- [./python_script](https://github.com/hacs/default/blob/master/python_script) for Python scripts (made for the Python script integration)
+- [./template](https://github.com/hacs/default/blob/master/template) for templates (for custom templates)
+- [./theme](https://github.com/hacs/default/blob/master/theme) for themes
 
 
-When a PR for this is merged, it will show up in HACS after the first scheduled scan.
+### Additional information
 
-## CI Checks
+- Make sure to add your entry in the list alphabetically, and not at the end.
+- Your PR must be editable, so don’t submit it from an organization account.
+- In your fork of `hacs/default`, always create a new branch from `master` for your changes. Don’t use the `master` branch directly.
+- If you did not fill out the pull request template correctly, your PR will be closed without further notice.
+- If you misrepresent your statements in the pull request, your PR will be closed without further notice.
+- If you are not the owner of the repository, or a major contributor, your PR will be closed without further notice.
+- If the repository does not meet the requirements for inclusion, your PR will be drafted for minor issues, and closed for major issues.
+- If your PR is drafted, set it to ready for review when you are ready for it to be reviewed.
 
-When submitting a repository for the default repository a suite of CI checks will be run to ensure that the repository follows the requirements.
-All checks need to pass for the repository to be included (unless something else is agreed on).
+---
 
-### Check Brands
+## What happens next?
 
-_Only applies to integrations._
+HACS is growing fast, with new repositories added almost daily, but new additions still take months to be reviewed and included. Want to check the status of your PR? Visit the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Acreated-asc) to see where things stand.
 
-This checks that the repository is added to [https://github.com/home-assistant/brands](https://github.com/home-assistant/brands)
+If you have questions or run into issues, check the documentation or reach out to the community. Good luck, and thank you for contributing!
 
-### Check Manifest
+When your repository is up for review, a set of automated checks are run. **All checks** must pass _unless_ otherwise agreed upon with the HACS team before the PR was opened. Here’s what’s checked:
 
-_Only applies to integrations._
+### Check brands
 
-[See Integration](integration.md#manifestjson)
+Checks that your repository is added to [home-assistant/brands](https://github.com/home-assistant/brands). Applies only to integrations.
 
-For more information about the integration manifest, [check out the documentation](https://developers.home-assistant.io/docs/creating_integration_manifest)
+### Check manifest
 
-### Check HACS
+Checks that your integration's manifest is valid. [Learn more](integration.md#manifestjson) or see the [integration manifest documentation](https://developers.home-assistant.io/docs/creating_integration_manifest). Applies only to integrations.
 
-This runs the same validation that HACS itself uses.
+### Check hacs-validation
 
-### Check HACS Manifest
+Runs the same validation that HACS itself uses to check your repository.
 
-This checks that the hacs.json file at least contains the following:
+### Check HACS manifest
 
-- `name`
+Checks that your `hacs.json` file contains at least a `name`. [See requirements](https://hacs.xyz/docs/publish/start#hacsjson)
 
-https://hacs.xyz/docs/publish/start#hacsjson
+### Check archived
 
-### Check Archived
+Checks if your repository is archived. It must be active.
 
-This checks if the repository is archived.
+### Check releases
 
-### Check Releases
+Checks that your repository has at least one release.
 
-This checks that the repository has at least one release.
+### Check owner
 
-### Check Owner
+Checks if the submitter is the owner or a major contributor to the repository.
 
-This checks if the submitter is one of the following:
-- The owner of the repository
-- A major contributor to the repository
+### Check images
 
-### Check Images
+_Applies only to plugins and themes._
 
-_Only applies to plugins and themes._
+Checks that images are present in the readme file for HACS to render. 
 
-This checks that there are images in the defined information file that HACS render.
+### Check repository
 
-### Check Repository
+Checks general repository requirements:
+- The repository has a description
+- The repository has issues enabled
+- The repository has topics defined
 
-This checks general things about the repository like:
+### lint jq
 
-- It has a description
-- Issues are enabled
-- It has topics defined
+Ensures that the files in your PR are valid JSON.
 
-### Lint [jq]
+### lint sorted
 
-This makes sure that the files still are valid JSON.
+Ensures that the files in your PR are sorted correctly.
 
-### Lint [sorted]
+## After the PR is merged
 
-This makes sure that the files still are sorted correctly.
-
-## After Submitting
-
-HACS contains a significant amount of repos, with new repositories added almost daily. Check the [backlog](https://github.com/hacs/default/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Acreated-asc) before querying your PR.
+After your PR is merged, your repository will be included in the next scheduled scan.
