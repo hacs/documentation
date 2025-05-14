@@ -18,6 +18,7 @@ Add both these actions to your own repository and make sure they pass:
 
 - https://github.com/home-assistant/actions#hassfest (only for integrations)
 - https://github.com/hacs/action
+- A new release is created _after_ the actions run successfully.
 
 When all of this is covered, you can add it to repository type files at [https://github.com/hacs/default](https://github.com/hacs/default)
 
@@ -65,6 +66,10 @@ https://hacs.xyz/docs/publish/start#hacsjson
 ### Check Archived
 
 This checks if the repository is archived.
+
+### Check Releases
+
+This checks that the repository has at least one release.
 
 ### Check Owner
 
