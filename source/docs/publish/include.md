@@ -38,6 +38,7 @@ Once everything checks out, add your repository to the appropriate file in [hacs
 - If you did not fill out the pull request template correctly, your PR will be closed without further notice.
 - If you misrepresent your statements in the pull request, your PR will be closed without further notice.
 - If you are not the owner of the repository, or a major contributor, your PR will be closed without further notice.
+- If your repository is for a single or a limited set of countries, the `country` key needs to be set in the released `hacs.json` file.
 - If the repository does not meet the requirements for inclusion, your PR will be drafted for minor issues, and closed for major issues.
 - If your PR is drafted, set it to ready for review when you are ready for it to be reviewed.
 
