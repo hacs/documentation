@@ -1,6 +1,7 @@
 ---
 title: Downloading HACS
-description: "Step-by-step instructions on downloading HACS to your Home Assistant"
+description: "Step-
+by-step instructions on downloading HACS to your Home Assistant"
 ---
 
 This section shows how to download HACS to your Home Assistant and how to troubleshoot some common issues.
