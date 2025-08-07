@@ -50,7 +50,7 @@ The following keys are supported:
 
 
 !!! tip
-    The [`AwesomeVersion` demo](https://ludeeus.github.io/awesomeversion) can validate and check version compares.
+    The [`AwesomeVersion` demo](https://awesomeversion.ludeeus.dev/) can validate and check version compares.
     That is the same library that HACS and Home Assistant use when checking versions.
 
 
@@ -100,3 +100,4 @@ If the repository does not use tags, the 7 first characters of the last commit w
 Tell your users that your repository can be tracked with HACS by adding a [my-link](https://my.home-assistant.io) link to your documentation.
 
 Generate a unique link for your repository here: https://my.home-assistant.io/create-link/?redirect=hacs_repository
+
