@@ -89,6 +89,7 @@ Checks that images are present in the readme file for HACS to render.
 ### Check repository
 
 Checks general repository requirements:
+
 - The repository has a description
 - The repository has issues enabled
 - The repository has topics defined
