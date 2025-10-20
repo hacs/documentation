@@ -11,9 +11,6 @@ Repositories can be removed from the default pool of repositories for any number
 - It steals credentials
 - It has been deleted or removed
 
-!!! note
-    If your repository has been **archived** on GitHub, you do **not** need to open a PR for removal. The HACS team will automatically update the records and remove archived repositories.
-
 !!! warning
     If you as a maintainer delete/remove the GitHub repository that is added to HACS as a default repository, you will not be able to add any more in the future.
 

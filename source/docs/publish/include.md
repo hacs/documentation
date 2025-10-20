@@ -105,7 +105,3 @@ Ensures that the files in your PR are sorted correctly.
 ## After the PR is merged
 
 After your PR is merged, your repository will be included in the next scheduled scan.
-
-## Repository renamed or transferred
-
-If you rename or transfer your repository to a different GitHub account or organization, you do **not** need to open a PR to update the records in HACS. The HACS team will automatically update the records to reflect the new repository location.

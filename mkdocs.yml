@@ -185,6 +185,7 @@ nav:
     - docs/publish/python_script.md
     - docs/publish/template.md
     - docs/publish/theme.md
+    - docs/publish/update.md
     - docs/publish/remove.md
   - Contribute:
     - docs/contribute/index.md
