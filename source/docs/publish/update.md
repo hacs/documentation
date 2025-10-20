@@ -4,7 +4,6 @@ title: Update default repositories
 description: "Update default repositories"
 ---
 
-If your repository is already included in HACS as a default repository and you rename or transfer it, the HACS team will automatically update the records.
 
 ## Repository renamed or transferred
 
