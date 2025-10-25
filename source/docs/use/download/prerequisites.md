@@ -15,3 +15,4 @@ Before you start using HACS, make sure the following requirements are met:
 - You have a stable internet connection, sufficient bandwidth, and no data caps.
 - You are not blocking outgoing requests to GitHub or Cloudflare.
     - For more information, refer to the documentation under [**FAQ** > **Data sources**](/docs/faq/data_sources.md).
+
