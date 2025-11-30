@@ -16,7 +16,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
 
     For Home Assistant Operating System and Supervised, there is an add-on for downloading HACS. To add the custom add-on repository that allows you to get this add-on, follow these steps.
 
-    1. To add the HACS add-on repository to your Home Assistant, select this [my link](https://my.home-assistant.io/redirect/supervisor_addon/?addon=cb646a50_get&repository_url=https%3A%2F%2Fgithub.com%2Fhacs%2Faddons).
+    1. To add the HACS add-on repository to your Home Assistant, click on [this text](https://my.home-assistant.io/redirect/supervisor_addon/?addon=cb646a50_get&repository_url=https%3A%2F%2Fgithub.com%2Fhacs%2Faddons).
         - When prompted to confirm if you want to open the page in Home Assistant, check if the URL is correct. Then, select **Open link**.
         - In the **Missing add-on repository** dialog, select **Add**.
         - You have now added the repository that allows you to download HACS to Home Assistant.
