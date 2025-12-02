@@ -45,11 +45,10 @@ The following keys are supported:
 | `zip_release`          |  bool  |    No    | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.** | 
 | `filename`             | string |    No    | Name of the file HACS should look for, only applies to single item types (plugin, theme, template, python_scripts, zip_release).                                                     |
 | `hide_default_branch`  |  bool  |    No    | Tells HACS to not offer downloading the default branch.                                                                                                                                   |
-| `country`              | string/list |    No    | Two character country code(s) in ISO 3166-1 alpha-2 format. It can be a single country code or a list of country codes. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| `country`              | string |    No    | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)                                              |
 | `homeassistant`        | string |    No    | The minimum required Home Assistant version.                                                                                                                                              |
 | `hacs`                 | string |    No    | The minimum required HACS version.                                                                                                                                                        |
 | `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. \_Can only be used with integrations.\*                                                        |
-| `render_readme`        |  bool  |    No    | Indicates whether the README file should be used as the information file. If `false`, HACS will look for `info` or `info.md` files instead.                                                |
 | `readme_languages`     | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. |
 
 
