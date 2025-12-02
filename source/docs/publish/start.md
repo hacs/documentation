@@ -50,7 +50,7 @@ The following keys are supported:
 | `hacs`                 | string |    No    | The minimum required HACS version.                                                                                                                                                        |
 | `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. \_Can only be used with integrations.\*                                                        |
 | `render_readme`        |  bool  |    No    | Indicates whether the README file should be used as the information file. If `false`, HACS will look for `info` or `info.md` files instead.                                                |
-| `supported_languages`  | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. If specified, HACS will validate that corresponding `README.{lang}.md` files exist. |
+| `readme_languages`     | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. |
 
 
 !!! tip
