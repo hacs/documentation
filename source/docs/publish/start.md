@@ -30,6 +30,8 @@ Your repository on GitHub needs to have [topics](https://docs.github.com/en/gith
 
 Your repository needs to have a [readme](https://github.com/matiassingers/awesome-readme) with information about how to use it.
 
+HACS supports multilingual README files. To provide documentation in multiple languages, use the naming pattern `README.{language_code}.md` (e.g., `README.de.md` for German, `README.fr.md` for French). HACS automatically displays the README matching the user's Home Assistant language setting, falling back to the default `README.md` if no language-specific version is available.
+
 ### hacs.json
 
 This is a special manifest file that defines the information that HACS shows in the UI and what files/paths that HACS should use. _This file must be located in the root of your repository._
@@ -40,13 +42,15 @@ The following keys are supported:
 | ---------------------- | :----: | :------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `name`                 | string |   Yes    | The display name that will be used in the HACS UI.                                                                                                                                        |
 | `content_in_root`      |  bool  |    No    | Indicates whether the content is in the root of the repository as opposed to in a subdirectory.                                                                                           |
-| `zip_release`          |  bool  |    No    | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.** |
+| `zip_release`          |  bool  |    No    | Indicates whether the content is in a zipped archive when releases are published on GitHub. If you use this you also need to add `filename`. **This is only supported for integrations.** | 
 | `filename`             | string |    No    | Name of the file HACS should look for, only applies to single item types (plugin, theme, template, python_scripts, zip_release).                                                     |
 | `hide_default_branch`  |  bool  |    No    | Tells HACS to not offer downloading the default branch.                                                                                                                                   |
-| `country`              | string |    No    | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)                                              |
+| `country`              | string/list |    No    | Two character country code(s) in ISO 3166-1 alpha-2 format. Can be a single country code or a list of country codes. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | `homeassistant`        | string |    No    | The minimum required Home Assistant version.                                                                                                                                              |
 | `hacs`                 | string |    No    | The minimum required HACS version.                                                                                                                                                        |
 | `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. \_Can only be used with integrations.\*                                                        |
+| `render_readme`        |  bool  |    No    | Indicates whether the README file should be used as the information file. If `false`, HACS will look for `info` or `info.md` files instead.                                                |
+| `supported_languages`  | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. If specified, HACS will validate that corresponding `README.{lang}.md` files exist. |
 
 
 !!! tip
