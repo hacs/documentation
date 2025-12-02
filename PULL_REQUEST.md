@@ -1,8 +1,8 @@
-# Add Multilingual README and Description Documentation
+# Add Multilingual README Documentation
 
 ## Summary
 
-This PR adds documentation for multilingual README files and repository descriptions in HACS. Repository maintainers can now provide content in multiple languages using standardized file naming patterns.
+This PR adds documentation for multilingual README files in HACS. Repository maintainers can now provide README content in multiple languages using standardized file naming patterns.
 
 ## Changes
 
@@ -11,17 +11,11 @@ This PR adds documentation for multilingual README files and repository descript
    - Documents `README.{language_code}.md` naming pattern
    - Explains automatic language detection and fallback behavior
 
-2. **Description Documentation** (`source/docs/publish/start.md`)
-   - Added section explaining multilingual description support
-   - Documents `DESCRIPTION.{language_code}.txt` naming pattern
-   - Explains automatic language detection and fallback to GitHub description
-
-3. **hacs.json Manifest** (`source/docs/publish/start.md`)
+2. **hacs.json Manifest** (`source/docs/publish/start.md`)
    - Updated `content_languages` key documentation
-   - Clarifies that it applies to both README and description files
    - Documents language code requirements (2-letter ISO 639-1)
 
-4. **User Documentation** (`source/docs/use/repositories/dashboard.md`)
+3. **User Documentation** (`source/docs/use/repositories/dashboard.md`)
    - Added brief note about automatic language detection for README files
 
 ## Related PRs
@@ -38,9 +32,7 @@ This PR adds documentation for multilingual README files and repository descript
 
 ## Notes
 
-- Repository maintainers can provide multilingual content using:
-  - `README.{language_code}.md` for README files
-  - `DESCRIPTION.{language_code}.txt` for repository descriptions
-- HACS automatically displays content matching the user's Home Assistant language setting
-- Falls back to default English content if language-specific version is not available
+- Repository maintainers can provide multilingual README files using `README.{language_code}.md` (e.g., `README.de.md`, `README.fr.md`)
+- HACS automatically displays README content matching the user's Home Assistant language setting
+- Falls back to default `README.md` if language-specific version is not available
 

@@ -49,7 +49,7 @@ The following keys are supported:
 | `homeassistant`        | string |    No    | The minimum required Home Assistant version.                                                                                                                                              |
 | `hacs`                 | string |    No    | The minimum required HACS version.                                                                                                                                                        |
 | `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. \_Can only be used with integrations.\*                                                        |
-| `readme_languages`     | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. |
+| `content_languages`    | list   |    No    | List of supported language codes (e.g., `["de", "fr", "es"]`) for multilingual README files. Language codes must be 2-letter ISO 639-1 codes. |
 
 
 !!! tip
