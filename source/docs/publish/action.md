@@ -72,7 +72,7 @@ permissions: {}
 
 jobs:
   validate-hacs:
-    runs-on: "ubuntu-latest"
+    runs-on: "ubuntu-slim"
     steps:
       - name: HACS validation
         uses: "hacs/action@main"
