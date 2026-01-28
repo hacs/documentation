@@ -12,7 +12,7 @@ on:
 jobs:
   lint:
     name: Lint
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v6.0.2
@@ -29,7 +29,7 @@ jobs:
 
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     needs: lint
     steps:
       - name: Checkout the repository
