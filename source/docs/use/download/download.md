@@ -24,6 +24,15 @@ How you download HACS depends on your Home Assistant installation type. In the i
     3. **Start** the app.
     4. Navigate to the app logs and follow the instructions given there.
 
+    Note, if this doesn't work for you, you may need to manually add an App url by going to:
+
+    1. Settings –> Apps –> Install app –> (click the 3 dots in the top-right) –> Repositories
+    2. Paste "https://github.com/hacs/addons.git" in the box.
+    3. Click "Add", then "Close"
+    4. Find **Get HACS** in the list of apps, select **Install**.
+    5. **Start** the app.
+    6. Navigate to the app logs and follow the instructions given there.
+
 === "Container"
 
     To set up HACS, you can use the [HACS download script](https://github.com/hacs/get).
