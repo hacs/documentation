@@ -17,7 +17,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
     For Home Assistant Operating System and Supervised, there is an app for downloading HACS. To add the custom app repository that allows you to get this app, follow these steps.
 
     1. Add the HACS app repository to your Home Assistant.
-        - Follow the [Installing a third-party app repository](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-app-repository) instructions on the Home Assistant documentation.
+        - Follow the [Installing a third-party app repository](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-app-repository) instructions in the Home Assistant documentation.
         - Use `https://github.com/hacs/addons` as the repository URL.
     2. Go to **Settings** > **Apps** > **Install app** and select **Get HACS**. Then select **Install**.
     3. **Start** the app.
