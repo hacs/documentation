@@ -56,8 +56,8 @@ When your repository is up for review, a set of automated checks are run. **All 
 
 _Applies only to integrations._
 
-Checks that your integrations have a brand directory with at least a icon.png file present.
-If it does not it falls back to check the domain in the [home-assistant/brands](https://github.com/home-assistant/brands) repository. 
+Checks that your integration has a brand directory with at least an `icon.png` file.
+If it doesn’t, it falls back to checking the domain in the [home-assistant/brands](https://github.com/home-assistant/brands) repository. 
 
 ### Check manifest
 
