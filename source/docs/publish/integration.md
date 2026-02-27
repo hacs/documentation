@@ -63,7 +63,7 @@ Check the official Home Assistant [documentation](https://developers.home-assist
 
 ### Brand assets
 
-You must provide brand assets for your integration. You can do this by adding a [`brand` directory in your repository](https://developers.home-assistant.io/docs/creating_integration_file_structure#brand-images---brand) with at least an `icon.png` file; if you do not provide a local `brand` directory, HACS will instead use assets from the shared `home-assistant/brands` repository (when available).
+You must provide brand assets for your integration. You can do this by adding a [`brand` directory in your repository](https://developers.home-assistant.io/docs/creating_integration_file_structure#brand-images---brand) with at least an `icon.png` file.
 
 
 ### GitHub releases (optional)
