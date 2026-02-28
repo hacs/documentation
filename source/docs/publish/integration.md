@@ -61,9 +61,9 @@ In your integration directory you must have a `manifest.json` file, which must a
 Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/creating_integration_manifest) for the values of those keys.
 
 
-### Home Assistant Brands
+### Brand assets
 
-You must have added your integration to [home-assistant/brands](https://github.com/home-assistant/brands) to conform to the UI standards in Home Assistant.
+You must provide brand assets for your integration. You can do this by adding a [`brand` directory in your repository](https://developers.home-assistant.io/docs/creating_integration_file_structure#brand-images---brand) with at least an `icon.png` file.
 
 
 ### GitHub releases (optional)
@@ -76,4 +76,5 @@ It is preferred but not required to publish releases in your repository.
 
 
 ### References and examples
+
 A good template to use as a reference is [blueprint](https://github.com/custom-components/blueprint). You can generate a template similar to blueprint and customize it to your context by using [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).
