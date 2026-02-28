@@ -32,7 +32,7 @@ All these checks can be disabled with `with.ignore`. Use a string, and if you ig
 | Check         | More info                                                 | Description                                      |
 | ------------- | --------------------------------------------------------- | ------------------------------------------------ |
 | `archived`    | [More info](/docs/publish/include.md#check-archived)      | Checks if the repository is archived             |
-| `brands`      | [More info](/docs/publish/include.md#check-brands)        | Checks if the domain is added to the brands repo |
+| `brands`      | [More info](/docs/publish/include.md#check-brands)        | Checks if there are brand assets available       |
 | `description` | [More info](/docs/publish/include.md#check-repository)    | Checks if the repository has a description       |
 | `hacsjson`    | [More info](/docs/publish/include.md#check-hacs-manifest) | Checks that hacs.json exists                     |
 | `images`      | [More info](/docs/publish/include.md#check-images)        | Checks that the info file has images             |

@@ -54,7 +54,10 @@ When your repository is up for review, a set of automated checks are run. **All 
 
 ### Check brands
 
-Checks that your repository is added to [home-assistant/brands](https://github.com/home-assistant/brands). Applies only to integrations.
+_Applies only to integrations._
+
+Checks that your integration has a brand directory with at least an `icon.png` file.
+If it doesn’t, it falls back to checking the domain in the [home-assistant/brands](https://github.com/home-assistant/brands) repository. 
 
 ### Check manifest
 
