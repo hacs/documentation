@@ -1,0 +1,21 @@
+{
+	"name": "hacs/doumentation",
+	"image": "mcr.microsoft.com/devcontainers/python:3.13",
+	"postCreateCommand": "scripts/setup",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode"
+			]
+		},
+		"settings": {
+			"editor.formatOnPaste": false,
+			"editor.formatOnSave": false,
+			"editor.formatOnType": false,
+			"[typescript]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"files.trimTrailingWhitespace": true
+		}
+	}
+}

@@ -1,9 +1,10 @@
 repos:
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.0.0
+    rev: v2.2.2
     hooks:
       - id: codespell
         args:
           - --ignore-words-list=hass
           - --quiet-level=2
-        exclude: ^yarn\.lock$
+          - --skip=yarn.lock
+          - --skip=.yarn/*

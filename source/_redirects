@@ -1,0 +1,14 @@
+# External sites
+/discord https://discord.gg/apgchf8 301
+/github https://github.com/hacs 301
+/twitter https://twitter.com/HACSIntegration 301
+
+/faq/what /docs/faq
+/faq/* /docs/faq/:splat
+/img/demo.gif /assets/images/legacy/demo.gif
+
+/docs/configuration/basic /docs/use/configuration/basic
+/docs/issues /docs/help/issues
+
+# Used in old manifest.json
+/docs/configuration/start /docs/use/
