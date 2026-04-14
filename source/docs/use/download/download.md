@@ -21,7 +21,7 @@ How you download HACS depends on your Home Assistant installation type. In the i
         - Use `https://github.com/hacs/addons` as the repository URL.
     2. Go to **Settings** > **Apps** > **Install app** and select **Get HACS**. Then select **Install**.
     3. **Start** the app.
-    4. Navigate to the app logs and follow the instructions given there.
+    4. Navigate to **Settings** > **System** > **Logs** and select **Get HACS** from the top right drop down to see the **Get HACS** logs.  Check these in case there  are additional instructions to follow for your system.
 
 === "Container"
 
