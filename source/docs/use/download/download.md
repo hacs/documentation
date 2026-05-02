@@ -1,3 +1,4 @@
+fiy
 ---
 title: Downloading HACS
 description: "Step-by-step instructions on downloading HACS to your Home Assistant"
