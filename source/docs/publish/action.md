@@ -38,6 +38,7 @@ All these checks can be disabled with `with.ignore`. Use a string, and if you ig
 | `images`      | [More info](/docs/publish/include.md#check-images)        | Checks that the info file has images             |
 | `information` | [More info](/docs/publish/include.md#check-repository)    | Checks that the repo has an information file     |
 | `issues`      | [More info](/docs/publish/include.md#check-repository)    | Checks that issues are enabled                   |
+| `license`     | [More info](/docs/publish/include.md#check-license)       | Checks that the repository has a recognized open source license |
 | `topics`      | [More info](/docs/publish/include.md#check-repository)    | Checks that the repository has topics            |
 
 ## Using a specific version
