@@ -13,8 +13,7 @@ This section explains how to use HACS. It does not show how to contribute to HAC
 - If you want to publish a repository to HACS, take a look at the [publisher documentation](/docs/publish/index.md).
 - If you want to contribute to HACS itself, take a look at the [contributor documentation](/docs/contribute/index.md)
 
-## Getting started with HACS
-
+## Getting started wit videos
 New to HACS? To get started with HACS, follow these steps:
 
 1. Check, if the [requirements are met](/docs/use/download/prerequisites.md) before downloading HACS.
