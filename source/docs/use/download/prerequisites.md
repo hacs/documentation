@@ -1,4 +1,5 @@
----
+---root
+
 title: Prerequisites
 description: 'What you need before downloading HACS'
 ---
