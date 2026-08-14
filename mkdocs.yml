@@ -84,7 +84,7 @@ hooks:
   - source/hooks/shortcodes.py
 extra:
   plausible:
-    script: https://plausible.openhomefoundation.org/js/pa-GYrJt4yZ1JGFK2tTFRKPd.js
+    script: https://plausible.openhomefoundation.org/js/pa-yXO_VcjbsD8Bs4w6PgY5_.js
     dashboard: https://plausible.openhomefoundation.org/hacs.xyz
   resources:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
