@@ -172,7 +172,6 @@ code {
     text-decoration: underline;
 }
 
-
 ol:not(.no-styling) {
     list-style: none;
     counter-reset: markdown-ordered-list;

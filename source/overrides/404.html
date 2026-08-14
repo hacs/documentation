@@ -1,6 +1,10 @@
-{% extends "main.html" %} 
-  
-{% block content %} 
-  <h1>404 - Not found</h1> 
-  <script>document.addEventListener("DOMContentLoaded", function () { plausible("404"); });</script>
-{% endblock %} 
+{% extends "main.html" %}
+
+{% block content %}
+  <h1>404 - Not found</h1>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof window.plausible === "function") window.plausible("404");
+    });
+  </script>
+{% endblock %}

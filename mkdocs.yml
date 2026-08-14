@@ -62,7 +62,11 @@ theme:
   icon:
     annotation: material/information
 plugins:
-  - privacy
+  - privacy:
+      assets_exclude:
+        # The tracker has to be loaded from the Plausible instance, so that it stays
+        # current instead of being frozen into a self-hosted copy at build time.
+        - plausible.openhomefoundation.org/*
   - macros:
       on_undefined: strict
       include_dir: source/includes
@@ -76,8 +80,12 @@ plugins:
   - tags
 hooks:
   - source/hooks/html_tag_modifier.py
+  - source/hooks/plausible.py
   - source/hooks/shortcodes.py
 extra:
+  plausible:
+    script: https://plausible.openhomefoundation.org/js/pa-GYrJt4yZ1JGFK2tTFRKPd.js
+    dashboard: https://plausible.openhomefoundation.org/hacs.xyz
   resources:
     - link: https://github.com/hacs/.github/blob/master/CODE_OF_CONDUCT.md
       title: Code of Conduct

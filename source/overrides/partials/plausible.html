@@ -1,0 +1,50 @@
+{#-
+  Plausible analytics.
+
+  Visitors arriving from their own Home Assistant or ESPHome instance send that
+  private URL as the referrer, so the tracker is initialized with a transformRequest
+  that replaces every referrer outside the Open Home Foundation allow list with a
+  single aggregate bucket. source/hooks/plausible.py fetches the allow list once per
+  build and the loop below is the only thing that ever sees the real referrer.
+-#}
+<script async src="{{ config.extra.plausible.script }}"></script>
+<script>
+  (function () {
+    var allowedReferrers = {{ config.extra.plausible.allowed_referrers | tojson }};
+
+    window.plausible = window.plausible || function () {
+      (plausible.q = plausible.q || []).push(arguments);
+    };
+    plausible.init = plausible.init || function (options) {
+      plausible.o = options || {};
+    };
+
+    plausible.init({
+      transformRequest: function (payload) {
+        if (!payload.r) {
+          return payload;
+        }
+
+        var host = "";
+        try {
+          host = new URL(payload.r).hostname.replace(/\.$/, "");
+        } catch (error) {
+          // A referrer we cannot parse falls through and gets replaced.
+        }
+
+        for (var index = 0; index < allowedReferrers.length; index++) {
+          var domain = allowedReferrers[index];
+          if (host === domain || (host.length > domain.length && host.slice(-(domain.length + 1)) === "." + domain)) {
+            return payload;
+          }
+        }
+
+        // One aggregate bucket, so we can see how much we filter without learning
+        // anything about individual visitors. RFC 2606 reserves .invalid, so this
+        // can never collide with a real domain.
+        payload.r = "https://unlisted.invalid/";
+        return payload;
+      },
+    });
+  })();
+</script>
