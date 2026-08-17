@@ -4,7 +4,9 @@
   <h1>404 - Not found</h1>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      if (typeof window.plausible === "function") window.plausible("404");
+      if (typeof window.plausible === "function") {
+        window.plausible("404")
+      };
     });
   </script>
 {% endblock %}
