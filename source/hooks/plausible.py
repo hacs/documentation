@@ -32,7 +32,7 @@ def cached_referrers() -> list[str] | None:
     except FileNotFoundError:
         return None
     except (OSError, ValueError) as exception:
-        log.info(f"Discarding unusable allow list at {ALLOWLIST_FILE}: {exception}")
+        log.info("Discarding unusable allow list at %s: %s", ALLOWLIST_FILE, exception)
         return None
 
 
