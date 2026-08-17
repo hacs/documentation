@@ -43,12 +43,16 @@ def download_referrers() -> list[str]:
     referrers = normalize_referrers(response.json())
     ALLOWLIST_FILE.parent.mkdir(parents=True, exist_ok=True)
     ALLOWLIST_FILE.write_text(json.dumps(referrers, indent=4, sort_keys=True) + "\n")
-    log.info(f"Fetched {len(referrers)} allowed referrers")
+    log.info("Fetched %s allowed referrers", len(referrers))
     return referrers
 
 
 def allowed_referrers() -> list[str]:
-    """The allow list, downloaded at most once per build."""
+    """The allow list, downloaded at most once per build.
+
+    An empty result means no referrer can be checked, which leaves Plausible out of
+    the build entirely rather than reporting every visit as unlisted.
+    """
     if (
         ALLOWLIST_FILE.exists()
         and time.time() - ALLOWLIST_FILE.stat().st_mtime < ALLOWLIST_MAX_AGE
@@ -60,12 +64,9 @@ def allowed_referrers() -> list[str]:
         return download_referrers()
     except (OSError, ValueError, requests.RequestException) as exception:
         if (cached := cached_referrers()) is not None:
-            log.info(f"Could not refresh the allow list, reusing {ALLOWLIST_FILE}: {exception}")
+            log.info("Could not refresh the allow list, reusing %s: %s", ALLOWLIST_FILE, exception)
             return cached
-        log.info(
-            f"Could not fetch the allow list ({exception}), "
-            "every referrer will be reported to Plausible as unlisted"
-        )
+        log.info("Could not fetch the allow list (%s), Plausible is left out of this build", exception)
         return []
 
 

@@ -6,11 +6,24 @@
   that replaces every referrer outside the Open Home Foundation allow list with a
   single aggregate bucket. source/hooks/plausible.py fetches the allow list once per
   build and the loop below is the only thing that ever sees the real referrer.
+
+  If the allow list could not be fetched there is nothing to check referrers
+  against, so analytics stays off for that build rather than reporting every visit
+  as unlisted.
 -#}
+{%- if config.extra.plausible.allowed_referrers %}
 <script async src="{{ config.extra.plausible.script }}"></script>
 <script>
   (function () {
     var allowedReferrers = {{ config.extra.plausible.allowed_referrers | tojson }};
+
+    // One aggregate bucket, so we can see how much we filter without learning
+    // anything about individual visitors. RFC 2606 reserves .invalid, so this
+    // can never collide with a real domain.
+    function unlisted(payload) {
+      payload.r = "https://unlisted.invalid/";
+      return payload;
+    }
 
     window.plausible = window.plausible || function () {
       (plausible.q = plausible.q || []).push(arguments);
@@ -25,11 +38,13 @@
           return payload;
         }
 
-        var host = "";
+        var host;
         try {
-          host = new URL(payload.r).hostname.replace(/\.$/, "");
+          // The URL parser only lowercases the host of special schemes, so
+          // android-app:// and other referrers still need folding.
+          host = new URL(payload.r).hostname.toLowerCase().replace(/\.$/, "");
         } catch (error) {
-          // A referrer we cannot parse falls through and gets replaced.
+          return unlisted(payload);
         }
 
         for (var index = 0; index < allowedReferrers.length; index++) {
@@ -39,12 +54,9 @@
           }
         }
 
-        // One aggregate bucket, so we can see how much we filter without learning
-        // anything about individual visitors. RFC 2606 reserves .invalid, so this
-        // can never collide with a real domain.
-        payload.r = "https://unlisted.invalid/";
-        return payload;
+        return unlisted(payload);
       },
     });
   })();
 </script>
+{%- endif %}
