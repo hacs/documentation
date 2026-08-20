@@ -78,6 +78,7 @@ To use the functionality provided by a repository, you need to download it to Ho
 1. In Home Assistant, open HACS and find the repository of interest.
 2. Select the repository and view its overview page.
     - The main section of this view renders the README file of the repository.
+        - If the repository maintainer has provided multilingual README files, HACS will automatically display the README in your Home Assistant language setting. If no language-specific version is available, the default `README.md` will be shown.
     - The **badges** on top provide some key information, such as author, [GitHub](https://github.com) stars, and the number of open issues and pull requests.
         - This page should also contain the documentation on how to use it.
         - The content depends on the repository [type](/docs/use/repositories/type/index.md) and on the information the author provides.
