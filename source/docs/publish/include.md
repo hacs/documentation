@@ -97,6 +97,12 @@ Checks general repository requirements:
 - The repository has issues enabled
 - The repository has topics defined
 
+### Check license
+
+Checks that the repository declares a recognized open source license that GitHub can detect.
+
+GitHub detects the license from a license file in the repository root that it can recognize. Repositories with no license, or where GitHub classifies the license as `other`, will fail this check.
+
 ### lint jq
 
 Ensures that the files in your PR are valid JSON.
