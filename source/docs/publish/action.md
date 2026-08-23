@@ -29,16 +29,17 @@ The action itself lives [here](https://github.com/hacs/action) and you are free 
 
 All these checks can be disabled with `with.ignore`. Use a string, and if you ignore multiple ones, separate them with spaces.
 
-| Check         | More info                                                 | Description                                      |
-| ------------- | --------------------------------------------------------- | ------------------------------------------------ |
-| `archived`    | [More info](/docs/publish/include.md#check-archived)      | Checks if the repository is archived             |
-| `brands`      | [More info](/docs/publish/include.md#check-brands)        | Checks if there are brand assets available       |
-| `description` | [More info](/docs/publish/include.md#check-repository)    | Checks if the repository has a description       |
-| `hacsjson`    | [More info](/docs/publish/include.md#check-hacs-manifest) | Checks that hacs.json exists                     |
-| `images`      | [More info](/docs/publish/include.md#check-images)        | Checks that the info file has images             |
-| `information` | [More info](/docs/publish/include.md#check-repository)    | Checks that the repo has an information file     |
-| `issues`      | [More info](/docs/publish/include.md#check-repository)    | Checks that issues are enabled                   |
-| `topics`      | [More info](/docs/publish/include.md#check-repository)    | Checks that the repository has topics            |
+| Check                  | More info                                                        | Description                                                   |
+| ---------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------- |
+| `archived`             | [More info](/docs/publish/include.md#check-archived)             | Checks if the repository is archived                          |
+| `brands`               | [More info](/docs/publish/include.md#check-brands)               | Checks if there are brand assets available                    |
+| `core_domain_override` | [More info](/docs/publish/include.md#check-core-domain-override) | Checks if the integration overrides a core integration domain |
+| `description`          | [More info](/docs/publish/include.md#check-repository)           | Checks if the repository has a description                    |
+| `hacsjson`             | [More info](/docs/publish/include.md#check-hacs-manifest)        | Checks that hacs.json exists                                  |
+| `images`               | [More info](/docs/publish/include.md#check-images)               | Checks that the info file has images                          |
+| `information`          | [More info](/docs/publish/include.md#check-repository)           | Checks that the repo has an information file                  |
+| `issues`               | [More info](/docs/publish/include.md#check-repository)           | Checks that issues are enabled                                |
+| `topics`               | [More info](/docs/publish/include.md#check-repository)           | Checks that the repository has topics                         |
 
 ## Using a specific version
 

@@ -59,6 +59,13 @@ _Applies only to integrations._
 Checks that your integration has a brand directory with at least an `icon.png` file.
 If it doesn’t, it falls back to checking the domain in the [home-assistant/brands](https://github.com/home-assistant/brands) repository. 
 
+### Check core domain override
+
+_Applies only to integrations._
+
+Checks that your integration does not use the same domain as an integration that is part of Home Assistant core.
+Custom integrations that override a core integration are not accepted as defaults, see [Who can submit?](#who-can-submit).
+
 ### Check manifest
 
 Checks that your integration's manifest is valid. [Learn more](integration.md#manifestjson) or see the [integration manifest documentation](https://developers.home-assistant.io/docs/creating_integration_manifest). Applies only to integrations.
