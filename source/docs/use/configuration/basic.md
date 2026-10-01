@@ -12,7 +12,7 @@ Follow these steps to set up the HACS integration and authenticate it with GitHu
 
 This guide assumes that you have completed the following steps:
 
-   - [Downloaded HACS](/docs/use/download/prerequisites.md)
+   - [Downloaded HACS](/docs/use/download/download/)
    - Restarted Home Assistant
 
 ### To set up the HACS integration
