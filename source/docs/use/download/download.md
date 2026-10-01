@@ -9,8 +9,10 @@ This section shows how to download HACS to your Home Assistant and how to troubl
 
 How you download HACS depends on your Home Assistant installation type. In the instructions below, select the tab that matches your installation type (OS/Supervised, Container, or Core).
 
-!!! warning
-    If you don't know what type of Home Assistant installation you are running, you should not use HACS (or any other custom integration).
+!!! warning "Not sure which installation type you have?"
+    * **OS/Supervised:** Home Assistant OS (HAOS), Virtual Machines (VirtualBox, Proxmox), HA Green/Yellow, Raspberry Pi OS images.
+    * **Container:** Standalone Docker / Docker Compose.
+    * **Core:** Python virtual environment (venv).
 
 === "OS/Supervised"
 
