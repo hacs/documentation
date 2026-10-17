@@ -59,6 +59,13 @@ _Applies only to integrations._
 Checks that your integration has a brand directory with at least an `icon.png` file.
 If it doesn’t, it falls back to checking the domain in the [home-assistant/brands](https://github.com/home-assistant/brands) repository. 
 
+### Check core domain conflict
+
+_Applies only to integrations._
+
+Checks that your integration doesn't use the same domain as an integration in Home Assistant core, including integrations coming in the next release.
+Custom integrations that override a core integration are not accepted as defaults, see [Who can submit?](#who-can-submit).
+
 ### Check manifest
 
 Checks that your integration's manifest is valid. [Learn more](integration.md#manifestjson) or see the [integration manifest documentation](https://developers.home-assistant.io/docs/creating_integration_manifest). Applies only to integrations.
@@ -82,6 +89,11 @@ Checks that your repository has at least one release.
 ### Check owner
 
 Checks if the submitter is the owner or a major contributor to the repository.
+
+### Check license
+
+Checks that your repository has a license GitHub can identify, and that the [Open Source Initiative](https://opensource.org/licenses) approves it.
+A license GitHub can't identify (shown as `NOASSERTION`) fails, and so does a license that restricts how the code can be used, like a non-commercial one.
 
 ### Check images
 
