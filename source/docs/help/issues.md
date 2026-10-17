@@ -12,6 +12,9 @@ If you're having an issue with a custom element, [report an issue for that repos
 
 To report an issue with HACS, **[use one of the issue templates](https://github.com/hacs/integration/issues)**.
 
+!!! info "Using the Marketplace?"
+    Starting with Home Assistant 2026.11, HACS is built in as the Marketplace. Report bugs in the Marketplace in the [Home Assistant core repository](https://github.com/home-assistant/core/issues?q=sort%3Aupdated-desc+is%3Aissue+state%3Aopen+label%3A%22integration%3A+marketplace%22), and feature requests in the [Marketplace discussions](https://github.com/orgs/home-assistant/discussions/categories/marketplace).
+
 
 - All templates have a defined structure. Follow the structure and provide the requested details.
 _Issues missing required information will be closed._

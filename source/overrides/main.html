@@ -4,3 +4,8 @@
   {{ super() }}
   {% include "partials/plausible.html" %}
 {% endblock %}
+
+{% block announce %}
+  HACS is built into Home Assistant as the Marketplace, starting with 2026.11.
+  <a href="{{ 'docs/marketplace/' | url }}">What this means for you</a>
+{% endblock %}
