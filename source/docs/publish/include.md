@@ -90,6 +90,11 @@ Checks that your repository has at least one release.
 
 Checks if the submitter is the owner or a major contributor to the repository.
 
+### Check license
+
+Checks that your repository has a license GitHub can identify, and that the [Open Source Initiative](https://opensource.org/licenses) approves it.
+A license GitHub can't identify (shown as `NOASSERTION`) fails, and so does a license that restricts how the code can be used, like a non-commercial one.
+
 ### Check images
 
 _Applies only to plugins and themes._
