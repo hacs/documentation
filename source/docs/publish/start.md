@@ -46,7 +46,7 @@ The following keys are supported:
 | `country`              | string |    No    | Two character country code in ISO 3166-1 alpha-2 format. [ISO 3166-1 alpha-2 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)                                              |
 | `homeassistant`        | string |    No    | The minimum required Home Assistant version.                                                                                                                                              |
 | `hacs`                 | string |    No    | The minimum required HACS version.                                                                                                                                                        |
-| `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. \_Can only be used with integrations.\*                                                        |
+| `persistent_directory` | string |    No    | A relative path (within the integration directory) that will be kept safe during upgrades. **Can only be used with integrations.**                                                        |
 
 
 !!! tip
@@ -100,4 +100,5 @@ If the repository does not use tags, the 7 first characters of the last commit w
 Tell your users that your repository can be tracked with HACS by adding a [my-link](https://my.home-assistant.io) link to your documentation.
 
 Generate a unique link for your repository here: https://my.home-assistant.io/create-link/?redirect=hacs_repository
+
 
