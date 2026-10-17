@@ -21,6 +21,8 @@ If you're having an issue with a custom element, [report an issue for that repos
 
 Experiencing an issue with HACS itself? [Create an issue for HACS](/docs/help/issues.md).
 
+Using the Marketplace in Home Assistant 2026.11 or newer? Report bugs in the [Home Assistant core repository](https://github.com/home-assistant/core/issues?q=sort%3Aupdated-desc+is%3Aissue+state%3Aopen+label%3A%22integration%3A+marketplace%22), and share ideas in the [Marketplace discussions](https://github.com/orgs/home-assistant/discussions/categories/marketplace).
+
 ## Discord
 
 For questions, join the [discord server](https://discord.gg/apgchf8) to get help from the community.

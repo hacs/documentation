@@ -2,6 +2,8 @@
 title: Initial configuration
 description: 'Setting up and authenticating the HACS integration'
 ---
+!!! info "HACS before Home Assistant 2026.11"
+    This section is about HACS, the custom integration, on Home Assistant 2026.10 and older. Starting with Home Assistant 2026.11, HACS is built in as the Marketplace. See [HACS and the Marketplace](/docs/marketplace.md).
 
 ## Setting up the HACS integration
 

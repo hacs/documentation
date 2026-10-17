@@ -152,6 +152,7 @@ not_in_nav: |
   assets/images/screenshots/README.md
 nav:
   - Home: index.md
+  - Marketplace: docs/marketplace.md
   - Use:
     - docs/use/index.md
     - Download HACS:
