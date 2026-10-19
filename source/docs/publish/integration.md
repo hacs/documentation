@@ -60,6 +60,8 @@ In your integration directory you must have a `manifest.json` file, which must a
 
 Check the official Home Assistant [documentation](https://developers.home-assistant.io/docs/creating_integration_manifest) for the values of those keys.
 
+Your `manifest.json` can also define the optional `categories` key. The HACS action checks its values, see [Check integration categories](include.md#check-integration-categories).
+
 
 ### Brand assets
 

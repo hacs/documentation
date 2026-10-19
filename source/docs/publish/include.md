@@ -70,6 +70,12 @@ Custom integrations that override a core integration are not accepted as default
 
 Checks that your integration's manifest is valid. [Learn more](integration.md#manifestjson) or see the [integration manifest documentation](https://developers.home-assistant.io/docs/creating_integration_manifest). Applies only to integrations.
 
+### Check integration categories
+
+_Applies only to integrations._
+
+Checks the optional `categories` key in your integration's `manifest.json`. Each value must be a category from Home Assistant core, like `energy`, or a subcategory, like `energy.ev_charging`. List each category only once, and use at most 3. If your manifest doesn't have `categories`, the check passes with a warning. For the categories you can choose from, see [Integration categories](https://contributors.home-assistant.io/core/integrations/categories/).
+
 ### Check hacs-validation
 
 Runs the same validation that HACS itself uses to check your repository.
