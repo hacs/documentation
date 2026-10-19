@@ -29,18 +29,18 @@ The action itself lives [here](https://github.com/hacs/action) and you are free 
 
 All these checks can be disabled with `with.ignore`. Use a string, and if you ignore multiple ones, separate them with spaces.
 
-| Check                    | More info                                                          | Description                                      |
-| ------------------------ | ------------------------------------------------------------------ | ------------------------------------------------ |
-| `archived`               | [More info](/docs/publish/include.md#check-archived)               | Checks if the repository is archived             |
-| `brands`                 | [More info](/docs/publish/include.md#check-brands)                 | Checks if there are brand assets available       |
-| `description`            | [More info](/docs/publish/include.md#check-repository)             | Checks if the repository has a description       |
-| `hacsjson`               | [More info](/docs/publish/include.md#check-hacs-manifest)          | Checks that hacs.json exists                     |
-| `images`                 | [More info](/docs/publish/include.md#check-images)                 | Checks that the info file has images             |
-| `information`            | [More info](/docs/publish/include.md#check-repository)             | Checks that the repo has an information file     |
+| Check         | More info                                                 | Description                                      |
+| ------------- | --------------------------------------------------------- | ------------------------------------------------ |
+| `archived`    | [More info](/docs/publish/include.md#check-archived)      | Checks if the repository is archived             |
+| `brands`      | [More info](/docs/publish/include.md#check-brands)        | Checks if there are brand assets available       |
+| `description` | [More info](/docs/publish/include.md#check-repository)    | Checks if the repository has a description       |
+| `hacsjson`    | [More info](/docs/publish/include.md#check-hacs-manifest) | Checks that hacs.json exists                     |
+| `images`      | [More info](/docs/publish/include.md#check-images)        | Checks that the info file has images             |
+| `information` | [More info](/docs/publish/include.md#check-repository)    | Checks that the repo has an information file     |
 | `integration_categories` | [More info](/docs/publish/include.md#check-integration-categories) | Checks that the integration categories are valid |
-| `issues`                 | [More info](/docs/publish/include.md#check-repository)             | Checks that issues are enabled                   |
-| `license`                | [More info](/docs/publish/include.md#check-license)                | Checks that the repository has an OSI license    |
-| `topics`                 | [More info](/docs/publish/include.md#check-repository)             | Checks that the repository has topics            |
+| `issues`      | [More info](/docs/publish/include.md#check-repository)    | Checks that issues are enabled                   |
+| `license`     | [More info](/docs/publish/include.md#check-license)       | Checks that the repository has an OSI license    |
+| `topics`      | [More info](/docs/publish/include.md#check-repository)    | Checks that the repository has topics            |
 
 ## Using a specific version
 
